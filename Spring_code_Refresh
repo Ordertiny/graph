@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-27T08:55:33.455Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="SG_t7O__1NLAkbafa01f" version="15.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-27T08:59:47.629Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="gUSs3seW1ZbHK1-2xm7u" version="15.3.2" type="github">
   <diagram id="OEQh62iWVZ9_Vdbac4XW" name="第 1 页">
     <mxGraphModel dx="1134" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -245,7 +245,7 @@
         <mxCell id="0oTL6OqTnc60tE_ukuET-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1" source="0oTL6OqTnc60tE_ukuET-72" target="0oTL6OqTnc60tE_ukuET-75">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0oTL6OqTnc60tE_ukuET-72" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 12px;&quot;&gt;beanFactory.getBeanNamesForType&lt;/div&gt;" style="whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;align=center;" vertex="1" parent="1">
+        <mxCell id="0oTL6OqTnc60tE_ukuET-72" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 13px;&quot;&gt;beanFactory.getBeanNamesForType&lt;/div&gt;" style="whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=13;fillColor=#FFFFFF;align=center;" vertex="1" parent="1">
           <mxGeometry x="365.01" y="640" width="244.99" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0oTL6OqTnc60tE_ukuET-74" value="循环完" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="1">
@@ -256,7 +256,7 @@
             <mxPoint x="487.1111111111111" y="760.0000000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0oTL6OqTnc60tE_ukuET-75" value="&lt;div style=&quot;font-size: 12px;&quot;&gt;获取spring内部注册的bdrp&lt;/div&gt;" style="whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;align=center;" vertex="1" parent="1">
+        <mxCell id="0oTL6OqTnc60tE_ukuET-75" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;获取spring内部注册的bdrp&lt;/div&gt;" style="whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=13;fillColor=#FFFFFF;align=center;" vertex="1" parent="1">
           <mxGeometry x="365.01" y="700" width="244.99" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0oTL6OqTnc60tE_ukuET-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=13;" edge="1" parent="1" source="0oTL6OqTnc60tE_ukuET-79" target="0oTL6OqTnc60tE_ukuET-83">
@@ -302,6 +302,9 @@
         </mxCell>
         <mxCell id="0oTL6OqTnc60tE_ukuET-103" value="&lt;br&gt;自己手动增加的 bfp&lt;br&gt;&lt;div style=&quot;font-size: 12pt&quot;&gt;&lt;div style=&quot;font-size: 12pt&quot;&gt;postProcessBeanFactory()&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12pt&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;shadow=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=13;fillColor=#FFFFFF;align=left;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="670" y="720" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0oTL6OqTnc60tE_ukuET-106" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-size: 14px;&quot;&gt;&lt;span style=&quot;font-family: helvetica; font-size: 14px; text-align: center; background-color: rgb(248, 249, 250);&quot;&gt;获取spring内部注册的bfp&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;fillColor=#FFFFFF;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="690" y="795" width="190" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
