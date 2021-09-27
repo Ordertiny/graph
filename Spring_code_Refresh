@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-27T08:46:05.955Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="TxN89LIdnDEngCJzo4ua" version="15.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-27T08:55:33.455Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="SG_t7O__1NLAkbafa01f" version="15.3.2" type="github">
   <diagram id="OEQh62iWVZ9_Vdbac4XW" name="第 1 页">
     <mxGraphModel dx="1134" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -136,6 +136,22 @@
             <mxPoint x="490" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="0oTL6OqTnc60tE_ukuET-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=13;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0oTL6OqTnc60tE_ukuET-45" target="0oTL6OqTnc60tE_ukuET-103">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="950" y="740.0000000000002" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="215" />
+              <mxPoint x="640" y="570" />
+              <mxPoint x="910" y="570" />
+              <mxPoint x="910" y="745" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0oTL6OqTnc60tE_ukuET-104" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontFamily=Helvetica;" vertex="1" connectable="0" parent="0oTL6OqTnc60tE_ukuET-102">
+          <mxGeometry x="-0.8875" y="-1" relative="1" as="geometry">
+            <mxPoint x="-16" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="0oTL6OqTnc60tE_ukuET-45" value="beanFactory&lt;br style=&quot;font-size: 9px;&quot;&gt;实现了&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 9px;&quot;&gt;BeanDefinitionRegistry&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="393.13" y="170" width="193.75" height="90" as="geometry" />
         </mxCell>
@@ -249,6 +265,14 @@
         <mxCell id="0oTL6OqTnc60tE_ukuET-79" value="&lt;br&gt;将增加@&lt;span style=&quot;font-size: 14px&quot;&gt;PriorityOrdered注解的类&lt;br&gt;加入到&lt;/span&gt;&lt;span style=&quot;font-size: 13px&quot;&gt;currentRegistryProcessors&lt;/span&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;中&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;fillColor=#E6FFCC;align=left;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="365" y="760" width="245" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="0oTL6OqTnc60tE_ukuET-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=13;" edge="1" parent="1" source="0oTL6OqTnc60tE_ukuET-81" target="0oTL6OqTnc60tE_ukuET-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0oTL6OqTnc60tE_ukuET-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=13;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0oTL6OqTnc60tE_ukuET-81" target="0oTL6OqTnc60tE_ukuET-99">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="620.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="0oTL6OqTnc60tE_ukuET-81" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;currentRegistryProcessors进行排序&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;将其加入到registryProcessors&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;执行postProcessBeanDefinitionRegistry&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;清空currentRegistryProcessors&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=13;fillColor=#FFE6CC;align=left;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="360.01" y="900" width="254.99" height="80" as="geometry" />
         </mxCell>
@@ -260,6 +284,24 @@
         </mxCell>
         <mxCell id="0oTL6OqTnc60tE_ukuET-83" value="&lt;span style=&quot;font-size: 14px&quot;&gt;加入到processedBeans&lt;/span&gt;" style="whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=13;fillColor=#CCFFFF;align=left;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="402.5" y="850" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0oTL6OqTnc60tE_ukuET-96" value="再执行@Order" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="265" y="770" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0oTL6OqTnc60tE_ukuET-97" value="再执行&lt;br&gt;没有@PriorityOrdered&lt;br&gt;没有@&lt;br&gt;Order" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="270" y="810" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0oTL6OqTnc60tE_ukuET-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=13;" edge="1" parent="1" source="0oTL6OqTnc60tE_ukuET-99" target="0oTL6OqTnc60tE_ukuET-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0oTL6OqTnc60tE_ukuET-99" value="&lt;div style=&quot;font-size: 12pt&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12pt&quot;&gt;registryProcessors执行&lt;/div&gt;&lt;div style=&quot;font-size: 12pt&quot;&gt;&lt;div style=&quot;font-size: 12pt&quot;&gt;postProcessBeanFactory()&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12pt&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=13;fillColor=#FFE6CC;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="660" y="580" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0oTL6OqTnc60tE_ukuET-100" value="&lt;div style=&quot;font-size: 12pt&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12pt&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;regularPostProcessors&lt;/span&gt;执行&lt;/div&gt;&lt;div style=&quot;font-size: 12pt&quot;&gt;&lt;div style=&quot;font-size: 12pt&quot;&gt;postProcessBeanFactory()&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12pt&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=13;fillColor=#FFCCCC;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="660" y="650" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0oTL6OqTnc60tE_ukuET-103" value="&lt;br&gt;自己手动增加的 bfp&lt;br&gt;&lt;div style=&quot;font-size: 12pt&quot;&gt;&lt;div style=&quot;font-size: 12pt&quot;&gt;postProcessBeanFactory()&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12pt&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;shadow=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=13;fillColor=#FFFFFF;align=left;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="670" y="720" width="220" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
