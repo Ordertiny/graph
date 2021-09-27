@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-27T08:59:47.629Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="gUSs3seW1ZbHK1-2xm7u" version="15.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-27T10:01:32.867Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="WMjomX-2bgaAZf2CTJ24" version="15.3.2" type="github">
   <diagram id="OEQh62iWVZ9_Vdbac4XW" name="第 1 页">
-    <mxGraphModel dx="1134" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1256" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -128,6 +128,16 @@
             <mxPoint x="490" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="0oTL6OqTnc60tE_ukuET-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=13;" edge="1" parent="1" source="0oTL6OqTnc60tE_ukuET-37" target="0oTL6OqTnc60tE_ukuET-106">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="125" />
+              <mxPoint x="660" y="560" />
+              <mxPoint x="920" y="560" />
+              <mxPoint x="920" y="813" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="0oTL6OqTnc60tE_ukuET-37" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;&lt;pre style=&quot;font-size: 12pt&quot;&gt;invokeBeanFactoryPostProcessors&lt;/pre&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="360" y="110" width="260" height="30" as="geometry" />
         </mxCell>
@@ -191,16 +201,16 @@
           <mxGeometry x="490" y="260" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="0oTL6OqTnc60tE_ukuET-52" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;List&amp;lt;BeanFactoryPostProcessor&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;regularPostProcessors&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#FFCCCC;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="700" y="192.5" width="250" height="62.5" as="geometry" />
+          <mxGeometry x="700" y="180" width="250" height="62.5" as="geometry" />
         </mxCell>
         <mxCell id="0oTL6OqTnc60tE_ukuET-53" value="&lt;div style=&quot;font-size: 9px;&quot;&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;List&amp;lt;&lt;span style=&quot;font-size: 9px;&quot;&gt;BeanDefinitionRegistryPostProcessor&lt;/span&gt;&amp;gt;&lt;br style=&quot;font-size: 9px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;registryProcessors&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=9;fillColor=#FFE6CC;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="700" y="262.5" width="250" height="75" as="geometry" />
+          <mxGeometry x="700" y="250" width="250" height="75" as="geometry" />
         </mxCell>
         <mxCell id="0oTL6OqTnc60tE_ukuET-55" value="&lt;div style=&quot;font-size: 11px&quot;&gt;&lt;div style=&quot;font-size: 11px&quot;&gt;&lt;div style=&quot;font-size: 12pt&quot;&gt;&lt;span style=&quot;color: rgb(128 , 128 , 128)&quot;&gt;bf后置处理器集合（手动添加的与&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12pt&quot;&gt;&lt;span style=&quot;color: rgb(128 , 128 , 128)&quot;&gt;bdr后置处理器集合）&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12pt&quot;&gt;&lt;span style=&quot;color: rgb(128 , 128 , 128)&quot;&gt;因为bdrp属于bfp&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Tahoma;fontSize=11;fillColor=#FFCCCC;align=left;fontStyle=0;shadow=0;labelBackgroundColor=none;labelBorderColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="40" width="250" height="62.5" as="geometry" />
+          <mxGeometry x="1040" y="180" width="250" height="62.5" as="geometry" />
         </mxCell>
         <mxCell id="0oTL6OqTnc60tE_ukuET-56" value="&lt;div style=&quot;font-size: 9px&quot;&gt;&lt;div style=&quot;font-size: 9px&quot;&gt;&lt;div style=&quot;font-size: 12pt&quot;&gt;&lt;span style=&quot;color: rgb(128 , 128 , 128)&quot;&gt;bdr后置处理器集合（手动添加与spring自己的）&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Tahoma;fontSize=9;fillColor=#FFE6CC;fontStyle=0;align=left;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="120" width="250" height="60" as="geometry" />
+          <mxGeometry x="1040" y="257.5" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0oTL6OqTnc60tE_ukuET-62" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=13;" edge="1" parent="1" source="0oTL6OqTnc60tE_ukuET-58" target="0oTL6OqTnc60tE_ukuET-47">
           <mxGeometry relative="1" as="geometry">
@@ -237,10 +247,10 @@
           <mxGeometry x="580" y="400" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="0oTL6OqTnc60tE_ukuET-70" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;List&amp;lt;BeanDefinitionRegistryPostProcessor&amp;gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;currentRegistryProcessors&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=13;fillColor=#E6FFCC;align=center;" vertex="1" parent="1">
-          <mxGeometry x="700" y="350" width="250" height="70" as="geometry" />
+          <mxGeometry x="700" y="330" width="250" height="70" as="geometry" />
         </mxCell>
         <mxCell id="0oTL6OqTnc60tE_ukuET-71" value="&lt;div style=&quot;font-size: 13px&quot;&gt;&lt;div style=&quot;font-size: 13px&quot;&gt;临时变量，为了bdrp排序的&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=13;fillColor=#E6FFCC;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="200" width="250" height="50" as="geometry" />
+          <mxGeometry x="1040" y="340" width="250" height="50" as="geometry" />
         </mxCell>
         <mxCell id="0oTL6OqTnc60tE_ukuET-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1" source="0oTL6OqTnc60tE_ukuET-72" target="0oTL6OqTnc60tE_ukuET-75">
           <mxGeometry relative="1" as="geometry" />
@@ -265,8 +275,15 @@
         <mxCell id="0oTL6OqTnc60tE_ukuET-79" value="&lt;br&gt;将增加@&lt;span style=&quot;font-size: 14px&quot;&gt;PriorityOrdered注解的类&lt;br&gt;加入到&lt;/span&gt;&lt;span style=&quot;font-size: 13px&quot;&gt;currentRegistryProcessors&lt;/span&gt;&lt;span style=&quot;font-size: 14px&quot;&gt;中&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;fillColor=#E6FFCC;align=left;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="365" y="760" width="245" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0oTL6OqTnc60tE_ukuET-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=13;" edge="1" parent="1" source="0oTL6OqTnc60tE_ukuET-81" target="0oTL6OqTnc60tE_ukuET-75">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="0oTL6OqTnc60tE_ukuET-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=13;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0oTL6OqTnc60tE_ukuET-81" target="0oTL6OqTnc60tE_ukuET-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="890" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="488" y="1000" />
+              <mxPoint x="300" y="1000" />
+              <mxPoint x="300" y="720" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="0oTL6OqTnc60tE_ukuET-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=13;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0oTL6OqTnc60tE_ukuET-81" target="0oTL6OqTnc60tE_ukuET-99">
           <mxGeometry relative="1" as="geometry">
@@ -277,7 +294,7 @@
           <mxGeometry x="360.01" y="900" width="254.99" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0oTL6OqTnc60tE_ukuET-82" value="&lt;div style=&quot;font-size: 13px&quot;&gt;&lt;div style=&quot;font-size: 13px&quot;&gt;&lt;pre style=&quot;font-size: 12pt;&quot;&gt;Set&amp;lt;String&amp;gt; processedBeans&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=13;fillColor=#CCFFE6;align=center;" vertex="1" parent="1">
-          <mxGeometry x="700" y="120" width="250" height="60" as="geometry" />
+          <mxGeometry x="700" y="110" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0oTL6OqTnc60tE_ukuET-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=13;" edge="1" parent="1" source="0oTL6OqTnc60tE_ukuET-83" target="0oTL6OqTnc60tE_ukuET-81">
           <mxGeometry relative="1" as="geometry" />
@@ -303,8 +320,56 @@
         <mxCell id="0oTL6OqTnc60tE_ukuET-103" value="&lt;br&gt;自己手动增加的 bfp&lt;br&gt;&lt;div style=&quot;font-size: 12pt&quot;&gt;&lt;div style=&quot;font-size: 12pt&quot;&gt;postProcessBeanFactory()&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12pt&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;shadow=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=13;fillColor=#FFFFFF;align=left;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="670" y="720" width="220" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0oTL6OqTnc60tE_ukuET-106" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-size: 14px;&quot;&gt;&lt;span style=&quot;font-family: helvetica; font-size: 14px; text-align: center; background-color: rgb(248, 249, 250);&quot;&gt;获取spring内部注册的bfp&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;fillColor=#FFFFFF;align=left;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="690" y="795" width="190" height="55" as="geometry" />
+        <mxCell id="0oTL6OqTnc60tE_ukuET-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=13;" edge="1" parent="1" source="0oTL6OqTnc60tE_ukuET-106">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="774.8888888888889" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0oTL6OqTnc60tE_ukuET-106" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-size: 14px;&quot;&gt;&lt;span style=&quot;font-family: helvetica; font-size: 14px; background-color: rgb(248, 249, 250);&quot;&gt;获取spring内部注册的bfp&lt;/span&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;fillColor=#FFFFFF;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="680" y="790" width="190" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="0oTL6OqTnc60tE_ukuET-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1" source="0oTL6OqTnc60tE_ukuET-110" target="0oTL6OqTnc60tE_ukuET-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0oTL6OqTnc60tE_ukuET-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1" source="0oTL6OqTnc60tE_ukuET-110" target="0oTL6OqTnc60tE_ukuET-116">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="940" y="875" />
+              <mxPoint x="940" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0oTL6OqTnc60tE_ukuET-110" value="循环所以内部注册的bfp" style="whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=13;fillColor=#FFFFFF;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="690" y="860" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0oTL6OqTnc60tE_ukuET-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1" source="0oTL6OqTnc60tE_ukuET-111" target="0oTL6OqTnc60tE_ukuET-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0oTL6OqTnc60tE_ukuET-111" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 14px;&quot;&gt;processedBeans包含这个bfp跳过&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 14px;&quot;&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;加@PriorityOrdered创建bean放入priorityOrderedPostProcessors&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;加@Ordered放入orderedPostProcessorNames&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;剩余的加入nonOrderedPostProcessorNames&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;fillColor=#FFFFFF;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="670" y="920" width="300" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="0oTL6OqTnc60tE_ukuET-115" value="循环" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="650" y="890" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0oTL6OqTnc60tE_ukuET-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=14;" edge="1" parent="1" source="0oTL6OqTnc60tE_ukuET-116" target="0oTL6OqTnc60tE_ukuET-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0oTL6OqTnc60tE_ukuET-116" value="&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;循环&lt;span style=&quot;font-size: 12pt&quot;&gt;orderedPostProcessorNames&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;将其创建Bean放入&lt;span style=&quot;font-size: 12pt&quot;&gt;orderedPostProcessors&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;排序&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;执行&lt;span style=&quot;font-size: 12pt&quot;&gt;postProcessBeanFactory&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1029" y="610" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="0oTL6OqTnc60tE_ukuET-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=14;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0oTL6OqTnc60tE_ukuET-119" target="0oTL6OqTnc60tE_ukuET-124">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1189" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0oTL6OqTnc60tE_ukuET-119" value="&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;循环&lt;span style=&quot;font-size: 12pt&quot;&gt;nonOrderedPostProcessors&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;将其创建Bean放入&lt;span style=&quot;font-size: 12pt&quot;&gt;nonOrderedPostProcessors&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;排序&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;执行&lt;span style=&quot;font-size: 12pt&quot;&gt;postProcessBeanFactory&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1029" y="770" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="0oTL6OqTnc60tE_ukuET-124" value="&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;&lt;div style=&quot;font-size: 12pt&quot;&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt; 清除缓存中的bd，因为后处理器可能有修改了原始元数据，例如替换值中的占位符&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;beanFactory.clearMetadataCache();&lt;/div&gt;" style="whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1029" y="920" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="0oTL6OqTnc60tE_ukuET-126" value="&lt;div style=&quot;font-size: 13px&quot;&gt;&lt;div style=&quot;font-size: 13px&quot;&gt;&lt;pre style=&quot;font-size: 12pt;&quot;&gt;Set&amp;lt;String&amp;gt; processedBeans&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=13;fillColor=#CCFFE6;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="110" width="250" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
