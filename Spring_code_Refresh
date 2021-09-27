@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-27T08:03:57.195Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="GloZ2piCLiaV6jM6IyDe" version="15.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-27T08:09:08.367Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="lYP5s21BAGPmKJwQg8bn" version="15.3.2" type="github">
   <diagram id="OEQh62iWVZ9_Vdbac4XW" name="第 1 页">
-    <mxGraphModel dx="909" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1010" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -54,6 +54,9 @@
         <mxCell id="0oTL6OqTnc60tE_ukuET-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=10;" edge="1" parent="1" source="0oTL6OqTnc60tE_ukuET-17" target="0oTL6OqTnc60tE_ukuET-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="0oTL6OqTnc60tE_ukuET-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=8;" edge="1" parent="1" source="0oTL6OqTnc60tE_ukuET-17" target="0oTL6OqTnc60tE_ukuET-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="0oTL6OqTnc60tE_ukuET-17" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 11px;&quot;&gt;invoke&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 11px;&quot;&gt;BeanFactoryPostProcessors&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="60" y="400" width="170" height="30" as="geometry" />
         </mxCell>
@@ -103,8 +106,30 @@
         <mxCell id="0oTL6OqTnc60tE_ukuET-30" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-size: 8px;&quot;&gt;finishBeanFactoryInitialization&lt;/pre&gt;" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="32.5" y="710" width="225" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="0oTL6OqTnc60tE_ukuET-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=8;" edge="1" parent="1" source="0oTL6OqTnc60tE_ukuET-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145.33333333333326" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="0oTL6OqTnc60tE_ukuET-32" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;finishRefresh&lt;/pre&gt;" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="80" y="760" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0oTL6OqTnc60tE_ukuET-34" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;resetCommonCaches&lt;/pre&gt;" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="70" y="810" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0oTL6OqTnc60tE_ukuET-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=8;shape=link;" edge="1" parent="1" source="0oTL6OqTnc60tE_ukuET-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0oTL6OqTnc60tE_ukuET-35" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;PostProcessorRegistrationDelegate&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="340" y="40" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0oTL6OqTnc60tE_ukuET-38" value="" style="edgeStyle=orthogonalEdgeStyle;shape=link;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=8;" edge="1" parent="1" source="0oTL6OqTnc60tE_ukuET-37" target="0oTL6OqTnc60tE_ukuET-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0oTL6OqTnc60tE_ukuET-37" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;&lt;pre style=&quot;font-size: 12pt&quot;&gt;invokeBeanFactoryPostProcessors&lt;/pre&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="360" y="110" width="260" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
