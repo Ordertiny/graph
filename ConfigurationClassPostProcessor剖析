@@ -1,1 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2021-09-28T09:59:18.504Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" version="15.3.4" etag="yHUALWTf6TwKhN83Gh7R" type="github"><diagram id="utjxXl5dbyju99J4JfAS">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-28T11:14:33.052Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="nY-RP9d156oKIpU-srAd" version="15.3.4" type="github">
+  <diagram id="utjxXl5dbyju99J4JfAS" name="第 1 页">
+    <mxGraphModel dx="1256" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8AN9qBaW7dbyFVvRxbPa-20" value="" style="endArrow=none;html=1;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="8AN9qBaW7dbyFVvRxbPa-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="1334.4444444444443" as="sourcePoint" />
+            <mxPoint x="160" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8AN9qBaW7dbyFVvRxbPa-1" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;microsoft yahei ui&amp;#34; ; font-size: 9pt&quot;&gt;AbstractApplicationContext&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="40" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8AN9qBaW7dbyFVvRxbPa-9" style="edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=open;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8AN9qBaW7dbyFVvRxbPa-2" target="8AN9qBaW7dbyFVvRxbPa-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="124.88888888888891" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8AN9qBaW7dbyFVvRxbPa-2" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 11px;&quot;&gt;invoke&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 11px;&quot;&gt;BeanFactoryPostProcessors&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="20" y="110" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8AN9qBaW7dbyFVvRxbPa-3" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;PostProcessorRegistrationDelegate&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="200" y="40" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8AN9qBaW7dbyFVvRxbPa-18" style="edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="8AN9qBaW7dbyFVvRxbPa-4" target="8AN9qBaW7dbyFVvRxbPa-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8AN9qBaW7dbyFVvRxbPa-4" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;&lt;pre style=&quot;font-size: 12pt&quot;&gt;invokeBeanFactoryPostProcessors&lt;/pre&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="220" y="110" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8AN9qBaW7dbyFVvRxbPa-16" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;microsoft yahei ui&amp;#34; ; font-size: 9pt&quot;&gt;ConfigurationClassPostProcessor&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="40" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8AN9qBaW7dbyFVvRxbPa-17" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;processConfigBeanDefinitions&lt;/pre&gt;" style="whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="110" width="240" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
