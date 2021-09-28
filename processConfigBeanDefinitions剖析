@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-28T12:17:46.513Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="D2SBwRTqjPnkhzgD6EHf" version="15.3.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-28T12:22:01.844Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="S4701YMaH8tTrFlvacke" version="15.3.4" type="github">
   <diagram id="-hIlNMaRMnu2wgf8wix4" name="第 1 页">
-    <mxGraphModel dx="1329" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1614" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,7 +17,7 @@
           <mxGeometry x="114" y="160" width="270" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SVzUEFvmCfHf_HBE8Nin-4" value="初始时，这里一共6个类&lt;br&gt;（5个内部定义的类&lt;br&gt;和1个我们启动类）" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=14;fillColor=#FFCCCC;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1150" y="30" width="230" height="70" as="geometry" />
+          <mxGeometry x="1820" y="10" width="230" height="70" as="geometry" />
         </mxCell>
         <mxCell id="SVzUEFvmCfHf_HBE8Nin-9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;endArrow=open;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="SVzUEFvmCfHf_HBE8Nin-5" target="SVzUEFvmCfHf_HBE8Nin-8">
           <mxGeometry relative="1" as="geometry" />
@@ -87,7 +87,7 @@
           <mxGeometry x="139" y="680" width="220" height="50" as="geometry" />
         </mxCell>
         <mxCell id="SVzUEFvmCfHf_HBE8Nin-28" value="&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;如果没有任何加上述注解的，则直接返回&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#FFE6CC;align=center;verticalAlign=middle;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="1150" y="110" width="230" height="70" as="geometry" />
+          <mxGeometry x="1820" y="90" width="230" height="70" as="geometry" />
         </mxCell>
         <mxCell id="SVzUEFvmCfHf_HBE8Nin-38" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=13;fontColor=default;endArrow=open;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SVzUEFvmCfHf_HBE8Nin-29" target="SVzUEFvmCfHf_HBE8Nin-35">
           <mxGeometry relative="1" as="geometry" />
@@ -96,7 +96,7 @@
           <mxGeometry x="144" y="750" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SVzUEFvmCfHf_HBE8Nin-31" value="&lt;div style=&quot;font-size: 12pt&quot;&gt;&lt;span&gt;对这些bd按照order进行排序&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12pt&quot;&gt;&lt;span&gt;（没有@order的其value&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12pt&quot;&gt;&lt;span&gt;是Integer.MAX，&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12pt&quot;&gt;&lt;span&gt;值越大，优先级越小）&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#FFFFCC;align=center;verticalAlign=middle;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="1150" y="190" width="230" height="80" as="geometry" />
+          <mxGeometry x="1820" y="170" width="230" height="80" as="geometry" />
         </mxCell>
         <mxCell id="SVzUEFvmCfHf_HBE8Nin-42" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=13;fontColor=default;endArrow=open;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="SVzUEFvmCfHf_HBE8Nin-35" target="SVzUEFvmCfHf_HBE8Nin-40">
           <mxGeometry relative="1" as="geometry" />
@@ -121,10 +121,10 @@
           <mxGeometry x="144" y="930" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="SVzUEFvmCfHf_HBE8Nin-46" value="&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;去重 就是我们之前手动注册的带有上述注解的bd&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=13;fontColor=default;fillColor=#E6FFCC;align=left;verticalAlign=middle;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="1150" y="280" width="230" height="50" as="geometry" />
+          <mxGeometry x="1820" y="260" width="230" height="50" as="geometry" />
         </mxCell>
         <mxCell id="SVzUEFvmCfHf_HBE8Nin-48" value="&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;标记已解析的class-避免重复解析&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=13;fontColor=default;fillColor=#CCFFCC;align=left;verticalAlign=middle;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="1150" y="340" width="230" height="50" as="geometry" />
+          <mxGeometry x="1820" y="320" width="230" height="50" as="geometry" />
         </mxCell>
         <mxCell id="SVzUEFvmCfHf_HBE8Nin-52" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;endArrow=open;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="SVzUEFvmCfHf_HBE8Nin-49" target="SVzUEFvmCfHf_HBE8Nin-51">
           <mxGeometry relative="1" as="geometry" />
@@ -148,7 +148,7 @@
         <mxCell id="SVzUEFvmCfHf_HBE8Nin-53" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;parse&lt;/pre&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#FFFFFF;align=center;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="540" y="90" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="SVzUEFvmCfHf_HBE8Nin-54" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;microsoft yahei ui&amp;#34; ; font-size: 9pt&quot;&gt;ConfigurationClassPostProcessor&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+        <mxCell id="SVzUEFvmCfHf_HBE8Nin-54" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 16px;&quot;&gt;ConfigurationClassPostProcessor&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontColor=default;fontFamily=Helvetica;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="88.5" y="30" width="321" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SVzUEFvmCfHf_HBE8Nin-55" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;microsoft yahei ui&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 16px&quot;&gt;ConfigurationClassParser&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
@@ -193,7 +193,7 @@
           <mxGeometry x="555" y="490" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SVzUEFvmCfHf_HBE8Nin-73" value="&lt;div style=&quot;font-size: 12pt;&quot;&gt;processConfigurationClass&lt;/div&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;(&lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;new &lt;/span&gt;ConfigurationClass(metadata, beanName))&lt;/div&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;parse会将bd的元数据和beanName组成ConfigClass&lt;/div&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;当作参数传入&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#CCFFE6;align=left;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1150" y="400" width="380" height="90" as="geometry" />
+          <mxGeometry x="1820" y="380" width="380" height="90" as="geometry" />
         </mxCell>
         <mxCell id="SVzUEFvmCfHf_HBE8Nin-82" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=13;fontColor=default;endArrow=open;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="SVzUEFvmCfHf_HBE8Nin-77" target="SVzUEFvmCfHf_HBE8Nin-64">
           <mxGeometry relative="1" as="geometry">
@@ -214,7 +214,7 @@
           <mxGeometry x="560" y="550" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SVzUEFvmCfHf_HBE8Nin-84" value="&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;处理其中定义的内部类，是否是full或lite否则要再次递归调用processConfigurationClass&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=13;fontColor=default;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="1150" y="500" width="240" height="70" as="geometry" />
+          <mxGeometry x="1820" y="480" width="240" height="70" as="geometry" />
         </mxCell>
         <mxCell id="SVzUEFvmCfHf_HBE8Nin-89" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;endArrow=open;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="SVzUEFvmCfHf_HBE8Nin-85" target="SVzUEFvmCfHf_HBE8Nin-88">
           <mxGeometry relative="1" as="geometry" />
@@ -223,13 +223,28 @@
           <mxGeometry x="570" y="600" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SVzUEFvmCfHf_HBE8Nin-87" value="&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;&lt;span&gt; 当使用配置文件中的值为属性赋值的时候，&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;&lt;span&gt;通过@PropertySource导入配置文件；&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;&lt;div style=&quot;font-size: 12pt&quot;&gt;&lt;span&gt;通过@PropertySource注解将properties配置文件中的值存储到&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12pt&quot;&gt;&lt;span&gt;Spring的 Environment中，Environment接口提供方法去读取配置文件中的值，&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12pt&quot;&gt;&lt;span&gt;参数是properties文件中定义的key值。&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="1150" y="580" width="560" height="110" as="geometry" />
+          <mxGeometry x="1820" y="560" width="560" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="SVzUEFvmCfHf_HBE8Nin-93" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;endArrow=open;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="SVzUEFvmCfHf_HBE8Nin-88" target="SVzUEFvmCfHf_HBE8Nin-92">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SVzUEFvmCfHf_HBE8Nin-88" value="创建&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 14px;&quot;&gt;Set&amp;lt;AnnotationAttributes&amp;gt; componentScans&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#FFFFFF;align=left;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="565" y="650" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="SVzUEFvmCfHf_HBE8Nin-90" value="&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;componentScans：&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;&lt;div style=&quot;font-size: 12pt&quot;&gt;&lt;span style=&quot;&quot;&gt;扫描@ComponentScans，@ComponentScan 指定的类&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#FFFFFF;align=left;verticalAlign=middle;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="1152.5" y="710" width="225" height="80" as="geometry" />
+          <mxGeometry x="1820" y="680" width="225" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SVzUEFvmCfHf_HBE8Nin-95" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;endArrow=open;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="SVzUEFvmCfHf_HBE8Nin-92" target="SVzUEFvmCfHf_HBE8Nin-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SVzUEFvmCfHf_HBE8Nin-92" value="循环&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;componentScans&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#FFFFFF;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="570" y="720" width="160" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="SVzUEFvmCfHf_HBE8Nin-94" value="&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;&lt;div style=&quot;font-size: 12pt&quot;&gt;Set&amp;lt;BeanDefinitionHolder&amp;gt; scannedBeanDefinitions=&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;&lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;componentScanParser&lt;/span&gt;.parse&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#FFFFFF;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="520" y="800" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SVzUEFvmCfHf_HBE8Nin-97" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;microsoft yahei ui&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 16px&quot;&gt;ConfigurationClassParser&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="870" y="30" width="321" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
