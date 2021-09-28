@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-28T12:46:45.623Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="o_IaMenp9NAo4eliqPLo" version="15.3.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-28T12:51:25.894Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="fxoRmgZT_M059HvFtiUO" version="15.3.4" type="github">
   <diagram id="-hIlNMaRMnu2wgf8wix4" name="第 1 页">
     <mxGraphModel dx="1614" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -313,11 +313,47 @@
         <mxCell id="SVzUEFvmCfHf_HBE8Nin-118" value="定义&lt;br&gt;&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;Set&amp;lt;BeanDefinitionHolder&amp;gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;beanDefinitions&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=17;fontColor=default;fillColor=#FFFFFF;align=center;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="1270.5" y="150" width="240" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="SVzUEFvmCfHf_HBE8Nin-125" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;endArrow=open;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="SVzUEFvmCfHf_HBE8Nin-120" target="SVzUEFvmCfHf_HBE8Nin-124">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="SVzUEFvmCfHf_HBE8Nin-120" value="循环&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;basePackages&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=17;fontColor=default;fillColor=#FFFFFF;align=center;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="1318.25" y="245" width="144.5" height="55" as="geometry" />
         </mxCell>
         <mxCell id="SVzUEFvmCfHf_HBE8Nin-122" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 14px;&quot;&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;ClassPathScanningCandidateComponentProvider&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=14;fontFamily=Helvetica;" vertex="1" parent="1">
           <mxGeometry x="1590" y="30" width="321" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SVzUEFvmCfHf_HBE8Nin-128" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;endArrow=open;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="SVzUEFvmCfHf_HBE8Nin-123" target="SVzUEFvmCfHf_HBE8Nin-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SVzUEFvmCfHf_HBE8Nin-123" value="&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;findCandidateComponents&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#FFFFFF;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1635.5" y="90" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SVzUEFvmCfHf_HBE8Nin-126" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;endArrow=open;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="SVzUEFvmCfHf_HBE8Nin-124" target="SVzUEFvmCfHf_HBE8Nin-123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SVzUEFvmCfHf_HBE8Nin-124" value="&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;findCandidateComponents&lt;/div&gt;&lt;span style=&quot;font-size: 16px ; background-color: rgb(255 , 255 , 255)&quot;&gt;（basePackages）&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#FFFFFF;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1270.5" y="330" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SVzUEFvmCfHf_HBE8Nin-130" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;endArrow=open;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="SVzUEFvmCfHf_HBE8Nin-127" target="SVzUEFvmCfHf_HBE8Nin-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SVzUEFvmCfHf_HBE8Nin-127" value="&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;scanCandidateComponents&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#FFFFFF;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1631" y="155" width="234.5" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="SVzUEFvmCfHf_HBE8Nin-132" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;endArrow=open;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="SVzUEFvmCfHf_HBE8Nin-129" target="SVzUEFvmCfHf_HBE8Nin-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SVzUEFvmCfHf_HBE8Nin-129" value="定义&lt;br&gt;&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;Set&amp;lt;BeanDefinition&amp;gt; candidates&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#FFFFFF;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1643.25" y="215" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SVzUEFvmCfHf_HBE8Nin-134" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;endArrow=open;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="SVzUEFvmCfHf_HBE8Nin-131" target="SVzUEFvmCfHf_HBE8Nin-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SVzUEFvmCfHf_HBE8Nin-131" value="将包下有效的class&lt;br&gt;转换为&lt;br&gt;&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;ScannedGenericBeanDefinition&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#FFFFFF;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1628.25" y="300" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SVzUEFvmCfHf_HBE8Nin-133" value="加入&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;candidates集合&lt;br&gt;并返回&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#FFFFFF;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1670.5" y="390" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
