@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-29T06:41:14.089Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="-Gp9C0ZE9Su68cxD_HhT" version="15.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-29T06:44:34.814Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="oIfYOZ_0zMkNgypUkZCg" version="15.3.5" type="github">
   <diagram id="-hIlNMaRMnu2wgf8wix4" name="第 1 页">
-    <mxGraphModel dx="2031" dy="1089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1614" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -138,6 +138,9 @@
               <mxPoint x="460" y="620" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-104" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=15;fontColor=default;endArrow=open;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="SVzUEFvmCfHf_HBE8Nin-51" target="-ph_2-yJ8VTaD9Y0iX6l-103">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SVzUEFvmCfHf_HBE8Nin-51" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;&lt;pre style=&quot;font-size: 12pt&quot;&gt;parser.parse(configCandidates)&lt;/pre&gt;&lt;/pre&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#FFFFFF;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="123.25" y="1100" width="251.5" height="30" as="geometry" />
@@ -711,6 +714,9 @@
         </mxCell>
         <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-100" value="处理延迟导入的类，按照group进行分类&lt;br&gt;然后循环group调用&lt;span style=&quot;font-size: 12pt;&quot;&gt;processImports()&lt;/span&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=15;fontColor=default;fillColor=#FF66B3;align=center;" vertex="1" parent="1">
           <mxGeometry x="2870" y="105" width="270" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-103" value="&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;&lt;div style=&quot;font-size: 12pt&quot;&gt;获取parse的configClassMap&lt;/div&gt;&lt;div style=&quot;font-size: 12pt&quot;&gt;Set&amp;lt;ConfigurationClass&amp;gt; configClasses = &lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;new &lt;/span&gt;LinkedHashSet&amp;lt;&amp;gt;(parser.getConfigurationClasses());&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=15;fontColor=default;fillColor=#FFFFFF;align=left;" vertex="1" parent="1">
+          <mxGeometry x="118.5" y="1150" width="261" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
