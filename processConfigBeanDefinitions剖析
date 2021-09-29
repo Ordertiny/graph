@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-29T07:49:34.130Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="Vv09rBsKsZ1l4UdCrgDY" version="15.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-29T07:50:52.744Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="IjuSovVvi9PKcqLjwUtC" version="15.3.5" type="github">
   <diagram id="-hIlNMaRMnu2wgf8wix4" name="第 1 页">
-    <mxGraphModel dx="1329" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1614" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -771,10 +771,10 @@
         <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-123" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;endArrow=open;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="-ph_2-yJ8VTaD9Y0iX6l-120" target="-ph_2-yJ8VTaD9Y0iX6l-122">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-120" value="&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;loadBeanDefinitionsFromImportedResources&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#FFFFFF;align=center;" vertex="1" parent="1">
+        <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-120" value="&lt;div style=&quot;font-size: 12pt;&quot;&gt;loadBeanDefinitionsFromImportedResources&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#6666FF;align=center;" vertex="1" parent="1">
           <mxGeometry x="635.5" y="565" width="330" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-122" value="&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;loadBeanDefinitionsFromRegistrars&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#FFFFFF;align=center;" vertex="1" parent="1">
+        <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-122" value="&lt;div style=&quot;font-size: 12pt;&quot;&gt;loadBeanDefinitionsFromRegistrars&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#66B2FF;align=center;" vertex="1" parent="1">
           <mxGeometry x="660.25" y="620" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-124" value="&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;被引入import进来&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;div style=&quot;font-size: 12pt&quot;&gt;&lt;span style=&quot;&quot;&gt;生成AnnotatedGenericBeanDefinition&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#FF66FF;align=center;fontStyle=0;" vertex="1" parent="1">
@@ -782,6 +782,12 @@
         </mxCell>
         <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-125" value="&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;所有@Bean进来的&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt; 生成ConfigurationClassBeanDefinition&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#B266FF;align=center;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="230" y="225" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-126" value="&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;加载资源&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#6666FF;align=center;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="250" y="312.5" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-127" value="&lt;div style=&quot;font-size: 12pt&quot;&gt;&lt;span&gt;调用注册的ImportBeanDefinitionRegistrar.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12pt&quot;&gt;&lt;span&gt;registerBeanDefinitions（）方法&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#66B2FF;align=center;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="230" y="385" width="315" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
