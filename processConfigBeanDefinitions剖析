@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-29T03:41:41.936Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="LD0ek8Y5sL41244is_ul" version="15.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-29T03:43:57.116Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="2WuS19wDReK_JUacmdA8" version="15.3.5" type="github">
   <diagram id="-hIlNMaRMnu2wgf8wix4" name="第 1 页">
     <mxGraphModel dx="1256" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -33,7 +33,7 @@
         </mxCell>
         <mxCell id="SVzUEFvmCfHf_HBE8Nin-26" value="循环结束" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=#000000;" parent="SVzUEFvmCfHf_HBE8Nin-25" vertex="1" connectable="0">
           <mxGeometry x="-0.3275" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-13" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="SVzUEFvmCfHf_HBE8Nin-5" value="循环&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;candidateNames&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=14;fillColor=#FFFFFF;verticalAlign=middle;" parent="1" vertex="1">
@@ -135,7 +135,7 @@
         <mxCell id="SVzUEFvmCfHf_HBE8Nin-58" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;endArrow=open;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="SVzUEFvmCfHf_HBE8Nin-51" target="SVzUEFvmCfHf_HBE8Nin-53" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="480" y="610" />
+              <mxPoint x="460" y="620" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -434,9 +434,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-26" value="递归解析" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="-ph_2-yJ8VTaD9Y0iX6l-25">
-          <mxGeometry x="0.0747" y="2" relative="1" as="geometry">
-            <mxPoint x="2" y="308" as="offset" />
+        <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-67" value="递归" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="-ph_2-yJ8VTaD9Y0iX6l-25">
+          <mxGeometry x="-0.4533" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-22" value="&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;&lt;span style=&quot;&quot;&gt;检查扫描的bdh集合是否有任何的配置类，并进行递归解析&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#FFFFFF;align=center;fontStyle=0;" vertex="1" parent="1">
@@ -541,6 +541,19 @@
         </mxCell>
         <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-60" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="645" y="1460" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-65" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=open;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="-ph_2-yJ8VTaD9Y0iX6l-62" target="SVzUEFvmCfHf_HBE8Nin-64">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="1090" />
+              <mxPoint x="490" y="970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-66" value="递归解析" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="-ph_2-yJ8VTaD9Y0iX6l-65">
+          <mxGeometry x="-0.9424" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-62" value="将该Class当作被@Config修饰的类进行解析" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=#FFFFFF;align=center;" vertex="1" parent="1">
           <mxGeometry x="552.5" y="1610" width="182.5" height="50" as="geometry" />
