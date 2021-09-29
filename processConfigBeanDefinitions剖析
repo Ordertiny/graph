@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-29T02:47:13.237Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="JyjBKtpLhy_gXmDXsf1T" version="15.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-29T02:49:05.943Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="K86wUEmuSyr47AAWIT59" version="15.3.5" type="github">
   <diagram id="-hIlNMaRMnu2wgf8wix4" name="第 1 页">
     <mxGraphModel dx="1256" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -389,6 +389,9 @@
         </mxCell>
         <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-11" value="1.&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 12pt;&quot;&gt; bd设置初始默认值(不懒加载，默认不注入，不进行依赖检查，无初始执行方法，无销毁执行方法)&lt;br&gt;2.&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 12pt;&quot;&gt;是否设置某个bean自动注入的时候是否为作为候选bean&lt;/span&gt;" style="whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=14;fontColor=default;align=left;fontStyle=0;" vertex="1" parent="1">
           <mxGeometry x="2470" y="215" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-12" value="&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;&lt;span style=&quot;&quot;&gt;根据实际配置设置该bean是否懒加载，依赖@DependsOn，@Primary等属性值&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=14;fontColor=default;align=left;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="2470" y="310" width="360" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
