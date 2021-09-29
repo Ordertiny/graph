@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-29T06:06:54.707Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="tpZw8qYiekXkPJYhROgk" version="15.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-29T06:22:56.071Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="CJFDWGREgaK-YtvQYiiS" version="15.3.5" type="github">
   <diagram id="-hIlNMaRMnu2wgf8wix4" name="第 1 页">
-    <mxGraphModel dx="1614" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1329" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -671,13 +671,13 @@
           <mxGeometry x="557.5" y="2050" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-92" value="&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;&lt;div style=&quot;font-size: 12pt&quot;&gt;&lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;将处理完的配置class放入map&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12pt&quot;&gt;&lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;configurationClasses&lt;/span&gt;.put(configClass, configClass);&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=13;fontColor=default;fillColor=#FFFFFF;align=left;" vertex="1" parent="1">
-          <mxGeometry x="900.75" y="820" width="337.5" height="70" as="geometry" />
+          <mxGeometry x="900.75" y="810" width="337.5" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-94" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 15px;&quot;&gt;processDeferredImportSelectors&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=15;fontColor=default;fillColor=#FFFFFF;align=center;" vertex="1" parent="1">
-          <mxGeometry x="945.5000000000001" y="940" width="235" height="40" as="geometry" />
+          <mxGeometry x="945.5" y="900" width="235" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-97" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;microsoft yahei ui&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 16px&quot;&gt;ConfigurationClassParser&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fillColor=#67AB9F;" vertex="1" parent="1">
-          <mxGeometry x="909" y="745" width="321" height="40" as="geometry" />
+          <mxGeometry x="910.5" y="750" width="321" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
