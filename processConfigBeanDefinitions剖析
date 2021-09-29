@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-29T03:43:57.116Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="2WuS19wDReK_JUacmdA8" version="15.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-29T03:50:35.334Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="H4apoNcLcJgS-c_yam4j" version="15.3.5" type="github">
   <diagram id="-hIlNMaRMnu2wgf8wix4" name="第 1 页">
     <mxGraphModel dx="1256" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -445,6 +445,19 @@
         <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-32" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;fontColor=default;endArrow=open;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="-ph_2-yJ8VTaD9Y0iX6l-27" target="-ph_2-yJ8VTaD9Y0iX6l-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-70" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=10;fontColor=default;endArrow=open;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="-ph_2-yJ8VTaD9Y0iX6l-27" target="-ph_2-yJ8VTaD9Y0iX6l-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="1470" />
+              <mxPoint x="830" y="1340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-71" value="执行完后" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="-ph_2-yJ8VTaD9Y0iX6l-70">
+          <mxGeometry x="-0.9142" y="-2" relative="1" as="geometry">
+            <mxPoint x="12" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-27" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;processImports&lt;/pre&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#FFFFFF;align=center;" vertex="1" parent="1">
           <mxGeometry x="575" y="980" width="135" height="30" as="geometry" />
         </mxCell>
@@ -560,6 +573,36 @@
         </mxCell>
         <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-64" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="735" y="1420" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-74" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=13;fontColor=default;endArrow=open;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="-ph_2-yJ8VTaD9Y0iX6l-69" target="-ph_2-yJ8VTaD9Y0iX6l-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-69" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 13px;&quot;&gt;importResource =&lt;br style=&quot;font-size: 13px;&quot;&gt;      AnnotationConfigUtils.&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 13px;&quot;&gt;&lt;span style=&quot;font-style: italic; font-size: 13px;&quot;&gt;attributesFor&lt;/span&gt;(&lt;span style=&quot;color: rgb(128, 128, 0); font-size: 13px;&quot;&gt;ImportResource&lt;/span&gt;.&lt;span style=&quot;color: rgb(0, 0, 128); font-weight: bold; font-size: 13px;&quot;&gt;class&lt;/span&gt;)&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=13;fontColor=default;fillColor=#FFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="531.25" y="1670" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-72" value="内部执行流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1010" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-79" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=13;fontColor=default;endArrow=open;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="-ph_2-yJ8VTaD9Y0iX6l-73" target="-ph_2-yJ8VTaD9Y0iX6l-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-73" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;configClass.&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;addImportedResource&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=13;fontColor=default;fillColor=#99FFCC;align=center;" vertex="1" parent="1">
+          <mxGeometry x="575" y="1750" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-76" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;endArrow=open;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="-ph_2-yJ8VTaD9Y0iX6l-75" target="SVzUEFvmCfHf_HBE8Nin-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-75" value="&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt; 设置了@importResource&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;则将其加入configClass的（importedResources）map中&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=13;fontColor=default;fillColor=#99FFCC;align=center;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="2520" y="500" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-80" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=13;fontColor=default;endArrow=open;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="-ph_2-yJ8VTaD9Y0iX6l-77" target="-ph_2-yJ8VTaD9Y0iX6l-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-77" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 13px;&quot;&gt;retrieveBeanMethodMetadata(sourceClass)&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=13;fontColor=default;fillColor=#FFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="512.5" y="1830" width="265" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-78" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 13px;&quot;&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;configClass.addBeanMethod()&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=13;fontColor=default;fillColor=#FFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="512.5" y="1880" width="265" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
