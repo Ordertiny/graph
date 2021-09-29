@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-29T06:22:56.071Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="CJFDWGREgaK-YtvQYiiS" version="15.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-29T06:41:14.089Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="-Gp9C0ZE9Su68cxD_HhT" version="15.3.5" type="github">
   <diagram id="-hIlNMaRMnu2wgf8wix4" name="第 1 页">
-    <mxGraphModel dx="1329" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="2031" dy="1089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -536,6 +536,23 @@
         <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-38" value="selector实现了&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 13px;&quot;&gt;DeferredImportSelector&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=13;fontColor=default;fillColor=#FFFFFF;align=center;" vertex="1" parent="1">
           <mxGeometry x="558.75" y="1260" width="167.5" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-101" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=15;fontColor=default;endArrow=open;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;dashed=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-ph_2-yJ8VTaD9Y0iX6l-40" target="-ph_2-yJ8VTaD9Y0iX6l-94">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1100" y="915" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="870" y="1120" />
+              <mxPoint x="1070" y="1120" />
+              <mxPoint x="1070" y="930" />
+              <mxPoint x="1200" y="930" />
+              <mxPoint x="1200" y="905" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-102" value="j放入的数据将会在这个&lt;br&gt;方法处理" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="-ph_2-yJ8VTaD9Y0iX6l-101">
+          <mxGeometry x="-0.2301" y="-2" relative="1" as="geometry">
+            <mxPoint x="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-40" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 11px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 128); font-weight: bold; font-size: 11px;&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;color: rgb(102, 14, 122); font-weight: bold; font-size: 11px;&quot;&gt;deferredImportSelectors&lt;/span&gt;.add(&lt;br style=&quot;font-size: 11px;&quot;&gt;      &lt;span style=&quot;color: rgb(0, 0, 128); font-weight: bold; font-size: 11px;&quot;&gt;new &lt;/span&gt;DeferredImportSelectorHolder)&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=11;fontColor=default;fillColor=#FFFFFF;align=center;" vertex="1" parent="1">
           <mxGeometry x="760" y="1275" width="220" height="40" as="geometry" />
         </mxCell>
@@ -673,11 +690,27 @@
         <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-92" value="&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;&lt;div style=&quot;font-size: 12pt&quot;&gt;&lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;将处理完的配置class放入map&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12pt&quot;&gt;&lt;span style=&quot;color: #000080 ; font-weight: bold&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;color: #660e7a ; font-weight: bold&quot;&gt;configurationClasses&lt;/span&gt;.put(configClass, configClass);&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=13;fontColor=default;fillColor=#FFFFFF;align=left;" vertex="1" parent="1">
           <mxGeometry x="900.75" y="810" width="337.5" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-94" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 15px;&quot;&gt;processDeferredImportSelectors&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=15;fontColor=default;fillColor=#FFFFFF;align=center;" vertex="1" parent="1">
-          <mxGeometry x="945.5" y="900" width="235" height="30" as="geometry" />
+        <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=15;fontColor=default;endArrow=open;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;" edge="1" parent="1" source="-ph_2-yJ8VTaD9Y0iX6l-94" target="-ph_2-yJ8VTaD9Y0iX6l-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1063" y="970" />
+              <mxPoint x="643" y="970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-99" value="递归解析" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="-ph_2-yJ8VTaD9Y0iX6l-98">
+          <mxGeometry x="-0.2845" y="-5" relative="1" as="geometry">
+            <mxPoint x="76" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-94" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;processDeferredImportSelectors&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=15;fontColor=default;fillColor=#FF66B3;align=center;" vertex="1" parent="1">
+          <mxGeometry x="945.5" y="890" width="235" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-97" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;microsoft yahei ui&amp;#34; ; font-size: 9pt&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 16px&quot;&gt;ConfigurationClassParser&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fillColor=#67AB9F;" vertex="1" parent="1">
           <mxGeometry x="910.5" y="750" width="321" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-ph_2-yJ8VTaD9Y0iX6l-100" value="处理延迟导入的类，按照group进行分类&lt;br&gt;然后循环group调用&lt;span style=&quot;font-size: 12pt;&quot;&gt;processImports()&lt;/span&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=15;fontColor=default;fillColor=#FF66B3;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2870" y="105" width="270" height="95" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
