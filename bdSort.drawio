@@ -1,1 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2021-10-07T02:26:34.175Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36 SLBrowser/7.0.0.6241 SLBChan/30" version="15.4.1" etag="1FKk0rFGHhVdhX4XRRgJ" type="github"><diagram id="jqt50fl-MRmz82jPBsF7">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-07T02:36:04.446Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36 SLBrowser/7.0.0.6241 SLBChan/30" etag="9MUDGo1EqsHcHxDky01u" version="15.4.1" type="github">
+  <diagram id="jqt50fl-MRmz82jPBsF7" name="第 1 页">
+    <mxGraphModel dx="782" dy="485" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cuxdXZbSRFRjtJqR8UAa-1" value="bd" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="170" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cuxdXZbSRFRjtJqR8UAa-2" value="RootBeanDefinition" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="140" y="100" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cuxdXZbSRFRjtJqR8UAa-3" value="Spring内置6个bd" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="100" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cuxdXZbSRFRjtJqR8UAa-4" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 9.8pt;&quot;&gt;AnnotatedGenericBeanDefinition&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="140" y="150" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cuxdXZbSRFRjtJqR8UAa-5" value="通过register()注册进工厂" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="380" y="150" width="180" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
