@@ -1,11 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2021-10-11T14:56:20.216Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36 SLBrowser/7.0.0.6241 SLBChan/30" etag="Vc8VVTnOg0cHu-AsP0YW" version="15.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-11T14:59:36.777Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36 SLBrowser/7.0.0.6241 SLBChan/30" etag="KAXKNCdRWBB8Y0fyNjQ_" version="15.4.3" type="github">
   <diagram id="XzidsmTq8LVwVA6jNkno" name="第 1 页">
-    <mxGraphModel dx="1043" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1043" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="B_q8xlnF3MGfekT7VdUr-3" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;ConfigurationClassPostProcessor&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" vertex="1" parent="1">
           <mxGeometry x="20" y="10" width="250" height="950" as="geometry" />
+        </mxCell>
+        <mxCell id="B_q8xlnF3MGfekT7VdUr-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=13;fontColor=default;" edge="1" parent="B_q8xlnF3MGfekT7VdUr-3" source="B_q8xlnF3MGfekT7VdUr-4" target="B_q8xlnF3MGfekT7VdUr-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="B_q8xlnF3MGfekT7VdUr-4" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;enhanceConfigurationClasses&lt;/pre&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="B_q8xlnF3MGfekT7VdUr-3">
           <mxGeometry x="15" y="70" width="220" height="30" as="geometry" />
@@ -25,23 +28,35 @@
         <mxCell id="B_q8xlnF3MGfekT7VdUr-17" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 9.8pt;&quot;&gt;enhancer.enhance&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 9.8pt;&quot;&gt;(configClass, &lt;span style=&quot;&quot;&gt;this&lt;/span&gt;.&lt;span style=&quot;&quot;&gt;beanClassLoader&lt;/span&gt;)&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;fontStyle=0" vertex="1" parent="B_q8xlnF3MGfekT7VdUr-3">
           <mxGeometry x="25" y="440" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="B_q8xlnF3MGfekT7VdUr-7" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;ConfigurationClassPostProcessor&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" vertex="1" parent="1">
-          <mxGeometry x="610" y="30" width="250" height="950" as="geometry" />
-        </mxCell>
-        <mxCell id="B_q8xlnF3MGfekT7VdUr-8" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;enhanceConfigurationClasses&lt;/pre&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="B_q8xlnF3MGfekT7VdUr-7">
-          <mxGeometry x="15" y="70" width="220" height="30" as="geometry" />
+        <mxCell id="B_q8xlnF3MGfekT7VdUr-7" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;&lt;pre style=&quot;font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;ConfigurationClassEnhancer&lt;/pre&gt;&lt;/pre&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=40;" vertex="1" parent="1">
+          <mxGeometry x="370" y="10" width="250" height="950" as="geometry" />
         </mxCell>
         <mxCell id="B_q8xlnF3MGfekT7VdUr-9" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 13px;&quot;&gt;addBeanPostProcessor&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 13px;&quot;&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;ImportAwareBeanPostProcessor&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=13;fontFamily=Helvetica;" vertex="1" parent="B_q8xlnF3MGfekT7VdUr-7">
-          <mxGeometry x="10" y="190" width="230" height="40" as="geometry" />
+          <mxGeometry x="10" y="540" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B_q8xlnF3MGfekT7VdUr-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=13;fontColor=default;" edge="1" parent="B_q8xlnF3MGfekT7VdUr-7" source="B_q8xlnF3MGfekT7VdUr-19" target="B_q8xlnF3MGfekT7VdUr-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B_q8xlnF3MGfekT7VdUr-19" value="继承&lt;br&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 9.8pt;&quot;&gt;EnhancedConfiguration&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;" vertex="1" parent="B_q8xlnF3MGfekT7VdUr-7">
+          <mxGeometry x="20" y="435" width="210" height="70" as="geometry" />
         </mxCell>
         <mxCell id="B_q8xlnF3MGfekT7VdUr-6" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 13px;&quot;&gt;addBeanPostProcessor&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 13px;&quot;&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;ImportAwareBeanPostProcessor&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=13;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="810" y="410" width="230" height="40" as="geometry" />
+          <mxGeometry x="1460" y="410" width="230" height="40" as="geometry" />
         </mxCell>
         <mxCell id="B_q8xlnF3MGfekT7VdUr-13" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;&quot;&gt;创建配置类增强器&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontStyle=0;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="380" y="100" width="140" height="60" as="geometry" />
+          <mxGeometry x="1040" y="30" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B_q8xlnF3MGfekT7VdUr-15" value="标记bd&lt;br&gt;被设置为代理" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="400" y="180" width="120" height="60" as="geometry" />
+          <mxGeometry x="1040" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_q8xlnF3MGfekT7VdUr-18" value="根据类加载器实例化&lt;br&gt;class对象" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_q8xlnF3MGfekT7VdUr-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=13;fontColor=default;" edge="1" parent="1" source="B_q8xlnF3MGfekT7VdUr-17" target="B_q8xlnF3MGfekT7VdUr-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B_q8xlnF3MGfekT7VdUr-23" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="465" y="520" width="30" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
