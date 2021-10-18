@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-18T09:07:02.376Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="m70gK56hoijtkONgFkNy" version="15.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-18T09:09:18.719Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="HltCNqD5fAV4YZNsVG37" version="15.5.4" type="github">
   <diagram id="4w5zYL82WQYGEBzdjjou" name="第 1 页">
     <mxGraphModel dx="970" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
@@ -32,10 +32,13 @@
           <mxGeometry x="15" y="60" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="F7EKMM30U9EVjJPrp3eQ-14" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 12px;&quot;&gt;&lt;span style=&quot;color: rgb(102, 14, 122); font-weight: bold; font-size: 12px;&quot;&gt;globalNamingResources&lt;/span&gt;.&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 12px;&quot;&gt;start()&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="F7EKMM30U9EVjJPrp3eQ-10">
-          <mxGeometry x="5" y="120" width="160" height="40" as="geometry" />
+          <mxGeometry x="5" y="170" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="F7EKMM30U9EVjJPrp3eQ-19" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 12px;&quot;&gt;service.start()&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="F7EKMM30U9EVjJPrp3eQ-10">
-          <mxGeometry x="25" y="180" width="120" height="30" as="geometry" />
+          <mxGeometry x="25" y="230" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F7EKMM30U9EVjJPrp3eQ-22" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 12px;&quot;&gt;startInternal&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="F7EKMM30U9EVjJPrp3eQ-10">
+          <mxGeometry x="20" y="120" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="F7EKMM30U9EVjJPrp3eQ-12" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 12px;&quot;&gt;NamingResourcesImpl&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="710" y="40" width="170" height="800" as="geometry" />
@@ -43,10 +46,13 @@
         <mxCell id="F7EKMM30U9EVjJPrp3eQ-13" value="LifecycleBase#&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 12px;&quot;&gt;start()&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="F7EKMM30U9EVjJPrp3eQ-12">
           <mxGeometry x="15" y="60" width="140" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="F7EKMM30U9EVjJPrp3eQ-23" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 12px;&quot;&gt;startInternal&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="F7EKMM30U9EVjJPrp3eQ-12">
+          <mxGeometry x="15" y="120" width="130" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="F7EKMM30U9EVjJPrp3eQ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1" source="F7EKMM30U9EVjJPrp3eQ-14" target="F7EKMM30U9EVjJPrp3eQ-13">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="680" y="180" />
+              <mxPoint x="680" y="230" />
               <mxPoint x="680" y="120" />
             </Array>
           </mxGeometry>
@@ -60,12 +66,16 @@
         <mxCell id="F7EKMM30U9EVjJPrp3eQ-18" value="LifecycleBase#&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 12px;&quot;&gt;start()&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="F7EKMM30U9EVjJPrp3eQ-17">
           <mxGeometry y="60" width="140" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="F7EKMM30U9EVjJPrp3eQ-21" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 12px;&quot;&gt;startInternal&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="F7EKMM30U9EVjJPrp3eQ-17">
+          <mxGeometry x="5" y="120" width="130" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="F7EKMM30U9EVjJPrp3eQ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1" source="F7EKMM30U9EVjJPrp3eQ-19" target="F7EKMM30U9EVjJPrp3eQ-18">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="690" y="235" />
-              <mxPoint x="690" y="150" />
-              <mxPoint x="940" y="150" />
+              <mxPoint x="690" y="285" />
+              <mxPoint x="690" y="200" />
+              <mxPoint x="880" y="200" />
+              <mxPoint x="880" y="120" />
             </Array>
           </mxGeometry>
         </mxCell>
