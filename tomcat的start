@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2021-10-18T07:25:31.674Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" version="15.5.4" etag="KnWO-MtmSXedxuh5Y7CE" type="github"><diagram id="4w5zYL82WQYGEBzdjjou">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-18T07:42:50.777Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="-hbqNAoaVHON-YjN_uoY" version="15.5.4" type="github">
+  <diagram id="4w5zYL82WQYGEBzdjjou" name="第 1 页">
+    <mxGraphModel dx="970" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="F7EKMM30U9EVjJPrp3eQ-1" value="Bootstarp" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="40" width="160" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="F7EKMM30U9EVjJPrp3eQ-2" value="main" style="whiteSpace=wrap;html=1;" vertex="1" parent="F7EKMM30U9EVjJPrp3eQ-1">
+          <mxGeometry x="20" y="60" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F7EKMM30U9EVjJPrp3eQ-3" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 12px;&quot;&gt;load&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="F7EKMM30U9EVjJPrp3eQ-1">
+          <mxGeometry x="20" y="110" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F7EKMM30U9EVjJPrp3eQ-4" value="start" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="F7EKMM30U9EVjJPrp3eQ-1">
+          <mxGeometry x="20" y="160" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F7EKMM30U9EVjJPrp3eQ-6" value="Catalina" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontFamily=Helvetica;fontSize=12;size=40;" vertex="1" parent="1">
+          <mxGeometry x="260" y="40" width="190" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="F7EKMM30U9EVjJPrp3eQ-7" value="start" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="F7EKMM30U9EVjJPrp3eQ-6">
+          <mxGeometry x="27.5" y="60" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F7EKMM30U9EVjJPrp3eQ-8" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 12px;&quot;&gt;getServer().start();&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="F7EKMM30U9EVjJPrp3eQ-6">
+          <mxGeometry x="15" y="110" width="160" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
