@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-18T02:54:50.579Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="IWNaxG4smS7DvE1hmLMU" version="15.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-18T02:56:04.616Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="bdwAS-zo2PkDfN3IRv2Z" version="15.5.1" type="github">
   <diagram id="TsLjroaAmLdUByJlYqDE" name="第 1 页">
     <mxGraphModel dx="970" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
@@ -101,13 +101,13 @@
           <mxGeometry x="15" y="150" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wNYCWUVrpYJUTibA07Ah-26" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 12px;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Http11NioProtocol&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="1600" y="20" width="230" height="510" as="geometry" />
+          <mxGeometry x="1600" y="20" width="210" height="510" as="geometry" />
         </mxCell>
         <mxCell id="wNYCWUVrpYJUTibA07Ah-27" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;AbstractHttp11Protocol#&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12px&quot;&gt;&lt;br&gt;super.&lt;/span&gt;init" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=0" vertex="1" parent="wNYCWUVrpYJUTibA07Ah-26">
-          <mxGeometry x="30" y="60" width="170" height="35" as="geometry" />
+          <mxGeometry x="20" y="60" width="170" height="35" as="geometry" />
         </mxCell>
         <mxCell id="wNYCWUVrpYJUTibA07Ah-28" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 12px;&quot;&gt;&lt;div style=&quot;font-size: 12px;&quot;&gt;AbstractProtocol&lt;/div&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="1820" y="20" width="200" height="510" as="geometry" />
+          <mxGeometry x="1830" y="20" width="200" height="510" as="geometry" />
         </mxCell>
         <mxCell id="wNYCWUVrpYJUTibA07Ah-29" value="init" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="wNYCWUVrpYJUTibA07Ah-28">
           <mxGeometry x="60" y="60" width="80" height="30" as="geometry" />
@@ -116,7 +116,7 @@
           <mxGeometry x="45" y="100" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wNYCWUVrpYJUTibA07Ah-31" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;NioEndpoint&lt;br&gt;&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="2040" y="20" width="150" height="710" as="geometry" />
+          <mxGeometry x="2050" y="20" width="150" height="710" as="geometry" />
         </mxCell>
         <mxCell id="wNYCWUVrpYJUTibA07Ah-32" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;AbstractEndpoint&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;#&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12px&quot;&gt;bind()&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="wNYCWUVrpYJUTibA07Ah-31">
           <mxGeometry x="10" y="55" width="130" height="40" as="geometry" />
