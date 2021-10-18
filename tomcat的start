@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-18T12:17:15.389Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="i85QlyQztomaMDYgzWfS" version="15.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-18T12:35:24.442Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="AnR6ZTCyZZOrnnCv3KMK" version="15.5.4" type="github">
   <diagram id="4w5zYL82WQYGEBzdjjou" name="第 1 页">
-    <mxGraphModel dx="970" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -71,6 +71,12 @@
         </mxCell>
         <mxCell id="F7EKMM30U9EVjJPrp3eQ-24" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 12px;&quot;&gt;&lt;span style=&quot;color: rgb(102, 14, 122); font-weight: bold; font-size: 12px;&quot;&gt;engine&lt;/span&gt;.start()&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="F7EKMM30U9EVjJPrp3eQ-17">
           <mxGeometry x="12.5" y="170" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F7EKMM30U9EVjJPrp3eQ-69" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 12px;&quot;&gt;executor.start()&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;verticalAlign=middle;" vertex="1" parent="F7EKMM30U9EVjJPrp3eQ-17">
+          <mxGeometry x="12.5" y="590" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F7EKMM30U9EVjJPrp3eQ-70" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 12px;&quot;&gt;&lt;span style=&quot;color: rgb(102, 14, 122); font-weight: bold; font-size: 12px;&quot;&gt;mapperListener&lt;/span&gt;.start()&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;verticalAlign=middle;" vertex="1" parent="F7EKMM30U9EVjJPrp3eQ-17">
+          <mxGeometry y="640" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="F7EKMM30U9EVjJPrp3eQ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1" source="F7EKMM30U9EVjJPrp3eQ-19" target="F7EKMM30U9EVjJPrp3eQ-18">
           <mxGeometry relative="1" as="geometry">
@@ -187,6 +193,35 @@
         </mxCell>
         <mxCell id="F7EKMM30U9EVjJPrp3eQ-62" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 12px;&quot;&gt;startInternal&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="F7EKMM30U9EVjJPrp3eQ-58">
           <mxGeometry x="15" y="230" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F7EKMM30U9EVjJPrp3eQ-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1" source="F7EKMM30U9EVjJPrp3eQ-57" target="F7EKMM30U9EVjJPrp3eQ-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1280" y="535" />
+              <mxPoint x="1280" y="440" />
+              <mxPoint x="1670" y="440" />
+              <mxPoint x="1670" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F7EKMM30U9EVjJPrp3eQ-65" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 11px;&quot;&gt;StandardThreadExecutor&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=11;fillColor=#FFFFFF;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1930" y="40" width="170" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="F7EKMM30U9EVjJPrp3eQ-66" value="LifecycleBase#&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 12px;&quot;&gt;start()&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="F7EKMM30U9EVjJPrp3eQ-65">
+          <mxGeometry x="15" y="60" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="F7EKMM30U9EVjJPrp3eQ-67" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 12px;&quot;&gt;startInternal&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="F7EKMM30U9EVjJPrp3eQ-65">
+          <mxGeometry x="20" y="120" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="F7EKMM30U9EVjJPrp3eQ-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1" source="F7EKMM30U9EVjJPrp3eQ-69" target="F7EKMM30U9EVjJPrp3eQ-66">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1290" y="645" />
+              <mxPoint x="1290" y="450" />
+              <mxPoint x="1890" y="450" />
+              <mxPoint x="1890" y="120" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
