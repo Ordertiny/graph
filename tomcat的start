@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-24T02:36:03.176Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36 SLBrowser/7.0.0.6241 SLBChan/30" etag="EtEP8pFXDlPheMMDU7aY" version="15.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-24T03:27:12.230Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36 SLBrowser/7.0.0.6241 SLBChan/30" etag="F4FWKHTlBTe8GSN3X7Ot" version="15.5.6" type="github">
   <diagram id="4w5zYL82WQYGEBzdjjou" name="第 1 页">
-    <mxGraphModel dx="782" dy="485" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="1117" dy="693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -307,6 +307,36 @@
               <mxPoint x="2100" y="120" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="nVe6iTMTsq3QMgRlb1pK-9" value="StandardContext" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=none;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2840" y="40" width="175" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="nVe6iTMTsq3QMgRlb1pK-10" value="LifecycleBase#&lt;br style=&quot;font-size: 12px;&quot;&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 12px;&quot;&gt;start()&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="nVe6iTMTsq3QMgRlb1pK-9">
+          <mxGeometry x="17.5" y="60" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nVe6iTMTsq3QMgRlb1pK-11" value="LifecycleBase#&lt;br style=&quot;font-size: 12px&quot;&gt;&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12px&quot;&gt;init()&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="nVe6iTMTsq3QMgRlb1pK-9">
+          <mxGeometry x="17.5" y="120" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nVe6iTMTsq3QMgRlb1pK-12" value="&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 11px&quot;&gt;&lt;span style=&quot;color: rgb(102 , 14 , 122) ; font-weight: bold ; font-size: 11px&quot;&gt;broadcaster&lt;/span&gt;.&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 11px&quot;&gt;sendNotification(notification)&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 11px&quot;&gt;【created】&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FFFFFF;fontFamily=Helvetica;fontSize=11;" vertex="1" parent="nVe6iTMTsq3QMgRlb1pK-9">
+          <mxGeometry y="180" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nVe6iTMTsq3QMgRlb1pK-13" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 12px;&quot;&gt;startInternal&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="nVe6iTMTsq3QMgRlb1pK-9">
+          <mxGeometry x="22.5" y="251" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nVe6iTMTsq3QMgRlb1pK-15" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 12px;&quot;&gt;&lt;span style=&quot;color: rgb(102, 14, 122); font-weight: bold; font-size: 12px;&quot;&gt;broadcaster&lt;/span&gt;.&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 12px;&quot;&gt;sendNotification(notification)&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 12px;&quot;&gt;【&lt;span style=&quot;color: rgb(0, 128, 0); font-weight: bold; font-family: consolas; font-size: 12px;&quot;&gt;starting&lt;/span&gt;】&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FFFFFF;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="nVe6iTMTsq3QMgRlb1pK-9">
+          <mxGeometry x="2.5" y="300" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nVe6iTMTsq3QMgRlb1pK-16" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: consolas; font-size: 12px;&quot;&gt;postWorkDirectory&lt;/pre&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;" vertex="1" parent="nVe6iTMTsq3QMgRlb1pK-9">
+          <mxGeometry x="16.25" y="370" width="142.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nVe6iTMTsq3QMgRlb1pK-17" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 12px;&quot;&gt;setResources&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 12px;&quot;&gt;(&lt;span style=&quot;color: rgb(0, 0, 128); font-weight: bold; font-size: 12px;&quot;&gt;new &lt;/span&gt;StandardRoot(&lt;span style=&quot;color: rgb(0, 0, 128); font-weight: bold; font-size: 12px;&quot;&gt;this&lt;/span&gt;))&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;" vertex="1" parent="nVe6iTMTsq3QMgRlb1pK-9">
+          <mxGeometry x="7.5" y="420" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nVe6iTMTsq3QMgRlb1pK-18" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 12px;&quot;&gt;&lt;span style=&quot;color: rgb(102, 14, 122); font-weight: bold; font-size: 12px;&quot;&gt;resources&lt;/span&gt;.start()&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;" vertex="1" parent="nVe6iTMTsq3QMgRlb1pK-9">
+          <mxGeometry x="25" y="490" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nVe6iTMTsq3QMgRlb1pK-19" value="&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12px&quot;&gt;fireLifecycleEvent&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12px&quot;&gt;(Lifecycle.&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12px&quot;&gt;&lt;span style=&quot;color: rgb(102 , 14 , 122) ; font-weight: bold ; font-style: italic ; font-size: 12px&quot;&gt;CONFIGURE_START_EVENT&lt;/span&gt;);&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fillColor=#FFFFFF;" vertex="1" parent="nVe6iTMTsq3QMgRlb1pK-9">
+          <mxGeometry x="-2.5" y="540" width="180" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
