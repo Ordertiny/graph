@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-02T02:16:06.602Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="G1ZdBFR4yZk7C9F-_Y3R" version="15.8.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-02T03:09:00.760Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="EjT4OtVpZqSC3kudCvCl" version="15.8.8" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -150,6 +150,30 @@
         </mxCell>
         <mxCell id="D1cvWWY6wySRjiaeFIVJ-44" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-size: 12px;&quot;&gt;loginV3&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="1">
           <mxGeometry x="300" y="640" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="D1cvWWY6wySRjiaeFIVJ-49" value="IFakeUser" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;labelBackgroundColor=none;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="630" y="95" width="350" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="D1cvWWY6wySRjiaeFIVJ-50" value="+loginNewUser()&#xa;+loginExistedUser()&#xa;+loginExistedUserWithPerformance()&#xa;+closeChannel()" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=16;verticalAlign=middle;resizable=0;rotatable=0;part=1;labelBackgroundColor=none;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="D1cvWWY6wySRjiaeFIVJ-49">
+          <mxGeometry y="30" width="350" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="D1cvWWY6wySRjiaeFIVJ-51" value="&lt;pre style=&quot;font-size: 12pt;&quot;&gt;FakeAmfUser&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=#B3B3B3;" vertex="1" parent="1">
+          <mxGeometry x="840" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D1cvWWY6wySRjiaeFIVJ-52" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 12pt&quot;&gt;FakeJavaUser&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=16;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="650" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D1cvWWY6wySRjiaeFIVJ-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=16;fontColor=default;" edge="1" parent="1" source="D1cvWWY6wySRjiaeFIVJ-50" target="D1cvWWY6wySRjiaeFIVJ-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D1cvWWY6wySRjiaeFIVJ-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=16;fontColor=default;" edge="1" parent="1" source="D1cvWWY6wySRjiaeFIVJ-50" target="D1cvWWY6wySRjiaeFIVJ-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D1cvWWY6wySRjiaeFIVJ-56" value="FakeJavaUser" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;labelBackgroundColor=none;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="600" y="440" width="500" height="265" as="geometry" />
+        </mxCell>
+        <mxCell id="D1cvWWY6wySRjiaeFIVJ-57" value="private ILoginServiceForPublic loginServiceForPublic;&#xa;private IRoomServiceForPublic roomServiceForPublic;&#xa;private IRpgServiceForPublic rpgServiceForPublic;&#xa;private IChannelServiceForPublic channelServiceForPublic;&#xa;private IChannelTeamServiceForPublic channelTeamServiceForPublic;&#xa;private IStrikeLogicForPublic strikeLogicForPublic;&#xa;private IScuffleLogicForPublic scuffleLogicForPublic;&#xa;private IExercisesLogicForPublic exercisesLogicForPublic;&#xa;private IFestivalServiceForPublic festivalServiceForPublic;&#xa;private ITeamLeagueLogicForPublic teamLeagueLogicForPublic;&#xa;private IBiochemicalServiceForPublic biochemicalServiceForPublic;&#xa;private IZoomLogicForPublic iZoomLogicForPublic;&#xa;private IUserCallback userCallback;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=14;verticalAlign=middle;resizable=0;rotatable=0;part=1;labelBackgroundColor=none;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="D1cvWWY6wySRjiaeFIVJ-56">
+          <mxGeometry y="30" width="500" height="235" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
