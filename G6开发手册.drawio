@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-15T07:40:47.086Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="JFF2RpAxQ_jVnZzC2rEL" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-15T07:43:23.139Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="KaxwfFt2hBh0zL0TP3rT" version="15.9.6" type="github">
   <diagram id="MHhrGMlXQZLgABDXzFeG" name="第 1 页">
     <mxGraphModel dx="1278" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -77,6 +77,27 @@
         </mxCell>
         <mxCell id="hukX58-VqOJxDm3wMlbK-27" value="GameServer" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="290" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hukX58-VqOJxDm3wMlbK-32" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1110" width="360" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="hukX58-VqOJxDm3wMlbK-31" value="Lobby" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hukX58-VqOJxDm3wMlbK-33" value="Match" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hukX58-VqOJxDm3wMlbK-34" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;fontFamily=Helvetica;fontSize=12;elbow=vertical;" edge="1" parent="1" source="hukX58-VqOJxDm3wMlbK-27" target="hukX58-VqOJxDm3wMlbK-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hukX58-VqOJxDm3wMlbK-35" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;fontFamily=Helvetica;fontSize=12;elbow=vertical;" edge="1" parent="1" source="hukX58-VqOJxDm3wMlbK-27" target="hukX58-VqOJxDm3wMlbK-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hukX58-VqOJxDm3wMlbK-36" value="..." style="rounded=1;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hukX58-VqOJxDm3wMlbK-37" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;fontFamily=Helvetica;fontSize=12;elbow=vertical;" edge="1" parent="1" source="hukX58-VqOJxDm3wMlbK-27" target="hukX58-VqOJxDm3wMlbK-36">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
