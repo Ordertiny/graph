@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-15T09:04:53.189Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="P9uTU_XSQNPslnKaYxBu" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-15T09:11:19.476Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="z3_-dn6llaPA4hoVp4oY" version="15.9.6" type="github">
   <diagram id="MHhrGMlXQZLgABDXzFeG" name="第 1 页">
     <mxGraphModel dx="1293" dy="693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -79,7 +79,7 @@
           <mxGeometry x="290" y="970" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hukX58-VqOJxDm3wMlbK-32" value="" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1110" width="360" height="220" as="geometry" />
+          <mxGeometry x="80" y="1110" width="360" height="180" as="geometry" />
         </mxCell>
         <mxCell id="hukX58-VqOJxDm3wMlbK-31" value="Lobby" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="100" y="1130" width="120" height="60" as="geometry" />
@@ -100,10 +100,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hukX58-VqOJxDm3wMlbK-38" value="json格式的配置，可定义每个GameServer（进程实例唯一标识）可以创建的Service类型（有状态、无状态，有&lt;br&gt;状态GameManager保证实例恢复，详见[[Service调度]]）、实例（最多、最少）数量等。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=left;" vertex="1" parent="1">
-          <mxGeometry x="520" y="815" width="330" height="70" as="geometry" />
+          <mxGeometry x="470" y="815" width="330" height="70" as="geometry" />
         </mxCell>
         <mxCell id="hukX58-VqOJxDm3wMlbK-39" value="环境变量G6_PLUGIN_SERVICE_INFO决定GameServer可以加载的Service（多个由逗号分开，实际创建的实例是子集）。" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=left;" vertex="1" parent="1">
-          <mxGeometry x="520" y="960" width="390" height="70" as="geometry" />
+          <mxGeometry x="470" y="960" width="390" height="70" as="geometry" />
         </mxCell>
         <mxCell id="hukX58-VqOJxDm3wMlbK-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;shadow=0;fontFamily=Helvetica;fontSize=12;endArrow=block;endFill=0;elbow=vertical;" edge="1" parent="1" source="hukX58-VqOJxDm3wMlbK-40" target="hukX58-VqOJxDm3wMlbK-63">
           <mxGeometry relative="1" as="geometry" />
@@ -212,15 +212,6 @@
         <mxCell id="hukX58-VqOJxDm3wMlbK-84" value="CallService" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;shadow=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="hukX58-VqOJxDm3wMlbK-73">
           <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hukX58-VqOJxDm3wMlbK-76" value="List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;shadow=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="590" y="1210" width="140" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="hukX58-VqOJxDm3wMlbK-78" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;shadow=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="hukX58-VqOJxDm3wMlbK-76">
-          <mxGeometry y="30" width="140" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="hukX58-VqOJxDm3wMlbK-79" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;shadow=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="hukX58-VqOJxDm3wMlbK-76">
-          <mxGeometry y="60" width="140" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="hukX58-VqOJxDm3wMlbK-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;shadow=0;fontFamily=Helvetica;fontSize=12;endArrow=block;endFill=0;elbow=vertical;" edge="1" parent="1" source="hukX58-VqOJxDm3wMlbK-85" target="hukX58-VqOJxDm3wMlbK-81">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -321,6 +312,9 @@
             <mxPoint x="315" y="2030" as="sourcePoint" />
             <mxPoint x="235" y="2030" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="hukX58-VqOJxDm3wMlbK-120" value="Service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="105" y="1260" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
