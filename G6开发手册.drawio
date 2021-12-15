@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-15T03:23:34.784Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="VTgrFTgbuWVn7m07icFw" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-15T07:40:47.086Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="JFF2RpAxQ_jVnZzC2rEL" version="15.9.6" type="github">
   <diagram id="MHhrGMlXQZLgABDXzFeG" name="第 1 页">
-    <mxGraphModel dx="1293" dy="693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1278" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -53,6 +53,30 @@
         </mxCell>
         <mxCell id="hukX58-VqOJxDm3wMlbK-18" value="准入校验" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="1">
           <mxGeometry x="400" y="170" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hukX58-VqOJxDm3wMlbK-22" value="G6CreateEntity" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="400" y="210" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hukX58-VqOJxDm3wMlbK-24" value="GameServer" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="110" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hukX58-VqOJxDm3wMlbK-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;shadow=0;fontFamily=Helvetica;fontSize=12;" edge="1" parent="1" source="hukX58-VqOJxDm3wMlbK-25" target="hukX58-VqOJxDm3wMlbK-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hukX58-VqOJxDm3wMlbK-29" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;shadow=0;fontFamily=Helvetica;fontSize=12;elbow=vertical;" edge="1" parent="1" source="hukX58-VqOJxDm3wMlbK-25" target="hukX58-VqOJxDm3wMlbK-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hukX58-VqOJxDm3wMlbK-30" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;fontFamily=Helvetica;fontSize=12;elbow=vertical;" edge="1" parent="1" source="hukX58-VqOJxDm3wMlbK-25" target="hukX58-VqOJxDm3wMlbK-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hukX58-VqOJxDm3wMlbK-25" value="GameManager" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="180" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hukX58-VqOJxDm3wMlbK-26" value="GameServer" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="190" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hukX58-VqOJxDm3wMlbK-27" value="GameServer" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="290" y="970" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
