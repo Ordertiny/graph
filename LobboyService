@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-17T08:41:03.750Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="W_Bp-JfK43Rdbdt57eHF" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-17T09:04:14.126Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="akcAw0xqH004EUGbjhqR" version="15.9.6" type="github">
   <diagram id="CfGRdFbR-Se9X64StW9g" name="第 1 页">
     <mxGraphModel dx="1155" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -22,7 +22,7 @@
         <mxCell id="DBDzJAwmA_HO1j694MRY-15" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;G6GameApi&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="DBDzJAwmA_HO1j694MRY-14">
           <mxGeometry width="400" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="DBDzJAwmA_HO1j694MRY-16" value="+G6GenerateEid()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="DBDzJAwmA_HO1j694MRY-14">
+        <mxCell id="DBDzJAwmA_HO1j694MRY-16" value="+G6GenerateEid()&#xa;+G6CreateEntity()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="DBDzJAwmA_HO1j694MRY-14">
           <mxGeometry y="30" width="370" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DBDzJAwmA_HO1j694MRY-17" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;IRpcDesService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ SetService(G6Service)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
