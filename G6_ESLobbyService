@@ -1,1 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2021-12-21T12:06:56.253Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" version="16.0.0" etag="xHxfod903KqsHMjfl9hF" type="github"><diagram id="CaciLhLWPFQeoZirxbVn">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-21T12:13:19.342Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="-eSRNWH8AdlNrhOAPWBU" version="16.0.0" type="github">
+  <diagram id="CaciLhLWPFQeoZirxbVn" name="第 1 页">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="T7E1K-sBLvIVjMk3XXaC-1" value="ESLobbyService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="40" width="100" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="T7E1K-sBLvIVjMk3XXaC-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="T7E1K-sBLvIVjMk3XXaC-1">
+          <mxGeometry x="45" y="110" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T7E1K-sBLvIVjMk3XXaC-13" value="CreatePlayerEntity" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;exitX=1;exitY=0.283;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.3;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="T7E1K-sBLvIVjMk3XXaC-5" parent="T7E1K-sBLvIVjMk3XXaC-1" source="T7E1K-sBLvIVjMk3XXaC-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="260" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="55" y="120" />
+              <mxPoint x="100" y="120" />
+              <mxPoint x="100" y="143" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T7E1K-sBLvIVjMk3XXaC-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="T7E1K-sBLvIVjMk3XXaC-2" target="T7E1K-sBLvIVjMk3XXaC-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="150" />
+              <mxPoint x="240" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T7E1K-sBLvIVjMk3XXaC-11" value="OnClientIn" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="T7E1K-sBLvIVjMk3XXaC-10">
+          <mxGeometry x="0.0884" y="4" relative="1" as="geometry">
+            <mxPoint x="-27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T7E1K-sBLvIVjMk3XXaC-2" value="Client&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="130" width="30" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
