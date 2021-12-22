@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-22T08:43:16.338Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="6WHXfhxJiWa83S9onlwP" version="16.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-22T12:12:20.957Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="uYyzONC8knn1AQVJyRdK" version="16.0.0" type="github">
   <diagram id="CaciLhLWPFQeoZirxbVn" name="第 1 页">
-    <mxGraphModel dx="2585" dy="1385" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1101" dy="734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -361,7 +361,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6NBrXziS_0jl_vOVxKhT-67" value="将wplayer加入集合" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="322.5" y="1820" width="120" height="50" as="geometry" />
+          <mxGeometry x="320" y="1810" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="6NBrXziS_0jl_vOVxKhT-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" edge="1" parent="1" source="6NBrXziS_0jl_vOVxKhT-68" target="6NBrXziS_0jl_vOVxKhT-93">
           <mxGeometry relative="1" as="geometry" />
@@ -480,8 +480,14 @@
         <mxCell id="6NBrXziS_0jl_vOVxKhT-88" value="移除等待队列玩家&lt;br&gt;并将其加入AB集合" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="980" y="1590" width="120" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="6NBrXziS_0jl_vOVxKhT-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" edge="1" parent="1" source="6NBrXziS_0jl_vOVxKhT-90" target="6NBrXziS_0jl_vOVxKhT-68">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" edge="1" parent="1" source="6NBrXziS_0jl_vOVxKhT-90">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="1900" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1040" y="1880" />
+              <mxPoint x="200" y="1880" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="6NBrXziS_0jl_vOVxKhT-90" value="返回A,B玩家集合" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="980" y="1665" width="120" height="45" as="geometry" />
