@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-22T08:21:08.727Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="eNiiMFtBRHOkJNHK17ml" version="16.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-22T08:36:43.977Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="28VuBXePYVlJ3T2_zZrn" version="16.0.0" type="github">
   <diagram id="CaciLhLWPFQeoZirxbVn" name="第 1 页">
     <mxGraphModel dx="1497" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -250,35 +250,49 @@
         <mxCell id="6NBrXziS_0jl_vOVxKhT-35" value="获取上下文" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=9;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="140" y="1040" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6NBrXziS_0jl_vOVxKhT-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=9;fontColor=default;" edge="1" parent="1" source="6NBrXziS_0jl_vOVxKhT-37" target="6NBrXziS_0jl_vOVxKhT-39">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=9;fontColor=default;" edge="1" parent="1" source="6NBrXziS_0jl_vOVxKhT-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="195" y="2290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="50" y="1140" />
+              <mxPoint x="50" y="2220" />
+              <mxPoint x="195" y="2220" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="6NBrXziS_0jl_vOVxKhT-37" value="当前玩家存在" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=9;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="140" y="1110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6NBrXziS_0jl_vOVxKhT-39" value="结束" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=9;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="640" y="1115" width="90" height="50" as="geometry" />
+          <mxGeometry x="150" y="2291" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="6NBrXziS_0jl_vOVxKhT-41" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="285" y="1120" width="30" height="20" as="geometry" />
+          <mxGeometry x="110" y="1120" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="6NBrXziS_0jl_vOVxKhT-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=9;fontColor=default;" edge="1" parent="1" source="6NBrXziS_0jl_vOVxKhT-42" target="6NBrXziS_0jl_vOVxKhT-39">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=9;fontColor=default;" edge="1" parent="1" source="6NBrXziS_0jl_vOVxKhT-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="195" y="2290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="50" y="1250" />
+              <mxPoint x="50" y="2220" />
+              <mxPoint x="195" y="2220" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="6NBrXziS_0jl_vOVxKhT-42" value="当前玩家状态为0(空闲)" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=9;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="135" y="1210" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6NBrXziS_0jl_vOVxKhT-44" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="285" y="1230" width="30" height="20" as="geometry" />
+          <mxGeometry x="105" y="1230" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="6NBrXziS_0jl_vOVxKhT-46" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="130" y="1180" width="40" height="20" as="geometry" />
+          <mxGeometry x="210" y="1170" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="6NBrXziS_0jl_vOVxKhT-47" value="调用匹配服务的&lt;br style=&quot;font-size: 8px;&quot;&gt;(&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 8px;&quot;&gt;StartMatchMaking&lt;/span&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="140" y="1320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6NBrXziS_0jl_vOVxKhT-48" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="130" y="1290" width="40" height="20" as="geometry" />
+          <mxGeometry x="215" y="1290" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="6NBrXziS_0jl_vOVxKhT-49" value="携带start_token" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="315" y="1430" width="130" height="70" as="geometry" />
@@ -382,7 +396,34 @@
           <mxGeometry x="860" y="1645" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="6NBrXziS_0jl_vOVxKhT-98" value="玩家设置为匹配状态" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="135" y="2110" width="120" height="50" as="geometry" />
+          <mxGeometry x="325" y="2010" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" edge="1" parent="1" source="6NBrXziS_0jl_vOVxKhT-99" target="6NBrXziS_0jl_vOVxKhT-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-99" value="失败，打印错误日志" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="135" y="2130" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-101" value="开房间" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="477.5" y="2010" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-102" value="生成&lt;br&gt;game_session_id" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="477.5" y="2090" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-103" value="创建房间Entity&lt;br&gt;并加入LobbyServiceRoom&lt;br&gt;集合" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="475" y="2170" width="122.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-104" value="玩家进房间" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="477.5" y="2270" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-105" value="玩家加入房间Entity的A,B集合中" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="647.5" y="2270" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-106" value="设置玩家状态为&lt;br&gt;匹配成功" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="815" y="2270" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-107" value="开启战斗&lt;br&gt;协程处理" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="980" y="2270" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
