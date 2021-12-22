@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-22T08:02:15.816Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="JxE__sgTO8D_TcimtsNL" version="16.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-22T08:11:56.347Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="uoHuYaqIGTSV_7pS2zCi" version="16.0.0" type="github">
   <diagram id="CaciLhLWPFQeoZirxbVn" name="第 1 页">
     <mxGraphModel dx="985" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -278,7 +278,7 @@
           <mxGeometry x="130" y="1290" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="6NBrXziS_0jl_vOVxKhT-49" value="携带start_token" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="135" y="1490" width="130" height="70" as="geometry" />
+          <mxGeometry x="315" y="1430" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="6NBrXziS_0jl_vOVxKhT-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=8;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6NBrXziS_0jl_vOVxKhT-58" target="6NBrXziS_0jl_vOVxKhT-60">
           <mxGeometry relative="1" as="geometry">
@@ -292,13 +292,58 @@
           <mxGeometry x="590" y="792" width="190" height="140" as="geometry" />
         </mxCell>
         <mxCell id="6NBrXziS_0jl_vOVxKhT-61" value="创建WaitingPlayer" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="140" y="1410" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="1320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6NBrXziS_0jl_vOVxKhT-63" value="start_token&lt;br&gt;在等待集合中" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="127.5" y="1590" width="145" height="70" as="geometry" />
+          <mxGeometry x="310" y="1640" width="145" height="70" as="geometry" />
         </mxCell>
         <mxCell id="6NBrXziS_0jl_vOVxKhT-64" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="140" y="1560" width="40" height="20" as="geometry" />
+          <mxGeometry x="322.5" y="1610" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-65" value="创建start_token&lt;br&gt;匹配集合" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="322.5" y="1740" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-66" value="No&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="327.5" y="1710" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-67" value="将wplayer加入集合" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="322.5" y="1820" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-68" value="调用匹配服务的&lt;br style=&quot;font-size: 8px&quot;&gt;(&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 8px&quot;&gt;StartMatchMaking&lt;/span&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;)&lt;br&gt;结束&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="1647.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-69" value="等待集合已存在&lt;br&gt;wplayer" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="512.5" y="1640" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-70" value="已在匹配池" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="527.5" y="1740" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-71" value="匹配池玩家&lt;br&gt;少于房间上限" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="712.5" y="1640" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-72" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="542.5" y="1710" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-74" value="将wplayer加入集合" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1740" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-76" value="匹配成功" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="980" y="1442.5" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-78" value="在全局匹配池" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="502.5" y="1430" width="145" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-79" value="已在匹配池" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="515" y="1530" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-80" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="517.5" y="1500" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-82" value="匹配池玩家&lt;br&gt;少于房间上限" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1430" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-83" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1710" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
