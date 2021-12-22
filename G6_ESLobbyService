@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-22T12:23:43.919Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="Vasw3E8W0Zdgwwlr62Cr" version="16.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-22T12:32:24.943Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="A9Rk667yIwKpR4eebX7p" version="16.0.0" type="github">
   <diagram id="CaciLhLWPFQeoZirxbVn" name="第 1 页">
     <mxGraphModel dx="1101" dy="734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -574,6 +574,24 @@
         </mxCell>
         <mxCell id="6NBrXziS_0jl_vOVxKhT-141" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="265" y="2000" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-150" value="创建战斗失败" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="990" y="2410" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-151" value="下发callback&lt;br&gt;RPCCreateGameError" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="990" y="2500" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-152" value="删除匹配" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="990" y="2580" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-153" value="玩家状态置为0&lt;br&gt;清除玩家roomId" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="990" y="2650" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-154" value="重置roomEntity&lt;br&gt;的A,B两队为{}" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="990" y="2730" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-155" value="通知大厅删除room" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="990" y="2800" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
