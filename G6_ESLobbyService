@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-22T01:56:10.264Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="JhJcE9x8ZIbWLJbGF5Jl" version="16.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-22T06:49:26.628Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="B4DRaSNdsh9YgVY-zR3G" version="16.0.0" type="github">
   <diagram id="CaciLhLWPFQeoZirxbVn" name="第 1 页">
-    <mxGraphModel dx="1440" dy="1002" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="985" dy="685" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -237,6 +237,30 @@
           <mxGeometry x="0.3693" y="-2" relative="1" as="geometry">
             <mxPoint x="43" y="-9" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=9;fontColor=default;" edge="1" parent="1" source="6NBrXziS_0jl_vOVxKhT-34" target="6NBrXziS_0jl_vOVxKhT-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-34" value="开始" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=9;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="150" y="960" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-35" value="获取上下文" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=9;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1040" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=9;fontColor=default;" edge="1" parent="1" source="6NBrXziS_0jl_vOVxKhT-37" target="6NBrXziS_0jl_vOVxKhT-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-37" value="当前玩家存在" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=9;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-39" value="结束" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=9;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1115" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-41" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="285" y="1120" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-42" value="当前玩家状态为0(空闲)" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=9;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1210" width="130" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
