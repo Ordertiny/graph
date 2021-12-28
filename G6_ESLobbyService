@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-28T09:41:49.234Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="rRXbiCXNA8Yb9zGXBQRb" version="16.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-28T10:29:07.153Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="LWW2XJsZKOAMt6UjUBwR" version="16.0.0" type="github">
   <diagram id="CaciLhLWPFQeoZirxbVn" name="第 1 页">
-    <mxGraphModel dx="1100" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1247" dy="831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -602,8 +602,118 @@
         <mxCell id="6NBrXziS_0jl_vOVxKhT-156" value="与DS进行交互处理逻辑" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="970" y="2350" width="134.38" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-182" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" edge="1" parent="1" source="6NBrXziS_0jl_vOVxKhT-160" target="6NBrXziS_0jl_vOVxKhT-162">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="6NBrXziS_0jl_vOVxKhT-160" value="开始" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1600" y="680" width="130" height="60" as="geometry" />
+          <mxGeometry x="1605" y="610" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-183" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" edge="1" parent="1" source="6NBrXziS_0jl_vOVxKhT-162" target="6NBrXziS_0jl_vOVxKhT-163">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-162" value="玩家校验与&lt;br&gt;玩家状态校验" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="732" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-184" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" edge="1" parent="1" source="6NBrXziS_0jl_vOVxKhT-163" target="6NBrXziS_0jl_vOVxKhT-164">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-163" value="调用匹配服务的&lt;br style=&quot;font-size: 8px&quot;&gt;(&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 8px&quot;&gt;S2SStartMatch&lt;/span&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-185" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" edge="1" parent="1" source="6NBrXziS_0jl_vOVxKhT-164" target="6NBrXziS_0jl_vOVxKhT-165">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-164" value="创建&lt;br&gt;&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;WaitingPlayer&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-186" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" edge="1" parent="1" source="6NBrXziS_0jl_vOVxKhT-165" target="6NBrXziS_0jl_vOVxKhT-169">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-165" value="在&lt;br&gt;匹配队列中" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1972.5" y="945" width="115" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-197" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" edge="1" parent="1" source="6NBrXziS_0jl_vOVxKhT-167" target="6NBrXziS_0jl_vOVxKhT-181">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-167" value="调用匹配服务结束&lt;br style=&quot;font-size: 8px&quot;&gt;(&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 8px&quot;&gt;S2SStartMatch&lt;/span&gt;&lt;span style=&quot;font-size: 8px&quot;&gt;)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1605" y="1657.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-187" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" edge="1" parent="1" source="6NBrXziS_0jl_vOVxKhT-169" target="6NBrXziS_0jl_vOVxKhT-171">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-188" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" edge="1" parent="1" source="6NBrXziS_0jl_vOVxKhT-169" target="6NBrXziS_0jl_vOVxKhT-174">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-169" value="匹配队列未满" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1973" y="1080" width="115" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-170" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="1050" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-189" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" edge="1" parent="1" source="6NBrXziS_0jl_vOVxKhT-171" target="6NBrXziS_0jl_vOVxKhT-167">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-171" value="加入匹配队列" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-172" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1925" y="1100" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-173" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="1170" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-191" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" edge="1" parent="1" source="6NBrXziS_0jl_vOVxKhT-174" target="6NBrXziS_0jl_vOVxKhT-175">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-174" value="进行匹配&lt;br&gt;移除等待队列&lt;br&gt;玩家平分到A,B两组" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1970" y="1200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-192" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" edge="1" parent="1" source="6NBrXziS_0jl_vOVxKhT-175" target="6NBrXziS_0jl_vOVxKhT-176">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-175" value="根据组队信息开房间" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1970.5" y="1300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-193" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" edge="1" parent="1" source="6NBrXziS_0jl_vOVxKhT-176" target="6NBrXziS_0jl_vOVxKhT-177">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-176" value="创建roomEntity" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2140" y="1300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-194" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" edge="1" parent="1" source="6NBrXziS_0jl_vOVxKhT-177" target="6NBrXziS_0jl_vOVxKhT-178">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-177" value="根据组队信息开房间" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2300" y="1300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-195" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" edge="1" parent="1" source="6NBrXziS_0jl_vOVxKhT-178" target="6NBrXziS_0jl_vOVxKhT-179">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-178" value="获取PlayerEntity&lt;br&gt;将其加入RoomEntity中" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;labelBorderColor=#FF6666;" vertex="1" parent="1">
+          <mxGeometry x="2460" y="1300" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-196" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" edge="1" parent="1" source="6NBrXziS_0jl_vOVxKhT-179" target="6NBrXziS_0jl_vOVxKhT-180">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-179" value="将组队信息和房间信息广播给所有的LobbyService" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1973" y="1423" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-190" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=8;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6NBrXziS_0jl_vOVxKhT-180" target="6NBrXziS_0jl_vOVxKhT-167">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1900" y="1680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-180" value="LobbyService&lt;br&gt;存在的用户下放roomId&lt;br&gt;并设置玩家状态为匹配中" style="rounded=1;whiteSpace=wrap;html=1;labelBorderColor=#FF6666;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1964.25" y="1520" width="137.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-199" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" edge="1" parent="1" source="6NBrXziS_0jl_vOVxKhT-181" target="6NBrXziS_0jl_vOVxKhT-198">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-181" value="玩家状态改为&lt;br&gt;匹配" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1605" y="1760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-198" value="结束" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="1860" width="130" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
