@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-12-28T10:29:07.153Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="LWW2XJsZKOAMt6UjUBwR" version="16.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-28T10:32:27.118Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="v9yJ0X0hxdrsfPa4Scxj" version="16.0.0" type="github">
   <diagram id="CaciLhLWPFQeoZirxbVn" name="第 1 页">
-    <mxGraphModel dx="1247" dy="831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="862" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -714,6 +714,12 @@
         </mxCell>
         <mxCell id="6NBrXziS_0jl_vOVxKhT-198" value="结束" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1600" y="1860" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-205" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;ESLobbyService&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #001080&quot;&gt;lobby_player_table&lt;/span&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1735" y="2100" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6NBrXziS_0jl_vOVxKhT-206" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;ESDSMatchService&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;div style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #001080&quot;&gt;room_table: 可省略&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 19px&quot;&gt;&lt;div style=&quot;line-height: 19px&quot;&gt;&lt;span style=&quot;color: #001080&quot;&gt;normal_waiting_list&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px&quot;&gt;&lt;div style=&quot;line-height: 19px&quot;&gt;&lt;span style=&quot;color: #001080&quot;&gt;ROOM_PLAYER_NUM&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1950" y="2100" width="160" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
