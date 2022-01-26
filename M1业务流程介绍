@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-26T12:25:23.592Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="jhNNgiu-V4stolMibJ_U" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-26T12:31:37.082Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="bZ9GX0tZu2O3L8leLwdR" version="16.2.7" type="github">
   <diagram id="kYrT9u3kJ5fxnCFjqgeb" name="第 1 页">
     <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -168,6 +168,27 @@
         <mxCell id="9tpZRzVrnNRgOLqYM_QS-51" value="ws gate" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="250" y="540" width="100" height="880" as="geometry" />
         </mxCell>
+        <mxCell id="9tpZRzVrnNRgOLqYM_QS-88" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="9tpZRzVrnNRgOLqYM_QS-51">
+          <mxGeometry x="45" y="420" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9tpZRzVrnNRgOLqYM_QS-104" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="9tpZRzVrnNRgOLqYM_QS-51">
+          <mxGeometry x="44.5" y="620" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9tpZRzVrnNRgOLqYM_QS-107" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="9tpZRzVrnNRgOLqYM_QS-51">
+          <mxGeometry x="44.5" y="760" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9tpZRzVrnNRgOLqYM_QS-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="9tpZRzVrnNRgOLqYM_QS-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-80.5" y="769.7100000000003" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-70.5" y="769.71" />
+            </Array>
+            <mxPoint x="44.5" y="769.7100000000003" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9tpZRzVrnNRgOLqYM_QS-109" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;arial&amp;#34; , sans-serif ; font-size: 14px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;gameReport&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="9tpZRzVrnNRgOLqYM_QS-51">
+          <mxGeometry x="-55.5" y="750" width="90" height="20" as="geometry" />
+        </mxCell>
         <mxCell id="9tpZRzVrnNRgOLqYM_QS-52" value="roomservice" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="480" y="540" width="100" height="880" as="geometry" />
         </mxCell>
@@ -286,7 +307,7 @@
         <mxCell id="9tpZRzVrnNRgOLqYM_QS-81" value="playerA" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="880" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9tpZRzVrnNRgOLqYM_QS-82" value="playerA" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+        <mxCell id="9tpZRzVrnNRgOLqYM_QS-82" value="playerB" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="1010" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9tpZRzVrnNRgOLqYM_QS-84" value="/roomservice/match" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -303,6 +324,79 @@
         </mxCell>
         <mxCell id="9tpZRzVrnNRgOLqYM_QS-87" value="response" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="330" y="920" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9tpZRzVrnNRgOLqYM_QS-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9tpZRzVrnNRgOLqYM_QS-88">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="970" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="180" y="970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9tpZRzVrnNRgOLqYM_QS-90" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: arial, sans-serif; font-size: 11px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;connectBattleServer&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=0;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="180" y="950" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9tpZRzVrnNRgOLqYM_QS-91" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="294.5" y="1035" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9tpZRzVrnNRgOLqYM_QS-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9tpZRzVrnNRgOLqYM_QS-91">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="169.5" y="1045" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="179.5" y="1045" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9tpZRzVrnNRgOLqYM_QS-93" value="&lt;span style=&quot;color: rgb(51, 51, 51); font-family: arial, sans-serif; font-size: 11px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;connectBattleServer&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=0;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="179.5" y="1025" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9tpZRzVrnNRgOLqYM_QS-95" value="" style="line;strokeWidth=2;html=1;fontSize=11;strokeColor=#000099;" vertex="1" parent="1">
+          <mxGeometry x="10" y="860" width="820" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="9tpZRzVrnNRgOLqYM_QS-96" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;size=0.5;" vertex="1" parent="1">
+          <mxGeometry x="610" y="890" width="20" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9tpZRzVrnNRgOLqYM_QS-97" value="玩家A 开启战斗&lt;br&gt;websocket下发连接战斗服消息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="920" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9tpZRzVrnNRgOLqYM_QS-98" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;size=0.5;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1025" width="20" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9tpZRzVrnNRgOLqYM_QS-99" value="玩家B 收到websocket下发的&lt;br&gt;连战斗服消息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1035" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9tpZRzVrnNRgOLqYM_QS-101" value="战斗结束" style="line;strokeWidth=2;html=1;fontSize=11;strokeColor=#000099;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1100" width="820" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="9tpZRzVrnNRgOLqYM_QS-102" value="playerA" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1140" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9tpZRzVrnNRgOLqYM_QS-103" value="playerB" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1270" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9tpZRzVrnNRgOLqYM_QS-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="169.5" y="1169.71" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="179.5" y="1169.71" />
+            </Array>
+            <mxPoint x="294.5" y="1169.71" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9tpZRzVrnNRgOLqYM_QS-106" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;arial&amp;#34; , sans-serif ; font-size: 14px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;gameReport&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="194.5" y="1150" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9tpZRzVrnNRgOLqYM_QS-110" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;size=0.5;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1145" width="20" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9tpZRzVrnNRgOLqYM_QS-111" value="玩家A 收到战报" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1160" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9tpZRzVrnNRgOLqYM_QS-112" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;size=0.5;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1280" width="20" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9tpZRzVrnNRgOLqYM_QS-113" value="玩家B 收到战报" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1295" width="100" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
