@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-26T12:18:51.888Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="tYhpe7VxZM9cc49zkPZX" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-26T12:20:55.622Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="QaRG8T0I4koKMUKrqu6c" version="16.2.7" type="github">
   <diagram id="kYrT9u3kJ5fxnCFjqgeb" name="第 1 页">
-    <mxGraphModel dx="273" dy="147" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -242,6 +242,34 @@
               <mxPoint x="440" y="810" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="9tpZRzVrnNRgOLqYM_QS-74" value="post: &quot;/roomservice/join&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="790" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9tpZRzVrnNRgOLqYM_QS-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="840" as="targetPoint" />
+            <mxPoint x="525" y="840" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="430" y="840" />
+              <mxPoint x="430" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9tpZRzVrnNRgOLqYM_QS-76" value="response" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="820" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9tpZRzVrnNRgOLqYM_QS-77" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;size=0.5;" vertex="1" parent="1">
+          <mxGeometry x="610" y="619.5" width="20" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="9tpZRzVrnNRgOLqYM_QS-78" value="玩家A 创建房间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="640" y="640" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9tpZRzVrnNRgOLqYM_QS-79" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;size=0.5;" vertex="1" parent="1">
+          <mxGeometry x="610" y="720" width="20" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="9tpZRzVrnNRgOLqYM_QS-80" value="玩家B 查询房间列表&lt;br&gt;并加入玩家A创建的房间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="640" y="760" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
