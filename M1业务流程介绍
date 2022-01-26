@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-26T11:53:53.708Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="JJ-Eq7idgmq7yj2nodCy" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-26T11:54:53.061Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="7rYKKWhPGLlpeq8YQA0u" version="16.2.7" type="github">
   <diagram id="kYrT9u3kJ5fxnCFjqgeb" name="第 1 页">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="2031" dy="1089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -113,10 +113,7 @@
           <mxGeometry x="150" y="420" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="9tpZRzVrnNRgOLqYM_QS-27" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;size=0.5;" vertex="1" parent="1">
-          <mxGeometry x="730" y="520" width="20" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="9tpZRzVrnNRgOLqYM_QS-28" value="登录 获取token" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="80" width="100" height="20" as="geometry" />
+          <mxGeometry x="770" y="377" width="20" height="80" as="geometry" />
         </mxCell>
         <mxCell id="9tpZRzVrnNRgOLqYM_QS-29" value="ws gate" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="390" y="20" width="110" height="440" as="geometry" />
@@ -170,6 +167,9 @@
         </mxCell>
         <mxCell id="9tpZRzVrnNRgOLqYM_QS-44" value="携带token 请求玩家信息和修改玩家名称" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="810" y="290" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9tpZRzVrnNRgOLqYM_QS-48" value="请求登出后，websocket会下发登出消息，然后客户端主动断掉" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="810" y="407" width="350" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
