@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-10T08:17:16.170Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="gU1Sv5kXCurkhBtCjaIM" version="16.4.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-10T08:17:43.274Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="xEGCPTl2t96_3t80Kg8v" version="16.4.7" type="github">
   <diagram id="CaciLhLWPFQeoZirxbVn" name="第 1 页">
     <mxGraphModel dx="1001" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -954,7 +954,12 @@
           <mxGeometry x="742.5" y="3840" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="YD2GkOzBHuX74uFc61oS-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YD2GkOzBHuX74uFc61oS-47" target="YD2GkOzBHuX74uFc61oS-35">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="805" y="3990" />
+              <mxPoint x="170" y="3990" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="YD2GkOzBHuX74uFc61oS-47" value="Player退出房间" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;labelBorderColor=none;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="745" y="3920" width="120" height="50" as="geometry" />
