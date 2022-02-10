@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-10T08:15:27.012Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="UxEYY5Qmw3gtKJ5vYynv" version="16.4.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-10T08:17:16.170Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="gU1Sv5kXCurkhBtCjaIM" version="16.4.7" type="github">
   <diagram id="CaciLhLWPFQeoZirxbVn" name="第 1 页">
     <mxGraphModel dx="1001" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -887,17 +887,29 @@
         <mxCell id="YD2GkOzBHuX74uFc61oS-22" value="进行匹配&lt;br&gt;移除等待队列&lt;br&gt;玩家平分到A,B两组" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="462.25" y="3200" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="YD2GkOzBHuX74uFc61oS-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YD2GkOzBHuX74uFc61oS-24" target="YD2GkOzBHuX74uFc61oS-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="YD2GkOzBHuX74uFc61oS-24" value="通知玩家加入房间" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="375" y="3440" width="120" height="60" as="geometry" />
+          <mxGeometry x="740" y="3600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YD2GkOzBHuX74uFc61oS-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="YD2GkOzBHuX74uFc61oS-26" target="YD2GkOzBHuX74uFc61oS-24">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YD2GkOzBHuX74uFc61oS-26" value="创建roomEntity" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="97.25" y="3600" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="YD2GkOzBHuX74uFc61oS-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YD2GkOzBHuX74uFc61oS-28" target="YD2GkOzBHuX74uFc61oS-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="YD2GkOzBHuX74uFc61oS-28" value="通知玩家组队成功&lt;br&gt;下发组队信息" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="380" y="3530" width="120" height="60" as="geometry" />
+          <mxGeometry x="740" y="3690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YD2GkOzBHuX74uFc61oS-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YD2GkOzBHuX74uFc61oS-30" target="YD2GkOzBHuX74uFc61oS-46">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YD2GkOzBHuX74uFc61oS-30" value="等待10s" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;labelBorderColor=none;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="380" y="3610" width="120" height="50" as="geometry" />
+          <mxGeometry x="742.5" y="3770" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="YD2GkOzBHuX74uFc61oS-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YD2GkOzBHuX74uFc61oS-34" target="YD2GkOzBHuX74uFc61oS-41">
           <mxGeometry relative="1" as="geometry" />
@@ -906,7 +918,7 @@
           <mxGeometry x="97.25" y="3420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YD2GkOzBHuX74uFc61oS-35" value="结束" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="30" y="3760" width="130" height="60" as="geometry" />
+          <mxGeometry x="105" y="4020" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YD2GkOzBHuX74uFc61oS-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=8;fontColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YD2GkOzBHuX74uFc61oS-37" target="YD2GkOzBHuX74uFc61oS-34">
           <mxGeometry relative="1" as="geometry">
@@ -923,14 +935,35 @@
         <mxCell id="YD2GkOzBHuX74uFc61oS-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YD2GkOzBHuX74uFc61oS-41" target="YD2GkOzBHuX74uFc61oS-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="YD2GkOzBHuX74uFc61oS-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YD2GkOzBHuX74uFc61oS-41" target="YD2GkOzBHuX74uFc61oS-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="50" y="3540" />
+              <mxPoint x="50" y="3795" />
+              <mxPoint x="170" y="3795" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="YD2GkOzBHuX74uFc61oS-41" value="组队成功" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="104.75" y="3510" width="105" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="YD2GkOzBHuX74uFc61oS-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YD2GkOzBHuX74uFc61oS-46" target="YD2GkOzBHuX74uFc61oS-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="YD2GkOzBHuX74uFc61oS-46" value="Room生成战报&lt;br&gt;通知Player下发战报" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;labelBorderColor=none;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="385" y="3680" width="120" height="50" as="geometry" />
+          <mxGeometry x="742.5" y="3840" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YD2GkOzBHuX74uFc61oS-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YD2GkOzBHuX74uFc61oS-47" target="YD2GkOzBHuX74uFc61oS-35">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YD2GkOzBHuX74uFc61oS-47" value="Player退出房间" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=8;fontColor=#000000;labelBorderColor=none;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="385" y="3750" width="120" height="50" as="geometry" />
+          <mxGeometry x="745" y="3920" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YD2GkOzBHuX74uFc61oS-55" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="3520" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YD2GkOzBHuX74uFc61oS-56" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="155" y="3490" width="30" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
