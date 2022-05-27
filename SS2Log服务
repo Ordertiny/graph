@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-27T03:15:01.149Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="oLVvWBqvUvj9MHiRDhbz" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-27T03:15:30.707Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="tLJwhPX1ajhkeQooIM4x" version="17.4.6" type="github">
   <diagram id="2cSKDtgJLy0qgTVkv4e8" name="第 1 页">
     <mxGraphModel dx="1000" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -10,14 +10,20 @@
         <mxCell id="inWUlb_NUf5IR-kiGtGv-1" value="MQ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="70" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="inWUlb_NUf5IR-kiGtGv-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="inWUlb_NUf5IR-kiGtGv-2" target="inWUlb_NUf5IR-kiGtGv-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="inWUlb_NUf5IR-kiGtGv-2" value="dealMessage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="180" width="120" height="60" as="geometry" />
+          <mxGeometry x="170" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="inWUlb_NUf5IR-kiGtGv-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="inWUlb_NUf5IR-kiGtGv-4" target="inWUlb_NUf5IR-kiGtGv-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="inWUlb_NUf5IR-kiGtGv-4" value="根据tag查找对应实体class，并将message转成对应的Entity" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="270" width="120" height="60" as="geometry" />
+          <mxGeometry x="170" y="250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="inWUlb_NUf5IR-kiGtGv-5" value="通过eventBus进行传播" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="360" width="120" height="50" as="geometry" />
+        <mxCell id="inWUlb_NUf5IR-kiGtGv-5" value="通过eventBus进行处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="350" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
