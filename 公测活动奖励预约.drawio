@@ -1,1 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2022-06-09T03:32:51.440Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" version="19.0.2" etag="dMWMYvnd0XM-WEcM5FF0" type="github"><diagram id="QoJb_QdbUkz9qzZ3d3K9">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-09T06:00:48.051Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="U12X4GoTsmF3VC0n36_v" version="19.0.3" type="github">
+  <diagram id="QoJb_QdbUkz9qzZ3d3K9" name="第 1 页">
+    <mxGraphModel dx="961" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Zp1FLDR9F9NkYNsXSm17-1" value="LoginEvent" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="90" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp1FLDR9F9NkYNsXSm17-2" value="判断当前是否在&lt;br&gt;预约奖励配置" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp1FLDR9F9NkYNsXSm17-3" value="获取玩家预约奖励" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="250" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp1FLDR9F9NkYNsXSm17-4" value="是否已参与" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="320" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp1FLDR9F9NkYNsXSm17-5" value="发送邮件奖励" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="172.5" y="410" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zp1FLDR9F9NkYNsXSm17-6" value="记录参与情况" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="480" width="100" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
