@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-13T07:18:16.326Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="6Rc6Uek9g_ov6H2a2IOg" version="19.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-13T07:21:58.322Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="A19tnjtvWMsq3GshzYYu" version="19.0.3" type="github">
   <diagram id="YnPHqUHo00iSnmR5cKM0" name="第 1 页">
     <mxGraphModel dx="1228" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -248,8 +248,8 @@
         <mxCell id="zkuiYy4xM-WLfhvwT5mJ-8" value="根据指定策略去设置当前consumer监听的消息队列" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;" vertex="1" parent="1">
           <mxGeometry x="800" y="960" width="280" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="425" y="1060" width="250" height="80" as="geometry" />
+        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-9" value="遍历关注的mq集合，对于没有在&lt;span style=&quot;color: rgb(135, 16, 148); background-color: rgb(255, 255, 255); font-family: 宋体, monospace; font-size: 12pt;&quot;&gt;processQueueTable&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;中的mq，放入&lt;/span&gt;&lt;span style=&quot;color: rgb(135, 16, 148); background-color: rgb(255, 255, 255); font-family: 宋体, monospace; font-size: 12pt;&quot;&gt;processQueueTable&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;中，并生成PullRequest对象，该对象编辑关注的消费者组，mq，以及new的ProcessQueue，和偏移量，偏移量是每次从broker请求获得的&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="425" y="1060" width="250" height="130" as="geometry" />
         </mxCell>
         <mxCell id="zkuiYy4xM-WLfhvwT5mJ-10" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="zkuiYy4xM-WLfhvwT5mJ-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
