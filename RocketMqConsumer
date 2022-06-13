@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-13T08:17:18.974Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="yHzqtVdSSnaZO-RpBg1K" version="19.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-13T08:20:54.503Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="ffS2P9qS_rn-a4PmVGuy" version="19.0.3" type="github">
   <diagram id="YnPHqUHo00iSnmR5cKM0" name="第 1 页">
-    <mxGraphModel dx="1228" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1740" dy="902" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -335,6 +335,9 @@
             <mxPoint x="335" y="2660" as="sourcePoint" />
             <mxPoint x="335" y="1330" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-30" value="注意：15*60S认为消息消费超时" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="90" y="2850" width="830" height="390" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
