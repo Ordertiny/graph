@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-13T08:12:45.841Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="tp2kqAo5BbpQYrm3XqPN" version="19.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-13T08:13:15.169Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="Btfyl3vIv8sH5-EqE9XP" version="19.0.3" type="github">
   <diagram id="YnPHqUHo00iSnmR5cKM0" name="第 1 页">
     <mxGraphModel dx="1228" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -275,7 +275,7 @@
         <mxCell id="zkuiYy4xM-WLfhvwT5mJ-15" value="将拉消息请求集合加入拉请求队列中" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;" vertex="1" parent="1">
           <mxGeometry x="700" y="1100" width="210" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;" edge="1" parent="1" source="zkuiYy4xM-WLfhvwT5mJ-16">
+        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zkuiYy4xM-WLfhvwT5mJ-16" target="zkuiYy4xM-WLfhvwT5mJ-18">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="980" y="1280" as="targetPoint" />
           </mxGeometry>
