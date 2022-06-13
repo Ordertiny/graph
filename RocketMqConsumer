@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-13T08:15:03.689Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="4KcOIS5bVOTP7L7VIQBd" version="19.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-13T08:17:18.974Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="yHzqtVdSSnaZO-RpBg1K" version="19.0.3" type="github">
   <diagram id="YnPHqUHo00iSnmR5cKM0" name="第 1 页">
     <mxGraphModel dx="1228" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -302,23 +302,23 @@
           <mxGeometry x="195" y="1360" width="280" height="70" as="geometry" />
         </mxCell>
         <mxCell id="zkuiYy4xM-WLfhvwT5mJ-22" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="160" y="1470" width="350" height="260" as="geometry" />
+          <mxGeometry x="160" y="1470" width="350" height="300" as="geometry" />
         </mxCell>
         <mxCell id="zkuiYy4xM-WLfhvwT5mJ-23" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Helvetica;" vertex="1" parent="zkuiYy4xM-WLfhvwT5mJ-22">
-          <mxGeometry width="350" height="130" as="geometry" />
+          <mxGeometry width="350" height="170" as="geometry" />
         </mxCell>
         <mxCell id="zkuiYy4xM-WLfhvwT5mJ-24" value="响应成功" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontFamily=Helvetica;" vertex="1" parent="zkuiYy4xM-WLfhvwT5mJ-23">
-          <mxGeometry width="80" height="130" as="geometry">
-            <mxRectangle width="80" height="130" as="alternateBounds" />
+          <mxGeometry width="80" height="170" as="geometry">
+            <mxRectangle width="80" height="170" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-25" value="找到消息：&lt;br&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;消息不为空：提交给消费线程&lt;br&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;设置拉取时间间隔：延迟再入队PR&lt;br&gt;&lt;span style=&quot;&quot;&gt;	&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;未设置&lt;/span&gt;：直接入队PR&lt;br&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;消息为空：直接将PR放入请求队列中&lt;br&gt;没有新消息：直接将PR放入请求队列&lt;br&gt;没有匹配消息：直接将PR放入请求队列&lt;br&gt;偏移量异常：延迟10s重新入队PR" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontFamily=Helvetica;align=left;" vertex="1" parent="zkuiYy4xM-WLfhvwT5mJ-23">
-          <mxGeometry x="80" width="270" height="130" as="geometry">
-            <mxRectangle width="270" height="130" as="alternateBounds" />
+        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-25" value="找到消息：&lt;br&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;消息不为空：提交给消费线程&lt;br&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;/span&gt;设置拉取时间间隔：延迟再入队PR&lt;br&gt;&lt;span style=&quot;&quot;&gt;	&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;/span&gt;未设置&lt;/span&gt;：直接入队PR&lt;br&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;消息为空：直接将PR放入请求队列中&lt;br&gt;没有新消息：直接将PR放入请求队列&lt;br&gt;没有匹配消息：直接将PR放入请求队列&lt;br&gt;偏移量异常：延迟10s移除RebalanceImpl&lt;br&gt;中ProcessQueue中的messageQueue" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontFamily=Helvetica;align=left;" vertex="1" parent="zkuiYy4xM-WLfhvwT5mJ-23">
+          <mxGeometry x="80" width="270" height="170" as="geometry">
+            <mxRectangle width="270" height="170" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zkuiYy4xM-WLfhvwT5mJ-26" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Helvetica;" vertex="1" parent="zkuiYy4xM-WLfhvwT5mJ-22">
-          <mxGeometry y="130" width="350" height="130" as="geometry" />
+          <mxGeometry y="170" width="350" height="130" as="geometry" />
         </mxCell>
         <mxCell id="zkuiYy4xM-WLfhvwT5mJ-27" value="响应失败" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontFamily=Helvetica;" vertex="1" parent="zkuiYy4xM-WLfhvwT5mJ-26">
           <mxGeometry width="80" height="130" as="geometry">
