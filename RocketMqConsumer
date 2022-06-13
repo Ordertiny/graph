@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-13T07:44:11.937Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="i1C5iMUZMZYJbQIeEAZM" version="19.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-13T08:03:15.085Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="aM4JEhOXegmbKq3JYjsn" version="19.0.3" type="github">
   <diagram id="YnPHqUHo00iSnmR5cKM0" name="第 1 页">
     <mxGraphModel dx="1228" dy="636" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -290,13 +290,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zkuiYy4xM-WLfhvwT5mJ-18" value="根据PullRequest(PR)获取ProcessQueue(PQ)队列&lt;br&gt;1.当前Consumer不是Running状态则延迟3S入队PR;&lt;br&gt;2.当前Consumer是暂停则延迟1S入队PR；&lt;br&gt;3.限流：当前PQ中消息超1000条延迟50ms入队PR；&lt;br&gt;4.限流：当前PQ中消息大小超100Mb则延迟50ms入队PR；&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="170" y="1220" width="330" height="190" as="geometry" />
+          <mxGeometry x="170" y="1220" width="330" height="110" as="geometry" />
         </mxCell>
         <mxCell id="zkuiYy4xM-WLfhvwT5mJ-19" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="zkuiYy4xM-WLfhvwT5mJ-18">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="335" y="2660" as="sourcePoint" />
             <mxPoint x="335" y="780" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-21" value="请求broker，异步拉取该队列下的32条消息，拉取后交给回调函数处理；" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="195" y="1360" width="280" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
