@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-16T03:30:25.572Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="Ej0Pz1FJj0xYTeVmM70j" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-16T03:32:26.800Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="shhQaAwJrbiluF7MIrvY" version="20.0.1" type="github">
   <diagram id="CFwtdcjnBAvuXBl-HyBk" name="第 1 页">
     <mxGraphModel dx="1044" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -75,6 +75,36 @@
         </mxCell>
         <mxCell id="VCMHvPQlhcBCw7pvo6eR-29" value="虚拟内存地址" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="626" y="211" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VCMHvPQlhcBCw7pvo6eR-30" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="VCMHvPQlhcBCw7pvo6eR-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="555" y="410" as="sourcePoint" />
+            <mxPoint x="620" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VCMHvPQlhcBCw7pvo6eR-31" value="position=0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="520" y="410" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VCMHvPQlhcBCw7pvo6eR-32" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="675" y="410" as="sourcePoint" />
+            <mxPoint x="674.5" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VCMHvPQlhcBCw7pvo6eR-33" value="limit=4" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="649" y="410" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VCMHvPQlhcBCw7pvo6eR-34" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="VCMHvPQlhcBCw7pvo6eR-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="795" y="410" as="sourcePoint" />
+            <mxPoint x="840" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VCMHvPQlhcBCw7pvo6eR-35" value="capacity=8" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="760" y="410" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VCMHvPQlhcBCw7pvo6eR-36" value="0x00001" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="332.5" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
