@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-13T12:30:21.434Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="YM_y7pXk6CbaRVhTWniZ" version="19.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-21T09:35:32.118Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="VV2LXIc-4vOM05k5goqJ" version="20.0.1" type="github">
   <diagram id="YnPHqUHo00iSnmR5cKM0" name="第 1 页">
-    <mxGraphModel dx="1305" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -191,7 +191,7 @@
         <mxCell id="elhYJEN-ZjQ1L2GLP3ce-52" value="调用它的属性&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;RebalanceImpl&lt;/span&gt;&lt;span&gt;的&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;doRebalance&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="247.5" y="700" width="175" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="elhYJEN-ZjQ1L2GLP3ce-55" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;" parent="1" target="elhYJEN-ZjQ1L2GLP3ce-52" edge="1" source="zkuiYy4xM-WLfhvwT5mJ-18">
+        <mxCell id="elhYJEN-ZjQ1L2GLP3ce-55" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;" parent="1" source="zkuiYy4xM-WLfhvwT5mJ-18" target="elhYJEN-ZjQ1L2GLP3ce-52" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="335" y="2660" as="sourcePoint" />
             <mxPoint x="335" y="550" as="targetPoint" />
@@ -200,7 +200,7 @@
         <mxCell id="elhYJEN-ZjQ1L2GLP3ce-53" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;#34;consolas&amp;#34; ; font-size: 9.8pt&quot;&gt;doRebalance&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="490" y="720" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="elhYJEN-ZjQ1L2GLP3ce-57" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;" parent="1" target="elhYJEN-ZjQ1L2GLP3ce-53" edge="1" source="zkuiYy4xM-WLfhvwT5mJ-1">
+        <mxCell id="elhYJEN-ZjQ1L2GLP3ce-57" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;" parent="1" source="zkuiYy4xM-WLfhvwT5mJ-1" target="elhYJEN-ZjQ1L2GLP3ce-53" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="545" y="2660" as="sourcePoint" />
             <mxPoint x="545" y="60" as="targetPoint" />
@@ -215,164 +215,209 @@
         <mxCell id="elhYJEN-ZjQ1L2GLP3ce-64" value="就是根据指定策略构造每个主题下的消息队列集合" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="457.5" y="860" width="185" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-2" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-size: 12pt;&quot;&gt;AllocateMessageQueueStrategy&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-size: 12pt;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;AllocateMessageQueueAveragely&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" vertex="1" parent="1">
+        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-2" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-size: 12pt;&quot;&gt;AllocateMessageQueueStrategy&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-size: 12pt;&quot;&gt;&lt;span style=&quot;color:#000000;&quot;&gt;AllocateMessageQueueAveragely&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="1230" y="20" width="290" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-3" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;" edge="1" parent="1" source="zkuiYy4xM-WLfhvwT5mJ-5" target="zkuiYy4xM-WLfhvwT5mJ-2">
+        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-3" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;" parent="1" source="zkuiYy4xM-WLfhvwT5mJ-5" target="zkuiYy4xM-WLfhvwT5mJ-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1375" y="2720" as="sourcePoint" />
             <mxPoint x="1370.59" y="70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;" edge="1" parent="1" source="zkuiYy4xM-WLfhvwT5mJ-1" target="zkuiYy4xM-WLfhvwT5mJ-5">
+        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;" parent="1" source="zkuiYy4xM-WLfhvwT5mJ-1" target="zkuiYy4xM-WLfhvwT5mJ-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-1" value="1. 获取topic下的messageQueue&lt;br&gt;2.找broker要消费者组下的所有消费者ID记录&lt;br&gt;3.排序mq和consumerId(不同brokerName按字符串比较，相同名按照queueId大小比较)&lt;br&gt;4.根据策略设置实际关心的mq队列集合；" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-1" value="1. 获取topic下的messageQueue&lt;br&gt;2.找broker要消费者组下的所有消费者ID记录&lt;br&gt;3.排序mq和consumerId(不同brokerName按字符串比较，相同名按照queueId大小比较)&lt;br&gt;4.根据策略设置实际关心的mq队列集合；" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="417.5" y="940" width="265" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-4" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;" edge="1" parent="1" source="zkuiYy4xM-WLfhvwT5mJ-9" target="zkuiYy4xM-WLfhvwT5mJ-1">
+        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-4" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;" parent="1" source="zkuiYy4xM-WLfhvwT5mJ-9" target="zkuiYy4xM-WLfhvwT5mJ-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="545" y="2660" as="sourcePoint" />
             <mxPoint x="550" y="760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-5" value="根据当前consumerId的位置和消息队列数%消费者数去计算当前消费者所订阅的队列，并返回队列集合；" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" vertex="1" parent="1">
+        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-5" value="根据当前consumerId的位置和消息队列数%消费者数去计算当前消费者所订阅的队列，并返回队列集合；" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="1257.5" y="955" width="235" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-7" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="zkuiYy4xM-WLfhvwT5mJ-5">
+        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-7" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="zkuiYy4xM-WLfhvwT5mJ-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1374.9999999999995" y="2720" as="sourcePoint" />
             <mxPoint x="1374.9999999999995" y="70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-8" value="根据指定策略去设置当前consumer监听的消息队列" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;" vertex="1" parent="1">
+        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-8" value="根据指定策略去设置当前consumer监听的消息队列" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="800" y="960" width="280" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;" edge="1" parent="1" source="zkuiYy4xM-WLfhvwT5mJ-9" target="zkuiYy4xM-WLfhvwT5mJ-13">
+        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;" parent="1" source="zkuiYy4xM-WLfhvwT5mJ-9" target="zkuiYy4xM-WLfhvwT5mJ-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-9" value="遍历关注的mq集合，对于没有在&lt;span style=&quot;color: rgb(135, 16, 148); background-color: rgb(255, 255, 255); font-family: 宋体, monospace; font-size: 12pt;&quot;&gt;processQueueTable&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;中的mq，放入&lt;/span&gt;&lt;span style=&quot;color: rgb(135, 16, 148); background-color: rgb(255, 255, 255); font-family: 宋体, monospace; font-size: 12pt;&quot;&gt;processQueueTable&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;中，并生成PullRequest对象，该对象编辑关注的消费者组，mq，以及new的ProcessQueue，和偏移量，偏移量是每次从broker请求获得的&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" vertex="1" parent="1">
+        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-9" value="遍历关注的mq集合，对于没有在&lt;span style=&quot;color: rgb(135, 16, 148); background-color: rgb(255, 255, 255); font-family: 宋体, monospace; font-size: 12pt;&quot;&gt;processQueueTable&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;中的mq，放入&lt;/span&gt;&lt;span style=&quot;color: rgb(135, 16, 148); background-color: rgb(255, 255, 255); font-family: 宋体, monospace; font-size: 12pt;&quot;&gt;processQueueTable&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;中，并生成PullRequest对象，该对象编辑关注的消费者组，mq，以及new的ProcessQueue，和偏移量，偏移量是每次从broker请求获得的&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="425" y="1060" width="250" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-10" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="zkuiYy4xM-WLfhvwT5mJ-9">
+        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-10" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="zkuiYy4xM-WLfhvwT5mJ-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="545" y="2660" as="sourcePoint" />
             <mxPoint x="550" y="1030" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-11" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;quot;consolas&amp;quot; ; font-size: 9.8pt&quot;&gt;PullMessageService&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-11" value="&lt;pre style=&quot;background-color: rgb(255 , 255 , 255) ; font-family: &amp;quot;consolas&amp;quot; ; font-size: 9.8pt&quot;&gt;PullMessageService&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1650" y="30" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-12" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;" edge="1" parent="1" target="zkuiYy4xM-WLfhvwT5mJ-11" source="zkuiYy4xM-WLfhvwT5mJ-16">
+        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-12" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;" parent="1" source="zkuiYy4xM-WLfhvwT5mJ-16" target="zkuiYy4xM-WLfhvwT5mJ-11" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1739.4099999999999" y="2710" as="sourcePoint" />
             <mxPoint x="1739.4099999999999" y="109.99999999999994" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-13" value="把PullRequest加入&lt;span style=&quot;color: rgb(135, 16, 148); background-color: rgb(255, 255, 255); font-family: 宋体, monospace; font-size: 12pt;&quot;&gt;pullRequestQueue&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;中&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" vertex="1" parent="1">
+        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-13" value="把PullRequest加入&lt;span style=&quot;color: rgb(135, 16, 148); background-color: rgb(255, 255, 255); font-family: 宋体, monospace; font-size: 12pt;&quot;&gt;pullRequestQueue&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;中&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="1630" y="1100" width="220" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-15" value="将拉消息请求集合加入拉请求队列中" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;" vertex="1" parent="1">
+        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-15" value="将拉消息请求集合加入拉请求队列中" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="700" y="1100" width="210" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zkuiYy4xM-WLfhvwT5mJ-16" target="zkuiYy4xM-WLfhvwT5mJ-18">
+        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="zkuiYy4xM-WLfhvwT5mJ-16" target="zkuiYy4xM-WLfhvwT5mJ-18" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="980" y="1280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-16" value="有一个死循环的线程，不断从阻塞队列&lt;span style=&quot;color: rgb(135, 16, 148); background-color: rgb(255, 255, 255); font-family: 宋体, monospace; font-size: 12pt;&quot;&gt;pullRequestQueue&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;取值&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" vertex="1" parent="1">
+        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-16" value="有一个死循环的线程，不断从阻塞队列&lt;span style=&quot;color: rgb(135, 16, 148); background-color: rgb(255, 255, 255); font-family: 宋体, monospace; font-size: 12pt;&quot;&gt;pullRequestQueue&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;取值&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="1640" y="1245" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-17" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="zkuiYy4xM-WLfhvwT5mJ-16">
+        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-17" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="zkuiYy4xM-WLfhvwT5mJ-16" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1739.4099999999999" y="2710" as="sourcePoint" />
             <mxPoint x="1739.9999999999995" y="60" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-18" value="根据PullRequest(PR)获取ProcessQueue(PQ)队列&lt;br&gt;1.当前Consumer不是Running状态则延迟3S入队PR;&lt;br&gt;2.当前Consumer是暂停则延迟1S入队PR；&lt;br&gt;3.限流：当前PQ中消息超1000条延迟50ms入队PR；&lt;br&gt;4.限流：当前PQ中消息大小超100Mb则延迟50ms入队PR；&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" vertex="1" parent="1">
+        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-18" value="根据PullRequest(PR)获取ProcessQueue(PQ)队列&lt;br&gt;1.当前Consumer不是Running状态则延迟3S入队PR;&lt;br&gt;2.当前Consumer是暂停则延迟1S入队PR；&lt;br&gt;3.限流：当前PQ中消息超1000条延迟50ms入队PR；&lt;br&gt;4.限流：当前PQ中消息大小超100Mb则延迟50ms入队PR；&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="170" y="1220" width="330" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-19" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;" edge="1" parent="1" source="zkuiYy4xM-WLfhvwT5mJ-21" target="zkuiYy4xM-WLfhvwT5mJ-18">
+        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-19" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;" parent="1" source="zkuiYy4xM-WLfhvwT5mJ-21" target="zkuiYy4xM-WLfhvwT5mJ-18" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="335" y="2660" as="sourcePoint" />
             <mxPoint x="335" y="780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-22" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontFamily=Helvetica;" vertex="1" parent="1">
+        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-22" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="160" y="1420" width="350" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-23" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Helvetica;" vertex="1" parent="zkuiYy4xM-WLfhvwT5mJ-22">
+        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-23" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Helvetica;" parent="zkuiYy4xM-WLfhvwT5mJ-22" vertex="1">
           <mxGeometry width="350" height="141" as="geometry" />
         </mxCell>
-        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-24" value="响应成功" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontFamily=Helvetica;" vertex="1" parent="zkuiYy4xM-WLfhvwT5mJ-23">
+        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-24" value="响应成功" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontFamily=Helvetica;" parent="zkuiYy4xM-WLfhvwT5mJ-23" vertex="1">
           <mxGeometry width="80" height="141" as="geometry">
             <mxRectangle width="80" height="141" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-25" value="找到消息：&lt;br&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;消息不为空：提交给消费线程&lt;br&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;/span&gt;设置拉取时间间隔：延迟再入队PR&lt;br&gt;&lt;span style=&quot;&quot;&gt;	&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;/span&gt;未设置&lt;/span&gt;：直接入队PR&lt;br&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;消息为空：直接将PR放入请求队列中&lt;br&gt;没有新消息：直接将PR放入请求队列&lt;br&gt;没有匹配消息：直接将PR放入请求队列&lt;br&gt;偏移量异常：延迟10s移除RebalanceImpl&lt;br&gt;中ProcessQueue中的messageQueue" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontFamily=Helvetica;align=left;" vertex="1" parent="zkuiYy4xM-WLfhvwT5mJ-23">
+        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-25" value="找到消息：&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;消息不为空：提交给消费线程&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;/span&gt;设置拉取时间间隔：延迟再入队PR&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;&lt;/span&gt;未设置&lt;/span&gt;：直接入队PR&lt;br&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;消息为空：直接将PR放入请求队列中&lt;br&gt;没有新消息：直接将PR放入请求队列&lt;br&gt;没有匹配消息：直接将PR放入请求队列&lt;br&gt;偏移量异常：延迟10s移除RebalanceImpl&lt;br&gt;中ProcessQueue中的messageQueue" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontFamily=Helvetica;align=left;" parent="zkuiYy4xM-WLfhvwT5mJ-23" vertex="1">
           <mxGeometry x="80" width="270" height="141" as="geometry">
             <mxRectangle width="270" height="141" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-26" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Helvetica;" vertex="1" parent="zkuiYy4xM-WLfhvwT5mJ-22">
+        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-26" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Helvetica;" parent="zkuiYy4xM-WLfhvwT5mJ-22" vertex="1">
           <mxGeometry y="141" width="350" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-27" value="响应失败" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontFamily=Helvetica;" vertex="1" parent="zkuiYy4xM-WLfhvwT5mJ-26">
+        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-27" value="响应失败" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontFamily=Helvetica;" parent="zkuiYy4xM-WLfhvwT5mJ-26" vertex="1">
           <mxGeometry width="80" height="29" as="geometry">
             <mxRectangle width="80" height="29" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-28" value="如果不是死信队列，则延迟3S再去入队PR" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontFamily=Helvetica;" vertex="1" parent="zkuiYy4xM-WLfhvwT5mJ-26">
+        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-28" value="如果不是死信队列，则延迟3S再去入队PR" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontFamily=Helvetica;" parent="zkuiYy4xM-WLfhvwT5mJ-26" vertex="1">
           <mxGeometry x="80" width="270" height="29" as="geometry">
             <mxRectangle width="270" height="29" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-29" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="zkuiYy4xM-WLfhvwT5mJ-22">
+        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-29" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="zkuiYy4xM-WLfhvwT5mJ-22" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="335" y="2660" as="sourcePoint" />
             <mxPoint x="335" y="1330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-30" value="注意：15*60S认为消息消费超时" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" vertex="1" parent="1">
+        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-30" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;注意：15*60S认为消息消费超时&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;当消息确认时，consumer更新自己维护的offset，当拒绝消息后，该消息应该是一个进死信队列的消息，但由于设置了延迟时间，所以该消息会被投递到延迟队列里；&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;如果consumer发送这个死信消息失败，就会用内部的producer发&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="90" y="2850" width="830" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-31" value="ConsumeMessageConcurrentlyService" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" vertex="1" parent="1">
+        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-31" value="ConsumeMessageConcurrentlyService" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="1910" y="30" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-32" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;" edge="1" parent="1" source="zkuiYy4xM-WLfhvwT5mJ-33">
+        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-32" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;" parent="1" source="zkuiYy4xM-WLfhvwT5mJ-33" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2030" y="2710" as="sourcePoint" />
             <mxPoint x="2029.41" y="59.999999999999886" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-33" value="1. 创建消费消息上下文context&lt;br&gt;2. 交给监听器去处理并获取返回值&lt;br&gt;3. 消费成功与否的数据统计&lt;br&gt;4. 计算AckIndex，确认索引是当次messageList的size-1&lt;br&gt;如果这批消息是拒绝的则需要单个循环发给broker而且还带上了延迟等级；&lt;br&gt;5. 若消费成功则本地保存这个队列的偏移量&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" vertex="1" parent="1">
+        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-33" value="1. 创建消费消息上下文context&lt;br&gt;2. 交给监听器去处理并获取返回值&lt;br&gt;3. 消费成功与否的数据统计&lt;br&gt;4. 计算AckIndex，确认索引是当次messageList的size-1&lt;br&gt;如果这批消息是拒绝的则需要单个循环发给broker而且还带上了延迟等级；&lt;br&gt;5. 若消费成功则本地保存这个队列的偏移量&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="1820" y="1585" width="420" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-34" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;" edge="1" parent="1" target="zkuiYy4xM-WLfhvwT5mJ-33">
+        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-34" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;" parent="1" target="zkuiYy4xM-WLfhvwT5mJ-33" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2030" y="2710" as="sourcePoint" />
             <mxPoint x="2029.4099999999999" y="60" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=13;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zkuiYy4xM-WLfhvwT5mJ-35" target="zkuiYy4xM-WLfhvwT5mJ-33">
+        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=13;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="zkuiYy4xM-WLfhvwT5mJ-35" target="zkuiYy4xM-WLfhvwT5mJ-33" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1220" y="1665.090909090909" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-35" value="回调函数里，若成功返回消息，则将&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-size: 13px;&quot;&gt;pullResult.getMsgFoundList()&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 13px;&quot;&gt;放入pullRequest的processQueue中&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;" vertex="1" parent="1">
+        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-35" value="回调函数里，若成功返回消息，则将&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-size: 13px;&quot;&gt;pullResult.getMsgFoundList()&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 13px;&quot;&gt;放入pullRequest的processQueue中&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="198.5" y="1620" width="291.5" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-21" value="请求broker，异步拉取该队列下的32条消息，拉取后交给回调函数处理；Broker响应处理,如下图" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" vertex="1" parent="1">
+        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-21" value="请求broker，异步拉取该队列下的32条消息，拉取后交给回调函数处理；Broker响应处理,如下图" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="195" y="1350" width="280" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-36" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;" edge="1" parent="1" source="zkuiYy4xM-WLfhvwT5mJ-22" target="zkuiYy4xM-WLfhvwT5mJ-21">
+        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-36" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;" parent="1" source="zkuiYy4xM-WLfhvwT5mJ-22" target="zkuiYy4xM-WLfhvwT5mJ-21" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="335" y="1470" as="sourcePoint" />
             <mxPoint x="335" y="1330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-38" value="&lt;p&gt;将当前消息，ProcessQueue，MessageQueue封装成&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;ConsumeRequest线程&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;，交给线程池去执行&lt;/span&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontFamily=Helvetica;" vertex="1" parent="1">
+        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-38" value="&lt;p&gt;将当前消息，ProcessQueue，MessageQueue封装成&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;ConsumeRequest线程&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;，交给线程池去执行&lt;/span&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="590" y="1625" width="570" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ywF5GA-wzlWMdCCXhnLL-1" value="ConsumeMessageConcurrentlyService" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="2240" y="30" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ywF5GA-wzlWMdCCXhnLL-3" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2190" y="400" as="sourcePoint" />
+            <mxPoint x="2190" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ywF5GA-wzlWMdCCXhnLL-4" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="ywF5GA-wzlWMdCCXhnLL-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2360" y="1470" as="sourcePoint" />
+            <mxPoint x="2400" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ywF5GA-wzlWMdCCXhnLL-5" value="拒绝消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2300" y="80" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ywF5GA-wzlWMdCCXhnLL-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ywF5GA-wzlWMdCCXhnLL-6" target="ywF5GA-wzlWMdCCXhnLL-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ywF5GA-wzlWMdCCXhnLL-6" value="会发给服务端消息的主题，消息偏移量，消息ID，并设置该消息的延迟等级为0，消息最大重复次数16" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2275" y="150.5" width="170" height="69.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ywF5GA-wzlWMdCCXhnLL-7" value="SnedMessageProcessor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="2550" y="30" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ywF5GA-wzlWMdCCXhnLL-8" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="ywF5GA-wzlWMdCCXhnLL-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2640" y="1530" as="sourcePoint" />
+            <mxPoint x="2660" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ywF5GA-wzlWMdCCXhnLL-9" value="consumerSendMsgBack" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2560" y="167" width="160" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="ywF5GA-wzlWMdCCXhnLL-11" value="远程调用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2470" y="160" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ywF5GA-wzlWMdCCXhnLL-12" value="1. 设置新主题：%RETRY%consumer_group&lt;br&gt;2. 根据主题设置的重试队列数量随机一个队列索引&lt;br&gt;3. 如果新主题不存在则创建，读写队列只有1个&lt;br&gt;4. 根据消息偏移量取出该消息&lt;br&gt;5. 将消息属性中设置重试主题为原主题(RETRY_TOPIC -&amp;gt; Sunday)&lt;br&gt;6. 如果delayLevel为0则设置3+拒绝次数(DELAY -&amp;gt; 3)&lt;br&gt;7. 将消失请求封装成MessageExtBrokerInner&lt;br&gt;8. 消息拒绝次数+1&lt;br&gt;9. 设置原消息ID(ORIGIN_MESSAGE_ID -&amp;gt; C0.....)&lt;br&gt;10.提交去持久化&lt;br&gt;11.返回" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2460.84" y="220" width="359.16" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ywF5GA-wzlWMdCCXhnLL-15" value="SnedMessageProcessor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="2870" y="30" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
