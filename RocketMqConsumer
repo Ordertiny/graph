@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-21T09:35:32.118Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="VV2LXIc-4vOM05k5goqJ" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-21T09:44:59.786Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="ZY1dCUwkDQaq3jeXVbk3" version="20.0.1" type="github">
   <diagram id="YnPHqUHo00iSnmR5cKM0" name="第 1 页">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -413,11 +413,38 @@
         <mxCell id="ywF5GA-wzlWMdCCXhnLL-11" value="远程调用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2470" y="160" width="60" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="ywF5GA-wzlWMdCCXhnLL-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ywF5GA-wzlWMdCCXhnLL-12" target="ywF5GA-wzlWMdCCXhnLL-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ywF5GA-wzlWMdCCXhnLL-12" value="1. 设置新主题：%RETRY%consumer_group&lt;br&gt;2. 根据主题设置的重试队列数量随机一个队列索引&lt;br&gt;3. 如果新主题不存在则创建，读写队列只有1个&lt;br&gt;4. 根据消息偏移量取出该消息&lt;br&gt;5. 将消息属性中设置重试主题为原主题(RETRY_TOPIC -&amp;gt; Sunday)&lt;br&gt;6. 如果delayLevel为0则设置3+拒绝次数(DELAY -&amp;gt; 3)&lt;br&gt;7. 将消失请求封装成MessageExtBrokerInner&lt;br&gt;8. 消息拒绝次数+1&lt;br&gt;9. 设置原消息ID(ORIGIN_MESSAGE_ID -&amp;gt; C0.....)&lt;br&gt;10.提交去持久化&lt;br&gt;11.返回" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="2460.84" y="220" width="359.16" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="ywF5GA-wzlWMdCCXhnLL-15" value="SnedMessageProcessor" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="2870" y="30" width="180" height="30" as="geometry" />
+        <mxCell id="ywF5GA-wzlWMdCCXhnLL-15" value="CommitLog" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="2930" y="30" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ywF5GA-wzlWMdCCXhnLL-16" value="黄色为broker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2550" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ywF5GA-wzlWMdCCXhnLL-17" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;" edge="1" parent="1" source="ywF5GA-wzlWMdCCXhnLL-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3019.5" y="1530" as="sourcePoint" />
+            <mxPoint x="3019.5" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ywF5GA-wzlWMdCCXhnLL-20" value="putMessage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2960" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ywF5GA-wzlWMdCCXhnLL-22" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="ywF5GA-wzlWMdCCXhnLL-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3019.5" y="1530" as="sourcePoint" />
+            <mxPoint x="3019.5" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ywF5GA-wzlWMdCCXhnLL-23" value="省略了很多步" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2840" y="290" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ywF5GA-wzlWMdCCXhnLL-24" value="存储消息&lt;br&gt;1.由于有设置延迟等级，则把主题改为SCHEDULE_TOPIC_XXXX，并保存真实队列(REAL_TOPIC -&amp;gt; %RETRY%consumer_group)&lt;br&gt;2. 根据该延迟等级去获取相应队列，并保存原真实队列ID(REAL_QID -&amp;gt; 0)&lt;br&gt;3.加锁&lt;br&gt;4.写入对外内存&lt;br&gt;5.解锁&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2870" y="380" width="300" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
