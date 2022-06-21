@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-21T10:01:42.227Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="CFMXh-p1i0RTM4_-skyy" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-21T10:03:56.585Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="C6CeO1BdQqA8pYeFZTuR" version="20.0.1" type="github">
   <diagram id="YnPHqUHo00iSnmR5cKM0" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
@@ -464,9 +464,6 @@
         <mxCell id="ywF5GA-wzlWMdCCXhnLL-29" value="返回" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2420" y="360" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ywF5GA-wzlWMdCCXhnLL-30" value="拒绝请求失败时处理：&lt;br&gt;&lt;br&gt;1. 新创建一个Message对象&lt;br&gt;2.设置主题为(%RETRY%consumer_group)&lt;br&gt;3. 设置消息的原始ID&lt;br&gt;4. 重试次数+1&lt;br&gt;5.保存原topic(RETRY_TOPIC -&amp;gt; Sunday)&lt;br&gt;6. 延迟等级为3+重试次数&lt;br&gt;7. 获取consumer内置的生产者，他的group是是CLIENT_INNER_PRODUCER&lt;br&gt;8. 将该新消息发给broker" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="2217.5" y="560" width="285" height="170" as="geometry" />
-        </mxCell>
         <mxCell id="ywF5GA-wzlWMdCCXhnLL-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ywF5GA-wzlWMdCCXhnLL-27" target="ywF5GA-wzlWMdCCXhnLL-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -478,6 +475,9 @@
             <mxPoint x="2360" y="1470" as="sourcePoint" />
             <mxPoint x="2360" y="60" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ywF5GA-wzlWMdCCXhnLL-30" value="拒绝请求失败时处理：&lt;br&gt;&lt;br&gt;1. 新创建一个Message对象&lt;br&gt;2.设置主题为(%RETRY%consumer_group)&lt;br&gt;3. 设置消息的原始ID&lt;br&gt;4. 重试次数+1&lt;br&gt;5.保存原topic(RETRY_TOPIC -&amp;gt; Sunday)&lt;br&gt;6. 延迟等级为3+重试次数&lt;br&gt;7. 获取consumer内置的生产者，他的group是是CLIENT_INNER_PRODUCER&lt;br&gt;8. 将该新消息发给broker" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2217.5" y="560" width="285" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
