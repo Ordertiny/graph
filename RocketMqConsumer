@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-22T02:45:37.064Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="pgWlyg-s5BBA4QCcJM75" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-22T02:57:01.330Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="XCw7SXefzXQNJN8rTW7e" version="20.0.1" type="github">
   <diagram id="YnPHqUHo00iSnmR5cKM0" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" math="0" shadow="0">
       <root>
@@ -333,7 +333,7 @@
             <mxPoint x="335" y="1330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-30" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;注意：15*60S认为消息消费超时&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;第一次PullRequest的offset偏移量是从broker拿到的，后续一直使用这个对象去请求，每当这个请求的响应回来后，就会将这个请求的offset改为响应中返回的nextOffset，因此拉取偏移量是一直保存在broker中的；至于messageQueue偏移量，因为本地是一次拉取32条消息则每次消费完后会保存在本地；&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" parent="1" vertex="1">
+        <mxCell id="zkuiYy4xM-WLfhvwT5mJ-30" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;注意：15*60S认为消息消费超时&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;第一次PullRequest的offset偏移量是从broker拿到的，后续一直使用这个对象去请求，每当这个请求的响应回来后，就会将这个请求的offset改为响应中返回的nextOffset，因此拉取偏移量是一直保存在broker中的；至于processQueue偏移量，因为本地是一次拉取32条消息则每次消费完后会保存在本地；至于拉取的32条消息一次性消费多少需要参数配，默认一条&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="90" y="2850" width="830" height="390" as="geometry" />
         </mxCell>
         <mxCell id="zkuiYy4xM-WLfhvwT5mJ-31" value="ConsumeMessageConcurrentlyService" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" parent="1" vertex="1">
