@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-24T07:34:49.932Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="h8Mp4t72pX0Gm6Y1ZGNk" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-24T07:42:29.472Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="A0O_EvFX388wI4JSOy3e" version="20.0.3" type="github">
   <diagram id="FNVGtmwNiWNmvPIRwlOJ" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -45,6 +45,9 @@
         </mxCell>
         <mxCell id="EuizolHtubJ-rX9TByZv-20" value="AddLast" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="960" y="150" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EuizolHtubJ-rX9TByZv-21" value="super.channelReadComplete(ctx); 内部实际是ctx.fireChannelRead(msg);消息传递，若不显示调用，则消息无法继续向下传递；" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillStyle=auto;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="50" y="260" width="860" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
