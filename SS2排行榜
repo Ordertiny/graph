@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-11T08:38:14.908Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="tBsrnjDpMDu1eNnP2CHR" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-11T08:42:38.468Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="IpTfpYEPQRY7yXfhHSzd" version="20.0.3" type="github">
   <diagram id="6vpdYORKXNjgu05Pn9uz" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -9,6 +9,18 @@
         </mxCell>
         <mxCell id="bRGuh10NtZIQq7-1y1DY-2" value="RankEntryParserFactory" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="150" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bRGuh10NtZIQq7-1y1DY-3" value="Map&amp;lt;Integer, IRankEntryParser&amp;gt; creatorMap;&lt;br&gt;creatorMapd的key是TplId" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="590" y="210" width="520" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="bRGuh10NtZIQq7-1y1DY-4" value="enum:RankType" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="60" y="330" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bRGuh10NtZIQq7-1y1DY-5" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; // 父榜&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private final int tplId;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 子榜&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private final int subType;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private final String key;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private int scoreId;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bRGuh10NtZIQq7-1y1DY-4">
+          <mxGeometry y="23" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bRGuh10NtZIQq7-1y1DY-6" value="EXP_RANK:&amp;nbsp;&lt;br&gt;tplId:100001&lt;br&gt;subType: 1&lt;br&gt;key:&amp;nbsp;rank:exp:&lt;br&gt;scoreId:&amp;nbsp;20000" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bRGuh10NtZIQq7-1y1DY-4">
+          <mxGeometry x="12" y="119" width="100" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
