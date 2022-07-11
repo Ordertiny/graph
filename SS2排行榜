@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-11T08:50:52.411Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="8wHi4A9XUTmuzHP0c1xk" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-11T08:50:57.326Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="0tUgRe6Mu1-tx2vRHs74" version="20.0.3" type="github">
   <diagram id="6vpdYORKXNjgu05Pn9uz" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -29,7 +29,7 @@
           <mxGeometry x="360" y="369" width="230" height="200" as="geometry" />
         </mxCell>
         <mxCell id="bRGuh10NtZIQq7-1y1DY-9" value="&lt;div&gt;&amp;nbsp;private int id;&lt;/div&gt;&lt;div&gt;&amp;nbsp;private String description;&lt;/div&gt;&lt;div&gt;&amp;nbsp;// hash值的key&lt;/div&gt;&lt;div&gt;&amp;nbsp;private final String redisFieldKey;&lt;/div&gt;&lt;div&gt;&amp;nbsp;// redis的key&lt;/div&gt;&lt;div&gt;&amp;nbsp;private final String redisKey;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bRGuh10NtZIQq7-1y1DY-8">
-          <mxGeometry y="11" width="200" height="100" as="geometry" />
+          <mxGeometry y="21" width="200" height="100" as="geometry" />
         </mxCell>
         <mxCell id="bRGuh10NtZIQq7-1y1DY-10" value="&amp;nbsp;ROLE_NAME(90002,&lt;br&gt;&quot;玩家名字&quot;, &lt;br&gt;&quot;RoleName&quot;,&lt;br&gt;&quot;role:simple:&quot;)," style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bRGuh10NtZIQq7-1y1DY-8">
           <mxGeometry y="111" width="140" height="70" as="geometry" />
