@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-11T08:54:06.329Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="NmREnOPJM-fQKyHdQn_a" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-11T08:56:52.814Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="xplT2EXctz36tA2yUJS4" version="20.0.3" type="github">
   <diagram id="6vpdYORKXNjgu05Pn9uz" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -7,8 +7,11 @@
         <mxCell id="bRGuh10NtZIQq7-1y1DY-1" value="IRankEntryParser" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="95" y="150" width="130" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="bRGuh10NtZIQq7-1y1DY-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bRGuh10NtZIQq7-1y1DY-2" target="bRGuh10NtZIQq7-1y1DY-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bRGuh10NtZIQq7-1y1DY-2" value="RankEntryParserFactory" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="150" width="160" height="40" as="geometry" />
+          <mxGeometry x="320" y="150" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="bRGuh10NtZIQq7-1y1DY-4" value="enum:RankType" style="swimlane;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="40" y="660" width="200" height="200" as="geometry" />
@@ -36,6 +39,18 @@
         </mxCell>
         <mxCell id="bRGuh10NtZIQq7-1y1DY-12" value="&lt;span style=&quot;&quot;&gt;Map&amp;lt;Integer, IRankEntryParser&amp;gt; creatorMap;&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;key是tplId -&amp;gt;对应的就是RankType枚举&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;value是生成的DefaultRankEntryParser对象&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="300" y="210" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bRGuh10NtZIQq7-1y1DY-15" value="维护着所有的&lt;br&gt;Parser对象" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="225" y="120" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bRGuh10NtZIQq7-1y1DY-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="bRGuh10NtZIQq7-1y1DY-17" target="bRGuh10NtZIQq7-1y1DY-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bRGuh10NtZIQq7-1y1DY-17" value="DefaultRankEntryParser" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="87.5" y="225" width="145" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bRGuh10NtZIQq7-1y1DY-19" value="实现" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="195" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
