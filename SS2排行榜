@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-11T08:50:57.326Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="0tUgRe6Mu1-tx2vRHs74" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-11T08:52:51.646Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="7dJoIwUxhOWrQ8R-4jzf" version="20.0.3" type="github">
   <diagram id="6vpdYORKXNjgu05Pn9uz" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -10,10 +10,10 @@
         <mxCell id="bRGuh10NtZIQq7-1y1DY-2" value="RankEntryParserFactory" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="150" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="bRGuh10NtZIQq7-1y1DY-3" value="Map&amp;lt;Integer, IRankEntryParser&amp;gt; creatorMap;&lt;br&gt;creatorMapd的key是TplId" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="740" y="40" width="520" height="370" as="geometry" />
+        <mxCell id="bRGuh10NtZIQq7-1y1DY-3" value="Map&amp;lt;Integer, IRankEntryParser&amp;gt; creatorMap;&lt;br&gt;key是tplId -&amp;gt;对应的就是RankType枚举&lt;br&gt;value是生成的DefaultRankEntryParser对象" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="700" y="120" width="520" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="bRGuh10NtZIQq7-1y1DY-4" value="enum:RankType" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="bRGuh10NtZIQq7-1y1DY-4" value="enum:RankType" style="swimlane;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="60" y="360" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="bRGuh10NtZIQq7-1y1DY-5" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; // 父榜&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private final int tplId;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 子榜&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private final int subType;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private final String key;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private int scoreId;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bRGuh10NtZIQq7-1y1DY-4">
