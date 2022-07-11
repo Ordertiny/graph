@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2022-07-11T08:46:04.266Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="xH1YZZAa0I0EAlehJggo" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-11T08:50:10.727Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="fkzHSjr99Xu1eIS3KDlk" version="20.0.3" type="github">
   <diagram id="6vpdYORKXNjgu05Pn9uz" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="bRGuh10NtZIQq7-1y1DY-1" value="IRankEntryParser" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="150" width="130" height="40" as="geometry" />
+          <mxGeometry x="95" y="150" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="bRGuh10NtZIQq7-1y1DY-2" value="RankEntryParserFactory" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="150" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="bRGuh10NtZIQq7-1y1DY-3" value="Map&amp;lt;Integer, IRankEntryParser&amp;gt; creatorMap;&lt;br&gt;creatorMapd的key是TplId" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="590" y="210" width="520" height="370" as="geometry" />
+          <mxGeometry x="740" y="40" width="520" height="370" as="geometry" />
         </mxCell>
         <mxCell id="bRGuh10NtZIQq7-1y1DY-4" value="enum:RankType" style="swimlane;" vertex="1" parent="1">
           <mxGeometry x="60" y="360" width="200" height="200" as="geometry" />
@@ -24,6 +24,18 @@
         </mxCell>
         <mxCell id="bRGuh10NtZIQq7-1y1DY-7" value="排行榜类型枚举&lt;br&gt;每个类型的排行榜都有一个枚举值&lt;br&gt;可以根据通过他去计算玩家的真实分数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="50" y="580" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bRGuh10NtZIQq7-1y1DY-8" value="enum:RankMappingEnum" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="360" y="369" width="230" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="bRGuh10NtZIQq7-1y1DY-9" value="&lt;div&gt;&amp;nbsp;private int id;&lt;/div&gt;&lt;div&gt;&amp;nbsp;private String description;&lt;/div&gt;&lt;div&gt;&amp;nbsp;private final String redisFieldKey;&lt;/div&gt;&lt;div&gt;&amp;nbsp;private final String redisKey;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bRGuh10NtZIQq7-1y1DY-8">
+          <mxGeometry y="26" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bRGuh10NtZIQq7-1y1DY-10" value="&amp;nbsp;ROLE_NAME(90002,&lt;br&gt;&quot;玩家名字&quot;, &lt;br&gt;&quot;RoleName&quot;,&lt;br&gt;&quot;role:simple:&quot;)," style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bRGuh10NtZIQq7-1y1DY-8">
+          <mxGeometry y="111" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="bRGuh10NtZIQq7-1y1DY-11" value="字段映射枚举&lt;br&gt;可以找到redis中的key和字段key" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="580" width="190" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
