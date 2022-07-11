@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-11T08:52:51.646Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="7dJoIwUxhOWrQ8R-4jzf" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-11T08:54:06.329Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="NmREnOPJM-fQKyHdQn_a" version="20.0.3" type="github">
   <diagram id="6vpdYORKXNjgu05Pn9uz" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -10,11 +10,8 @@
         <mxCell id="bRGuh10NtZIQq7-1y1DY-2" value="RankEntryParserFactory" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="150" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="bRGuh10NtZIQq7-1y1DY-3" value="Map&amp;lt;Integer, IRankEntryParser&amp;gt; creatorMap;&lt;br&gt;key是tplId -&amp;gt;对应的就是RankType枚举&lt;br&gt;value是生成的DefaultRankEntryParser对象" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="700" y="120" width="520" height="220" as="geometry" />
-        </mxCell>
         <mxCell id="bRGuh10NtZIQq7-1y1DY-4" value="enum:RankType" style="swimlane;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="60" y="360" width="200" height="200" as="geometry" />
+          <mxGeometry x="40" y="660" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="bRGuh10NtZIQq7-1y1DY-5" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; // 父榜&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private final int tplId;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 子榜&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private final int subType;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private final String key;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private int scoreId;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bRGuh10NtZIQq7-1y1DY-4">
           <mxGeometry y="23" width="170" height="100" as="geometry" />
@@ -23,10 +20,10 @@
           <mxGeometry x="12" y="119" width="100" height="90" as="geometry" />
         </mxCell>
         <mxCell id="bRGuh10NtZIQq7-1y1DY-7" value="排行榜类型枚举&lt;br&gt;每个类型的排行榜都有一个枚举值&lt;br&gt;可以根据通过他去计算玩家的真实分数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="50" y="580" width="210" height="40" as="geometry" />
+          <mxGeometry x="30" y="880" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="bRGuh10NtZIQq7-1y1DY-8" value="enum:RankMappingEnum" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="360" y="369" width="230" height="200" as="geometry" />
+          <mxGeometry x="340" y="669" width="230" height="200" as="geometry" />
         </mxCell>
         <mxCell id="bRGuh10NtZIQq7-1y1DY-9" value="&lt;div&gt;&amp;nbsp;private int id;&lt;/div&gt;&lt;div&gt;&amp;nbsp;private String description;&lt;/div&gt;&lt;div&gt;&amp;nbsp;// hash值的key&lt;/div&gt;&lt;div&gt;&amp;nbsp;private final String redisFieldKey;&lt;/div&gt;&lt;div&gt;&amp;nbsp;// redis的key&lt;/div&gt;&lt;div&gt;&amp;nbsp;private final String redisKey;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bRGuh10NtZIQq7-1y1DY-8">
           <mxGeometry y="21" width="200" height="100" as="geometry" />
@@ -35,7 +32,10 @@
           <mxGeometry y="111" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="bRGuh10NtZIQq7-1y1DY-11" value="字段映射枚举&lt;br&gt;可以找到redis中的key和字段key" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="380" y="580" width="190" height="40" as="geometry" />
+          <mxGeometry x="360" y="880" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bRGuh10NtZIQq7-1y1DY-12" value="&lt;span style=&quot;&quot;&gt;Map&amp;lt;Integer, IRankEntryParser&amp;gt; creatorMap;&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;key是tplId -&amp;gt;对应的就是RankType枚举&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;value是生成的DefaultRankEntryParser对象&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="210" width="270" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
