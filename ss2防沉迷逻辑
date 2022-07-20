@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-20T03:39:52.863Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="_gacgoRA3lC7o5ZncwMC" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-20T03:41:16.792Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="QYTrlM5G1Qo0wTavuEAk" version="20.1.1" type="github">
   <diagram id="QiZT7JKPZb_8ZStIjmSi" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -49,7 +49,7 @@
         <mxCell id="V2VMQfFfxPpCGZj4uvMI-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V2VMQfFfxPpCGZj4uvMI-16" target="V2VMQfFfxPpCGZj4uvMI-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="V2VMQfFfxPpCGZj4uvMI-16" value="未成年用户主动下线&lt;br&gt;调用Logout()&lt;br&gt;LIMIT_TIME_LOGOUT = 1129" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="V2VMQfFfxPpCGZj4uvMI-16" value="未成年用户主动下线&lt;br&gt;调用Logout()&lt;br&gt;LIMIT_TIME_LOGOUT = 1129&lt;br&gt;清除相关用户缓存以及路由缓存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="950" y="262.5" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="V2VMQfFfxPpCGZj4uvMI-17" value="发布&amp;nbsp;KickOutEvent&lt;br&gt;发送MQ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
