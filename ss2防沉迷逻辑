@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-20T03:30:42.048Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="EuhkC1y6ikFt68vjWD4U" version="20.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-20T03:39:52.863Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="_gacgoRA3lC7o5ZncwMC" version="20.1.1" type="github">
   <diagram id="QiZT7JKPZb_8ZStIjmSi" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -41,19 +41,19 @@
           <mxGeometry x="790" y="140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="V2VMQfFfxPpCGZj4uvMI-14" value="检查clientInfo的防沉迷状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="170" width="180" height="60" as="geometry" />
+          <mxGeometry x="950" y="169.5" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="V2VMQfFfxPpCGZj4uvMI-15" value="Login处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="120" width="80" height="30" as="geometry" />
+          <mxGeometry x="990" y="119.5" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="V2VMQfFfxPpCGZj4uvMI-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V2VMQfFfxPpCGZj4uvMI-16" target="V2VMQfFfxPpCGZj4uvMI-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="V2VMQfFfxPpCGZj4uvMI-16" value="未成年用户主动下线&lt;br&gt;调用Logout()&lt;br&gt;LIMIT_TIME_LOGOUT = 1129" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="263" width="180" height="60" as="geometry" />
+          <mxGeometry x="950" y="262.5" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="V2VMQfFfxPpCGZj4uvMI-17" value="发布&amp;nbsp;KickOutEvent&lt;br&gt;发送MQ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="360" width="180" height="50" as="geometry" />
+          <mxGeometry x="950" y="359.5" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="V2VMQfFfxPpCGZj4uvMI-18" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -61,20 +61,58 @@
             <mxPoint x="760" y="60" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="V2VMQfFfxPpCGZj4uvMI-19" value="Login退出时的逻辑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1280" y="142" width="120" height="60" as="geometry" />
+        <mxCell id="V2VMQfFfxPpCGZj4uvMI-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="V2VMQfFfxPpCGZj4uvMI-19" target="V2VMQfFfxPpCGZj4uvMI-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="V2VMQfFfxPpCGZj4uvMI-19" value="Login退出事件逻辑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="141.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="V2VMQfFfxPpCGZj4uvMI-20" value="通知CommunityService，离开队伍" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1430" y="142" width="120" height="60" as="geometry" />
+          <mxGeometry x="1360" y="141.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="V2VMQfFfxPpCGZj4uvMI-21" value="通知&lt;br&gt;社交服退出" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1430" y="232" width="120" height="40" as="geometry" />
+          <mxGeometry x="1360" y="231.5" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="V2VMQfFfxPpCGZj4uvMI-22" value="通知&lt;br&gt;频道服退出" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1430" y="296" width="120" height="42" as="geometry" />
+          <mxGeometry x="1360" y="295.5" width="120" height="42" as="geometry" />
         </mxCell>
         <mxCell id="V2VMQfFfxPpCGZj4uvMI-23" value="通知&lt;br&gt;聊天服退出" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1430" y="362" width="120" height="40" as="geometry" />
+          <mxGeometry x="1360" y="361.5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V2VMQfFfxPpCGZj4uvMI-25" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1940" y="550" as="sourcePoint" />
+            <mxPoint x="1940" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V2VMQfFfxPpCGZj4uvMI-26" value="Logic退出时的逻辑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="V2VMQfFfxPpCGZj4uvMI-27" value="新手引导退出" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="140" width="120" height="38.5" as="geometry" />
+        </mxCell>
+        <mxCell id="V2VMQfFfxPpCGZj4uvMI-29" value="设置登出时间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V2VMQfFfxPpCGZj4uvMI-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="V2VMQfFfxPpCGZj4uvMI-30" target="V2VMQfFfxPpCGZj4uvMI-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1810" y="282" />
+              <mxPoint x="1810" y="162" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V2VMQfFfxPpCGZj4uvMI-30" value="发布登出事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="262" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V2VMQfFfxPpCGZj4uvMI-31" value="清除业务缓存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="330.5" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V2VMQfFfxPpCGZj4uvMI-32" value="清除任务系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1830" y="141.5" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V2VMQfFfxPpCGZj4uvMI-33" value="Redis状态变更与相关数据清除" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1830" y="201.5" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
