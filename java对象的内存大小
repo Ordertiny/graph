@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-26T09:39:16.700Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="OZZ3emDHwJi99ypyNHop" version="20.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-26T09:40:32.270Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="XE5fL1b_XQtEWDzqreNj" version="20.1.2" type="github">
   <diagram id="deS6_lgCMZDjXVjtM2AC" name="第 1 页">
     <mxGraphModel dx="1275" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -22,7 +22,7 @@
         <mxCell id="Y-Z4OQbODf0yW0Lwgs6z-11" value="实例数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="280" y="145" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Y-Z4OQbODf0yW0Lwgs6z-12" value="内存对其" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="Y-Z4OQbODf0yW0Lwgs6z-12" value="内存对齐" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="280" y="210" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Y-Z4OQbODf0yW0Lwgs6z-13" value="Object 内存分布" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
@@ -32,7 +32,7 @@
           <mxGeometry x="810" y="61.25" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Y-Z4OQbODf0yW0Lwgs6z-17" value="堆" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=2;hachureGap=8;fillColor=#FFCCCC;fillStyle=dots;sketch=1;fontFamily=Helvetica;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="800" y="160" width="120" height="60" as="geometry" />
+          <mxGeometry x="780" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Y-Z4OQbODf0yW0Lwgs6z-18" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontFamily=Helvetica;fontSize=15;fontColor=#000000;fillColor=#FFCCCC;" vertex="1" parent="1">
           <mxGeometry x="370" y="58.75" width="20" height="62.5" as="geometry" />
@@ -46,8 +46,26 @@
         <mxCell id="Y-Z4OQbODf0yW0Lwgs6z-23" value="成员属性" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="390" y="150" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Y-Z4OQbODf0yW0Lwgs6z-24" value="hotspot是8字节对其" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="390" y="215" width="160" height="30" as="geometry" />
+        <mxCell id="Y-Z4OQbODf0yW0Lwgs6z-24" value="hotspot是8字节&lt;span style=&quot;font-size: 18px;&quot;&gt;对齐&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="390" y="210" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-Z4OQbODf0yW0Lwgs6z-25" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=15;fontColor=#000000;strokeColor=#00CCCC;exitX=1.006;exitY=0.573;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Y-Z4OQbODf0yW0Lwgs6z-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="70" as="sourcePoint" />
+            <mxPoint x="780" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y-Z4OQbODf0yW0Lwgs6z-26" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=15;fontColor=#000000;strokeColor=#00CCCC;" edge="1" parent="1" source="Y-Z4OQbODf0yW0Lwgs6z-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570.0000000000002" y="137.18999999999994" as="sourcePoint" />
+            <mxPoint x="780" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y-Z4OQbODf0yW0Lwgs6z-27" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=15;fontColor=#000000;strokeColor=#00CCCC;" edge="1" parent="1" source="Y-Z4OQbODf0yW0Lwgs6z-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="632.3076923076924" y="140" as="sourcePoint" />
+            <mxPoint x="770" y="190" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
