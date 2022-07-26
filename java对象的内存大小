@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-26T09:37:04.557Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="CGjmE1WHfQ337SiDwQd8" version="20.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-26T09:39:16.700Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="OZZ3emDHwJi99ypyNHop" version="20.1.2" type="github">
   <diagram id="deS6_lgCMZDjXVjtM2AC" name="第 1 页">
     <mxGraphModel dx="1275" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -20,7 +20,7 @@
           <mxGeometry x="280" y="70" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Y-Z4OQbODf0yW0Lwgs6z-11" value="实例数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="280" y="140" width="100" height="40" as="geometry" />
+          <mxGeometry x="280" y="145" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Y-Z4OQbODf0yW0Lwgs6z-12" value="内存对其" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="280" y="210" width="100" height="40" as="geometry" />
@@ -29,13 +29,25 @@
           <mxGeometry x="100" y="305" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Y-Z4OQbODf0yW0Lwgs6z-16" value="元空间" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=2;hachureGap=8;fillColor=#FFCCCC;fillStyle=dots;sketch=1;fontFamily=Helvetica;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="670" y="70" width="120" height="60" as="geometry" />
+          <mxGeometry x="810" y="61.25" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Y-Z4OQbODf0yW0Lwgs6z-17" value="堆" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=2;hachureGap=8;fillColor=#FFCCCC;fillStyle=dots;sketch=1;fontFamily=Helvetica;fontSize=15;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="680" y="180" width="120" height="60" as="geometry" />
+          <mxGeometry x="800" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Y-Z4OQbODf0yW0Lwgs6z-18" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontFamily=Helvetica;fontSize=15;fontColor=#000000;fillColor=#FFCCCC;" vertex="1" parent="1">
           <mxGeometry x="370" y="58.75" width="20" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-Z4OQbODf0yW0Lwgs6z-21" value="Klass:是一个指针，指向class结构" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="390" y="50" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-Z4OQbODf0yW0Lwgs6z-22" value="Mark:标记对象大小，GC情况，锁记录等运行时状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="390" y="100" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-Z4OQbODf0yW0Lwgs6z-23" value="成员属性" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="390" y="150" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Y-Z4OQbODf0yW0Lwgs6z-24" value="hotspot是8字节对其" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="390" y="215" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
