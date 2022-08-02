@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-02T02:28:49.725Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="OaAeIvfDoIIZDtvGaxn9" version="20.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-02T03:43:52.832Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="gaeSkUbTfc95wYOBxCZC" version="20.2.0" type="github">
   <diagram id="GQJ4yk22MWf8iv6Y-LgN" name="第 1 页">
-    <mxGraphModel dx="1504" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1340" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -557,6 +557,9 @@
         </mxCell>
         <mxCell id="ACh5nuPEF7Ecs-UiLZLZ-133" value="中途退出" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Verdana;" vertex="1" parent="1">
           <mxGeometry x="1420" y="185" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ACh5nuPEF7Ecs-UiLZLZ-134" value="1. 为每个Team成员创建matchRole&lt;br&gt;2. 为每次开始匹配创建一个matcher，包含所有组队成员" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=Verdana;fontSize=11;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="130" y="670" width="370" height="370" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
