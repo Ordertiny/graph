@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-02T02:25:56.953Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="YRhMz_pN3kxdt-6hpm8M" version="20.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-02T02:28:49.725Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="OaAeIvfDoIIZDtvGaxn9" version="20.2.0" type="github">
   <diagram id="GQJ4yk22MWf8iv6Y-LgN" name="第 1 页">
     <mxGraphModel dx="1504" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -536,6 +536,27 @@
           <mxGeometry x="1436" width="144" height="31" as="geometry">
             <mxRectangle width="144" height="31" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ACh5nuPEF7Ecs-UiLZLZ-126" value="在大厅" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="380" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ACh5nuPEF7Ecs-UiLZLZ-128" value="匹配中" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="810" y="185" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ACh5nuPEF7Ecs-UiLZLZ-129" value="分配战斗服" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="960" y="185" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ACh5nuPEF7Ecs-UiLZLZ-130" value="加载中" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="185" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ACh5nuPEF7Ecs-UiLZLZ-131" value="游戏中" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="185" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ACh5nuPEF7Ecs-UiLZLZ-132" value="结算后" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="185" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ACh5nuPEF7Ecs-UiLZLZ-133" value="中途退出" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="185" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
