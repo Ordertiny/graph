@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-03T08:51:11.918Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ARncE_gEFzR60wwq5uGX" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-03T08:52:32.391Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="HxgNaf-u5lMYX9crRlSU" version="20.2.2" type="github">
   <diagram id="wFE0QG_FPsp0jaGvCLVb" name="Page-1">
     <mxGraphModel dx="1497" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -539,7 +539,7 @@
             <mxPoint x="1376" y="2642" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YOjFRSPJj5lFm-iQK04D-73" value="每30s取聚合一次频道人数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;rotation=4;" vertex="1" parent="1">
+        <mxCell id="YOjFRSPJj5lFm-iQK04D-73" value="每30s取聚合一次战斗人数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;rotation=4;" vertex="1" parent="1">
           <mxGeometry x="1188.96" y="2599" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YOjFRSPJj5lFm-iQK04D-76" value="Redis" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=2;hachureGap=8;fillColor=#e1d5e7;fillStyle=dots;sketch=1;fontSize=11;strokeColor=#9673a6;" vertex="1" parent="1">
