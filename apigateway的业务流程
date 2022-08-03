@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-03T08:38:27.937Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Gd0AFjL1AIhrmTIKoHXy" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-03T08:51:11.918Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ARncE_gEFzR60wwq5uGX" version="20.2.2" type="github">
   <diagram id="wFE0QG_FPsp0jaGvCLVb" name="Page-1">
     <mxGraphModel dx="1497" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -483,7 +483,7 @@
           <mxGeometry x="180.04000000000008" y="90" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YOjFRSPJj5lFm-iQK04D-72" value="Leader" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="YOjFRSPJj5lFm-iQK04D-53">
-          <mxGeometry x="206.03999999999996" y="120.85" width="60" height="30" as="geometry" />
+          <mxGeometry x="181.03999999999996" y="130" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YOjFRSPJj5lFm-iQK04D-59" value="Login" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;sketch=1;strokeColor=#6c8ebf;" vertex="1" parent="YOjFRSPJj5lFm-iQK04D-53">
           <mxGeometry x="181.03999999999996" y="30" width="110" height="40" as="geometry" />
@@ -542,17 +542,20 @@
         <mxCell id="YOjFRSPJj5lFm-iQK04D-73" value="每30s取聚合一次频道人数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;rotation=4;" vertex="1" parent="1">
           <mxGeometry x="1188.96" y="2599" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YOjFRSPJj5lFm-iQK04D-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;endArrow=none;endFill=0;" edge="1" parent="1" source="YOjFRSPJj5lFm-iQK04D-57" target="YOjFRSPJj5lFm-iQK04D-63">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1075" y="2750" />
-              <mxPoint x="770" y="2750" />
-              <mxPoint x="770" y="2446" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="YOjFRSPJj5lFm-iQK04D-76" value="Redis" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=2;hachureGap=8;fillColor=#e1d5e7;fillStyle=dots;sketch=1;fontSize=11;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1015" y="2840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YOjFRSPJj5lFm-iQK04D-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;endArrow=classic;endFill=1;startArrow=none;" edge="1" parent="1" source="YOjFRSPJj5lFm-iQK04D-75" target="YOjFRSPJj5lFm-iQK04D-76">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YOjFRSPJj5lFm-iQK04D-75" value="上报聚合战斗在线人数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="934.96" y="2724" width="140" height="30" as="geometry" />
+          <mxGeometry x="1004.96" y="2760" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YOjFRSPJj5lFm-iQK04D-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;endArrow=none;endFill=0;" edge="1" parent="1" source="YOjFRSPJj5lFm-iQK04D-57" target="YOjFRSPJj5lFm-iQK04D-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1075" y="2645" as="sourcePoint" />
+            <mxPoint x="1075" y="2840" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
