@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-03T08:03:09.561Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="IyYIXPaXwM400UNiQ6bm" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-03T08:05:54.825Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="6xvOMlQ72A4iRfZ4Gt0C" version="20.2.2" type="github">
   <diagram id="wFE0QG_FPsp0jaGvCLVb" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -377,7 +377,7 @@
         <mxCell id="YOjFRSPJj5lFm-iQK04D-2" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#ffe6cc;sketch=1;strokeColor=#d79b00;" vertex="1" parent="YOjFRSPJj5lFm-iQK04D-13">
           <mxGeometry x="10" y="10" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="YOjFRSPJj5lFm-iQK04D-1" value="ApiGateWay" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#ffe6cc;sketch=1;strokeColor=#d79b00;" vertex="1" parent="YOjFRSPJj5lFm-iQK04D-13">
+        <mxCell id="YOjFRSPJj5lFm-iQK04D-1" value="ApiGateWay" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f8cecc;sketch=1;strokeColor=#b85450;" vertex="1" parent="YOjFRSPJj5lFm-iQK04D-13">
           <mxGeometry y="20" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YOjFRSPJj5lFm-iQK04D-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YOjFRSPJj5lFm-iQK04D-1" target="YOjFRSPJj5lFm-iQK04D-6">
@@ -397,6 +397,15 @@
         </mxCell>
         <mxCell id="YOjFRSPJj5lFm-iQK04D-18" value="每个Login上报数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="138" y="2678" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YOjFRSPJj5lFm-iQK04D-19" value="MQ" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=2;hachureGap=8;fillColor=#d5e8d4;fillStyle=dots;sketch=1;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="616" y="2400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YOjFRSPJj5lFm-iQK04D-23" value="Leader节点每45s上报聚合大厅在线人数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="365" y="2406" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YOjFRSPJj5lFm-iQK04D-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="YOjFRSPJj5lFm-iQK04D-1" target="YOjFRSPJj5lFm-iQK04D-19">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
