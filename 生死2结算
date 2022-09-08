@@ -1,17 +1,62 @@
-<mxfile host="app.diagrams.net" modified="2022-09-04T08:05:48.342Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.0.7062 SLBChan/30" etag="0STC4JR3llMhHPqlOPCZ" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-08T08:13:27.419Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="VgEtSp3GozKV79O_kOCi" version="20.2.8" type="github">
   <diagram id="anMrheleCpD8112sJfDF" name="第 1 页">
-    <mxGraphModel dx="769" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1144" dy="595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="a9isyEn_URaON6r_0XOO-2" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas; font-size: 9.8pt;&quot;&gt;Channel.BattleReportShowData&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas; font-size: 9.8pt;&quot;&gt;玩家个人战报数据&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="a9isyEn_URaON6r_0XOO-2" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas; font-size: 9.8pt;&quot;&gt;Channel.BattleReportShowData&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas; font-size: 9.8pt;&quot;&gt;玩家个人战报数据&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="70" y="50" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="a9isyEn_URaON6r_0XOO-3" value="考虑局内会不会补AI&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="a9isyEn_URaON6r_0XOO-3" value="考虑局内会不会补AI&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="530" y="50" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="a9isyEn_URaON6r_0XOO-4" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas; font-size: 9.8pt;&quot;&gt;ChannelExtra.ChannelRoomData&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas; font-size: 9.8pt;&quot;&gt;结算的一些房间信息&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="a9isyEn_URaON6r_0XOO-4" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas; font-size: 9.8pt;&quot;&gt;ChannelExtra.ChannelRoomData&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas; font-size: 9.8pt;&quot;&gt;结算的一些房间信息&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="50" y="130" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-1" value="断线重连" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="110" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-2" value="是否重连" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="190" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-4" value="放弃重连" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="260" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-5" value="房间存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="320" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-6" value="状态机停止" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="405" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-7" value="玩家存在房间且有临时战报进行单人结算" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="400" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-8" value="确认重连" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="260" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-10" value="房间存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="310" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-11" value="获取玩家" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="390" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-12" value="玩家存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="470" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-13" value="设置玩家为LEAVE_CUSTOM_ROOM&lt;br&gt;并校验玩家当前状态是否为断线状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="540" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-14" value="向战斗服发起是否可以加入事件" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="640" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-15" value="警告日志" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="550" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-16" value="若房间曾经开过，则通知玩家战斗结束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="605" y="390" width="125" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-17" value="状态机停止" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="617.5" y="470" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
