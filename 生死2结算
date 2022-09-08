@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-08T09:23:44.326Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="TygTp-xaAOto0gaH89ct" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-08T10:34:49.320Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="TU4uJl44ebK3tvve2rGg" version="20.2.8" type="github">
   <diagram id="anMrheleCpD8112sJfDF" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -211,6 +211,45 @@
         </mxCell>
         <mxCell id="ixqPJ4HjgblCOQwp1m3s-65" value="关卡失败" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2050" y="770" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-74" value="单人结算" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="940" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-76" value="根据结算链生成&lt;br&gt;结算上下文" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="845" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-77" value="玩家存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1010" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-78" value="处理局内掉落物品" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="845" y="1180" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-79" value="发送结算协议ToLogic" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="845" y="1260" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-80" value="修改状态机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="845" y="1330" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-81" value="全局结算" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="940" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-83" value="结算消息人数校验" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="1010" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-84" value="将断线玩家加入结算对象中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="1080" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-85" value="根据结算链生成&lt;br&gt;结算上下文" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="1150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-86" value="处理局内掉落物品" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="1230" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-87" value="修改状态机&lt;br&gt;状态异常玩家处理&lt;br&gt;将玩家设置为结算" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="1300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-88" value="发送结算协议ToLogic" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="1380" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
