@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-08T08:52:35.253Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="kU-Pwy1FGySPQsdpa_-B" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-08T09:23:44.326Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="TygTp-xaAOto0gaH89ct" version="20.2.8" type="github">
   <diagram id="anMrheleCpD8112sJfDF" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -121,6 +121,96 @@
         </mxCell>
         <mxCell id="ixqPJ4HjgblCOQwp1m3s-39" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="950" y="320" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-45" value="大厅单人结算" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="525" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-49" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="ixqPJ4HjgblCOQwp1m3s-46" target="ixqPJ4HjgblCOQwp1m3s-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-46" value="玩家登录时&lt;br&gt;检测开挂" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="405" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-50" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="ixqPJ4HjgblCOQwp1m3s-47" target="ixqPJ4HjgblCOQwp1m3s-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-47" value="放弃重连" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="390" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-51" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="ixqPJ4HjgblCOQwp1m3s-48" target="ixqPJ4HjgblCOQwp1m3s-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-48" value="战斗发单人结算事件" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="405" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-54" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="ixqPJ4HjgblCOQwp1m3s-52" target="ixqPJ4HjgblCOQwp1m3s-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-52" value="局内多人下玩家主动退出" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1645" y="290" width="150" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-55" value="大厅全局结算" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="1060" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-57" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="ixqPJ4HjgblCOQwp1m3s-56" target="ixqPJ4HjgblCOQwp1m3s-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-56" value="战斗发全局结算事件" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="940" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-66" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="ixqPJ4HjgblCOQwp1m3s-58" target="ixqPJ4HjgblCOQwp1m3s-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-58" value="单人局关卡失败" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="810" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-67" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="ixqPJ4HjgblCOQwp1m3s-59" target="ixqPJ4HjgblCOQwp1m3s-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-59" value="单人局关卡通关" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="710" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-68" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="ixqPJ4HjgblCOQwp1m3s-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1630" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-60" value="单人局玩家掉线" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="670" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-69" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.908;entryY=0.138;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="ixqPJ4HjgblCOQwp1m3s-61" target="ixqPJ4HjgblCOQwp1m3s-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-61" value="单人局玩家主动退出" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="670" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-73" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="ixqPJ4HjgblCOQwp1m3s-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1750" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-62" value="单人局" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="840" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-72" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="ixqPJ4HjgblCOQwp1m3s-63" target="ixqPJ4HjgblCOQwp1m3s-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-63" value="多人局" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1830" y="830" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-70" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ixqPJ4HjgblCOQwp1m3s-64" target="ixqPJ4HjgblCOQwp1m3s-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1890" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-64" value="关卡通关" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1930" y="680" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-71" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="ixqPJ4HjgblCOQwp1m3s-65" target="ixqPJ4HjgblCOQwp1m3s-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ixqPJ4HjgblCOQwp1m3s-65" value="关卡失败" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="770" width="120" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
