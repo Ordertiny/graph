@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-16T10:04:00.980Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="j07t1NRhSIhnVOkQz3nt" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-16T10:04:32.061Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="SMxWI4VOCa-v38AQLV6h" version="20.3.0" type="github">
   <diagram id="anMrheleCpD8112sJfDF" name="第 1 页">
     <mxGraphModel dx="3761" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -328,6 +328,9 @@
         <mxCell id="GBHG4A9-_Nn_UXkzf5WQ-5" value="不在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="390" y="1190" width="50" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="GBHG4A9-_Nn_UXkzf5WQ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GBHG4A9-_Nn_UXkzf5WQ-6" target="GBHG4A9-_Nn_UXkzf5WQ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GBHG4A9-_Nn_UXkzf5WQ-6" value="是否在&lt;br&gt;自定义房间" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="1190" width="100" height="60" as="geometry" />
         </mxCell>
@@ -337,11 +340,14 @@
         <mxCell id="GBHG4A9-_Nn_UXkzf5WQ-8" value="判定是否在匹配中&lt;br&gt;若在匹配中则发取消匹配" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="700" y="1200" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="GBHG4A9-_Nn_UXkzf5WQ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="GBHG4A9-_Nn_UXkzf5WQ-9" target="GBHG4A9-_Nn_UXkzf5WQ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GBHG4A9-_Nn_UXkzf5WQ-9" value="退出自定义房间&lt;br&gt;处理OB玩家" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="1290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GBHG4A9-_Nn_UXkzf5WQ-10" value="停止状态机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="1395" width="120" height="60" as="geometry" />
+          <mxGeometry x="520" y="1395" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GBHG4A9-_Nn_UXkzf5WQ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="GBHG4A9-_Nn_UXkzf5WQ-11" target="GBHG4A9-_Nn_UXkzf5WQ-13">
           <mxGeometry relative="1" as="geometry" />
