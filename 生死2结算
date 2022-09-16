@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-16T09:58:53.311Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="RXgVx9sOdfPMkrcCEeGm" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-16T10:00:12.368Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="-bDD7NsSMbVQ__gDJBv2" version="20.3.0" type="github">
   <diagram id="anMrheleCpD8112sJfDF" name="第 1 页">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="3761" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -316,8 +316,14 @@
         <mxCell id="GBHG4A9-_Nn_UXkzf5WQ-2" value="Channel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="1090" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="GBHG4A9-_Nn_UXkzf5WQ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GBHG4A9-_Nn_UXkzf5WQ-3" target="GBHG4A9-_Nn_UXkzf5WQ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GBHG4A9-_Nn_UXkzf5WQ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="GBHG4A9-_Nn_UXkzf5WQ-3" target="GBHG4A9-_Nn_UXkzf5WQ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GBHG4A9-_Nn_UXkzf5WQ-3" value="是否在房间" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="1190" width="100" height="60" as="geometry" />
+          <mxGeometry x="285" y="1190" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GBHG4A9-_Nn_UXkzf5WQ-5" value="不在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="390" y="1190" width="50" height="30" as="geometry" />
@@ -332,7 +338,7 @@
           <mxGeometry x="700" y="1200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GBHG4A9-_Nn_UXkzf5WQ-9" value="退出自定义房间&lt;br&gt;处理OB玩家" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="1290" width="120" height="60" as="geometry" />
+          <mxGeometry x="520" y="1290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GBHG4A9-_Nn_UXkzf5WQ-10" value="停止状态机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="530" y="1395" width="120" height="60" as="geometry" />
@@ -363,6 +369,9 @@
         </mxCell>
         <mxCell id="GBHG4A9-_Nn_UXkzf5WQ-16" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="290" y="1560" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GBHG4A9-_Nn_UXkzf5WQ-20" value="这么说的话，如果房间支持断线重连的话&lt;br&gt;顶号玩家是仍保持原状态的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="1320" width="240" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
