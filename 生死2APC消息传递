@@ -1,1 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2022-04-02T01:48:22.054Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" version="16.5.5" etag="D0UMx534-KUTZMlm1LMg" type="github"><diagram id="fhCXsLaIcLfosfRITEt9">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-17T09:40:19.621Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="YfW0IURMrGSOLYyQNYWe" version="20.3.0" type="github">
+  <diagram id="fhCXsLaIcLfosfRITEt9" name="第 1 页">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mtfWD1IDkS0cz3Y90z3P-1" value="&lt;pre style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;宋体&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#9e880d;&quot;&gt;MessageProtocol上会设置默认的线程池&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: 宋体, monospace; font-size: 12pt;&quot;&gt;&lt;font color=&quot;#9e880d&quot;&gt;默认是&lt;/font&gt;InvokeThreadGroupEnum&lt;span style=&quot;color: rgb(8, 8, 8); font-size: 12pt;&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;font-size: 12pt; color: rgb(135, 16, 148); font-style: italic;&quot;&gt;DEFAULT_GROUP_INVOKE&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: 宋体, monospace; font-size: 12pt;&quot;&gt;&lt;span style=&quot;font-size: 12pt; color: rgb(135, 16, 148); font-style: italic;&quot;&gt;创角：&lt;/span&gt;CREATE_GROUP_INVOKE&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: 宋体, monospace; font-size: 12pt;&quot;&gt;登录：LOGIN_GROUP_INVOKE&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: 宋体, monospace; font-size: 12pt;&quot;&gt;设置@OrderMessage 则用ORDER_GROUP_INVOKE&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: 宋体, monospace; font-size: 12pt;&quot;&gt;的线程池&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="40" width="610" height="230" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
