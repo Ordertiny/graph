@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-17T08:18:02.749Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="IfTBNfRaTKSwA9Q7nbXL" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-17T08:40:53.536Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="9EgUhCu9LEfnXGlwNP8Y" version="20.3.0" type="github">
   <diagram id="anMrheleCpD8112sJfDF" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -381,6 +381,12 @@
         </mxCell>
         <mxCell id="GBHG4A9-_Nn_UXkzf5WQ-27" value="登录时流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1110" y="1050" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GBHG4A9-_Nn_UXkzf5WQ-28" value="重置玩家状态&lt;br&gt;若玩家不是在游戏中或断线中或房间不存在，&lt;br&gt;就将玩家状态机停止掉，若玩家当前在匹配则需要将玩家取消匹配再停止状态机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="1110" width="290" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GBHG4A9-_Nn_UXkzf5WQ-29" value="查找断线重连&lt;br&gt;若玩家存在房间中，则看是否允许重连以及有临时战报的&lt;br&gt;若玩家被踢，则直接结算，不然就下发验证重连协议&lt;br&gt;对于房间不允许重连且没有临时战报的，就不管了；" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="1270" width="310" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
