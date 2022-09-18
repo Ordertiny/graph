@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-18T08:57:35.147Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.0.7062 SLBChan/30" etag="0YqUkmIFNhXxOXxrk0Uq" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-18T09:01:35.957Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.0.7062 SLBChan/30" etag="ra2XiRKyl_NT5iINuSPj" version="20.2.8" type="github">
   <diagram id="rwcF-pnn3F9jWqL6eApG" name="第 1 页">
-    <mxGraphModel dx="782" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1136" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -179,8 +179,14 @@
             <mxPoint x="410" y="717.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sR10ZgdG4tvMrp3kKVi9-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sR10ZgdG4tvMrp3kKVi9-70" target="sR10ZgdG4tvMrp3kKVi9-73">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="sR10ZgdG4tvMrp3kKVi9-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sR10ZgdG4tvMrp3kKVi9-70" target="sR10ZgdG4tvMrp3kKVi9-73">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="675" />
+              <mxPoint x="640" y="675" />
+              <mxPoint x="640" y="718" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="sR10ZgdG4tvMrp3kKVi9-70" value="内核buffer" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#fff2cc;sketch=1;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="270" y="695" width="80" height="45" as="geometry" />
@@ -189,7 +195,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sR10ZgdG4tvMrp3kKVi9-72" value="Socket-buffer" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#fff2cc;sketch=1;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="560" y="695" width="80" height="45" as="geometry" />
+          <mxGeometry x="535" y="695" width="80" height="45" as="geometry" />
         </mxCell>
         <mxCell id="sR10ZgdG4tvMrp3kKVi9-73" value="网卡驱动" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#d5e8d4;sketch=1;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="710" y="695" width="80" height="45" as="geometry" />
@@ -198,7 +204,7 @@
           <mxGeometry x="200" y="690" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sR10ZgdG4tvMrp3kKVi9-75" value="CPU拷贝-少量数据可忽略" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="375" y="690" width="160" height="30" as="geometry" />
+          <mxGeometry x="360" y="690" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sR10ZgdG4tvMrp3kKVi9-76" value="DMA拷贝" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="640" y="690" width="70" height="30" as="geometry" />
