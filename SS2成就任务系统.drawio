@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-19T12:35:05.617Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="wVRAWcYis5pZQLBuW-_m" version="20.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-19T12:40:59.878Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="QXE-CR9sxiXMFsyQC3P9" version="20.3.2" type="github">
   <diagram id="ENxEs4GuXWoanbtWAxck" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -13,8 +13,17 @@
         <mxCell id="hWBbgPYYPAye6a4a8nGw-4" value="AchieveTaskRuleCheck" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="820" y="130" width="190" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hWBbgPYYPAye6a4a8nGw-5" value="// 更新任务状态&lt;br&gt;// 角色Id&lt;br&gt;// 任务规则&lt;br&gt;// 参数&lt;br&gt;public void updateTaskByRule(long roleId, int ruleType, Object... params);" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="190" y="240" width="330" height="250" as="geometry" />
+        <mxCell id="hWBbgPYYPAye6a4a8nGw-5" value="// 更新任务状态&lt;br&gt;// 角色Id&lt;br&gt;// 任务规则&lt;br&gt;// 参数&lt;br&gt;public void updateTaskByRule(long roleId, int ruleType, Object... params);" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="180" y="210" width="250" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="hWBbgPYYPAye6a4a8nGw-6" value="&lt;div&gt;// 判定是否完成成就任务&lt;/div&gt;&lt;div&gt;// 玩家db对象&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;public boolean checkComplete(long roleId, RoleAchieveTask task,&amp;nbsp; AchieveTaskTemplate template,&lt;span style=&quot;background-color: initial;&quot;&gt;Object... params)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="500" y="210" width="390" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="hWBbgPYYPAye6a4a8nGw-12" value="RoleAchieveTask " style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="200" y="630" width="310" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="hWBbgPYYPAye6a4a8nGw-14" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; // 唯一id&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private long id;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 玩家id&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private long roleId;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 任务表id&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private int tplId;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 任务进度&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private int complete;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 状态 0-未完成状态，1-完成状态，2-已领取奖励状态&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private int status;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 创建时间&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private long createTime;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 修改时间&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private long modifyTime;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="hWBbgPYYPAye6a4a8nGw-12">
+          <mxGeometry x="-10" y="30" width="320" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
