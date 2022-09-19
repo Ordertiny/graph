@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-19T12:32:07.607Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="uI5KH3Q6J6tZ-3LUtrQq" version="20.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-19T12:35:05.617Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="wVRAWcYis5pZQLBuW-_m" version="20.3.2" type="github">
   <diagram id="ENxEs4GuXWoanbtWAxck" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -8,10 +8,13 @@
           <mxGeometry x="230" y="130" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hWBbgPYYPAye6a4a8nGw-2" value="AchieveTaskRuleCheckFactory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="130" width="190" height="40" as="geometry" />
+          <mxGeometry x="510" y="130" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hWBbgPYYPAye6a4a8nGw-4" value="AchieveTaskRuleCheck" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="850" y="130" width="190" height="40" as="geometry" />
+          <mxGeometry x="820" y="130" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hWBbgPYYPAye6a4a8nGw-5" value="// 更新任务状态&lt;br&gt;// 角色Id&lt;br&gt;// 任务规则&lt;br&gt;// 参数&lt;br&gt;public void updateTaskByRule(long roleId, int ruleType, Object... params);" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="190" y="240" width="330" height="250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
