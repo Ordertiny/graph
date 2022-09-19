@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-19T12:51:57.304Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Wls6ayn3gmelmgAA3S-G" version="20.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-19T12:53:55.744Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="W7Jw7Dkd5WN10sSyiWtg" version="20.3.2" type="github">
   <diagram id="ENxEs4GuXWoanbtWAxck" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -20,7 +20,7 @@
           <mxGeometry x="500" y="210" width="270" height="260" as="geometry" />
         </mxCell>
         <mxCell id="hWBbgPYYPAye6a4a8nGw-12" value="RoleAchieveTask " style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="200" y="630" width="310" height="240" as="geometry" />
+          <mxGeometry x="160" y="580" width="310" height="240" as="geometry" />
         </mxCell>
         <mxCell id="hWBbgPYYPAye6a4a8nGw-14" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; // 唯一id&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private long id;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 玩家id&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private long roleId;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 任务表id&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private int tplId;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 任务进度&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private int complete;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 状态 0-未完成状态，1-完成状态，2-已领取奖励状态&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private int status;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 创建时间&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private long createTime;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; // 修改时间&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private long modifyTime;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="hWBbgPYYPAye6a4a8nGw-12">
           <mxGeometry x="-10" y="30" width="320" height="210" as="geometry" />
