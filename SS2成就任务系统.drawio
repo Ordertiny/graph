@@ -1,1 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2022-09-19T12:30:04.491Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="vZDymSLu5NDwsKV3RKlS" version="20.3.2" type="github"><diagram id="ENxEs4GuXWoanbtWAxck" name="第 1 页">jZJNb4MwDIZ/TY6TIOnorh1j9LLDhNZKu0wZ8UikQFia8tFfvzBMAVWTJuVgP6+TOK9DWFx2qeW1fDECNKGB6Ah7IpSGG0rJsALRj2QbISisElg0g0xdAGGA9KwEnFaFzhjtVL2GuakqyN2KcWtNuy77Mnp9a80LuAFZzvUtPSrh5EgpY9Es7EEVcro6ut+MSsmnanzKSXJh2gViCWGxNcaNUdnFoAf3JmPGfc9/qNfOLFTuPxs+5e673ifH1132fvhoqkv6drjDaTRcn/HF2KzrJwv8Kd5tnzy2UjnIap4PSusH7pl0pfZZ6MPbhrDHBqyDboGwwRRMCc72vgRVukWz8LtEmLaz9+Hkp1zY/oCM47iL68mzIT5AT6Z09v5XW3xhlvwA</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-19T12:31:41.024Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="8Qkb8W4NRARULVO0XBGT" version="20.3.2" type="github">
+  <diagram id="ENxEs4GuXWoanbtWAxck" name="第 1 页">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hWBbgPYYPAye6a4a8nGw-1" value="AchieveTaskService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="130" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hWBbgPYYPAye6a4a8nGw-2" value="AchieveTaskRuleCheckFactory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="130" width="190" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
