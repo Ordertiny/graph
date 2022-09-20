@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-20T09:39:17.320Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="4HzyyZpdsI9l5uSQR2Uw" version="20.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-20T09:42:39.476Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="rcxxZBXDw4st02xn20gI" version="20.3.2" type="github">
   <diagram id="ENxEs4GuXWoanbtWAxck" name="第 1 页">
     <mxGraphModel dx="1144" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -90,6 +90,15 @@
         </mxCell>
         <mxCell id="E-_-Di7X2A5vuP30yNUE-28" value="领取成就奖励" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;sketch=1;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="590" y="840" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E-_-Di7X2A5vuP30yNUE-31" value="与好友同玩" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#006666;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="940" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E-_-Di7X2A5vuP30yNUE-32" value="触发同玩成就任务" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#006666;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1020" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E-_-Di7X2A5vuP30yNUE-33" value="获取玩家" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#006666;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1100" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
