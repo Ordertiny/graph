@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-20T06:48:27.063Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="ivpbMxCO5Jx6J6cUBp_T" version="20.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-20T06:49:11.210Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="x_D8mqZTzXcCWkoT9mKE" version="20.3.2" type="github">
   <diagram id="d4l9N6rHXy6DOFmFzIMb" name="第 1 页">
     <mxGraphModel dx="1144" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -59,10 +59,13 @@
           <mxGeometry x="390" y="410" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Aa49bJoLyoRSZSHaUmV9-22" value="获取正在进行的任务：通过DB去捞" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="50" y="490" width="350" height="70" as="geometry" />
+          <mxGeometry x="30" y="480" width="350" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Aa49bJoLyoRSZSHaUmV9-23" value="周任务，每日任务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="20" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Aa49bJoLyoRSZSHaUmV9-24" value="生涯任务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="580" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
