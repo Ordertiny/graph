@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-20T07:05:27.687Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="6qfJAr8LO0x4Aqz3MqCX" version="20.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-20T07:53:14.184Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="dXQ4InLR0uf5nlisss06" version="20.3.2" type="github">
   <diagram id="d4l9N6rHXy6DOFmFzIMb" name="第 1 页">
     <mxGraphModel dx="1144" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -70,7 +70,7 @@
         <mxCell id="Aa49bJoLyoRSZSHaUmV9-25" value="主动触发完成任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="27.5" y="620" width="115" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Aa49bJoLyoRSZSHaUmV9-28" value="1. 根据roleId和ruleType去获取玩家db中的任务集合；&lt;br&gt;就是说db中凡是满足玩家ruleType的任务都返回；&lt;br&gt;代码中做了处理，将玩家的taskEntity（TE）按照模板表中的ruleType规则进行分类；也就是有些任务有两个规则，那么map中这两个规则对应的taskEntityList中都包含这个TE；&lt;br&gt;2. 取章节完成情况（db保存玩家对应章节的进度信息）&lt;br&gt;3. 判定该任务是否完成，交给工厂类去处理；&lt;br&gt;工厂类需要roleId， TE，任务模板表，其余参数&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="Aa49bJoLyoRSZSHaUmV9-28" value="1. 根据roleId和ruleType去获取玩家db中的任务集合；&lt;br&gt;就是说db中凡是满足玩家ruleType的任务都返回；&lt;br&gt;代码中做了处理，将玩家的taskEntity（TE）按照模板表中的ruleType规则进行分类；也就是有些任务有两个规则，那么map中这两个规则对应的taskEntityList中都包含这个TE；&lt;br&gt;2. 取章节完成情况（db保存玩家对应章节的进度信息）&lt;br&gt;3. 判定该任务是否完成，交给工厂类去处理；&lt;br&gt;工厂类需要roleId， TE，任务模板表，其余参数&lt;br&gt;完成进度判定：根据模板表的规则遍历去校验，这里校验交给每个规则的校验器去处理，校验器会返回当前任务完成进度，每次保存最大完成进度，然后以或的关系确定最终的任务完成进度；&lt;br&gt;规则校验器接收参数：roleId，任务已完成度，额外参数， 参数&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="45" y="680" width="365" height="250" as="geometry" />
         </mxCell>
       </root>
