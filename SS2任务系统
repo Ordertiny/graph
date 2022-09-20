@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2022-09-20T03:18:12.907Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" version="20.3.2" etag="-e30Ok49ThCefqnfdHuz" type="github"><diagram id="d4l9N6rHXy6DOFmFzIMb">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-20T03:38:52.443Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="WnsTZuS7kMtOec2Oe8On" version="20.3.2" type="github">
+  <diagram id="d4l9N6rHXy6DOFmFzIMb" name="第 1 页">
+    <mxGraphModel dx="1144" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Aa49bJoLyoRSZSHaUmV9-1" value="获取任务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="90" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Aa49bJoLyoRSZSHaUmV9-2" value="getTaskByType(taskTypeList)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="45" y="120" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Aa49bJoLyoRSZSHaUmV9-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Aa49bJoLyoRSZSHaUmV9-3" target="Aa49bJoLyoRSZSHaUmV9-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Aa49bJoLyoRSZSHaUmV9-8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Aa49bJoLyoRSZSHaUmV9-3" target="Aa49bJoLyoRSZSHaUmV9-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Aa49bJoLyoRSZSHaUmV9-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Aa49bJoLyoRSZSHaUmV9-3" target="Aa49bJoLyoRSZSHaUmV9-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Aa49bJoLyoRSZSHaUmV9-3" value="TaskHandle" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="100" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Aa49bJoLyoRSZSHaUmV9-4" value="TaskActivityHandle" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="50" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Aa49bJoLyoRSZSHaUmV9-5" value="TaskDailyHandle" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="100" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Aa49bJoLyoRSZSHaUmV9-6" value="TaskWeeklyHandle" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="150" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Aa49bJoLyoRSZSHaUmV9-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Aa49bJoLyoRSZSHaUmV9-1" target="Aa49bJoLyoRSZSHaUmV9-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Aa49bJoLyoRSZSHaUmV9-13" value="TaskAction" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="230" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Aa49bJoLyoRSZSHaUmV9-14" value="根据taskType获取对应的TaskHandlle" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="280" width="130" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
