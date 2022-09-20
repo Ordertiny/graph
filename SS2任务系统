@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-20T03:55:17.909Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="dDK6oriBKvrxvUe8Q_eq" version="20.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-20T03:55:58.477Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="pCRjLI2r2ZwynVbKe_Vx" version="20.3.2" type="github">
   <diagram id="d4l9N6rHXy6DOFmFzIMb" name="第 1 页">
     <mxGraphModel dx="1144" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -52,8 +52,11 @@
         <mxCell id="Aa49bJoLyoRSZSHaUmV9-18" value="unlockNewTask&lt;br&gt;解锁新任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="350" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Aa49bJoLyoRSZSHaUmV9-19" value="1. 判定数据库中的任务记录是否都是本周的，若是则返回；&lt;br&gt;2. 移除所有的周任务-数据硬删除，清除规则缓存，更新redis等；&lt;br&gt;3. 更新周任务列表，插入db和redis 中；&lt;br&gt;4. 通知客户端&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="550" y="350" width="370" height="130" as="geometry" />
+        <mxCell id="Aa49bJoLyoRSZSHaUmV9-19" value="1. 判定数据库中的任务记录是否都是本周的，若是则返回；&lt;br&gt;2. 移除所有的周任务-数据硬删除，清除规则缓存，更新redis等；&lt;br&gt;3. 更新周任务列表，插入db和redis 中；&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="560" y="340" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Aa49bJoLyoRSZSHaUmV9-20" value="返回客户端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="410" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
