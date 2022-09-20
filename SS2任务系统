@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-20T03:58:27.079Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="UhX5Hcy49RQvFMHpzCt4" version="20.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-20T05:58:03.033Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="j_2GTdFnFpt9hnMkvcHp" version="20.3.2" type="github">
   <diagram id="d4l9N6rHXy6DOFmFzIMb" name="第 1 页">
     <mxGraphModel dx="1144" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -58,8 +58,8 @@
         <mxCell id="Aa49bJoLyoRSZSHaUmV9-20" value="返回客户端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="410" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Aa49bJoLyoRSZSHaUmV9-22" value="获取正在进行的任务：通过DB去捞" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="110" y="580" width="350" height="150" as="geometry" />
+        <mxCell id="Aa49bJoLyoRSZSHaUmV9-22" value="获取正在进行的任务：通过DB去捞" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="540" width="350" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
