@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-07T12:23:59.105Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.0.7062 SLBChan/30" etag="689l_uH0H2fbk1fRX9BW" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-07T12:26:09.022Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.0.7062 SLBChan/30" etag="ZorsOhK2MkDdu-amkGdl" version="20.4.0" type="github">
   <diagram id="FNVGtmwNiWNmvPIRwlOJ" name="第 1 页">
     <mxGraphModel dx="782" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -345,6 +345,9 @@
         </mxCell>
         <mxCell id="XhTwTgnTSHHOKsTvqMzi-27" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;noLabel=1;fillColor=none;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="880" y="2470" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XhTwTgnTSHHOKsTvqMzi-117" value="这个方法就是在InBound中寻找一个channelRegistered()有这个方法的handlerContext" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="2290" width="470" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
