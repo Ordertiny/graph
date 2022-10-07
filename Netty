@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-07T11:03:52.566Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.0.7062 SLBChan/30" etag="xI-MMnf_S3dpr5idpWPK" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-07T11:07:29.216Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.0.7062 SLBChan/30" etag="920gEPm0mMQblyacmd3N" version="20.4.0" type="github">
   <diagram id="FNVGtmwNiWNmvPIRwlOJ" name="第 1 页">
     <mxGraphModel dx="920" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -292,8 +292,8 @@
         <mxCell id="XhTwTgnTSHHOKsTvqMzi-94" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas; font-size: 9.8pt;&quot;&gt;ctx.callHandlerAdded()&lt;/pre&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="65" y="3070" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="XhTwTgnTSHHOKsTvqMzi-95" value="如果是ChannelInitializer 则执行其initChannel()方法" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=none;" vertex="1" parent="1">
-          <mxGeometry x="50" y="3110" width="300" height="30" as="geometry" />
+        <mxCell id="XhTwTgnTSHHOKsTvqMzi-95" value="如果是ChannelInitializer 则执行其initChannel()方法&lt;br&gt;并且执行完后要从pipeline中将本handler移除" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="3105" width="300" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
