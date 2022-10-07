@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-07T07:41:06.571Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.0.7062 SLBChan/30" etag="zKuncfH53C4TkKFCE5G5" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-07T08:29:00.121Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.0.7062 SLBChan/30" etag="NAFBSIVALdKoypJsqa6l" version="20.4.0" type="github">
   <diagram id="FNVGtmwNiWNmvPIRwlOJ" name="第 1 页">
     <mxGraphModel dx="920" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -134,13 +134,31 @@
           <mxGeometry x="1020" y="850" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XhTwTgnTSHHOKsTvqMzi-35" value="ServerBootstrapAcceptor" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="910" y="1570" width="160" height="40" as="geometry" />
+          <mxGeometry x="1610" y="1230" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XhTwTgnTSHHOKsTvqMzi-36" value="继承&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas; font-size: 9.8pt;&quot;&gt;ChannelInboundHandlerAdapter&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=none;" vertex="1" parent="1">
-          <mxGeometry x="860" y="1615" width="250" height="30" as="geometry" />
+          <mxGeometry x="1560" y="1275" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="XhTwTgnTSHHOKsTvqMzi-37" value="我们在服务端引导类中设置childChannel的option和attribute和handler以及executor放入该类中" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="900" y="1650" width="190" height="60" as="geometry" />
+          <mxGeometry x="1600" y="1310" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XhTwTgnTSHHOKsTvqMzi-38" value="触发chanelRead()方法&lt;br&gt;会获取子channel，将子channel的pipeline中加入childHandler以及options和attrbute；&lt;br&gt;将子channel注册到workGroup中，由workGroup分配一个NopEventLoop给子channel" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=none;fillColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1572.5" y="1390" width="245" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="XhTwTgnTSHHOKsTvqMzi-39" value="将serverChannel注册到bossGroup中" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="505" y="2110" width="175" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="XhTwTgnTSHHOKsTvqMzi-40" value="MultithreadEventLoopGroup" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="990" y="1570" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XhTwTgnTSHHOKsTvqMzi-41" value="选择一个EventLoop并注册channel" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="990" y="2110" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XhTwTgnTSHHOKsTvqMzi-42" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas; font-size: 9.8pt;&quot;&gt;SingleThreadEventLoop&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="1570" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="XhTwTgnTSHHOKsTvqMzi-43" value="&amp;nbsp;channel.unsafe()&lt;br&gt;.register(eventLoop, promise)" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="2110" width="180" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
