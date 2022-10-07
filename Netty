@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-07T11:54:05.480Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.0.7062 SLBChan/30" etag="3IcI_yuJJAVLgJhDqNW7" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-07T11:54:45.390Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.0.7062 SLBChan/30" etag="jasCobafpsei8f2uPBeD" version="20.4.0" type="github">
   <diagram id="FNVGtmwNiWNmvPIRwlOJ" name="第 1 页">
     <mxGraphModel dx="920" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -135,6 +135,9 @@
         <mxCell id="XhTwTgnTSHHOKsTvqMzi-31" value="如果对severChannel有设置handler则将其加入该channel的pipeline中" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="505" y="1790" width="190" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="XhTwTgnTSHHOKsTvqMzi-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=none;" edge="1" parent="1" source="XhTwTgnTSHHOKsTvqMzi-32" target="XhTwTgnTSHHOKsTvqMzi-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="XhTwTgnTSHHOKsTvqMzi-32" value="给该serverchannel对应的bossGroup线程提交一个任务&lt;br&gt;任务是给该channel的pipeline增加一个handler&lt;br&gt;ServerBootstrapAcceptor" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=none;fillColor=none;align=left;" vertex="1" parent="1">
           <mxGeometry x="505" y="1851" width="190" height="70" as="geometry" />
         </mxCell>
@@ -156,26 +159,35 @@
         <mxCell id="XhTwTgnTSHHOKsTvqMzi-38" value="触发chanelRead()方法&lt;br&gt;会获取子channel，将子channel的pipeline中加入childHandler以及options和attrbute；&lt;br&gt;将子channel注册到workGroup中，由workGroup分配一个NopEventLoop给子channel" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=none;fillColor=none;align=left;" vertex="1" parent="1">
           <mxGeometry x="1572.5" y="1390" width="245" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="XhTwTgnTSHHOKsTvqMzi-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=none;" edge="1" parent="1" source="XhTwTgnTSHHOKsTvqMzi-39" target="XhTwTgnTSHHOKsTvqMzi-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="XhTwTgnTSHHOKsTvqMzi-39" value="将serverChannel注册到bossGroup中" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="520" y="1970" width="175" height="50" as="geometry" />
+          <mxGeometry x="512.5" y="1960" width="175" height="50" as="geometry" />
         </mxCell>
         <mxCell id="XhTwTgnTSHHOKsTvqMzi-40" value="MultithreadEventLoopGroup" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="990" y="1570" width="160" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="XhTwTgnTSHHOKsTvqMzi-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=none;" edge="1" parent="1" source="XhTwTgnTSHHOKsTvqMzi-41" target="XhTwTgnTSHHOKsTvqMzi-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="XhTwTgnTSHHOKsTvqMzi-41" value="选择一个EventLoop并注册channel" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="990" y="1980" width="140" height="40" as="geometry" />
+          <mxGeometry x="925" y="1965" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XhTwTgnTSHHOKsTvqMzi-42" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas; font-size: 9.8pt;&quot;&gt;SingleThreadEventLoop&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1240" y="1570" width="170" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="XhTwTgnTSHHOKsTvqMzi-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=none;" edge="1" parent="1" source="XhTwTgnTSHHOKsTvqMzi-43" target="XhTwTgnTSHHOKsTvqMzi-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="XhTwTgnTSHHOKsTvqMzi-43" value="&amp;nbsp;channel.unsafe()&lt;br&gt;.register(eventLoop, promise)" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1220" y="1980" width="180" height="40" as="geometry" />
+          <mxGeometry x="1220" y="1965" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XhTwTgnTSHHOKsTvqMzi-45" value="AbstractChannel" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1490" y="1570" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XhTwTgnTSHHOKsTvqMzi-46" value="register0()" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1510" y="1980" width="120" height="40" as="geometry" />
+          <mxGeometry x="1500" y="1965" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XhTwTgnTSHHOKsTvqMzi-47" value="https://github.com/netty/netty/issues/1836" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=Helvetica;fontColor=none;" vertex="1" parent="1">
           <mxGeometry x="1410" y="1910" width="240" height="30" as="geometry" />
