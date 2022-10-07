@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-07T12:49:23.193Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.0.7062 SLBChan/30" etag="Sx_YP1T-8cOYVnHX2mRx" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-07T12:51:36.546Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.0.7062 SLBChan/30" etag="Mv5tL-GVmpUIkpl7zlfz" version="20.4.0" type="github">
   <diagram id="FNVGtmwNiWNmvPIRwlOJ" name="第 1 页">
     <mxGraphModel dx="782" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -325,7 +325,7 @@
         <mxCell id="XhTwTgnTSHHOKsTvqMzi-110" value="ChannelHandlerMask" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1060" y="2690" width="210" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XhTwTgnTSHHOKsTvqMzi-111" value="他会根据&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas; font-size: 9.8pt;&quot;&gt;ChannelHandler继承的类型以及拥有的实现方法计算一个mask值&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="XhTwTgnTSHHOKsTvqMzi-111" value="他会根据&lt;span style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas; font-size: 9.8pt;&quot;&gt;ChannelHandler继承的类型以及拥有的实现方法计算一个mask值,@&lt;/span&gt;&lt;font face=&quot;Consolas&quot;&gt;&lt;span style=&quot;font-size: 13.0667px;&quot;&gt;Skip表示该方法跳过，不会计入该handler对应方法的mask值&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1050" y="2780" width="330" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XhTwTgnTSHHOKsTvqMzi-113" value="然后从末尾向前找含有bind方法的OutBoundHandler，默认就是headContext" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=none;fillColor=none;" vertex="1" parent="1">
