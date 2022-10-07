@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-07T02:56:55.571Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.0.7062 SLBChan/30" etag="Xr72ULhnEkE-N6bPs0Br" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-07T02:57:02.948Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.0.7062 SLBChan/30" etag="6-yNdDj1sZt7VEckXvS8" version="20.4.0" type="github">
   <diagram id="FNVGtmwNiWNmvPIRwlOJ" name="第 1 页">
     <mxGraphModel dx="782" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -47,7 +47,7 @@
           <mxGeometry x="960" y="150" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EuizolHtubJ-rX9TByZv-21" value="super.channelReadComplete(ctx); 内部实际是ctx.fireChannelRead(msg);消息传递，若不显示调用，则消息无法继续向下传递；" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillStyle=auto;strokeColor=default;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="50" y="260" width="860" height="190" as="geometry" />
+          <mxGeometry x="20" y="210" width="860" height="190" as="geometry" />
         </mxCell>
         <mxCell id="XhTwTgnTSHHOKsTvqMzi-1" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;color:#000080;font-weight:bold;&quot;&gt;class &lt;/span&gt;ServerBootstrap &lt;span style=&quot;color:#000080;font-weight:bold;&quot;&gt;extends &lt;/span&gt;AbstractBootstrap&amp;lt;ServerBootstrap, ServerChannel&amp;gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="550" width="590" height="40" as="geometry" />
