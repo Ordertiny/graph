@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-09T09:52:52.994Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="vPD-eW90-waOBBuelpS7" version="20.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-09T09:55:24.323Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="xZu0VZqvvehODOnKUA49" version="20.3.7" type="github">
   <diagram id="WmVMKRFQv8P3e_UytNOl" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -98,10 +98,10 @@
           <mxGeometry x="870" y="1440" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iQSkA3hnHaX1t_ZDiXnn-33" value="/deleteIssue" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1135" y="135" width="90" height="30" as="geometry" />
+          <mxGeometry x="1125" y="135" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="iQSkA3hnHaX1t_ZDiXnn-34" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1130" y="190" width="120" height="60" as="geometry" />
+        <mxCell id="iQSkA3hnHaX1t_ZDiXnn-34" value="DeleteIssueVo{&lt;br&gt;issueId&lt;br&gt;}" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iQSkA3hnHaX1t_ZDiXnn-35" value="删除问卷" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1135" y="105" width="70" height="30" as="geometry" />
