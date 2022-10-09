@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-09T10:06:52.495Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Y6rL2512YOXENjRsEG1R" version="20.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-09T10:09:36.800Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="iGlTqMYQRfY9Yw1wtUM4" version="20.3.7" type="github">
   <diagram id="WmVMKRFQv8P3e_UytNOl" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -132,6 +132,12 @@
         </mxCell>
         <mxCell id="iQSkA3hnHaX1t_ZDiXnn-43" value="Logic" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1610" y="105" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iQSkA3hnHaX1t_ZDiXnn-44" value="删除问卷发布Redis订阅&lt;br&gt;NOTIFY_DELETE_ISSUE_CHANNEL" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="260" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iQSkA3hnHaX1t_ZDiXnn-45" value="数据库删除" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="180" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
