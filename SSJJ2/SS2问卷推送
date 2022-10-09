@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-09T09:23:56.105Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Tk9Kl5jTcVv1jb38xoET" version="20.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-09T09:28:25.791Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="mv827YRB5hzoFILuKg8P" version="20.3.7" type="github">
   <diagram id="WmVMKRFQv8P3e_UytNOl" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -91,8 +91,11 @@
         <mxCell id="iQSkA3hnHaX1t_ZDiXnn-30" value="未完成就判定玩家是否在这个问卷的规则中" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="890" y="1270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="iQSkA3hnHaX1t_ZDiXnn-31" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="890" y="1340" width="120" height="60" as="geometry" />
+        <mxCell id="iQSkA3hnHaX1t_ZDiXnn-31" value="从一堆问卷中按创建时间排序，如果当前第一个满足的问卷就是当前新增的问卷则推送" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="1340" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iQSkA3hnHaX1t_ZDiXnn-32" value="callbackGetFirstRoleIssue" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="1440" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
