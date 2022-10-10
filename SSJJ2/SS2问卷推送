@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-10T02:04:52.189Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="GHov0_2k7kkM1II6DlVD" version="20.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-10T02:09:07.002Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="kV1GJtflPqRxt2WIrfUt" version="20.3.7" type="github">
   <diagram id="WmVMKRFQv8P3e_UytNOl" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -153,6 +153,21 @@
         </mxCell>
         <mxCell id="iQSkA3hnHaX1t_ZDiXnn-50" value="清空数据库缓存" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1850" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iQSkA3hnHaX1t_ZDiXnn-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="iQSkA3hnHaX1t_ZDiXnn-51" target="iQSkA3hnHaX1t_ZDiXnn-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iQSkA3hnHaX1t_ZDiXnn-51" value="getFirstValidRoleIssue" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1850" y="530" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iQSkA3hnHaX1t_ZDiXnn-52" value="获取全部问卷列表" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2030" y="530" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iQSkA3hnHaX1t_ZDiXnn-53" value="NotifyDeleteIssueSubscribeHandler" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1805" y="140" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iQSkA3hnHaX1t_ZDiXnn-55" value="checkRoleIssue&lt;br&gt;找到满足条件的就推送&lt;br&gt;callbackGetFirstRoleIssue" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2010" y="610" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
