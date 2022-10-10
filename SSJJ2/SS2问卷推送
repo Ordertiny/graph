@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-10T02:10:00.645Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="H8wykH1b8tStVZ0zPANg" version="20.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-10T02:19:58.228Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="5OkttAqm1D2AuCfDmp8L" version="20.3.7" type="github">
   <diagram id="WmVMKRFQv8P3e_UytNOl" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -176,7 +176,31 @@
           <mxGeometry x="1048" y="25" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="iQSkA3hnHaX1t_ZDiXnn-61" value="&lt;span style=&quot;&quot;&gt;完成问卷&lt;/span&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="650" width="120" height="80" as="geometry" />
+          <mxGeometry x="1060" y="675.86" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iQSkA3hnHaX1t_ZDiXnn-62" value="apiGateway" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="755.86" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iQSkA3hnHaX1t_ZDiXnn-63" value="/finishIssue" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1255" y="810" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iQSkA3hnHaX1t_ZDiXnn-64" value="Login" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="755.86" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iQSkA3hnHaX1t_ZDiXnn-65" value="finishIssueFromApiGateWay" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1405" y="810" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iQSkA3hnHaX1t_ZDiXnn-66" value="FinishIssueVo{&lt;br&gt;username，&lt;br&gt;issueId&lt;br&gt;}" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iQSkA3hnHaX1t_ZDiXnn-67" value="Logic" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1665" y="755.86" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iQSkA3hnHaX1t_ZDiXnn-70" value="finishRoleIssue" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="810" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iQSkA3hnHaX1t_ZDiXnn-72" value="roleIssueService.&lt;br&gt;finishRoleIssueAndGetNext" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="875" width="160" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
