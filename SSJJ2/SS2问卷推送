@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-10T12:21:06.735Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="iqsldVSCArQjmmV6ZzfU" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-10T12:36:59.635Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="LeBsfmmeZC3SfXihjwoJ" version="20.4.0" type="github">
   <diagram id="WmVMKRFQv8P3e_UytNOl" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -151,7 +151,7 @@
         <mxCell id="iQSkA3hnHaX1t_ZDiXnn-49" value="如果是未满足且推送的就将其加入到重新推送用户信息集合中&lt;br&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1850" y="390" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="iQSkA3hnHaX1t_ZDiXnn-50" value="清空数据库缓存" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="iQSkA3hnHaX1t_ZDiXnn-50" value="清空缓存" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1850" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iQSkA3hnHaX1t_ZDiXnn-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="iQSkA3hnHaX1t_ZDiXnn-51" target="iQSkA3hnHaX1t_ZDiXnn-52" edge="1">
