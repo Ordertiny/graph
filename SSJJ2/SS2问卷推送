@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-10T02:09:07.002Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="kV1GJtflPqRxt2WIrfUt" version="20.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-10T02:10:00.645Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="H8wykH1b8tStVZ0zPANg" version="20.3.7" type="github">
   <diagram id="WmVMKRFQv8P3e_UytNOl" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -168,6 +168,15 @@
         </mxCell>
         <mxCell id="iQSkA3hnHaX1t_ZDiXnn-55" value="checkRoleIssue&lt;br&gt;找到满足条件的就推送&lt;br&gt;callbackGetFirstRoleIssue" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2010" y="610" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iQSkA3hnHaX1t_ZDiXnn-59" value="发布问卷" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iQSkA3hnHaX1t_ZDiXnn-60" value="删除问卷" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1048" y="25" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iQSkA3hnHaX1t_ZDiXnn-61" value="&lt;span style=&quot;&quot;&gt;完成问卷&lt;/span&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="650" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
