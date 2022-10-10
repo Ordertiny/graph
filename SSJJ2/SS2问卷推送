@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-10T02:19:58.228Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="5OkttAqm1D2AuCfDmp8L" version="20.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-10T02:22:32.391Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="IH8s-Em4NtuoUfFfSaEB" version="20.3.7" type="github">
   <diagram id="WmVMKRFQv8P3e_UytNOl" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -201,6 +201,18 @@
         </mxCell>
         <mxCell id="iQSkA3hnHaX1t_ZDiXnn-72" value="roleIssueService.&lt;br&gt;finishRoleIssueAndGetNext" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1620" y="875" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iQSkA3hnHaX1t_ZDiXnn-73" value="将玩家完成问卷放入&lt;br&gt;布隆过滤器中" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iQSkA3hnHaX1t_ZDiXnn-75" value="getFirstValidRoleIssue" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="1040" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iQSkA3hnHaX1t_ZDiXnn-76" value="客户端获取问卷" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="1110" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iQSkA3hnHaX1t_ZDiXnn-77" value="再给玩家推送下一封问卷" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="1100" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
