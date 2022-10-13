@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-13T08:43:57.260Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="nFU3-2elxGZi6nIA7mJk" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-13T08:44:11.841Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="HghU3OaE9ujKm-hJ-i_3" version="20.4.0" type="github">
   <diagram id="GQJ4yk22MWf8iv6Y-LgN" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -543,8 +543,8 @@
         <mxCell id="ACh5nuPEF7Ecs-UiLZLZ-128" value="匹配中" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="810" y="185" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ACh5nuPEF7Ecs-UiLZLZ-129" value="分配战斗服" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Verdana;" parent="1" vertex="1">
-          <mxGeometry x="960" y="185" width="80" height="30" as="geometry" />
+        <mxCell id="ACh5nuPEF7Ecs-UiLZLZ-129" value="待分配战斗服" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Verdana;" parent="1" vertex="1">
+          <mxGeometry x="950" y="185" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ACh5nuPEF7Ecs-UiLZLZ-130" value="加载中" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="1140" y="185" width="60" height="30" as="geometry" />
