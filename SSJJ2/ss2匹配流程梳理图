@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-13T08:40:57.807Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="uCvlaCQcbcqmm23e4MoG" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-13T08:43:57.260Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="nFU3-2elxGZi6nIA7mJk" version="20.4.0" type="github">
   <diagram id="GQJ4yk22MWf8iv6Y-LgN" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -772,6 +772,12 @@
         </mxCell>
         <mxCell id="ElFsMBa1gPfXfmdZ0FRp-60" value="玩家匹配成功或自定义直接开始游戏，会申请战斗服，并同时发送START_GAME事件，状态变为ALLOCATING_BATTLE_SERVER" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;" vertex="1" parent="1">
           <mxGeometry x="60" y="20" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ElFsMBa1gPfXfmdZ0FRp-61" value="若玩家加入残局或者申请战斗服成功，战斗服响应后会发START_LOADING事件，状态变为LOADING，此时下发战斗服IP让客户端连接" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="60" y="60" width="740" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ElFsMBa1gPfXfmdZ0FRp-62" value="客户端连接战斗服后，战斗服通知大厅，并发送JOIN_BATTLE_SUCCESS事件，状态变为IN_GAME，表示进战斗了" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="60" y="100" width="640" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
