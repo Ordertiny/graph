@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-13T07:30:49.546Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="r9jj7d7E8mZ5bhqKJuVa" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-13T07:36:59.567Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Ge-kXFdOT9V4M0IkzH5n" version="20.4.0" type="github">
   <diagram id="GQJ4yk22MWf8iv6Y-LgN" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -741,16 +741,19 @@
           <mxGeometry x="2340" y="1260" width="250" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ElFsMBa1gPfXfmdZ0FRp-37" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;joinEndGamePolicy.checkMatcher&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="2430" y="1620" width="240" height="30" as="geometry" />
+          <mxGeometry x="2465" y="1610" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ElFsMBa1gPfXfmdZ0FRp-40" value="&lt;span style=&quot;&quot;&gt;RaceMatchJoinEndGamePolicy&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="2440" y="1550" width="190" height="30" as="geometry" />
+          <mxGeometry x="2490" y="1550" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ElFsMBa1gPfXfmdZ0FRp-42" value="假如能走到这里，说明所有的Matcher都成不了房，&lt;br&gt;比如人数不够等情况，从而走到这里" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="2160" y="1755" width="290" height="40" as="geometry" />
+          <mxGeometry x="2150" y="1755" width="290" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ElFsMBa1gPfXfmdZ0FRp-43" value="假如有个匹配池的&lt;br&gt;匹配策略是1，2" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="1690" y="1425" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ElFsMBa1gPfXfmdZ0FRp-44" value="AbstractJoinEndGamePolicy#checkMatcher()&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;// 中途加入条件&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;// 1. 过了中途加入的保护时间&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;// 2. 没有加入到任何一个匹配房间&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;// 3. 玩家当前的匹配暗分大于等于新手保护暗分&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;// 4. 当前正在这个池子中&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;RaceMatchJoinEndGamePolicy#checkMatcher()&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;段位为空(说明是最低段位)或者小于指定段位才可以中途加入&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2450" y="1660" width="420" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
