@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-13T02:03:33.631Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="19fr-xL6rZsbG72fQApx" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-13T02:05:36.579Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="HW2q72OfFSl4sk_x6uJL" version="20.4.0" type="github">
   <diagram id="GQJ4yk22MWf8iv6Y-LgN" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -626,7 +626,10 @@
           <mxGeometry x="30" y="1080" width="925" height="241" as="geometry" />
         </mxCell>
         <mxCell id="ElFsMBa1gPfXfmdZ0FRp-1" value="匹配策略&lt;br&gt;1：UsualMatchPolicy 正常匹配流程&lt;br&gt;2：JoinEndGamePolicy 加入残局规则&lt;br&gt;3：SpecialMatchPolicy 特殊开局逻辑&lt;br&gt;4：NoviceGuideMatchPolicy 空&lt;br&gt;5：PlunderMatchPolicy 劫掠规则" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="120" y="1430" width="460" height="270" as="geometry" />
+          <mxGeometry x="120" y="1430" width="300" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ElFsMBa1gPfXfmdZ0FRp-2" value="劫掠模式走劫掠匹配池&amp;nbsp;PlunderMatchPool&lt;br&gt;其余模式走通用匹配池&amp;nbsp;MatchPool" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1430" width="240" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
