@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-13T06:39:19.697Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Eu7TrW2rP1bprIR8Ynqt" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-13T06:49:03.626Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="LxiJXJAq_kb87e7KOp8U" version="20.4.0" type="github">
   <diagram id="GQJ4yk22MWf8iv6Y-LgN" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -719,6 +719,9 @@
         </mxCell>
         <mxCell id="ElFsMBa1gPfXfmdZ0FRp-29" value="MatchPool中含有&lt;br&gt;唯一的matchingRoom，表示正在匹配的房间" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="1840" y="1170" width="350" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ElFsMBa1gPfXfmdZ0FRp-30" value="JoinEndGamePolicy" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="2330" y="1500" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
