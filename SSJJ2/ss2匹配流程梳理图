@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-13T06:11:06.004Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="ufHqjYFlRTt7Sol03gMa" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-13T06:39:19.697Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Eu7TrW2rP1bprIR8Ynqt" version="20.4.0" type="github">
   <diagram id="GQJ4yk22MWf8iv6Y-LgN" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -707,6 +707,18 @@
         </mxCell>
         <mxCell id="ElFsMBa1gPfXfmdZ0FRp-24" value="循环所有的匹配步骤&lt;br&gt;比如某个匹配池配置的是正常匹配策略&lt;br&gt;和残局匹配策略&lt;br&gt;那么就循环执行对应匹配策略的handler()方法" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="1380" y="1510" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ElFsMBa1gPfXfmdZ0FRp-25" value="UsualMatchPolicy" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="1820" y="1500" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ElFsMBa1gPfXfmdZ0FRp-27" value="获取匹配池中的匹配单元队列&lt;br&gt;获取匹配池对应的分配策略&lt;br&gt;声明一个deadMatcher集合，用于保存已处理的匹配单元" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1710" y="1550" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ElFsMBa1gPfXfmdZ0FRp-28" value="外层循环(若匹配单元队列不为空且处理过的对象中并不包含全部的匹配单元)&lt;br&gt;&lt;br&gt;内层循环匹配单元队列，若当前匹配单元已在deadMatcher中则跳过；&lt;br&gt;若当前房间存在但没有房主，标记匹配房间异常，结束内层循环；&lt;br&gt;进行匹配逻辑(allocateMatcher)：如果当前正在匹配的房间是空的，则创建一个matchingRoom，且当前matcher为房主，继而分配阵营； 如果正在匹配的房间不为空，则需要通过阵营分配策略将其加入阵营；&lt;br&gt;验证是否满足开局逻辑(startGameIfSatisfied)：验证阵营是否满条件，获取房间校验器验证房间是否满足开房条件，全局锁{再次校验，校验成功将匹配单元从其他匹配池中移除；}再次判定是否有足够的人，满足人数就去走开房间逻辑，并返回成功开房间的matcher匹配单元集合；不然就返回空；&lt;br&gt;回到内层循环，如果有成功开房的匹配对象集合则跳出内层循环，不然就继续往待匹配房间加入匹配单元；&lt;br&gt;外层循环：当内层break；或所有queue循环完毕时回到外层循环。如果成功开房的对象集合不为空，则将匹配单元队列移除这些匹配单元；否则判定matchingRoom不为空，将房主matcher加入deadMatcher集合中，并发布匹配房间结果事件；将matchingRoom设为null，继续外层循环；" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="1650" width="520" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="ElFsMBa1gPfXfmdZ0FRp-29" value="MatchPool中含有&lt;br&gt;唯一的matchingRoom，表示正在匹配的房间" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="1170" width="350" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
