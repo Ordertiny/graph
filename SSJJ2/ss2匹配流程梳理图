@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-13T05:59:56.886Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="YGd3RdYpbR8p4l1Ibh0B" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-13T06:03:34.182Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="4nYPvP0mil7bdCFz59mf" version="20.4.0" type="github">
   <diagram id="GQJ4yk22MWf8iv6Y-LgN" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -691,7 +691,10 @@
           <mxGeometry x="1670" y="870" width="558" height="264.69" as="geometry" />
         </mxCell>
         <mxCell id="ElFsMBa1gPfXfmdZ0FRp-20" value="每个匹配池在系统启动的时候都会在线程中定时去触发 匹配逻辑" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="1422.5" y="1300" width="185" height="50" as="geometry" />
+          <mxGeometry x="1422.5" y="1370" width="185" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ElFsMBa1gPfXfmdZ0FRp-21" value="注意：加入匹配的matcher对象是深拷贝了一份加入其中的" style="whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1415" y="1300" width="200" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
