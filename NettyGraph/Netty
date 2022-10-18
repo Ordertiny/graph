@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-13T13:11:23.923Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="J6TppdJIZSDH-izDpUvT" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-18T09:25:31.557Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="g6rwtS_RDOz0NEeTxg1D" version="20.4.0" type="github">
   <diagram id="FNVGtmwNiWNmvPIRwlOJ" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -410,53 +410,56 @@
         <mxCell id="ze77n1RdSzx0GXbGtg_y-2" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-size: 11px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 51, 179); font-size: 11px;&quot;&gt;if &lt;/span&gt;(&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 11px;&quot;&gt;Epoll&lt;/span&gt;.&lt;span style=&quot;font-style: italic; font-size: 11px;&quot;&gt;isAvailable&lt;/span&gt;()) {&lt;br style=&quot;font-size: 11px;&quot;&gt;    &lt;span style=&quot;color: rgb(0, 51, 179); font-size: 11px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; this&lt;/span&gt;.&lt;span style=&quot;color: rgb(135, 16, 148); font-size: 11px;&quot;&gt;bossGroup &lt;/span&gt;= &lt;span style=&quot;color: rgb(0, 51, 179); font-size: 11px;&quot;&gt;new &lt;/span&gt;EpollEventLoopGroup(bossCount, &lt;span style=&quot;color: rgb(0, 51, 179); font-size: 11px;&quot;&gt;new &lt;/span&gt;PrefixDefaultThreadFactory(&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 11px;&quot;&gt;EpollEventLoopGroup&lt;/span&gt;.&lt;span style=&quot;color: rgb(0, 51, 179); font-size: 11px;&quot;&gt;class&lt;/span&gt;, name + &lt;span style=&quot;color: rgb(6, 125, 23); font-size: 11px;&quot;&gt;&quot;BossGroup-&quot;&lt;/span&gt;));&lt;br style=&quot;font-size: 11px;&quot;&gt;    &lt;span style=&quot;color: rgb(0, 51, 179); font-size: 11px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; this&lt;/span&gt;.&lt;span style=&quot;color: rgb(135, 16, 148); font-size: 11px;&quot;&gt;workerGroup &lt;/span&gt;= &lt;span style=&quot;color: rgb(0, 51, 179); font-size: 11px;&quot;&gt;new &lt;/span&gt;EpollEventLoopGroup(workerCount, &lt;span style=&quot;color: rgb(0, 51, 179); font-size: 11px;&quot;&gt;new &lt;/span&gt;PrefixDefaultThreadFactory(&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 11px;&quot;&gt;EpollEventLoopGroup&lt;/span&gt;.&lt;span style=&quot;color: rgb(0, 51, 179); font-size: 11px;&quot;&gt;class&lt;/span&gt;, name + &lt;span style=&quot;color: rgb(6, 125, 23); font-size: 11px;&quot;&gt;&quot;WorkerGroup-&quot;&lt;/span&gt;));&lt;br style=&quot;font-size: 11px;&quot;&gt;} &lt;span style=&quot;color: rgb(0, 51, 179); font-size: 11px;&quot;&gt;else &lt;/span&gt;{&lt;br style=&quot;font-size: 11px;&quot;&gt;    &lt;span style=&quot;color: rgb(135, 16, 148); font-size: 11px;&quot;&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;bossGroup &lt;/span&gt;= &lt;span style=&quot;color: rgb(0, 51, 179); font-size: 11px;&quot;&gt;new &lt;/span&gt;NioEventLoopGroup(bossCount, &lt;span style=&quot;color: rgb(0, 51, 179); font-size: 11px;&quot;&gt;new &lt;/span&gt;PrefixDefaultThreadFactory(&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 11px;&quot;&gt;NioEventLoopGroup&lt;/span&gt;.&lt;span style=&quot;color: rgb(0, 51, 179); font-size: 11px;&quot;&gt;class&lt;/span&gt;, name + &lt;span style=&quot;color: rgb(6, 125, 23); font-size: 11px;&quot;&gt;&quot;BossGroup-&quot;&lt;/span&gt;));&lt;br style=&quot;font-size: 11px;&quot;&gt;    &lt;span style=&quot;color: rgb(135, 16, 148); font-size: 11px;&quot;&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;workerGroup &lt;/span&gt;= &lt;span style=&quot;color: rgb(0, 51, 179); font-size: 11px;&quot;&gt;new &lt;/span&gt;NioEventLoopGroup(workerCount, &lt;span style=&quot;color: rgb(0, 51, 179); font-size: 11px;&quot;&gt;new &lt;/span&gt;PrefixDefaultThreadFactory(&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 11px;&quot;&gt;NioEventLoopGroup&lt;/span&gt;.&lt;span style=&quot;color: rgb(0, 51, 179); font-size: 11px;&quot;&gt;class&lt;/span&gt;, name + &lt;span style=&quot;color: rgb(6, 125, 23); font-size: 11px;&quot;&gt;&quot;WorkerGroup-&quot;&lt;/span&gt;));&lt;br style=&quot;font-size: 11px;&quot;&gt;}&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-size: 11px;&quot;&gt;&lt;div&gt;if (Epoll.isAvailable()) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; server.channel(EpollServerSocketChannel.class);&lt;/div&gt;&lt;div&gt;} else {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; server.channel(NioServerSocketChannel.class);&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontFamily=Helvetica;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="1220" y="380" width="850" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="Y86oeloLZNIDTOeoEtCs-1" value="NioEventLoopGroup" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Y86oeloLZNIDTOeoEtCs-1" value="NioEventLoopGroup" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1220" y="625" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Y86oeloLZNIDTOeoEtCs-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Y86oeloLZNIDTOeoEtCs-2" target="Y86oeloLZNIDTOeoEtCs-5">
+        <mxCell id="Y86oeloLZNIDTOeoEtCs-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Y86oeloLZNIDTOeoEtCs-2" target="Y86oeloLZNIDTOeoEtCs-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y86oeloLZNIDTOeoEtCs-2" value="构造函数中，若没有指定线程数则传0" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Y86oeloLZNIDTOeoEtCs-2" value="构造函数中，若没有指定线程数则传0" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1230" y="690" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y86oeloLZNIDTOeoEtCs-3" value="MultithreadEventLoopGroup" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Y86oeloLZNIDTOeoEtCs-3" value="MultithreadEventLoopGroup" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1560" y="620" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Y86oeloLZNIDTOeoEtCs-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Y86oeloLZNIDTOeoEtCs-4" target="Y86oeloLZNIDTOeoEtCs-8">
+        <mxCell id="Y86oeloLZNIDTOeoEtCs-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Y86oeloLZNIDTOeoEtCs-4" target="Y86oeloLZNIDTOeoEtCs-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y86oeloLZNIDTOeoEtCs-4" value="构造方法中&lt;br&gt;----------------&lt;br&gt;如果线程数为0，则为jvm参数io.netty.eventLoopThreads或者CPU核数*2" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Y86oeloLZNIDTOeoEtCs-4" value="构造方法中&lt;br&gt;----------------&lt;br&gt;如果线程数为0，则为jvm参数io.netty.eventLoopThreads或者CPU核数*2" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1570" y="690" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Y86oeloLZNIDTOeoEtCs-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y86oeloLZNIDTOeoEtCs-5" target="Y86oeloLZNIDTOeoEtCs-4">
+        <mxCell id="Y86oeloLZNIDTOeoEtCs-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Y86oeloLZNIDTOeoEtCs-5" target="Y86oeloLZNIDTOeoEtCs-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y86oeloLZNIDTOeoEtCs-5" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;// Selector提供器&lt;/span&gt;&lt;/div&gt;SelectorProvider selectorProvider =&amp;nbsp;SelectorProvider.provider()&lt;br&gt;// select策略工厂&lt;br&gt;SelectStrategyFactory=DefaultSelectStrategyFactory.INSTANCE&lt;br&gt;// 线程拒绝策略&lt;br&gt;RejectedExecutionHandler = RejectedExecutionHandlers.reject()" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="Y86oeloLZNIDTOeoEtCs-5" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;// Selector提供器&lt;/span&gt;&lt;/div&gt;SelectorProvider selectorProvider =&amp;nbsp;SelectorProvider.provider()&lt;br&gt;// select策略工厂&lt;br&gt;SelectStrategyFactory=DefaultSelectStrategyFactory.INSTANCE&lt;br&gt;// 线程拒绝策略&lt;br&gt;RejectedExecutionHandler = RejectedExecutionHandlers.reject()" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="1097.5" y="790" width="385" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="Y86oeloLZNIDTOeoEtCs-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Y86oeloLZNIDTOeoEtCs-8" target="Y86oeloLZNIDTOeoEtCs-10">
+        <mxCell id="Y86oeloLZNIDTOeoEtCs-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Y86oeloLZNIDTOeoEtCs-8" target="Y86oeloLZNIDTOeoEtCs-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y86oeloLZNIDTOeoEtCs-8" value="如果传入的执行器Executor为空，则赋值为ThreadPerTaskExecutor" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Y86oeloLZNIDTOeoEtCs-8" value="如果传入的执行器Executor为空，则赋值为ThreadPerTaskExecutor" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1570" y="790" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Y86oeloLZNIDTOeoEtCs-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y86oeloLZNIDTOeoEtCs-10" target="Y86oeloLZNIDTOeoEtCs-12">
+        <mxCell id="Y86oeloLZNIDTOeoEtCs-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Y86oeloLZNIDTOeoEtCs-10" target="Y86oeloLZNIDTOeoEtCs-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y86oeloLZNIDTOeoEtCs-10" value="MultithreadEventLoopGroup中有个EventExecutor[]数组&lt;br&gt;指定多少线程数目，这里数组里就会初始化多少个EventExecutor&lt;br&gt;这里初始化是交给NioEventLoopGroup来处理" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="Y86oeloLZNIDTOeoEtCs-10" value="MultithreadEventLoopGroup中有个EventExecutor[]数组&lt;br&gt;指定多少线程数目，这里数组里就会初始化多少个EventExecutor&lt;br&gt;这里初始化是交给NioEventLoopGroup来处理" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="1505" y="930" width="310" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="Y86oeloLZNIDTOeoEtCs-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Y86oeloLZNIDTOeoEtCs-12" target="Y86oeloLZNIDTOeoEtCs-14">
+        <mxCell id="Y86oeloLZNIDTOeoEtCs-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Y86oeloLZNIDTOeoEtCs-12" target="Y86oeloLZNIDTOeoEtCs-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y86oeloLZNIDTOeoEtCs-12" value="newChild(Executor executor,&amp;nbsp;&lt;span style=&quot;text-align: left;&quot;&gt;selectorProvider,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;SelectStrategyFactory,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;RejectedExecutionHandler&amp;nbsp;&lt;/span&gt;)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Y86oeloLZNIDTOeoEtCs-12" value="newChild(Executor executor,&amp;nbsp;&lt;span style=&quot;text-align: left;&quot;&gt;selectorProvider,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;SelectStrategyFactory,&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;RejectedExecutionHandler&amp;nbsp;&lt;/span&gt;)" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1165" y="960" width="250" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Y86oeloLZNIDTOeoEtCs-14" value="new NioEventLoop(....)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Y86oeloLZNIDTOeoEtCs-14" value="new NioEventLoop(....)" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1220" y="1060" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Y86oeloLZNIDTOeoEtCs-16" value="EventExecutorGroup的功能，主要就是结合一个线程工厂，用来生产EventLoop执行器的；&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;NioEventLoop就是一个单线程的执行器，里面含有一个selector，用来管理注册上的channel；&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="Y86oeloLZNIDTOeoEtCs-16" value="EventExecutorGroup的功能，主要就是结合一个线程工厂，用来生产EventLoop执行器的；&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;NioEventLoop就是一个单线程的执行器，里面含有一个selector，用来管理注册上的channel；&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="1850" y="610" width="400" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="7O5tBNXxLDbZeAJGOiii-2" value="初始化" style="shape=tape;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="610" width="80" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
