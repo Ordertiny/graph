@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-18T09:58:23.159Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="3t8G7aFIST21A4CYLCSN" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-18T10:03:56.361Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Hdg3MLoNruktYHGbmnRH" version="20.4.0" type="github">
   <diagram id="FNVGtmwNiWNmvPIRwlOJ" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -464,7 +464,7 @@
         <mxCell id="7O5tBNXxLDbZeAJGOiii-3" value="NioEventLoop&lt;br&gt;原理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2450" y="89.99999999999997" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7O5tBNXxLDbZeAJGOiii-4" value="假如 我们在EventLoopGroup中只设置一个线程；&lt;br&gt;Group就会在执行器数组中取唯一一个执行器；&lt;br&gt;每个EventLoop会绑定一个Thread；" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="7O5tBNXxLDbZeAJGOiii-4" value="假如 我们在EventLoopGroup中只设置一个线程；&lt;br&gt;Group就会在执行器数组中取唯一一个执行器；&lt;br&gt;每个EventLoop会绑定一个Thread；&lt;br&gt;Thread在什么时候初始化" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="2510" y="220" width="420" height="260" as="geometry" />
         </mxCell>
       </root>
