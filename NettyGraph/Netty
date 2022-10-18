@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-18T09:25:31.557Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="g6rwtS_RDOz0NEeTxg1D" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-18T09:52:11.537Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="-t0s2bDB193xxYX_X6rj" version="20.4.0" type="github">
   <diagram id="FNVGtmwNiWNmvPIRwlOJ" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -350,7 +350,7 @@
         <mxCell id="XhTwTgnTSHHOKsTvqMzi-114" value="headContext的doBind()方法让Netty的Channel执行bind()方法，主要有以下两个方面&lt;br&gt;1. 将javaChannel绑定端口&lt;br&gt;2. 在对应的线程中执行pipeline.fireChannelActive()" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="380" y="2170" width="250" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="XhTwTgnTSHHOKsTvqMzi-115" value="pipeline选择head执行其fireChannelActive()方法&lt;br&gt;然后执行readIfIsAutoRead()就是执行tailContext的read()方法；这里就是让Netty的Channel去读取之前设置的selectKey，并注册ACCEPT事件；" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="XhTwTgnTSHHOKsTvqMzi-115" value="pipeline选择head执行其fireChannelActive()方法&lt;br&gt;然后执行readIfIsAutoRead()就是执行tailContext的read()方法；这里就是让Netty的Channel去读取之前设置的selectKey，并注册ACCEPT事件；" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="290" y="2250" width="310" height="70" as="geometry" />
         </mxCell>
         <mxCell id="XhTwTgnTSHHOKsTvqMzi-116" value="后续就是每个eventLoop上都有死循环从select读取事件去处理监听，并委托给子线程去处理读写请求" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=none;fillColor=none;" parent="1" vertex="1">
@@ -460,6 +460,9 @@
         </mxCell>
         <mxCell id="7O5tBNXxLDbZeAJGOiii-2" value="初始化" style="shape=tape;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1020" y="610" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7O5tBNXxLDbZeAJGOiii-3" value="NioEventLoop&lt;br&gt;原理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2450" y="89.99999999999997" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
