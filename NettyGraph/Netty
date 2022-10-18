@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-18T09:52:11.537Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="-t0s2bDB193xxYX_X6rj" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-18T09:58:23.159Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="3t8G7aFIST21A4CYLCSN" version="20.4.0" type="github">
   <diagram id="FNVGtmwNiWNmvPIRwlOJ" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -443,7 +443,7 @@
         <mxCell id="Y86oeloLZNIDTOeoEtCs-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Y86oeloLZNIDTOeoEtCs-10" target="Y86oeloLZNIDTOeoEtCs-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y86oeloLZNIDTOeoEtCs-10" value="MultithreadEventLoopGroup中有个EventExecutor[]数组&lt;br&gt;指定多少线程数目，这里数组里就会初始化多少个EventExecutor&lt;br&gt;这里初始化是交给NioEventLoopGroup来处理" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+        <mxCell id="Y86oeloLZNIDTOeoEtCs-10" value="MultithreadEventLoopGroup中有个EventExecutor[]数组&lt;br&gt;指定多少线程数目，这里数组里就会初始化多少个EventExecutor&lt;br&gt;这里初始化是交给NioEventLoopGroup来处理" style="whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="1505" y="930" width="310" height="110" as="geometry" />
         </mxCell>
         <mxCell id="Y86oeloLZNIDTOeoEtCs-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Y86oeloLZNIDTOeoEtCs-12" target="Y86oeloLZNIDTOeoEtCs-14" edge="1">
@@ -463,6 +463,9 @@
         </mxCell>
         <mxCell id="7O5tBNXxLDbZeAJGOiii-3" value="NioEventLoop&lt;br&gt;原理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2450" y="89.99999999999997" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7O5tBNXxLDbZeAJGOiii-4" value="假如 我们在EventLoopGroup中只设置一个线程；&lt;br&gt;Group就会在执行器数组中取唯一一个执行器；&lt;br&gt;每个EventLoop会绑定一个Thread；" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2510" y="220" width="420" height="260" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
