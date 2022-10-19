@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-19T02:36:07.622Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="dGWfyuxQyBo0YWvFcTqQ" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-19T02:58:02.216Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Wr89fx0LGx8mnPudxEYM" version="20.4.0" type="github">
   <diagram id="FNVGtmwNiWNmvPIRwlOJ" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -464,8 +464,8 @@
         <mxCell id="7O5tBNXxLDbZeAJGOiii-3" value="NioEventLoop&lt;br&gt;原理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2450" y="89.99999999999997" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7O5tBNXxLDbZeAJGOiii-4" value="我们在定义EventLoopGroup时会设置EventLoop的数量，并初始化EventLoop保存在数组中；&lt;br&gt;分配EventLoop时，Group就会在EventLoop数组中选择一个；&lt;br&gt;&lt;br&gt;每个EventLoop会绑定一个Thread，并在执行线程的时候通过线程工厂创建一个非守护线程；&lt;br&gt;我们所有的在这个Loop上的事件都会交给这个Thread去处理；&lt;br&gt;" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="2510" y="220" width="420" height="260" as="geometry" />
+        <mxCell id="7O5tBNXxLDbZeAJGOiii-4" value="我们在定义EventLoopGroup时会设置EventLoop的数量，并初始化EventLoop保存在数组中；&lt;br&gt;分配EventLoop时，Group就会在EventLoop数组中选择一个；&lt;br&gt;&lt;br&gt;每个EventLoop会绑定一个Thread，并在执行线程的时候通过线程工厂创建一个非守护线程；&lt;br&gt;我们所有的在这个Loop上的事件都会交给这个Thread去处理；&lt;br&gt;而我们的Thread实际上就是执行NioEventLoop的run()方法，该方法是死循环，首先是阻塞在select等待连接；&lt;br&gt;当其他任务加入到EventLoop的任务队列时，会唤醒select，select上若有事件则执行，最终会从任务队列中取任务去执行；最后该趟循环结束，继续走到select处阻塞；&lt;br&gt;&lt;br&gt;因此，即使只有一个EventLoop，也不会阻塞监听和其他任务的执行；当然我们必须保证我们提交到该EventLoop上的任务没有耗时或死循环；&lt;br&gt;&lt;br&gt;若工作线程组EventLoopGroup设置多个线程，只会有一个EventLoop上的select监听连接；其余的EventLoop可以分配给handler去使用；因此BossGroup的线程数一般比较少；&lt;br&gt;&lt;br&gt;// 例如可以让handler去在不同的eventLoop上执行；&lt;br&gt;pipeline.addFirst(nioEventLoopGroup, new ChannelDuplexHandler())" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2450" y="190" width="420" height="330" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
