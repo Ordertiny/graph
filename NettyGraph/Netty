@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-19T02:58:02.216Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Wr89fx0LGx8mnPudxEYM" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-19T03:49:01.773Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="EhDYCIlWVwyo_vY72D9y" version="20.4.0" type="github">
   <diagram id="FNVGtmwNiWNmvPIRwlOJ" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -156,7 +156,7 @@
         <mxCell id="XhTwTgnTSHHOKsTvqMzi-37" value="我们在服务端引导类中设置childChannel的option和attribute和handler以及executor放入该类中" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2010" y="1650" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XhTwTgnTSHHOKsTvqMzi-38" value="触发chanelRead()方法&lt;br&gt;会获取子channel，将子channel的pipeline中加入childHandler以及options和attrbute；&lt;br&gt;将子channel注册到workGroup中，由workGroup分配一个NopEventLoop给子channel" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=none;fillColor=none;align=left;" parent="1" vertex="1">
+        <mxCell id="XhTwTgnTSHHOKsTvqMzi-38" value="触发chanelRead()方法&lt;br&gt;会获取子channel，将子channel的pipeline中加入childHandler以及options和attrbute；&lt;br&gt;将子channel注册到workGroup中，由workGroup分配一个NioEventLoop给子channel，后续交由工作线程的Selector去处理请求的读写" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=none;fillColor=none;align=left;" parent="1" vertex="1">
           <mxGeometry x="1982.5" y="1730" width="245" height="100" as="geometry" />
         </mxCell>
         <mxCell id="XhTwTgnTSHHOKsTvqMzi-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=none;" parent="1" source="XhTwTgnTSHHOKsTvqMzi-39" target="XhTwTgnTSHHOKsTvqMzi-41" edge="1">
