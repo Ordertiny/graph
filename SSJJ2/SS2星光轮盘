@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-24T09:30:48.362Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="qPoq2R8lNm1Mp3fetrDi" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-25T01:26:37.518Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="GUZ6b_XLoV-yRMTHJMwx" version="20.4.1" type="github">
   <diagram id="_nZ3ggf4wZIt_dnw_-2Y" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -140,9 +140,6 @@
         <mxCell id="1d3-kEKnWvGgzJekt0wT-49" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="870" y="514" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1d3-kEKnWvGgzJekt0wT-52" value="根据扣减货币来算" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1082.5" y="150" width="120" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="1d3-kEKnWvGgzJekt0wT-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1d3-kEKnWvGgzJekt0wT-53" target="1d3-kEKnWvGgzJekt0wT-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -170,7 +167,7 @@
         <mxCell id="1d3-kEKnWvGgzJekt0wT-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1d3-kEKnWvGgzJekt0wT-57" target="1d3-kEKnWvGgzJekt0wT-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1d3-kEKnWvGgzJekt0wT-57" value="增加点数" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1d3-kEKnWvGgzJekt0wT-57" value="增加点数" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1715" y="326" width="95" height="34" as="geometry" />
         </mxCell>
         <mxCell id="1d3-kEKnWvGgzJekt0wT-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1d3-kEKnWvGgzJekt0wT-58" target="1d3-kEKnWvGgzJekt0wT-59">
@@ -190,7 +187,7 @@
         <mxCell id="1d3-kEKnWvGgzJekt0wT-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1d3-kEKnWvGgzJekt0wT-59" target="1d3-kEKnWvGgzJekt0wT-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1d3-kEKnWvGgzJekt0wT-59" value="清空保底数" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1d3-kEKnWvGgzJekt0wT-59" value="清空保底数" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1707.5" y="480" width="110" height="34" as="geometry" />
         </mxCell>
         <mxCell id="1d3-kEKnWvGgzJekt0wT-60" value="结束" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -211,13 +208,13 @@
         <mxCell id="1d3-kEKnWvGgzJekt0wT-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="1d3-kEKnWvGgzJekt0wT-64" target="1d3-kEKnWvGgzJekt0wT-65">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1d3-kEKnWvGgzJekt0wT-64" value="扣除点数" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1d3-kEKnWvGgzJekt0wT-64" value="扣除点数" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1934" y="344" width="95" height="34" as="geometry" />
         </mxCell>
         <mxCell id="1d3-kEKnWvGgzJekt0wT-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1d3-kEKnWvGgzJekt0wT-65" target="1d3-kEKnWvGgzJekt0wT-67">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1d3-kEKnWvGgzJekt0wT-65" value="增加保底数" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1d3-kEKnWvGgzJekt0wT-65" value="增加保底数" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1934" y="406" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1d3-kEKnWvGgzJekt0wT-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="1d3-kEKnWvGgzJekt0wT-67" target="1d3-kEKnWvGgzJekt0wT-68">
@@ -253,7 +250,7 @@
         <mxCell id="1d3-kEKnWvGgzJekt0wT-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1d3-kEKnWvGgzJekt0wT-87" target="1d3-kEKnWvGgzJekt0wT-88">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1d3-kEKnWvGgzJekt0wT-87" value="清空保底值" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1d3-kEKnWvGgzJekt0wT-87" value="清空保底值" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="2142.75" y="704" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1d3-kEKnWvGgzJekt0wT-88" value="当次结束" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
