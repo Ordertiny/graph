@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-31T12:05:02.971Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="42mcGfSa-Ti8_cmGwAnW" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-31T12:05:42.920Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="NpMcFHVFmKj2h8kYTL3M" version="20.5.1" type="github">
   <diagram id="_nZ3ggf4wZIt_dnw_-2Y" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -384,7 +384,7 @@
         <mxCell id="8IpDFyt6ZU70DWAzPlCr-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8IpDFyt6ZU70DWAzPlCr-26" target="8IpDFyt6ZU70DWAzPlCr-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8IpDFyt6ZU70DWAzPlCr-26" value="扣除[货币]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8IpDFyt6ZU70DWAzPlCr-26" value="扣除[货币]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="830" y="870" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8IpDFyt6ZU70DWAzPlCr-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8IpDFyt6ZU70DWAzPlCr-28" target="8IpDFyt6ZU70DWAzPlCr-29">
@@ -393,7 +393,7 @@
         <mxCell id="8IpDFyt6ZU70DWAzPlCr-28" value="奖池A&lt;br&gt;随机获得一个" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="830" y="940" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8IpDFyt6ZU70DWAzPlCr-29" value="&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;获得内部值&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;普通点数&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8IpDFyt6ZU70DWAzPlCr-29" value="&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;获得内部值&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;普通点数&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="830" y="1010" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8IpDFyt6ZU70DWAzPlCr-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8IpDFyt6ZU70DWAzPlCr-31" target="8IpDFyt6ZU70DWAzPlCr-33">
@@ -405,13 +405,13 @@
         <mxCell id="8IpDFyt6ZU70DWAzPlCr-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="8IpDFyt6ZU70DWAzPlCr-33" target="8IpDFyt6ZU70DWAzPlCr-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8IpDFyt6ZU70DWAzPlCr-33" value="扣除[货币]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8IpDFyt6ZU70DWAzPlCr-33" value="扣除[货币]" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1050" y="870" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8IpDFyt6ZU70DWAzPlCr-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8IpDFyt6ZU70DWAzPlCr-35" target="8IpDFyt6ZU70DWAzPlCr-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8IpDFyt6ZU70DWAzPlCr-35" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: left; background-color: rgb(248, 249, 250);&quot;&gt;扣除内部值&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: left; background-color: rgb(248, 249, 250);&quot;&gt;普通点数&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8IpDFyt6ZU70DWAzPlCr-35" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: left; background-color: rgb(248, 249, 250);&quot;&gt;扣除内部值&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-align: left; background-color: rgb(248, 249, 250);&quot;&gt;普通点数&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1050" y="940" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8IpDFyt6ZU70DWAzPlCr-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8IpDFyt6ZU70DWAzPlCr-37" target="8IpDFyt6ZU70DWAzPlCr-38">
@@ -420,7 +420,7 @@
         <mxCell id="8IpDFyt6ZU70DWAzPlCr-37" value="奖池B&lt;br&gt;随机获得一个" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1050" y="1010" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="8IpDFyt6ZU70DWAzPlCr-38" value="保存抽到ID&lt;br&gt;不能重复抽取" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8IpDFyt6ZU70DWAzPlCr-38" value="保存抽到ID&lt;br&gt;不能重复抽取" style="whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="1050" y="1080" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="8IpDFyt6ZU70DWAzPlCr-39" value="结束" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
