@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-04T02:36:18.329Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="SIdiH_gMsQKZCBqIPKDy" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-04T03:49:17.376Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="4JF68ApVuFnns-tuUDa7" version="20.5.1" type="github">
   <diagram id="3ujHlwTiil5UCKonvfeH" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -73,7 +73,7 @@
         <mxCell id="t_-EoTVA3eZ4il0ENb10-25" value="GameServer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="980" y="510" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="t_-EoTVA3eZ4il0ENb10-27" value="Application" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="t_-EoTVA3eZ4il0ENb10-27" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="1280" y="100" width="30" height="40" as="geometry" />
         </mxCell>
         <mxCell id="t_-EoTVA3eZ4il0ENb10-31" value="WEB" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
