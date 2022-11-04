@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-04T02:19:29.729Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="z3obmTgBivk_pL6MXvU7" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-04T02:27:13.105Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="UGZZfV3KbklBPZKIzXLv" version="20.5.1" type="github">
   <diagram id="3ujHlwTiil5UCKonvfeH" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -37,10 +37,10 @@
         <mxCell id="t_-EoTVA3eZ4il0ENb10-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="334" width="150" height="176" as="geometry" />
         </mxCell>
-        <mxCell id="t_-EoTVA3eZ4il0ENb10-15" value="远程" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="t_-EoTVA3eZ4il0ENb10-15" value="remote" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="60" y="350" width="60" height="63" as="geometry" />
         </mxCell>
-        <mxCell id="t_-EoTVA3eZ4il0ENb10-16" value="本地" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="t_-EoTVA3eZ4il0ENb10-16" value="localserver" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="60" y="440" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="t_-EoTVA3eZ4il0ENb10-17" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="t_-EoTVA3eZ4il0ENb10-15" target="t_-EoTVA3eZ4il0ENb10-1">
@@ -49,8 +49,8 @@
             <mxPoint x="190" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="t_-EoTVA3eZ4il0ENb10-18" value="应用程序架构" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="510" y="530" width="100" height="30" as="geometry" />
+        <mxCell id="t_-EoTVA3eZ4il0ENb10-18" value="应用架构图" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="520" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="t_-EoTVA3eZ4il0ENb10-19" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=37.5;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="t_-EoTVA3eZ4il0ENb10-16" target="t_-EoTVA3eZ4il0ENb10-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -58,17 +58,104 @@
             <mxPoint x="240" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="t_-EoTVA3eZ4il0ENb10-21" value="直接加载" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="160" y="450" width="70" height="30" as="geometry" />
+        <mxCell id="t_-EoTVA3eZ4il0ENb10-21" value="load by filePath" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="450" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="t_-EoTVA3eZ4il0ENb10-22" value="http到gitlab" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="150" y="383" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="t_-EoTVA3eZ4il0ENb10-23" value="资源文件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="35" y="515" width="70" height="30" as="geometry" />
+        <mxCell id="t_-EoTVA3eZ4il0ENb10-23" value="Resource(proto or interfaces)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="530" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="t_-EoTVA3eZ4il0ENb10-24" value="解析&amp;amp;动态编译" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="407" width="90" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="t_-EoTVA3eZ4il0ENb10-25" value="GameServer" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="980" y="510" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t_-EoTVA3eZ4il0ENb10-27" value="Application" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="100" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t_-EoTVA3eZ4il0ENb10-31" value="WEB" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="90" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t_-EoTVA3eZ4il0ENb10-32" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;startArrow=none;" edge="1" source="t_-EoTVA3eZ4il0ENb10-33" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1500" y="678" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_-EoTVA3eZ4il0ENb10-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="160" width="40" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="t_-EoTVA3eZ4il0ENb10-34" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=none;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="t_-EoTVA3eZ4il0ENb10-31" target="t_-EoTVA3eZ4il0ENb10-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1500" y="678" as="targetPoint" />
+            <mxPoint x="1500" y="130" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_-EoTVA3eZ4il0ENb10-35" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1300" y="190" as="sourcePoint" />
+            <mxPoint x="1480" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_-EoTVA3eZ4il0ENb10-36" value="配置资源地址" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="160" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t_-EoTVA3eZ4il0ENb10-38" value="RobotClient" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="90" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t_-EoTVA3eZ4il0ENb10-39" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;startArrow=none;" edge="1" parent="1" source="t_-EoTVA3eZ4il0ENb10-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1730" y="678" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_-EoTVA3eZ4il0ENb10-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1.05;entryY=0.87;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="t_-EoTVA3eZ4il0ENb10-40" target="t_-EoTVA3eZ4il0ENb10-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1710" y="247" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_-EoTVA3eZ4il0ENb10-40" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1710" y="180" width="40" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="t_-EoTVA3eZ4il0ENb10-41" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=none;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" source="t_-EoTVA3eZ4il0ENb10-38" target="t_-EoTVA3eZ4il0ENb10-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1730" y="678" as="targetPoint" />
+            <mxPoint x="1730" y="130" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_-EoTVA3eZ4il0ENb10-43" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="t_-EoTVA3eZ4il0ENb10-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1520" y="205" as="sourcePoint" />
+            <mxPoint x="1610" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_-EoTVA3eZ4il0ENb10-44" value="指定资源路径" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="180" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t_-EoTVA3eZ4il0ENb10-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="t_-EoTVA3eZ4il0ENb10-40" target="t_-EoTVA3eZ4il0ENb10-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1780" y="205" />
+              <mxPoint x="1780" y="255" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_-EoTVA3eZ4il0ENb10-47" value="动态编译" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1775" y="215" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t_-EoTVA3eZ4il0ENb10-49" value="初始化完成" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="220" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t_-EoTVA3eZ4il0ENb10-51" value="GameServer" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="1930" y="90" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t_-EoTVA3eZ4il0ENb10-52" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="t_-EoTVA3eZ4il0ENb10-51" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1990" y="680" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
