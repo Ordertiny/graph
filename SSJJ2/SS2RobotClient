@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-04T02:31:55.169Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="kMjTYPJvwix92DKboL2D" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-04T02:36:18.329Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="SIdiH_gMsQKZCBqIPKDy" version="20.5.1" type="github">
   <diagram id="3ujHlwTiil5UCKonvfeH" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -257,6 +257,45 @@
         </mxCell>
         <mxCell id="t_-EoTVA3eZ4il0ENb10-75" value="响应" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1595" y="440" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t_-EoTVA3eZ4il0ENb10-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="t_-EoTVA3eZ4il0ENb10-76" target="t_-EoTVA3eZ4il0ENb10-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t_-EoTVA3eZ4il0ENb10-76" value="启动" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="710" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t_-EoTVA3eZ4il0ENb10-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="t_-EoTVA3eZ4il0ENb10-78" target="t_-EoTVA3eZ4il0ENb10-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t_-EoTVA3eZ4il0ENb10-78" value="proto生成java文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="780" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t_-EoTVA3eZ4il0ENb10-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="t_-EoTVA3eZ4il0ENb10-79" target="t_-EoTVA3eZ4il0ENb10-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t_-EoTVA3eZ4il0ENb10-79" value="动态编译class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="850" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t_-EoTVA3eZ4il0ENb10-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t_-EoTVA3eZ4il0ENb10-80" target="t_-EoTVA3eZ4il0ENb10-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t_-EoTVA3eZ4il0ENb10-80" value="动态加载到虚拟机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="920" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t_-EoTVA3eZ4il0ENb10-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="t_-EoTVA3eZ4il0ENb10-81" target="t_-EoTVA3eZ4il0ENb10-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t_-EoTVA3eZ4il0ENb10-81" value="java parse 接口File" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="990" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t_-EoTVA3eZ4il0ENb10-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="t_-EoTVA3eZ4il0ENb10-82" target="t_-EoTVA3eZ4il0ENb10-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t_-EoTVA3eZ4il0ENb10-82" value="生成接口中方法参数和protoClassObject间的映射关系" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1060" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="t_-EoTVA3eZ4il0ENb10-88" value="结束" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1140" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
