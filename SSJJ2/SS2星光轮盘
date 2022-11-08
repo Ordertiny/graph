@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-08T10:21:05.334Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="F7WNogfJ9R189PnF8ETJ" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-08T10:31:38.340Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="IEJAz6aWdbYibOqxZSt4" version="20.5.1" type="github">
   <diagram id="_nZ3ggf4wZIt_dnw_-2Y" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -504,9 +504,6 @@
         </mxCell>
         <mxCell id="0Xff8VhHjEbv1DiQ51gh-21" value="切换奖池规则&lt;br&gt;1. 直接进入&lt;br&gt;2. 前置奖池抽完" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1595" y="1390" width="110" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-22" value="独立奖励做到奖池表里，用特殊字段标记即可" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="800" y="1455" width="260" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0Xff8VhHjEbv1DiQ51gh-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0Xff8VhHjEbv1DiQ51gh-24" target="0Xff8VhHjEbv1DiQ51gh-25">
           <mxGeometry relative="1" as="geometry" />
