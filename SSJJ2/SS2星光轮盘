@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-08T09:03:36.566Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="IQsJyEw6CUN1w7Fw5D8m" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-08T10:20:07.893Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="PUnNnEgSBTxQ8sHJN5cM" version="20.5.1" type="github">
   <diagram id="_nZ3ggf4wZIt_dnw_-2Y" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -445,17 +445,32 @@
         <mxCell id="8IpDFyt6ZU70DWAzPlCr-48" value="结束" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="830" y="1080" width="100" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0Xff8VhHjEbv1DiQ51gh-3" target="0Xff8VhHjEbv1DiQ51gh-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="0Xff8VhHjEbv1DiQ51gh-3" value="获取奖池" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="470" y="1460" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0Xff8VhHjEbv1DiQ51gh-4" target="0Xff8VhHjEbv1DiQ51gh-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0Xff8VhHjEbv1DiQ51gh-4" value="抽取物品" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="1540" width="110" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0Xff8VhHjEbv1DiQ51gh-5" target="0Xff8VhHjEbv1DiQ51gh-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="0Xff8VhHjEbv1DiQ51gh-5" value="扣除材料" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="1380" width="110" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0Xff8VhHjEbv1DiQ51gh-6" target="0Xff8VhHjEbv1DiQ51gh-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="0Xff8VhHjEbv1DiQ51gh-6" value="抽奖后触发" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="470" y="1622.5" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0Xff8VhHjEbv1DiQ51gh-7" target="0Xff8VhHjEbv1DiQ51gh-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0Xff8VhHjEbv1DiQ51gh-7" value="普通抽&lt;br&gt;or&lt;br&gt;爆发抽" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="1300" width="110" height="50" as="geometry" />
@@ -473,7 +488,7 @@
           <mxGeometry x="620" y="1610" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="0Xff8VhHjEbv1DiQ51gh-14" value="爆发抽抽奖后步骤&lt;br&gt;1. 保底点数累计X次必得保底；&lt;br&gt;2. 保存已抽到物品;&lt;br&gt;3. 当奖池物品都抽完后清空；&lt;br&gt;4. 直接获取抽到物品；" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="1585" width="190" height="90" as="geometry" />
+          <mxGeometry x="800" y="1605" width="190" height="90" as="geometry" />
         </mxCell>
         <mxCell id="0Xff8VhHjEbv1DiQ51gh-16" value="重置进度/保留进度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1425" y="1510" width="115" height="40" as="geometry" />
