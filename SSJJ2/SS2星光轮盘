@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-08T07:41:30.362Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="nUT7s3-38fukWmvrpJo4" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-08T08:48:10.882Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="OlVK9aDnMilly32NLdx6" version="20.5.1" type="github">
   <diagram id="_nZ3ggf4wZIt_dnw_-2Y" name="第 1 页">
-    <mxGraphModel dx="964" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -460,7 +460,7 @@
         <mxCell id="0Xff8VhHjEbv1DiQ51gh-7" value="普通抽&lt;br&gt;or&lt;br&gt;爆发抽" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="1300" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-9" value="发送物品，增加点数" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-9" value="发送物品，增加抽取次数" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="1702.5" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="0Xff8VhHjEbv1DiQ51gh-10" value="奖池选择规则&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. 重复抽取&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. 当前奖池未抽完&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -489,6 +489,57 @@
         </mxCell>
         <mxCell id="0Xff8VhHjEbv1DiQ51gh-21" value="切换奖池规则&lt;br&gt;1. 直接进入&lt;br&gt;2. 上一个奖池抽完" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1595" y="1390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-22" value="独立奖励做到奖池表里，用特殊字段标记即可" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="800" y="1455" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0Xff8VhHjEbv1DiQ51gh-24" target="0Xff8VhHjEbv1DiQ51gh-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-24" value="普通抽" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="1935" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0Xff8VhHjEbv1DiQ51gh-28" target="0Xff8VhHjEbv1DiQ51gh-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0Xff8VhHjEbv1DiQ51gh-28" target="0Xff8VhHjEbv1DiQ51gh-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-28" value="重复获取" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="665" y="1927.5" width="105" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-29" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="440" y="1902.5" width="162.5" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-25" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0Xff8VhHjEbv1DiQ51gh-29">
+          <mxGeometry width="162.5" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-26" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0Xff8VhHjEbv1DiQ51gh-29">
+          <mxGeometry x="22.5" y="17.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-27" value="奖池" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0Xff8VhHjEbv1DiQ51gh-29">
+          <mxGeometry x="32.5" y="37.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0Xff8VhHjEbv1DiQ51gh-30" target="0Xff8VhHjEbv1DiQ51gh-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-30" value="N选1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="1936.25" width="102.5" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-32" value="抽取规则判定" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="1936.25" width="110" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-34" value="越抽越少" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="2030" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0Xff8VhHjEbv1DiQ51gh-25" target="0Xff8VhHjEbv1DiQ51gh-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-40" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="770" y="1935" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-41" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="760" y="2030" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
