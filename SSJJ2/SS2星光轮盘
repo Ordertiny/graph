@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-08T10:20:47.630Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="eQsrm7Kk_DZM1mFxLJFb" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-08T10:21:05.334Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="F7WNogfJ9R189PnF8ETJ" version="20.5.1" type="github">
   <diagram id="_nZ3ggf4wZIt_dnw_-2Y" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -639,7 +639,7 @@
         <mxCell id="0Xff8VhHjEbv1DiQ51gh-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0Xff8VhHjEbv1DiQ51gh-71" target="0Xff8VhHjEbv1DiQ51gh-72">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-71" value="切换条件&lt;br&gt;1. 直接切换&lt;br&gt;2. 上一轮完成后可切换" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-71" value="切换条件&lt;br&gt;1. 直接切换&lt;br&gt;2. 前置完成后可切换" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="448.75" y="2540" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0Xff8VhHjEbv1DiQ51gh-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0Xff8VhHjEbv1DiQ51gh-72" target="0Xff8VhHjEbv1DiQ51gh-73">
