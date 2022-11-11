@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-11T01:35:20.609Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="fHA5nHEU1zxx07rhqW1_" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-11T01:42:21.525Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="e4ubFu3XIz99_7uKFJeO" version="20.5.1" type="github">
   <diagram id="_nZ3ggf4wZIt_dnw_-2Y" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -718,14 +718,14 @@
         </mxCell>
         <mxCell id="0Xff8VhHjEbv1DiQ51gh-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="0Xff8VhHjEbv1DiQ51gh-122" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1920" y="2223.75" as="targetPoint" />
+            <mxPoint x="1920" y="2155" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0Xff8VhHjEbv1DiQ51gh-122" value="切换奖池" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1751.25" y="2193.75" width="110" height="60" as="geometry" />
+          <mxGeometry x="1751.25" y="2125" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0Xff8VhHjEbv1DiQ51gh-133" value="判定宝箱类型&lt;br&gt;同类继承普通点数" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1920" y="2193.75" width="140" height="60" as="geometry" />
+          <mxGeometry x="1920" y="2125" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0Xff8VhHjEbv1DiQ51gh-135" value="每期奖池&lt;br&gt;type=1普通&lt;br&gt;type=2 高级" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1980" y="1717.5" width="140" height="142.5" as="geometry" />
