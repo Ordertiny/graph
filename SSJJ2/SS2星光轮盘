@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-11T01:35:08.115Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Fax9jUA8Z4z2OXl79_xh" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-11T01:35:20.609Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="fHA5nHEU1zxx07rhqW1_" version="20.5.1" type="github">
   <diagram id="_nZ3ggf4wZIt_dnw_-2Y" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -745,7 +745,7 @@
         <mxCell id="ChGlKqGDJowko0wOqW9f-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ChGlKqGDJowko0wOqW9f-4" target="0Xff8VhHjEbv1DiQ51gh-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ChGlKqGDJowko0wOqW9f-4" value="奖励保存" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="ChGlKqGDJowko0wOqW9f-4" value="进度保存" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="470" y="1700" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ChGlKqGDJowko0wOqW9f-7" value="普通抽：有保底的情况下，玩家保底点数达到配置时直接获得保底奖励&lt;br&gt;爆发抽：&lt;br&gt;type：1 随意抽 -》 不保存玩家进度&lt;br&gt;type：2 越抽越少 -》 保存玩家进度&lt;br&gt;type：3 一轮内不重复 -》 保存玩家进度" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
