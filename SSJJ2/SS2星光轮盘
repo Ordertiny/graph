@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-09T05:44:44.032Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Tn9dybdDi5HeaTahC1GB" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-11T01:35:08.115Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Fax9jUA8Z4z2OXl79_xh" version="20.5.1" type="github">
   <diagram id="_nZ3ggf4wZIt_dnw_-2Y" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -445,144 +445,136 @@
         <mxCell id="8IpDFyt6ZU70DWAzPlCr-48" value="结束" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="830" y="1080" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0Xff8VhHjEbv1DiQ51gh-3" target="0Xff8VhHjEbv1DiQ51gh-4">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="0Xff8VhHjEbv1DiQ51gh-3" target="0Xff8VhHjEbv1DiQ51gh-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-3" value="获取奖池" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-3" value="获取奖池" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="470" y="1460" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0Xff8VhHjEbv1DiQ51gh-4" target="0Xff8VhHjEbv1DiQ51gh-6">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="0Xff8VhHjEbv1DiQ51gh-4" target="0Xff8VhHjEbv1DiQ51gh-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-4" value="抽取物品" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-4" value="抽取物品" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="470" y="1540" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0Xff8VhHjEbv1DiQ51gh-5" target="0Xff8VhHjEbv1DiQ51gh-3">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="0Xff8VhHjEbv1DiQ51gh-5" target="0Xff8VhHjEbv1DiQ51gh-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-5" value="扣除材料" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-5" value="扣除材料" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="470" y="1380" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0Xff8VhHjEbv1DiQ51gh-6" target="0Xff8VhHjEbv1DiQ51gh-9">
+        <mxCell id="ChGlKqGDJowko0wOqW9f-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0Xff8VhHjEbv1DiQ51gh-6" target="ChGlKqGDJowko0wOqW9f-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-6" value="抽奖后触发" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-6" value="抽奖后触发" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="470" y="1622.5" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0Xff8VhHjEbv1DiQ51gh-7" target="0Xff8VhHjEbv1DiQ51gh-5">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="0Xff8VhHjEbv1DiQ51gh-7" target="0Xff8VhHjEbv1DiQ51gh-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-7" value="普通抽&lt;br&gt;or&lt;br&gt;爆发抽" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-7" value="普通抽&lt;br&gt;or&lt;br&gt;爆发抽" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="470" y="1300" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-9" value="发送物品，增加抽取次数" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="1702.5" width="110" height="50" as="geometry" />
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-9" value="发送物品，增加抽取次数" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="1780" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-10" value="爆发抽规则：&lt;br&gt;type：1 随意抽&lt;br&gt;type：2 越抽越少&lt;br&gt;type：3 一轮内不重复" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-10" value="爆发抽规则：&lt;br&gt;type：1 随意抽&lt;br&gt;type：2 越抽越少&lt;br&gt;type：3 一轮内不重复" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="620" y="1450" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-12" value="纯抽取，不做判定" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-12" value="纯抽取，不做判定" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="602.5" y="1550" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-16" value="重置进度/保留进度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1422.5" y="1510" width="115" height="40" as="geometry" />
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-16" value="判定宝箱类型&lt;br&gt;同类继承普通点数" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1420" y="1450" width="115" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0Xff8VhHjEbv1DiQ51gh-17" target="0Xff8VhHjEbv1DiQ51gh-18">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1482.5" y="1400" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-17" value="切换奖池" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1420" y="1310" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0Xff8VhHjEbv1DiQ51gh-18" target="0Xff8VhHjEbv1DiQ51gh-16">
+        <mxCell id="ChGlKqGDJowko0wOqW9f-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0Xff8VhHjEbv1DiQ51gh-17" target="0Xff8VhHjEbv1DiQ51gh-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-18" value="是否扣资源" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1422.5" y="1420" width="115" height="40" as="geometry" />
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-17" value="切换奖池" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1417.5" y="1330" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0Xff8VhHjEbv1DiQ51gh-24" target="0Xff8VhHjEbv1DiQ51gh-25">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="0Xff8VhHjEbv1DiQ51gh-24" target="0Xff8VhHjEbv1DiQ51gh-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-24" value="普通抽" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-24" value="普通抽" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="285" y="1935" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0Xff8VhHjEbv1DiQ51gh-28" target="0Xff8VhHjEbv1DiQ51gh-30">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="0Xff8VhHjEbv1DiQ51gh-28" target="0Xff8VhHjEbv1DiQ51gh-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0Xff8VhHjEbv1DiQ51gh-28" target="0Xff8VhHjEbv1DiQ51gh-34">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="0Xff8VhHjEbv1DiQ51gh-28" target="0Xff8VhHjEbv1DiQ51gh-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-28" value="重复获取" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-28" value="重复获取" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="665" y="1927.5" width="105" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-29" value="" style="group;" vertex="1" connectable="0" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-29" value="" style="group;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="440" y="1902.5" width="162.5" height="115" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-25" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0Xff8VhHjEbv1DiQ51gh-29">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-25" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="0Xff8VhHjEbv1DiQ51gh-29" vertex="1">
           <mxGeometry width="162.5" height="115" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-26" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0Xff8VhHjEbv1DiQ51gh-29">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-26" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="0Xff8VhHjEbv1DiQ51gh-29" vertex="1">
           <mxGeometry x="22.5" y="17.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-27" value="奖池" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0Xff8VhHjEbv1DiQ51gh-29">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-27" value="奖池" style="rounded=1;whiteSpace=wrap;html=1;" parent="0Xff8VhHjEbv1DiQ51gh-29" vertex="1">
           <mxGeometry x="32.5" y="37.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0Xff8VhHjEbv1DiQ51gh-30" target="0Xff8VhHjEbv1DiQ51gh-32">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="0Xff8VhHjEbv1DiQ51gh-30" target="0Xff8VhHjEbv1DiQ51gh-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-30" value="N选1（随机抽）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-30" value="N选1（随机抽）" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="830" y="1936.25" width="102.5" height="47.5" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-32" value="抽取规则判定" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-32" value="抽取规则判定" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="980" y="1936.25" width="110" height="47.5" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-34" value="越抽越少" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-34" value="越抽越少" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="830" y="2030" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0Xff8VhHjEbv1DiQ51gh-25" target="0Xff8VhHjEbv1DiQ51gh-28">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="0Xff8VhHjEbv1DiQ51gh-25" target="0Xff8VhHjEbv1DiQ51gh-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-40" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-40" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="770" y="1935" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-41" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-41" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="760" y="2030" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0Xff8VhHjEbv1DiQ51gh-42" target="0Xff8VhHjEbv1DiQ51gh-44">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="0Xff8VhHjEbv1DiQ51gh-42" target="0Xff8VhHjEbv1DiQ51gh-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-42" value="爆发抽" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-42" value="爆发抽" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="2217.5" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-43" value="" style="group;" vertex="1" connectable="0" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-43" value="" style="group;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="440" y="2190" width="162.5" height="115" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-44" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0Xff8VhHjEbv1DiQ51gh-43">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-44" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="0Xff8VhHjEbv1DiQ51gh-43" vertex="1">
           <mxGeometry width="162.5" height="115" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-45" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0Xff8VhHjEbv1DiQ51gh-43">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-45" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="0Xff8VhHjEbv1DiQ51gh-43" vertex="1">
           <mxGeometry x="22.5" y="17.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-46" value="奖池" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0Xff8VhHjEbv1DiQ51gh-43">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-46" value="奖池" style="rounded=1;whiteSpace=wrap;html=1;" parent="0Xff8VhHjEbv1DiQ51gh-43" vertex="1">
           <mxGeometry x="32.5" y="37.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-47" value="重复获取" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-47" value="重复获取" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="655" y="2215" width="105" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-48" value="随机抽" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-48" value="随机抽" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="828.75" y="2160" width="102.5" height="47.5" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-49" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-49" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="1" vertex="1">
           <mxGeometry x="760" y="2185" width="51.25" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-50" value="每次不重复&lt;br&gt;按轮抽取" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-50" value="每次不重复&lt;br&gt;按轮抽取" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="828.75" y="2223.75" width="102.5" height="47.5" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-51" value="选定保底" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-51" value="选定保底" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="828.75" y="2290" width="102.5" height="47.5" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="0Xff8VhHjEbv1DiQ51gh-53">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="0Xff8VhHjEbv1DiQ51gh-53" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="708.75" y="2280" as="sourcePoint" />
             <Array as="points">
@@ -590,64 +582,64 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-53" value="越抽越少" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-53" value="越抽越少" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="806.25" y="2387.5" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-54" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-54" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="736.25" y="2387.5" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0Xff8VhHjEbv1DiQ51gh-44" target="0Xff8VhHjEbv1DiQ51gh-47">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="0Xff8VhHjEbv1DiQ51gh-44" target="0Xff8VhHjEbv1DiQ51gh-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-59" value="可配置得规则&lt;br&gt;1. 抽取次数累计&lt;br&gt;2. 普通点数累计" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-59" value="可配置得规则&lt;br&gt;1. 抽取次数累计&lt;br&gt;2. 普通点数累计" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1110" y="1930" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-60" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-60" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="748.75" y="2223.75" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0Xff8VhHjEbv1DiQ51gh-61" target="0Xff8VhHjEbv1DiQ51gh-71">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="0Xff8VhHjEbv1DiQ51gh-61" target="0Xff8VhHjEbv1DiQ51gh-71" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-61" value="切换奖池" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-61" value="切换奖池" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="2540" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-63" value="注意：无法判定抽取完" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-63" value="注意：无法判定抽取完" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="948.75" y="2168.75" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-64" value="注意：按抽取次数%奖池数量 判定完成抽取次数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-64" value="注意：按抽取次数%奖池数量 判定完成抽取次数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="948.75" y="2235" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-65" value="注意：无法判定抽取完" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-65" value="注意：无法判定抽取完" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="958.75" y="2305" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-66" value="注意：可以判定抽取完" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-66" value="注意：可以判定抽取完" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="960" y="2397.5" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-67" value="注意：可以判定抽取完" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-67" value="注意：可以判定抽取完" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="980" y="2040" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-69" value="注意：无法判定抽取完" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-69" value="注意：无法判定抽取完" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1250" y="1945" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0Xff8VhHjEbv1DiQ51gh-71" target="0Xff8VhHjEbv1DiQ51gh-72">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="0Xff8VhHjEbv1DiQ51gh-71" target="0Xff8VhHjEbv1DiQ51gh-72" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-71" value="切换条件&lt;br&gt;1. 直接切换&lt;br&gt;2. 前置完成后可切换" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-71" value="切换条件&lt;br&gt;1. 直接切换&lt;br&gt;2. 前置完成后可切换" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="448.75" y="2540" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0Xff8VhHjEbv1DiQ51gh-72" target="0Xff8VhHjEbv1DiQ51gh-73">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="0Xff8VhHjEbv1DiQ51gh-72" target="0Xff8VhHjEbv1DiQ51gh-73" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-72" value="扣除材料" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-72" value="扣除材料" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="648.75" y="2540" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-73" value="清空 或保留进度" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-73" value="清空 或保留进度" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="838.75" y="2540" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-79" value="有保底的奖池 需要玩家手动重新配置保底" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-79" value="有保底的奖池 需要玩家手动重新配置保底" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="998.75" y="2555" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0Xff8VhHjEbv1DiQ51gh-89" target="0Xff8VhHjEbv1DiQ51gh-135">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="0Xff8VhHjEbv1DiQ51gh-89" target="0Xff8VhHjEbv1DiQ51gh-135" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1900" y="1670" />
@@ -655,13 +647,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-89" value="普通抽" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-89" value="普通抽" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1751.25" y="1645" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-98" value="N选1（普通抽）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-98" value="N选1（普通抽）" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2320" y="1613.75" width="102.5" height="47.5" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="0Xff8VhHjEbv1DiQ51gh-135" target="0Xff8VhHjEbv1DiQ51gh-98">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="0Xff8VhHjEbv1DiQ51gh-135" target="0Xff8VhHjEbv1DiQ51gh-98" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2092.5" y="1637.5" as="sourcePoint" />
             <mxPoint x="2155" y="1637.5" as="targetPoint" />
@@ -671,7 +663,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0Xff8VhHjEbv1DiQ51gh-105" target="0Xff8VhHjEbv1DiQ51gh-135">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="0Xff8VhHjEbv1DiQ51gh-105" target="0Xff8VhHjEbv1DiQ51gh-135" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1960" y="1800" as="targetPoint" />
             <Array as="points">
@@ -680,25 +672,25 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-105" value="爆发抽" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-105" value="爆发抽" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1751.25" y="1852.5" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-110" value="重复获取" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-110" value="重复获取" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2155" y="1892.5" width="105" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-111" value="随机抽" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-111" value="随机抽" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2328.75" y="1837.5" width="102.5" height="47.5" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-112" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-112" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="1" vertex="1">
           <mxGeometry x="2260" y="1862.5" width="51.25" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-113" value="每次不重复&lt;br&gt;按轮抽取" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-113" value="每次不重复&lt;br&gt;按轮抽取" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2328.75" y="1901.25" width="102.5" height="47.5" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-114" value="选定保底" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-114" value="选定保底" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2328.75" y="1967.5" width="102.5" height="47.5" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="0Xff8VhHjEbv1DiQ51gh-116">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="0Xff8VhHjEbv1DiQ51gh-116" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2208.75" y="1957.5" as="sourcePoint" />
             <Array as="points">
@@ -706,13 +698,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-116" value="越抽越少" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-116" value="越抽越少" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2306.25" y="2065" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-117" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-117" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2236.25" y="2065" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0Xff8VhHjEbv1DiQ51gh-135" target="0Xff8VhHjEbv1DiQ51gh-110">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="0Xff8VhHjEbv1DiQ51gh-135" target="0Xff8VhHjEbv1DiQ51gh-110" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2092.5" y="1925" as="sourcePoint" />
             <Array as="points">
@@ -721,37 +713,43 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-120" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-120" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2248.75" y="1901.25" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0Xff8VhHjEbv1DiQ51gh-122" target="0Xff8VhHjEbv1DiQ51gh-130">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-122" value="切换奖池" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1751.25" y="2193.75" width="110" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0Xff8VhHjEbv1DiQ51gh-130" target="0Xff8VhHjEbv1DiQ51gh-133">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="0Xff8VhHjEbv1DiQ51gh-122" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2120" y="2223.75" as="targetPoint" />
+            <mxPoint x="1920" y="2223.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-130" value="扣除材料" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-122" value="切换奖池" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1751.25" y="2193.75" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-133" value="判定宝箱类型&lt;br&gt;同类继承普通点数" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1920" y="2193.75" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-133" value="清空 或继承进度" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2136" y="2193.75" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-134" value="保底清空，已抽取清空，保留幸运值和保底点数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2294" y="2208.75" width="280" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-135" value="每期奖池&lt;br&gt;type=1普通&lt;br&gt;type=2 高级" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-135" value="每期奖池&lt;br&gt;type=1普通&lt;br&gt;type=2 高级" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1980" y="1717.5" width="140" height="142.5" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-137" value="第一期" style="shape=delay;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-137" value="第一期" style="shape=delay;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1595" y="1622.5" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0Xff8VhHjEbv1DiQ51gh-140" value="抽取触发规则&lt;br&gt;1. 保底点数累计X次必得保底&lt;br&gt;2. 抽取次数累计X次必得奖池某个物品&lt;br&gt;3. （不满足上述条件）普通抽增加XXX 爆发抽增加XXX" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="620" y="1615" width="320" height="70" as="geometry" />
+        <mxCell id="0Xff8VhHjEbv1DiQ51gh-140" value="抽取触发规则&lt;br&gt;1. 保底点数累计X次必得保底&lt;br&gt;2. （不满足上述条件）普通抽增加XXX 爆发抽增加XXX" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="620" y="1620" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ChGlKqGDJowko0wOqW9f-1" value="普通" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2145" y="1605" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ChGlKqGDJowko0wOqW9f-2" value="高级" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2139" y="1885" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ChGlKqGDJowko0wOqW9f-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ChGlKqGDJowko0wOqW9f-4" target="0Xff8VhHjEbv1DiQ51gh-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ChGlKqGDJowko0wOqW9f-4" value="奖励保存" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1700" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ChGlKqGDJowko0wOqW9f-7" value="普通抽：有保底的情况下，玩家保底点数达到配置时直接获得保底奖励&lt;br&gt;爆发抽：&lt;br&gt;type：1 随意抽 -》 不保存玩家进度&lt;br&gt;type：2 越抽越少 -》 保存玩家进度&lt;br&gt;type：3 一轮内不重复 -》 保存玩家进度" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1685" width="400" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
