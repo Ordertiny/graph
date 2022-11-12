@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-12T02:16:09.764Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="5wRvt-FyAs1pHRgGerL_" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-12T02:23:49.063Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="q6V_N6msyX1KUhGJ61g7" version="20.5.3" type="github">
   <diagram id="K7Uuc3O_H2ApbHSMYKts" name="第 1 页">
-    <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -51,6 +51,72 @@
         </mxCell>
         <mxCell id="qSAM1e19b10ZIcp-OEPC-21" value="消耗点券" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="360" y="380" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qSAM1e19b10ZIcp-OEPC-22" value="抽奖逻辑" style="shape=delay;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="540" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qSAM1e19b10ZIcp-OEPC-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qSAM1e19b10ZIcp-OEPC-24" target="qSAM1e19b10ZIcp-OEPC-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qSAM1e19b10ZIcp-OEPC-24" value="抽取" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="550" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qSAM1e19b10ZIcp-OEPC-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qSAM1e19b10ZIcp-OEPC-25" target="qSAM1e19b10ZIcp-OEPC-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qSAM1e19b10ZIcp-OEPC-25" value="材料，奖池判定" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="276.5" y="620" width="107" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qSAM1e19b10ZIcp-OEPC-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qSAM1e19b10ZIcp-OEPC-26" target="qSAM1e19b10ZIcp-OEPC-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qSAM1e19b10ZIcp-OEPC-26" value="扣除消耗材料" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="276.5" y="690" width="107" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qSAM1e19b10ZIcp-OEPC-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qSAM1e19b10ZIcp-OEPC-28" target="qSAM1e19b10ZIcp-OEPC-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qSAM1e19b10ZIcp-OEPC-28" value="随机奖励" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="276.5" y="760" width="107" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qSAM1e19b10ZIcp-OEPC-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qSAM1e19b10ZIcp-OEPC-29" target="qSAM1e19b10ZIcp-OEPC-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qSAM1e19b10ZIcp-OEPC-29" value="保存奖励" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="276.5" y="900" width="107" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qSAM1e19b10ZIcp-OEPC-30" value="返回抽取物品" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="276.5" y="970" width="107" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qSAM1e19b10ZIcp-OEPC-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qSAM1e19b10ZIcp-OEPC-32" target="qSAM1e19b10ZIcp-OEPC-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qSAM1e19b10ZIcp-OEPC-32" value="增加抽取次数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="276.5" y="830" width="107" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qSAM1e19b10ZIcp-OEPC-39" value="兑换逻辑" style="shape=delay;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="540" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qSAM1e19b10ZIcp-OEPC-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qSAM1e19b10ZIcp-OEPC-40" target="qSAM1e19b10ZIcp-OEPC-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qSAM1e19b10ZIcp-OEPC-40" value="兑换" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="550" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qSAM1e19b10ZIcp-OEPC-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qSAM1e19b10ZIcp-OEPC-41" target="qSAM1e19b10ZIcp-OEPC-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qSAM1e19b10ZIcp-OEPC-41" value="检查资源" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="656.5" y="620" width="107" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qSAM1e19b10ZIcp-OEPC-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qSAM1e19b10ZIcp-OEPC-42" target="qSAM1e19b10ZIcp-OEPC-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qSAM1e19b10ZIcp-OEPC-42" value="扣除资源" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="656.5" y="690" width="107" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qSAM1e19b10ZIcp-OEPC-43" value="增加道具+喷漆" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="656.5" y="760" width="107" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
