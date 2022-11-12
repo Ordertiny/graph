@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2022-11-12T02:09:19.129Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.5.3" etag="BwGjOxTMcM3gLXRtEWI1" type="github"><diagram id="K7Uuc3O_H2ApbHSMYKts">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-12T02:16:09.764Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="5wRvt-FyAs1pHRgGerL_" version="20.5.3" type="github">
+  <diagram id="K7Uuc3O_H2ApbHSMYKts" name="第 1 页">
+    <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qSAM1e19b10ZIcp-OEPC-1" value="系统提供功能" style="shape=delay;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="90" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qSAM1e19b10ZIcp-OEPC-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qSAM1e19b10ZIcp-OEPC-2" target="qSAM1e19b10ZIcp-OEPC-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qSAM1e19b10ZIcp-OEPC-2" value="1个奖池" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="180" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qSAM1e19b10ZIcp-OEPC-3" value="玩家" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="180" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qSAM1e19b10ZIcp-OEPC-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qSAM1e19b10ZIcp-OEPC-8" target="qSAM1e19b10ZIcp-OEPC-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qSAM1e19b10ZIcp-OEPC-8" value="抽奖&lt;br&gt;指定转盘" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="200" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qSAM1e19b10ZIcp-OEPC-10" value="越抽越少" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="200" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qSAM1e19b10ZIcp-OEPC-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qSAM1e19b10ZIcp-OEPC-13" target="qSAM1e19b10ZIcp-OEPC-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qSAM1e19b10ZIcp-OEPC-13" value="兑换" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="380" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qSAM1e19b10ZIcp-OEPC-14" value="单抽" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="195" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qSAM1e19b10ZIcp-OEPC-15" value="获得对应&lt;br&gt;格子奖励" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="590" y="200" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qSAM1e19b10ZIcp-OEPC-16" value="喷漆" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="330" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qSAM1e19b10ZIcp-OEPC-17" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="430" y="345" width="25" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="qSAM1e19b10ZIcp-OEPC-19" value="道具(钥匙)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="450" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qSAM1e19b10ZIcp-OEPC-20" value="消耗材料随&lt;br&gt;抽取次数变化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="355" y="225" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qSAM1e19b10ZIcp-OEPC-21" value="消耗点券" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="380" width="70" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
