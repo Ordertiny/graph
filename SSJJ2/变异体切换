@@ -1,17 +1,71 @@
-<mxfile host="app.diagrams.net" modified="2022-11-14T06:13:26.076Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="SJMQWkouFI82irUBwS0a" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-14T07:06:36.459Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="dx09cjvSeDmZpIKt89U5" version="20.5.3" type="github">
   <diagram id="FXLfOOzDxb_iVy_-6uhV" name="第 1 页">
     <mxGraphModel dx="1422" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="oswooRWzKyI3sSVqUzFe-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="oswooRWzKyI3sSVqUzFe-1" target="oswooRWzKyI3sSVqUzFe-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="oswooRWzKyI3sSVqUzFe-1" value="进入局内" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="100" width="120" height="60" as="geometry" />
+          <mxGeometry x="200" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oswooRWzKyI3sSVqUzFe-2" value="局外选择使用的变异体会成为默认选中变异体" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="100" width="120" height="60" as="geometry" />
+        <mxCell id="oswooRWzKyI3sSVqUzFe-3" value="支持切换" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oswooRWzKyI3sSVqUzFe-3" value="选择之后可以变身对应的变异体，切换时间只有5s" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="210" width="120" height="60" as="geometry" />
+        <mxCell id="oswooRWzKyI3sSVqUzFe-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="oswooRWzKyI3sSVqUzFe-4" target="oswooRWzKyI3sSVqUzFe-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oswooRWzKyI3sSVqUzFe-4" value="大厅" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oswooRWzKyI3sSVqUzFe-6" value="支持切换" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oswooRWzKyI3sSVqUzFe-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=none;" edge="1" parent="1" source="oswooRWzKyI3sSVqUzFe-9" target="oswooRWzKyI3sSVqUzFe-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oswooRWzKyI3sSVqUzFe-9" value="装备变异体" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oswooRWzKyI3sSVqUzFe-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=none;" edge="1" parent="1" source="oswooRWzKyI3sSVqUzFe-10" target="oswooRWzKyI3sSVqUzFe-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oswooRWzKyI3sSVqUzFe-10" value="检查仓库物品&lt;br&gt;是否存在" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="190" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oswooRWzKyI3sSVqUzFe-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=none;" edge="1" parent="1" source="oswooRWzKyI3sSVqUzFe-11" target="oswooRWzKyI3sSVqUzFe-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oswooRWzKyI3sSVqUzFe-11" value="检查仓库物品&lt;br&gt;是否在有效期" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="340" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oswooRWzKyI3sSVqUzFe-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=none;" edge="1" parent="1" source="oswooRWzKyI3sSVqUzFe-12" target="oswooRWzKyI3sSVqUzFe-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oswooRWzKyI3sSVqUzFe-12" value="验证变异体在配置表里" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="420" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oswooRWzKyI3sSVqUzFe-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=none;" edge="1" parent="1" source="oswooRWzKyI3sSVqUzFe-15" target="oswooRWzKyI3sSVqUzFe-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oswooRWzKyI3sSVqUzFe-15" value="获取玩家当前变异体实体" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="270" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oswooRWzKyI3sSVqUzFe-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=none;" edge="1" parent="1" source="oswooRWzKyI3sSVqUzFe-17" target="oswooRWzKyI3sSVqUzFe-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oswooRWzKyI3sSVqUzFe-17" value="卸载已装配变异体" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="490" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oswooRWzKyI3sSVqUzFe-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=none;" edge="1" parent="1" source="oswooRWzKyI3sSVqUzFe-18" target="oswooRWzKyI3sSVqUzFe-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oswooRWzKyI3sSVqUzFe-18" value="装备变异体" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="560" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oswooRWzKyI3sSVqUzFe-19" value="发布事件" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="630" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
