@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2022-11-21T12:05:34.695Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.5.3" etag="P7gls5UJXpVB5Wtl9_FC" type="github"><diagram id="JiEZ7ssAAVFcg4aw3a9F">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-21T12:28:50.769Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="T-WluwLcfOWJ3ySM8TMc" version="20.5.3" type="github">
+  <diagram id="JiEZ7ssAAVFcg4aw3a9F" name="第 1 页">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="leGlJtKbzh7zlkyq9s8g-1" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="60" width="130" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="leGlJtKbzh7zlkyq9s8g-2" value="getStorageAllItems" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="130" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="leGlJtKbzh7zlkyq9s8g-3" value="所有未过期的物品" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="195" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="leGlJtKbzh7zlkyq9s8g-4" value="deleteAllExpireItem" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="250" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="leGlJtKbzh7zlkyq9s8g-5" value="删除所有过期物品" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="315" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="leGlJtKbzh7zlkyq9s8g-6" value="deleteExpireItem" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="250" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="leGlJtKbzh7zlkyq9s8g-7" value="删除单个物品" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="315" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
