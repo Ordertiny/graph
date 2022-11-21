@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-21T13:05:28.645Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="_v826e0ow-Pu8Vh-HKlC" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-21T13:09:08.556Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="tna_bv6m22e50JJ4EniJ" version="20.5.3" type="github">
   <diagram id="JiEZ7ssAAVFcg4aw3a9F" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -126,17 +126,26 @@
         <mxCell id="leGlJtKbzh7zlkyq9s8g-70" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1735" y="310" width="40" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="leGlJtKbzh7zlkyq9s8g-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="leGlJtKbzh7zlkyq9s8g-71" target="leGlJtKbzh7zlkyq9s8g-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="leGlJtKbzh7zlkyq9s8g-71" value="物品删除逻辑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="440" width="120" height="40" as="geometry" />
+          <mxGeometry x="160" y="450" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="leGlJtKbzh7zlkyq9s8g-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="leGlJtKbzh7zlkyq9s8g-72" target="leGlJtKbzh7zlkyq9s8g-73">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="leGlJtKbzh7zlkyq9s8g-72" value="委托相应的ItemHandler处理&lt;br&gt;发布事件" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="530" width="120" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="leGlJtKbzh7zlkyq9s8g-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="leGlJtKbzh7zlkyq9s8g-73" target="leGlJtKbzh7zlkyq9s8g-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="leGlJtKbzh7zlkyq9s8g-73" value="同步等待处理完" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="620" width="110" height="40" as="geometry" />
+          <mxGeometry x="165" y="620" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="leGlJtKbzh7zlkyq9s8g-74" value="真正删除物品" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="710" width="110" height="40" as="geometry" />
+          <mxGeometry x="165" y="700" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
