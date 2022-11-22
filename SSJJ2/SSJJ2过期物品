@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T07:13:09.629Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="fmaEo52VhYpfB8YUWXSl" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T07:25:39.904Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="mg3zjUacxGY56B-ncFVx" version="20.5.3" type="github">
   <diagram id="JiEZ7ssAAVFcg4aw3a9F" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -140,29 +140,16 @@
         <mxCell id="leGlJtKbzh7zlkyq9s8g-74" value="真正删除物品" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="165" y="700" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="leGlJtKbzh7zlkyq9s8g-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="leGlJtKbzh7zlkyq9s8g-78" target="leGlJtKbzh7zlkyq9s8g-79">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="leGlJtKbzh7zlkyq9s8g-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="645" y="860" as="sourcePoint" />
+            <mxPoint x="645" y="880" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="leGlJtKbzh7zlkyq9s8g-78" value="deleteExpireItem" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="580" y="720" width="130" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="leGlJtKbzh7zlkyq9s8g-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="leGlJtKbzh7zlkyq9s8g-79" target="leGlJtKbzh7zlkyq9s8g-81">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="leGlJtKbzh7zlkyq9s8g-79" value="参数判定" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="587.5" y="780" width="115" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="leGlJtKbzh7zlkyq9s8g-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="leGlJtKbzh7zlkyq9s8g-81" target="leGlJtKbzh7zlkyq9s8g-83">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="leGlJtKbzh7zlkyq9s8g-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="leGlJtKbzh7zlkyq9s8g-81" target="leGlJtKbzh7zlkyq9s8g-82">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="leGlJtKbzh7zlkyq9s8g-81" value="是否过期" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="587.5" y="850" width="115" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="leGlJtKbzh7zlkyq9s8g-82" value="拒绝删除 返回过期时间" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="800" y="867.5" width="90" height="35" as="geometry" />
+        <mxCell id="leGlJtKbzh7zlkyq9s8g-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="leGlJtKbzh7zlkyq9s8g-83">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="645" y="920" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="leGlJtKbzh7zlkyq9s8g-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="leGlJtKbzh7zlkyq9s8g-83" target="leGlJtKbzh7zlkyq9s8g-91">
           <mxGeometry relative="1" as="geometry" />
@@ -403,6 +390,12 @@
         </mxCell>
         <mxCell id="leGlJtKbzh7zlkyq9s8g-172" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="875" y="420" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="leGlJtKbzh7zlkyq9s8g-173" value="deleteAllExpireItem" style="whiteSpace=wrap;html=1;fontColor=#000000;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="577.5" y="820" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="leGlJtKbzh7zlkyq9s8g-174" value="统计过期物品" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="582.5" y="880" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
