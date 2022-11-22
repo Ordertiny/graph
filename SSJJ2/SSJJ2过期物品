@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T07:08:49.252Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="15TbtUpulRDfWtIi-fy3" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T07:09:29.130Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="6J7_plPIbae_1jVjZly1" version="20.5.3" type="github">
   <diagram id="JiEZ7ssAAVFcg4aw3a9F" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -249,6 +249,9 @@
         <mxCell id="leGlJtKbzh7zlkyq9s8g-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="leGlJtKbzh7zlkyq9s8g-106" target="leGlJtKbzh7zlkyq9s8g-117">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="leGlJtKbzh7zlkyq9s8g-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#FF6666;dashed=1;" edge="1" parent="1" source="leGlJtKbzh7zlkyq9s8g-106" target="leGlJtKbzh7zlkyq9s8g-160">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="leGlJtKbzh7zlkyq9s8g-106" value="handlerExistExpireTimeItem" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1290" y="1027.5" width="180" height="40" as="geometry" />
         </mxCell>
@@ -380,6 +383,9 @@
         </mxCell>
         <mxCell id="leGlJtKbzh7zlkyq9s8g-156" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1380" y="1395" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="leGlJtKbzh7zlkyq9s8g-160" value="简单暴力&lt;br&gt;限时物品直接插入" style="whiteSpace=wrap;html=1;fontColor=#FF6666;dashed=1;dashPattern=1 1;" vertex="1" parent="1">
+          <mxGeometry x="1642.5" y="1017.5" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
