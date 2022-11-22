@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T03:22:46.050Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="c8WEJMYKEAwXeo-6LazI" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T03:42:36.208Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="aUo_W6fTMVruZK4uLkQ2" version="20.5.3" type="github">
   <diagram id="JiEZ7ssAAVFcg4aw3a9F" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -209,6 +209,84 @@
         </mxCell>
         <mxCell id="leGlJtKbzh7zlkyq9s8g-99" value="同步处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="790" y="1130" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="leGlJtKbzh7zlkyq9s8g-100" value="发放限时物品&lt;br&gt;category=16" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="leGlJtKbzh7zlkyq9s8g-101" value="preHandleItemLimitReward" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="655" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="leGlJtKbzh7zlkyq9s8g-102" value="类型判断" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="750" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="leGlJtKbzh7zlkyq9s8g-103" value="限时模板表查询" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="840" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="leGlJtKbzh7zlkyq9s8g-104" value="重新封装&lt;br&gt;SendItem" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1315" y="920" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="leGlJtKbzh7zlkyq9s8g-105" value="sendReward" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1325" y="990" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="leGlJtKbzh7zlkyq9s8g-106" value="handlerExistExpireTimeItem" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="1067.5" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="leGlJtKbzh7zlkyq9s8g-107" value="是否可堆叠" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1315" y="1230" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="leGlJtKbzh7zlkyq9s8g-108" value="如果是限时物品&lt;br&gt;直接插新的" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="960" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="leGlJtKbzh7zlkyq9s8g-109" value="是否是限时的" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="1235" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="leGlJtKbzh7zlkyq9s8g-110" value="直接插库" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1505" y="1320" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="leGlJtKbzh7zlkyq9s8g-111" value="叠加数量" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="1245" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="leGlJtKbzh7zlkyq9s8g-112" value="是否支持多实例" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1315" y="1380" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="leGlJtKbzh7zlkyq9s8g-113" value="直接插库" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1505" y="1395" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="leGlJtKbzh7zlkyq9s8g-114" value="原物品是否唯一&lt;br&gt;且永久" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="1485" width="115" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="leGlJtKbzh7zlkyq9s8g-115" value="直接回收" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1505" y="1500" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="leGlJtKbzh7zlkyq9s8g-116" value="新增物品是否永久" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1315" y="1580" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="leGlJtKbzh7zlkyq9s8g-117" value="仓库是否存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1315" y="1130" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="leGlJtKbzh7zlkyq9s8g-118" value="不可堆叠" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1187.5" y="1400" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="leGlJtKbzh7zlkyq9s8g-119" value="不可堆叠且单一实例" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1157.5" y="1502.5" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="leGlJtKbzh7zlkyq9s8g-120" value="如果发送一个限时的可能会被回收" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="1710" y="1510" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="leGlJtKbzh7zlkyq9s8g-121" value="不可堆叠且单一实例且原物品是临时" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1095" y="1600" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="leGlJtKbzh7zlkyq9s8g-122" value="直接插库" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1502.5" y="1595" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="leGlJtKbzh7zlkyq9s8g-123" value="不可堆叠且单一实例且原物品是临时，新增也为临时的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1690" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="leGlJtKbzh7zlkyq9s8g-124" value="直接插库" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="1690" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="leGlJtKbzh7zlkyq9s8g-125" value="目前没有续费机制" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="1565" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
