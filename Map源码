@@ -1,1 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2022-11-29T13:57:38.929Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.0.10171 SLBChan/30" version="20.4.0" etag="NU_UE9RxvUv7hQTtPnm_" type="github"><diagram id="OXLSF_vVc3DdTWdrPWF3">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-30T15:22:19.336Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.0.10171 SLBChan/30" version="20.6.0" etag="md6KneguzWsos_XtZC8F" type="github">
+  <diagram id="kw_veIA4uV3OFwYveZGB" name="第 1 页">
+    <mxGraphModel dx="782" dy="480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="r480JZTUZfCtAWCKvELP-1" value="&lt;div&gt;static final int tableSizeFor(int cap) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; int n = cap - 1;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; n |= n &amp;gt;&amp;gt;&amp;gt; 1;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; n |= n &amp;gt;&amp;gt;&amp;gt; 2;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; n |= n &amp;gt;&amp;gt;&amp;gt; 4;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; n |= n &amp;gt;&amp;gt;&amp;gt; 8;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; n |= n &amp;gt;&amp;gt;&amp;gt; 16;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return (n &amp;lt; 0) ? 1 : (n &amp;gt;= 1073741824) ? 1073741824 : n + 1;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="30" y="120" width="380" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="r480JZTUZfCtAWCKvELP-2" value="JDK8&lt;br&gt;HASHMAP" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="r480JZTUZfCtAWCKvELP-3" value="这段代码很有趣，我们默认传入都是2的幂次方，所以得出的结果就是传入的数，假如传入的不是2的幂次方他会返回一个大于该数的幂次方数；&lt;br&gt;例如 cap=65&lt;br&gt;n = 64;&lt;br&gt;0100 0000&lt;br&gt;0010 0000 右移1位&lt;br&gt;--------------------------&lt;br&gt;0110 0000 新的n&lt;br&gt;0001 1000 右移2位&lt;br&gt;--------------------------&lt;br&gt;0111 1000 新的n&lt;br&gt;0000 0111 右移4位&lt;br&gt;--------------------------&lt;br&gt;0111 1111 这就是为啥要右移1，2，4，8...位" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="280" width="390" height="250" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
