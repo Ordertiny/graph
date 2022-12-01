@@ -1,1 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2022-12-01T11:32:19.323Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="n-ydwGH1Mx-w8wiUV0Uq" type="github"><diagram id="mEMCsxLLpQ3yFZy064hn">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-01T11:38:19.846Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="bQJrAQAYZIjsMRyOeZU6" type="github">
+  <diagram id="X3imM2GDIvXG9MYcZRdB" name="第 1 页">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2Qf0oeL-cEnAfQAkVvuK-1" value="邮件处理" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2Qf0oeL-cEnAfQAkVvuK-2" value="邮件附件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2Qf0oeL-cEnAfQAkVvuK-3" value="客户端进行&lt;br&gt;特殊转换" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2Qf0oeL-cEnAfQAkVvuK-4" value="category&lt;br&gt;tplId&lt;br&gt;num&lt;br&gt;resourceId" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="380" y="260" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2Qf0oeL-cEnAfQAkVvuK-5" value="领奖时由&lt;br&gt;服务端特殊处理" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2Qf0oeL-cEnAfQAkVvuK-6" value="将转换后的数据&lt;br&gt;回给客户端" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
