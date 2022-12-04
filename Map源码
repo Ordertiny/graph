@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-04T04:28:12.332Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.0.10171 SLBChan/30" etag="zLhzWLyVkq0ADbBhLFtj" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-04T04:38:05.614Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.0.10171 SLBChan/30" etag="_lwrMifeA9DN9afAH849" version="20.6.0" type="github">
   <diagram id="kw_veIA4uV3OFwYveZGB" name="第 1 页">
     <mxGraphModel dx="1117" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -75,6 +75,24 @@
         </mxCell>
         <mxCell id="_xiyFaJe4Tvk6f5m7bKA-23" value="将hiHead&lt;br&gt;放入新的table&lt;br&gt;原索引+oldCap位置" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="840" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_xiyFaJe4Tvk6f5m7bKA-24" value="节点类型" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="90" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_xiyFaJe4Tvk6f5m7bKA-25" value="Link节点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1345" y="85" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_xiyFaJe4Tvk6f5m7bKA-26" value="红黑树节点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="85" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_xiyFaJe4Tvk6f5m7bKA-28" value="loHead和hiHead链表是什么？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="340" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_xiyFaJe4Tvk6f5m7bKA-31" value="假如容量=16的table需要扩容&lt;br&gt;原位置的元素需要重新计算下标，但这个下标是有规律的，&lt;br&gt;我们每次扩容是2的幂次方数左移1位；&lt;br&gt;所以对于原容量=16的table来说，计算下标的时候，&lt;br&gt;元素的低16位值是一样的，&amp;amp;的时候主要看第5位值，&lt;br&gt;也就是同一个为位置的元素，扩容后要么在原位置，要么在&lt;br&gt;原位置+oldCap位置" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="370" width="340" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_xiyFaJe4Tvk6f5m7bKA-32" value="元素hashcode是&amp;nbsp; &amp;nbsp; &amp;nbsp; 0001 0000&lt;br&gt;oldCap=16计算下标 0000 1111&lt;br&gt;oldCap=32计算下标 0001 1111&lt;br&gt;我们发现低4位都一样，主要是看第5位是否为1，&lt;br&gt;为1则原位置+oldCap就等于新位置了&lt;br&gt;&lt;br&gt;公式：index位置=hashCode&amp;amp;（cap-1）" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="480" width="280" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
