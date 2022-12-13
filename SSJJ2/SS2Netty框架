@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-13T02:51:00.232Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="_GdvXpFhA4TxgRsnliLX" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-13T02:53:59.506Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="hEAgmWY3p3SSypEwV_qD" version="20.6.0" type="github">
   <diagram id="9Bn0eSu_pjTtTnAsQMws" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -106,8 +106,14 @@
         <mxCell id="jiKnNoT3tPLvE-HvK7Ue-13" value="logic与Login建立连接后，通道建立起来，channelActive()被调用" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1200" y="1540" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jiKnNoT3tPLvE-HvK7Ue-14" value="&lt;div&gt;ApcHelper.setCurrentNetSession(session);&lt;/div&gt;&lt;div&gt;handler.channelConnected();&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1410" y="1550" width="250" height="40" as="geometry" />
+        <mxCell id="jiKnNoT3tPLvE-HvK7Ue-14" value="&lt;div&gt;ApcHelper.setCurrentNetSession(session);&lt;/div&gt;&lt;div&gt;handler.channelConnected();&lt;/div&gt;&lt;div&gt;这个handler是在connect时定义了一个回调INetSessionEventHandler&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="1540" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jiKnNoT3tPLvE-HvK7Ue-15" value="LogicConnectLoginNodeClient" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1415" y="855" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jiKnNoT3tPLvE-HvK7Ue-16" value="走channelConnected" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="1640" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
