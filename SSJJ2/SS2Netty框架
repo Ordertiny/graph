@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-13T03:10:21.323Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="onqW_1jDED1CnESzqEdY" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-13T03:11:47.037Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="AtlfC3YXMf5LpJ-yEm2R" version="20.6.0" type="github">
   <diagram id="9Bn0eSu_pjTtTnAsQMws" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -135,6 +135,9 @@
         </mxCell>
         <mxCell id="jiKnNoT3tPLvE-HvK7Ue-23" value="&lt;div&gt;&amp;nbsp; /** 所有连接的节点 */&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private final Collection&amp;lt;N&amp;gt; nodes = new ArrayList&amp;lt;&amp;gt;();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; /** 节点BL计算方式 */&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; private final RendezvousHash&amp;lt;CharSequence, N&amp;gt; hash = new RendezvousHash&amp;lt;&amp;gt;;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1460" y="1860" width="490" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jiKnNoT3tPLvE-HvK7Ue-24" value="上述流程处理完&lt;br&gt;Logic就给Login发消息需要注册&lt;br&gt;registerLogicServer" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="1960" width="170" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
