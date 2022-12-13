@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-13T03:14:45.033Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="H5At8R3q1VYIiyIm7WGh" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-13T03:18:53.066Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="LZCMudJD9yuYUO5ng0D2" version="20.6.0" type="github">
   <diagram id="9Bn0eSu_pjTtTnAsQMws" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -140,16 +140,16 @@
           <mxGeometry x="1200" y="1960" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="jiKnNoT3tPLvE-HvK7Ue-25" value="registerLogicServer" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2145" y="850" width="150" height="35" as="geometry" />
+          <mxGeometry x="2070" y="852.5" width="150" height="35" as="geometry" />
         </mxCell>
         <mxCell id="jiKnNoT3tPLvE-HvK7Ue-26" value="Login模块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2180" y="810" width="80" height="30" as="geometry" />
+          <mxGeometry x="2105" y="812.5" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jiKnNoT3tPLvE-HvK7Ue-27" value="Logic模块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1250" y="810" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jiKnNoT3tPLvE-HvK7Ue-28" value="Logic会把logicServerId和zkPath传过来" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2320" y="852.5" width="230" height="30" as="geometry" />
+        <mxCell id="jiKnNoT3tPLvE-HvK7Ue-28" value="Logic会把logicServerId和zkPath传过来&lt;br&gt;/config_register/SSJJ2_yjh/dev_bug_test_20221212_yjh/Logic/Logic|10|192.168.20.152|0" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2245" y="850" width="500" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
