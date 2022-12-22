@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-22T01:43:10.754Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="IMklIWM2zC65dgUJSjiv" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-22T02:09:01.594Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="OVnr5_rAtvu6KkTkKaWv" type="github">
   <diagram id="gFAUpgpKcRl8Bfiyuxor" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -16,6 +16,9 @@
         <mxCell id="7jibm6nIzTfnoGOOJ8Qb-5" value="参数校验失败&lt;br&gt;说明传来的等级大于玩家自身等级" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="230" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="7jibm6nIzTfnoGOOJ8Qb-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7jibm6nIzTfnoGOOJ8Qb-6" target="7jibm6nIzTfnoGOOJ8Qb-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="7jibm6nIzTfnoGOOJ8Qb-6" value="level=0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="452.5" y="320" width="115" height="60" as="geometry" />
         </mxCell>
@@ -23,6 +26,9 @@
           <mxGeometry x="447.5" y="400" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7jibm6nIzTfnoGOOJ8Qb-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7jibm6nIzTfnoGOOJ8Qb-9" target="7jibm6nIzTfnoGOOJ8Qb-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7jibm6nIzTfnoGOOJ8Qb-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7jibm6nIzTfnoGOOJ8Qb-9" target="7jibm6nIzTfnoGOOJ8Qb-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7jibm6nIzTfnoGOOJ8Qb-9" value="如果当前等级i大于pveBpMainTemplate的最大等级" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -59,6 +65,84 @@
         </mxCell>
         <mxCell id="7jibm6nIzTfnoGOOJ8Qb-15" value="是否已领取" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="442.5" y="620" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7jibm6nIzTfnoGOOJ8Qb-20" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="580" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7jibm6nIzTfnoGOOJ8Qb-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7jibm6nIzTfnoGOOJ8Qb-21" target="7jibm6nIzTfnoGOOJ8Qb-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7jibm6nIzTfnoGOOJ8Qb-21" value="获取等级奖励表&lt;br&gt;PveBpLevelTemplate&lt;br&gt;LoopRewardType" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="505" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7jibm6nIzTfnoGOOJ8Qb-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7jibm6nIzTfnoGOOJ8Qb-23" target="7jibm6nIzTfnoGOOJ8Qb-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7jibm6nIzTfnoGOOJ8Qb-23" value="如果没领则领取基础奖励&lt;br&gt;FreeRewardType" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7jibm6nIzTfnoGOOJ8Qb-25" value="验证是否是VIP&lt;br&gt;并没没有领取该等级，则领取VipRewardType" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7jibm6nIzTfnoGOOJ8Qb-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7jibm6nIzTfnoGOOJ8Qb-25" target="7jibm6nIzTfnoGOOJ8Qb-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7jibm6nIzTfnoGOOJ8Qb-29" value="指定了level" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="447.5" y="840" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7jibm6nIzTfnoGOOJ8Qb-30" value="找pveBpLevelTemplate" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="447.5" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7jibm6nIzTfnoGOOJ8Qb-33" value="如果是VIP且没领" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1030" width="117" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7jibm6nIzTfnoGOOJ8Qb-34" value="领VIP" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1002" y="1130" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7jibm6nIzTfnoGOOJ8Qb-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7jibm6nIzTfnoGOOJ8Qb-35" target="7jibm6nIzTfnoGOOJ8Qb-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7jibm6nIzTfnoGOOJ8Qb-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7jibm6nIzTfnoGOOJ8Qb-35" target="7jibm6nIzTfnoGOOJ8Qb-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="1065" />
+              <mxPoint x="360" y="1220" />
+              <mxPoint x="505" y="1220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7jibm6nIzTfnoGOOJ8Qb-35" value="如果等级大于BP赛季最大等级" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="1025" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7jibm6nIzTfnoGOOJ8Qb-36" value="从最大等级+1开始到玩家的BP等级pveBpInfo&lt;br&gt;没领取的领取一下循环奖励LoopRewardType" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="1130" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7jibm6nIzTfnoGOOJ8Qb-38" value="&lt;div&gt;领取VIP等级&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="1340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7jibm6nIzTfnoGOOJ8Qb-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7jibm6nIzTfnoGOOJ8Qb-40" target="7jibm6nIzTfnoGOOJ8Qb-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7jibm6nIzTfnoGOOJ8Qb-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7jibm6nIzTfnoGOOJ8Qb-40" target="7jibm6nIzTfnoGOOJ8Qb-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7jibm6nIzTfnoGOOJ8Qb-40" value="&lt;div&gt;获取指定等级的赛季等级表&lt;/div&gt;&lt;div&gt;如果是VIP且没领&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1240" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7jibm6nIzTfnoGOOJ8Qb-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7jibm6nIzTfnoGOOJ8Qb-41" target="7jibm6nIzTfnoGOOJ8Qb-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7jibm6nIzTfnoGOOJ8Qb-41" value="&lt;div&gt;如果基础奖励没有领&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1410" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7jibm6nIzTfnoGOOJ8Qb-42" value="&lt;div&gt;领取基础奖励&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="1510" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7jibm6nIzTfnoGOOJ8Qb-47" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1305" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7jibm6nIzTfnoGOOJ8Qb-48" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="365" y="1280" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
