@@ -1,1 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2022-12-22T01:31:21.186Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="Pg4n88s5MMBvW776DDwC" type="github"><diagram id="G__0jGbn0a1mttsLr3cu">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-22T01:36:42.721Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="3I-Y6eHjPxGSx747WxdE" type="github">
+  <diagram id="gFAUpgpKcRl8Bfiyuxor" name="第 1 页">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7jibm6nIzTfnoGOOJ8Qb-1" value="receiveBpLevelReward" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="80" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7jibm6nIzTfnoGOOJ8Qb-2" value="获取玩家PveBpInfo" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="160" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7jibm6nIzTfnoGOOJ8Qb-3" value="level不为0，且PveBpInfo的等级小于level，直接return" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7jibm6nIzTfnoGOOJ8Qb-5" value="参数校验失败&lt;br&gt;说明传来的等级大于玩家自身等级" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7jibm6nIzTfnoGOOJ8Qb-6" value="level=0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="452.5" y="320" width="115" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
