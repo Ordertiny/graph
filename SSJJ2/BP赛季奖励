@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-22T02:15:46.748Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="f6vwDnXzS91Lh9ysJ3Ys" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-22T02:17:35.582Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="1Fxek8_hAFs09HZF0TUS" type="github">
   <diagram id="gFAUpgpKcRl8Bfiyuxor" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -95,11 +95,17 @@
         <mxCell id="7jibm6nIzTfnoGOOJ8Qb-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7jibm6nIzTfnoGOOJ8Qb-25" target="7jibm6nIzTfnoGOOJ8Qb-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="7jibm6nIzTfnoGOOJ8Qb-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7jibm6nIzTfnoGOOJ8Qb-29" target="7jibm6nIzTfnoGOOJ8Qb-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="7jibm6nIzTfnoGOOJ8Qb-29" value="指定了level" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="447.5" y="840" width="120" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="7jibm6nIzTfnoGOOJ8Qb-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7jibm6nIzTfnoGOOJ8Qb-30" target="7jibm6nIzTfnoGOOJ8Qb-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="7jibm6nIzTfnoGOOJ8Qb-30" value="找pveBpLevelTemplate" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="447.5" y="940" width="120" height="60" as="geometry" />
+          <mxGeometry x="447.5" y="920" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7jibm6nIzTfnoGOOJ8Qb-33" value="如果是VIP且没领" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1000" y="1030" width="117" height="70" as="geometry" />
@@ -120,7 +126,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7jibm6nIzTfnoGOOJ8Qb-35" value="如果等级大于BP赛季最大等级" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="435" y="1025" width="140" height="80" as="geometry" />
+          <mxGeometry x="437.5" y="1025" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7jibm6nIzTfnoGOOJ8Qb-36" value="从最大等级+1开始到玩家的BP等级pveBpInfo&lt;br&gt;没领取的领取一下循环奖励LoopRewardType" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="405" y="1130" width="200" height="80" as="geometry" />
