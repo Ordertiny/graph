@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-29T08:57:50.557Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="nsfmbSxM6VIGJHQtdNPW" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-29T09:04:57.353Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="O7LHaKF_UJxI1RNQtD-W" type="github">
   <diagram id="EMbCEmtylfNFV568wgtb" name="第 1 页">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -24,6 +24,9 @@
         </mxCell>
         <mxCell id="GDuBzp127fJb4IKeI7ge-8" value="public void checkBindPhone(OnLoginEvent loginEvent)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1090" y="190" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GDuBzp127fJb4IKeI7ge-9" value="检测是否绑定手机，&lt;br&gt;如果绑定判定是否触发活动" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="190" width="170" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
