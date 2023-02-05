@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-05T03:38:37.552Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.1.1171 SLBChan/30" etag="Mr7PlapWCPquY5hFEYdH" version="20.8.16" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-02-05T06:48:27.781Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.1.1171 SLBChan/30" etag="wl587cSasjt5i7FY9tUF" version="20.8.16" type="github" pages="2">
   <diagram id="p_uhjmYeQIehZMPvnLig" name="第 1 页">
     <mxGraphModel dx="934" dy="567" grid="1" gridSize="13" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -332,6 +332,24 @@
         </mxCell>
         <mxCell id="oTdLswWwEp0fyr7E1Njp-132" value="从CPU计算单元(ALU)到缓存" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="890" y="507" width="182" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="oTdLswWwEp0fyr7E1Njp-133" value="volatile 写数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="140" y="724" width="97" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oTdLswWwEp0fyr7E1Njp-136" value="store" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="143" y="698" width="97" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="oTdLswWwEp0fyr7E1Njp-137" value="load" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="141.5" y="754" width="97" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="oTdLswWwEp0fyr7E1Njp-138" value="volatile 读数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="283" y="685" width="97" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oTdLswWwEp0fyr7E1Njp-139" value="store" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="283" y="754" width="97" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="oTdLswWwEp0fyr7E1Njp-140" value="load" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="283" y="719" width="97" height="28" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
