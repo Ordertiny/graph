@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-08T08:46:38.570Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.3" etag="v0WVhQtBcIhD4GOeDazM" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-08T09:25:53.204Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.3" etag="a50fT8lFZbOUcVkGMe0s" type="github">
   <diagram id="bYt2CzESA14qLZL4tEW9" name="第 1 页">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -24,6 +24,9 @@
         </mxCell>
         <mxCell id="T6L2T2Ujw4hxoBFEA6K8-8" value="战队活跃值 变化&lt;br&gt;BattleTeamVitalityChangeEvent" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="820" y="270" width="360" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="T6L2T2Ujw4hxoBFEA6K8-9" value="battleTeamRoleLogin(BattleTeamRoleLoginEvent loginEvent)&lt;br&gt;&lt;br&gt;如果战队进入季后赛。，则删除预选榜排名&lt;br&gt;&lt;br&gt;" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="120" width="460" height="320" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
