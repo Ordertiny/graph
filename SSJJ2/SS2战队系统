@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-09T02:30:27.019Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.3" etag="X_zTYbOG9JCTVfJOkZXp" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-09T02:53:52.285Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.3" etag="WQahi2NOz8DUUmWf_mia" type="github">
   <diagram id="bYt2CzESA14qLZL4tEW9" name="第 1 页">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -35,7 +35,7 @@
           <mxGeometry x="220" y="230" width="300" height="40" as="geometry" />
         </mxCell>
         <mxCell id="T6L2T2Ujw4hxoBFEA6K8-12" value="玩家登录&lt;br&gt;login()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="875" width="120" height="60" as="geometry" />
+          <mxGeometry x="140" y="875" width="120" height="35" as="geometry" />
         </mxCell>
         <mxCell id="T6L2T2Ujw4hxoBFEA6K8-13" value="调用Login&lt;br&gt;loginNotifyBattleTeamId" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="880" width="150" height="50" as="geometry" />
@@ -58,9 +58,6 @@
         <mxCell id="T6L2T2Ujw4hxoBFEA6K8-20" value="获取玩家的level，roleName，是否在线，上次登出时间，是否是大月卡" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="715" y="947.5" width="220" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="T6L2T2Ujw4hxoBFEA6K8-21" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="175" y="825" width="50" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="T6L2T2Ujw4hxoBFEA6K8-22" value="updateBattleTeamRoleData" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1050" y="880" width="180" height="30" as="geometry" />
         </mxCell>
@@ -69,6 +66,12 @@
         </mxCell>
         <mxCell id="T6L2T2Ujw4hxoBFEA6K8-24" value="更新玩家的BattleTeamMember" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1065" y="955" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T6L2T2Ujw4hxoBFEA6K8-25" value="community" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="835" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T6L2T2Ujw4hxoBFEA6K8-26" value="callCommunityRoleLogin&lt;br&gt;获取劫掠段位信息&lt;br&gt;获取劫掠匹配天梯分数据&lt;br&gt;获取爆破塞天梯分数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1030" width="190" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
