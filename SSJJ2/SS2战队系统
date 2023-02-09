@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-09T03:33:51.507Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.3" etag="89iZxosT425j8xk8CbVO" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-09T03:45:41.978Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.3" etag="lREjKWTMUuOy562PdIT1" type="github">
   <diagram id="bYt2CzESA14qLZL4tEW9" name="第 1 页">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -111,6 +111,18 @@
         </mxCell>
         <mxCell id="T6L2T2Ujw4hxoBFEA6K8-39" value="如果领奖时间小于上轮时间 则return" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1060" y="1840" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T6L2T2Ujw4hxoBFEA6K8-40" value="加锁" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="1890" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T6L2T2Ujw4hxoBFEA6K8-41" value="根据玩家触发 战队发奖" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="1745" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T6L2T2Ujw4hxoBFEA6K8-42" value="向上循环三周&lt;br&gt;给所有成员发放未领取的奖励" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="1930" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T6L2T2Ujw4hxoBFEA6K8-43" value="如果lastRank大于0&lt;br&gt;重置BattleTeam的总活跃值&lt;br&gt;重置成员的活跃值" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="1980" width="210" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
