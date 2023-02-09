@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-09T03:45:41.978Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.3" etag="lREjKWTMUuOy562PdIT1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-09T06:13:31.105Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.3" etag="3GxaMziLbbE4oG9BiPJ1" type="github">
   <diagram id="bYt2CzESA14qLZL4tEW9" name="第 1 页">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -34,8 +34,24 @@
         <mxCell id="T6L2T2Ujw4hxoBFEA6K8-11" value="省排行榜&lt;br&gt;rank:battle:team:province:[provinceId]_&quot;周一的Date&quot;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="220" y="230" width="300" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="T6L2T2Ujw4hxoBFEA6K8-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="T6L2T2Ujw4hxoBFEA6K8-12" target="T6L2T2Ujw4hxoBFEA6K8-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="T6L2T2Ujw4hxoBFEA6K8-12" value="玩家登录&lt;br&gt;login()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="875" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="T6L2T2Ujw4hxoBFEA6K8-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="T6L2T2Ujw4hxoBFEA6K8-13" target="T6L2T2Ujw4hxoBFEA6K8-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T6L2T2Ujw4hxoBFEA6K8-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="T6L2T2Ujw4hxoBFEA6K8-13" target="T6L2T2Ujw4hxoBFEA6K8-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="555" y="940" />
+              <mxPoint x="470" y="940" />
+              <mxPoint x="470" y="1130" />
+              <mxPoint x="555" y="1130" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="T6L2T2Ujw4hxoBFEA6K8-13" value="调用Login&lt;br&gt;loginNotifyBattleTeamId" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="880" width="150" height="50" as="geometry" />
@@ -43,17 +59,26 @@
         <mxCell id="T6L2T2Ujw4hxoBFEA6K8-14" value="Login" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="530" y="835" width="50" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="T6L2T2Ujw4hxoBFEA6K8-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="T6L2T2Ujw4hxoBFEA6K8-16" target="T6L2T2Ujw4hxoBFEA6K8-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="T6L2T2Ujw4hxoBFEA6K8-16" value="synRoleData" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="505" y="960" width="100" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="T6L2T2Ujw4hxoBFEA6K8-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T6L2T2Ujw4hxoBFEA6K8-17" target="T6L2T2Ujw4hxoBFEA6K8-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="T6L2T2Ujw4hxoBFEA6K8-17" value="battleTeamRoleLogin" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="1200" width="125" height="30" as="geometry" />
+          <mxGeometry x="492.5" y="1200" width="125" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T6L2T2Ujw4hxoBFEA6K8-18" value="Logic" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="800" y="835" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="T6L2T2Ujw4hxoBFEA6K8-19" value="synRoleData" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="755" y="960" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T6L2T2Ujw4hxoBFEA6K8-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="T6L2T2Ujw4hxoBFEA6K8-20" target="T6L2T2Ujw4hxoBFEA6K8-22">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T6L2T2Ujw4hxoBFEA6K8-20" value="获取玩家的level，roleName，是否在线，上次登出时间，是否是大月卡" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="715" y="1027.5" width="220" height="55" as="geometry" />
@@ -70,11 +95,23 @@
         <mxCell id="T6L2T2Ujw4hxoBFEA6K8-25" value="community" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="160" y="835" width="80" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="T6L2T2Ujw4hxoBFEA6K8-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T6L2T2Ujw4hxoBFEA6K8-26" target="T6L2T2Ujw4hxoBFEA6K8-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="T6L2T2Ujw4hxoBFEA6K8-26" value="callCommunityRoleLogin&lt;br&gt;获取劫掠段位信息&lt;br&gt;获取劫掠匹配天梯分数据&lt;br&gt;获取爆破塞天梯分数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="715" y="1170" width="190" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="T6L2T2Ujw4hxoBFEA6K8-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="T6L2T2Ujw4hxoBFEA6K8-27" target="T6L2T2Ujw4hxoBFEA6K8-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="T6L2T2Ujw4hxoBFEA6K8-27" value="battleTeamRoleLogin" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1075" y="1200" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="T6L2T2Ujw4hxoBFEA6K8-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="T6L2T2Ujw4hxoBFEA6K8-28" target="T6L2T2Ujw4hxoBFEA6K8-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T6L2T2Ujw4hxoBFEA6K8-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T6L2T2Ujw4hxoBFEA6K8-28" target="T6L2T2Ujw4hxoBFEA6K8-37">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T6L2T2Ujw4hxoBFEA6K8-28" value="发布了一个事件&lt;br&gt;new&amp;nbsp;BattleTeamRoleLoginEvent" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1050" y="1250" width="190" height="40" as="geometry" />
@@ -123,6 +160,9 @@
         </mxCell>
         <mxCell id="T6L2T2Ujw4hxoBFEA6K8-43" value="如果lastRank大于0&lt;br&gt;重置BattleTeam的总活跃值&lt;br&gt;重置成员的活跃值" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1060" y="1980" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="T6L2T2Ujw4hxoBFEA6K8-44" value="玩家登录时触发" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="805" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
