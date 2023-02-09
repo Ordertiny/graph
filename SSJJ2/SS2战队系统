@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-09T03:20:02.155Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.3" etag="Bp0XPktLbJKAk8FGH-4v" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-09T03:21:26.043Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.3" etag="o2IBo0pYQ2ko408vMo7D" type="github">
   <diagram id="bYt2CzESA14qLZL4tEW9" name="第 1 页">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -88,8 +88,8 @@
         <mxCell id="T6L2T2Ujw4hxoBFEA6K8-31" value="如果入围了，去除周预选榜单" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1067.5" y="1290" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="T6L2T2Ujw4hxoBFEA6K8-32" value="检测玩家活跃度是否过期" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1067.5" y="1340" width="160" height="40" as="geometry" />
+        <mxCell id="T6L2T2Ujw4hxoBFEA6K8-32" value="检测玩家活跃度是否过期(false)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1067.5" y="1340" width="202.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="T6L2T2Ujw4hxoBFEA6K8-33" value="checkMemberVitality()&lt;br&gt;玩家每一周只检测一次活跃度&lt;br&gt;&lt;br&gt;1. 若玩家本周已检测过则直接返回；&lt;br&gt;2. 若玩家本周没有检测过，就重置模式活跃和今日模式活跃（相当于当前已经跨档了，重置是正常的）；&lt;br&gt;3. 更新登录活跃值和登录活跃时间；&lt;br&gt;4. 设置玩家活跃度总值&lt;br&gt;&lt;br&gt;(如果需要登录标记为true)&lt;br&gt;去logic找玩家的基本信息和战绩数据" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="1710" y="510" width="430" height="190" as="geometry" />
