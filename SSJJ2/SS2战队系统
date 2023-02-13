@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-10T03:37:19.244Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.3" etag="xlieaIDydHDxHiNJ7OVH" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-13T01:49:31.930Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.3" etag="e0FVVaLnRihHzaTN75X_" type="github">
   <diagram id="bYt2CzESA14qLZL4tEW9" name="第 1 页">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="40" y="110" width="150" height="100" as="geometry" />
         </mxCell>
         <mxCell id="T6L2T2Ujw4hxoBFEA6K8-2" value="入围赛&lt;br&gt;battle:team:enter:playoffs:[session]:[province]" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="240" y="40" width="260" height="40" as="geometry" />
+          <mxGeometry x="240" y="90" width="260" height="40" as="geometry" />
         </mxCell>
         <mxCell id="T6L2T2Ujw4hxoBFEA6K8-3" value="战队基础信息&lt;br&gt;battle:team:simple:[battleTeamId]" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="340" width="240" height="40" as="geometry" />
@@ -20,7 +20,7 @@
           <mxGeometry x="820" y="80" width="390" height="100" as="geometry" />
         </mxCell>
         <mxCell id="T6L2T2Ujw4hxoBFEA6K8-7" value="预选榜&lt;br&gt;battle:team:week:playoffs:[provinceId]_&quot;周一的Date&quot;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="240" y="90" width="300" height="40" as="geometry" />
+          <mxGeometry x="240" y="40" width="300" height="40" as="geometry" />
         </mxCell>
         <mxCell id="T6L2T2Ujw4hxoBFEA6K8-8" value="战队活跃值 变化&lt;br&gt;BattleTeamVitalityChangeEvent&lt;br&gt;发送该事件的位置&lt;br&gt;1. battleTeamRoleLogin(BattleTeamRoleLoginEvent loginEvent) ；&lt;br&gt;移除成员时&lt;br&gt;2. removeMember(BattleTeamMemberLeaveEvent battleTeamMemberLeaveEvent)&lt;br&gt;3.&amp;nbsp;kickMember(BattleTeamKickMemberEvent battleTeamKickMemberEvent)&lt;br&gt;踢出成员时&lt;br&gt;4. battleTeamChangeProvince(BattleTeamChangeProvinceEvent battleTeamChangeProvinceEvent)&lt;br&gt;战队城市切换时&lt;br&gt;5.battleTeamFightEnd(long roleId, int mode, com.wooduan.ssjj2.common.net.proto.BattleTeam.BattleTeamLadderInfo battleTeamLadderInfo) &lt;br&gt;玩家战队结束， 在玩家收到了BattleEndEvent时会回调给社交服&lt;br&gt;6.getWeekRankReward(long roleId)&lt;br&gt;获取战队周奖励时&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;登录时，战队变成永久战队，添加战队成员&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;消费该事件逻辑&lt;br&gt;public void vitalityChange(BattleTeamVitalityChangeEvent battleTeamVitalityChangeEvent)&lt;br&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;检测成员的活跃值是否有变化&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- 如果有变化 则会去logic要玩家的基本数据和战绩数据，并且标记本周要重置&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;如果要重置 战队之前活跃度为0&lt;/div&gt;&lt;div style=&quot;&quot;&gt;当前后战队活跃度不一致时进行逻辑处理&lt;/div&gt;&lt;div style=&quot;&quot;&gt;设置战队最新活跃值&lt;/div&gt;&lt;div style=&quot;&quot;&gt;更新当周省总活跃度数据&lt;/div&gt;&lt;div style=&quot;&quot;&gt;更新当周省战队数&lt;/div&gt;&lt;div style=&quot;&quot;&gt;更新省榜值&lt;/div&gt;&lt;div style=&quot;&quot;&gt;如果战队入围季后赛，去除周榜，不然更新周榜&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="820" y="230" width="440" height="550" as="geometry" />
