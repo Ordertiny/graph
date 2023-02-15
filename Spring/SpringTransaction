@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-15T13:07:48.438Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="qOQCxBSrA8i8Ql4l7ghk" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-15T13:12:55.205Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="5KdJJ9CO6grevGccxd_W" version="20.8.20" type="github">
   <diagram name="第 1 页" id="9O4FnTbL4-FGvF8JjFZC">
     <mxGraphModel dx="1047" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -45,6 +45,18 @@
         </mxCell>
         <mxCell id="FDEaTnU3AcvONRNsKdIK-16" value="就是将之前的TransactionAttribute&lt;br&gt;转为TransactionDefinition；毕竟&lt;br&gt;TransactionDefinition是父类" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="380" y="660" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FDEaTnU3AcvONRNsKdIK-18" value="创建TransactionStatus&lt;br&gt;&lt;br&gt;status = tm.getTransaction(txAttr)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="730" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FDEaTnU3AcvONRNsKdIK-19" value="AbstractPlatformTransactionManager" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="800" y="30" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FDEaTnU3AcvONRNsKdIK-20" value="startTransaction" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="80" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FDEaTnU3AcvONRNsKdIK-21" value="创建&lt;br&gt;DefaultTransactionStatus&lt;br&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="150" width="160" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
