@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-15T12:05:10.224Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="qc8ujr2z6rXla4r4fyrd" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-15T12:36:53.001Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="JsKWj0PO7dxYqtQNnoaX" version="20.8.20" type="github">
   <diagram name="第 1 页" id="9O4FnTbL4-FGvF8JjFZC">
     <mxGraphModel dx="1047" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -21,6 +21,15 @@
         </mxCell>
         <mxCell id="FDEaTnU3AcvONRNsKdIK-8" value="extends" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="300" y="25" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FDEaTnU3AcvONRNsKdIK-9" value="获取TransactionManager" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="150" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FDEaTnU3AcvONRNsKdIK-10" value="就是我们创建数据源的时候&lt;br&gt;同时会创建一个DataSourceTransactionManager&lt;br&gt;这个里面会设置数据源dataSource" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="210" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FDEaTnU3AcvONRNsKdIK-11" value="将tm 转为PlatformTransactionManager&lt;br&gt;接口" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="280" width="200" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
