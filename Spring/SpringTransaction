@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-15T12:36:53.001Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="JsKWj0PO7dxYqtQNnoaX" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-15T12:40:00.891Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="K0uwkMAOGaAU0CR3lP9s" version="20.8.20" type="github">
   <diagram name="第 1 页" id="9O4FnTbL4-FGvF8JjFZC">
     <mxGraphModel dx="1047" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -30,6 +30,15 @@
         </mxCell>
         <mxCell id="FDEaTnU3AcvONRNsKdIK-11" value="将tm 转为PlatformTransactionManager&lt;br&gt;接口" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="280" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FDEaTnU3AcvONRNsKdIK-12" value="创建安全点为调用的方法名" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="360" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FDEaTnU3AcvONRNsKdIK-13" value="创建&lt;br&gt;TransactionInfo&lt;br&gt;事务Info" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="420" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FDEaTnU3AcvONRNsKdIK-14" value="TransactionInfo中包含了&lt;br&gt;事务管理器tm&lt;br&gt;事务属性&lt;br&gt;安全点&lt;br&gt;旧的事务Info&lt;br&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="490" width="150" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
