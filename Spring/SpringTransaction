@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-17T10:01:13.201Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="u-ujdU0flEr0LwNDG5FO" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-17T10:03:02.341Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="B_hjBAxeNB9f9J6sHlic" version="20.8.20" type="github">
   <diagram name="第 1 页" id="9O4FnTbL4-FGvF8JjFZC">
     <mxGraphModel dx="997" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -103,6 +103,14 @@
         <mxCell id="beK0lDGrYjN-xLesWekz-7" value="prepareTransactionalConnection()&lt;br&gt;如果是只读事务&lt;br&gt;则执行sql&lt;br&gt;SET TRANSACTION READ ONLY" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="750" y="560" width="250" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="jLnPm00kfVtLXneP1Erg-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="beK0lDGrYjN-xLesWekz-11" target="jLnPm00kfVtLXneP1Erg-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="900" y="760" />
+              <mxPoint x="925" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="beK0lDGrYjN-xLesWekz-11" value="prepareSynchronization()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="810" y="700" width="180" height="40" as="geometry" />
         </mxCell>
@@ -183,6 +191,9 @@
         </mxCell>
         <mxCell id="jLnPm00kfVtLXneP1Erg-23" value="绑定线程资源&lt;br&gt;dataSource，connHolder" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1017.5" y="500" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jLnPm00kfVtLXneP1Erg-25" value="由于这是第一个事务&lt;br&gt;所以这里TransactionSynchronizationManager&lt;br&gt;会设置 当前事务活跃&lt;br&gt;当前隔离状态为默认&lt;br&gt;只读事务&lt;br&gt;事务名称(加了注解的方法全名)&lt;br&gt;初始化synchronizations集合" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="770" width="300" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
