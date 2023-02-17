@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-17T08:35:16.271Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="P4DunGkecXgiwmF-xMmA" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-17T09:03:26.885Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="j0mATqUYRneQqN-6EAEV" version="20.8.20" type="github">
   <diagram name="第 1 页" id="9O4FnTbL4-FGvF8JjFZC">
     <mxGraphModel dx="1047" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -138,6 +138,12 @@
         </mxCell>
         <mxCell id="jLnPm00kfVtLXneP1Erg-11" value="事务名称-就是方法名全称" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="490" y="2555" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jLnPm00kfVtLXneP1Erg-12" value="&lt;div&gt;ThreadLocal&amp;lt;Set&amp;lt;TransactionSynchronization&amp;gt;&amp;gt; synchronizations =&lt;/div&gt;&lt;div&gt;			new NamedThreadLocal&amp;lt;&amp;gt;(&quot;Transaction synchronizations&quot;)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="32.5" y="2610" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jLnPm00kfVtLXneP1Erg-13" value="一个list" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="2615" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
