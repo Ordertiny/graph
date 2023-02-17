@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-17T08:24:08.507Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="k5SenhSVYvVte-oEBthq" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-17T08:35:16.271Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="P4DunGkecXgiwmF-xMmA" version="20.8.20" type="github">
   <diagram name="第 1 页" id="9O4FnTbL4-FGvF8JjFZC">
     <mxGraphModel dx="1047" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -126,6 +126,18 @@
         </mxCell>
         <mxCell id="jLnPm00kfVtLXneP1Erg-7" value="设置事务隔离状态，没有就是null&lt;br&gt;null 就是使用数据库的默认隔离状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="480" y="2410" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jLnPm00kfVtLXneP1Erg-8" value="&lt;div&gt;ThreadLocal&amp;lt;Boolean&amp;gt; currentTransactionReadOnly =&lt;/div&gt;&lt;div&gt;			new NamedThreadLocal&amp;lt;&amp;gt;(&quot;Current transaction read-only status&quot;)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="47.5" y="2480" width="380" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jLnPm00kfVtLXneP1Erg-9" value="设置是否为只读事务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="505" y="2485" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jLnPm00kfVtLXneP1Erg-10" value="&lt;div&gt;ThreadLocal&amp;lt;String&amp;gt; currentTransactionName =&lt;/div&gt;&lt;div&gt;			new NamedThreadLocal&amp;lt;&amp;gt;(&quot;Current transaction name&quot;)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="2550" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jLnPm00kfVtLXneP1Erg-11" value="事务名称-就是方法名全称" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="2555" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
