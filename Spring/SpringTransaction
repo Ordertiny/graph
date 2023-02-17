@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-17T09:51:44.743Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Ji_kowviJk7GaM15p3z3" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-17T09:54:36.798Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="vR6hGvG73W78AJmG6zcV" version="20.8.20" type="github">
   <diagram name="第 1 页" id="9O4FnTbL4-FGvF8JjFZC">
     <mxGraphModel dx="1047" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -88,19 +88,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="beK0lDGrYjN-xLesWekz-5" value="doBegin(transaction, definition);" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="865" y="570" width="130" height="40" as="geometry" />
+          <mxGeometry x="870" y="570" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="beK0lDGrYjN-xLesWekz-6" value="从DB中获取con&lt;br&gt;然后设置不自动提交&lt;br&gt;con.setAutoCommit(false);" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="845" y="620" width="160" height="60" as="geometry" />
+          <mxGeometry x="835" y="690" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="beK0lDGrYjN-xLesWekz-7" value="prepareTransactionalConnection()&lt;br&gt;如果是只读事务&lt;br&gt;则执行sql&lt;br&gt;SET TRANSACTION READ ONLY" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="800" y="710" width="250" height="70" as="geometry" />
+          <mxGeometry x="790" y="780" width="250" height="70" as="geometry" />
         </mxCell>
         <mxCell id="beK0lDGrYjN-xLesWekz-11" value="prepareSynchronization()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="850" y="820" width="150" height="40" as="geometry" />
+          <mxGeometry x="840" y="890" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="beK0lDGrYjN-xLesWekz-12" value="我的理解就是，在同一个线程里，通过将&lt;br&gt;当前相关对象保存到ThreadLocal中即可&lt;br&gt;TransactionSynchronizationManager" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1015" y="810" width="240" height="60" as="geometry" />
+          <mxGeometry x="1005" y="880" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="beK0lDGrYjN-xLesWekz-13" value="try {&lt;br&gt;invocation.proceedWithInvocation();&lt;br&gt;执行真正对象的方法&lt;br&gt;}catch" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="1100" width="200" height="60" as="geometry" />
@@ -170,6 +170,12 @@
         </mxCell>
         <mxCell id="jLnPm00kfVtLXneP1Erg-21" value="会设置DataSourceTransactionObject&lt;br&gt;标记连接为新连接&lt;br&gt;设置事务为活跃" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1025" y="560" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jLnPm00kfVtLXneP1Erg-22" value="TransactionSynchronizationManager&lt;br&gt;.bindResource()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="630" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jLnPm00kfVtLXneP1Erg-23" value="绑定线程资源&lt;br&gt;dataSource，connHolder" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1045" y="630" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
