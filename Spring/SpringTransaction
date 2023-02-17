@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-17T09:37:00.384Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="dYiLSLVgLxGydj94jbgW" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-17T09:38:07.885Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="oicVJPE6JVO22J1pv7Mg" version="20.8.20" type="github">
   <diagram name="第 1 页" id="9O4FnTbL4-FGvF8JjFZC">
     <mxGraphModel dx="1047" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -47,7 +47,7 @@
           <mxGeometry x="850" y="220" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FDEaTnU3AcvONRNsKdIK-16" value="就是将之前的TransactionAttribute&lt;br&gt;转为TransactionDefinition；毕竟&lt;br&gt;TransactionDefinition是父类" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="985" y="220" width="200" height="60" as="geometry" />
+          <mxGeometry x="995" y="220" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FDEaTnU3AcvONRNsKdIK-19" value="AbstractPlatformTransactionManager" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="800" y="30" width="220" height="30" as="geometry" />
@@ -158,6 +158,9 @@
         </mxCell>
         <mxCell id="jLnPm00kfVtLXneP1Erg-17" value="suspend()&lt;br&gt;这里返回null 相当于没设置" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="840" y="355" width="155" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jLnPm00kfVtLXneP1Erg-18" value="对于嵌套事务来说，&lt;br&gt;需要挂起上一个事务；&lt;br&gt;当前由于一次进来，这快没有操作" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="350" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
