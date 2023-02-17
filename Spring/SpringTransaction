@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-17T08:09:48.815Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="2PkkgPjMYBawttPT26ZA" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-17T08:24:08.507Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="k5SenhSVYvVte-oEBthq" version="20.8.20" type="github">
   <diagram name="第 1 页" id="9O4FnTbL4-FGvF8JjFZC">
     <mxGraphModel dx="1047" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -114,6 +114,18 @@
         </mxCell>
         <mxCell id="jLnPm00kfVtLXneP1Erg-3" value="保存当前线程当前事务内的(DataSource, ConnectionHolder)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="400" y="2285" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jLnPm00kfVtLXneP1Erg-4" value="&lt;div&gt;ThreadLocal&amp;lt;Boolean&amp;gt; actualTransactionActive =&lt;/div&gt;&lt;div&gt;			new NamedThreadLocal&amp;lt;&amp;gt;(&quot;Actual transaction active&quot;);&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="67.5" y="2340" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jLnPm00kfVtLXneP1Erg-5" value="设置事务活跃状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="525" y="2345" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jLnPm00kfVtLXneP1Erg-6" value="&lt;div&gt;ThreadLocal&amp;lt;Integer&amp;gt; currentTransactionIsolationLevel =&lt;/div&gt;&lt;div&gt;			new NamedThreadLocal&amp;lt;&amp;gt;(&quot;Current transaction isolation level&quot;)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="67.5" y="2410" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jLnPm00kfVtLXneP1Erg-7" value="设置事务隔离状态，没有就是null&lt;br&gt;null 就是使用数据库的默认隔离状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="2410" width="210" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
