@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-18T04:43:08.116Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.1.1171 SLBChan/30" etag="lX-PEUyR1DQnEtS_GxIl" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-18T04:46:38.874Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.1.1171 SLBChan/30" etag="u1BV5EXlqaf7e_qIZ4Ac" version="20.8.20" type="github">
   <diagram name="第 1 页" id="9O4FnTbL4-FGvF8JjFZC">
-    <mxGraphModel dx="6125" dy="876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1444" dy="876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -132,14 +132,8 @@
         <mxCell id="beK0lDGrYjN-xLesWekz-14" value="异常执行&lt;br&gt;completeTransactionAfterThrowing()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="940" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="beK0lDGrYjN-xLesWekz-15" value="finally执行&lt;br&gt;cleanupTransactionInfo()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="60" y="860" width="170" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="beK0lDGrYjN-xLesWekz-16" value="最终执行&lt;br&gt;commitTransactionAfterReturning(txInfo);" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-30" y="1090" width="220" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="beK0lDGrYjN-xLesWekz-17" value="这一步就是commit" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="200" y="1095" width="120" height="30" as="geometry" />
+          <mxGeometry x="380" y="1660" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="beK0lDGrYjN-xLesWekz-18" value="这一步rollback&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="580" y="955" width="100" height="30" as="geometry" />
@@ -180,8 +174,8 @@
         <mxCell id="jLnPm00kfVtLXneP1Erg-12" value="&lt;div&gt;ThreadLocal&amp;lt;Set&amp;lt;TransactionSynchronization&amp;gt;&amp;gt; synchronizations =&lt;/div&gt;&lt;div&gt;   new NamedThreadLocal&amp;lt;&amp;gt;(&quot;Transaction synchronizations&quot;)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="32.5" y="2610" width="390" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jLnPm00kfVtLXneP1Erg-13" value="一个list，每次执行sql的时候&lt;br&gt;由mybatis会将会话连接放入其中" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="580" y="2615" width="200" height="40" as="geometry" />
+        <mxCell id="jLnPm00kfVtLXneP1Erg-13" value="一个list，每次执行sql的时候&lt;br&gt;由mybatis会将会话连接放入其中&lt;br&gt;没有事务，每个sql都会创建sqlsession&lt;br&gt;有事务，事务中的sql都会共用一个sqlsession" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="440" y="2595" width="260" height="70" as="geometry" />
         </mxCell>
         <mxCell id="jLnPm00kfVtLXneP1Erg-16" value="doGetTransaction()&lt;br&gt;获取事务核心对象&lt;br&gt;DataSourceTransactionObject" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="805" y="150" width="190" height="50" as="geometry" />
@@ -481,6 +475,15 @@
         </mxCell>
         <mxCell id="91x0pgqtPFHgfMTm1KJe-94" value="就是让当前线程持有之前的事务Info&lt;br&gt;transactionInfoHolder.set(this.oldTransactionInfo)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="580" y="1570" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-97" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="1640" as="sourcePoint" />
+            <mxPoint x="840" y="1640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-98" value="假如事务没有异常&lt;br&gt;则走这里提交" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1620" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
