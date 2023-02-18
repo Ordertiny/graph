@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-18T02:52:28.633Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.1.1171 SLBChan/30" etag="EhrdEdOHjzvFqtqMvpto" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-18T03:22:19.713Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.1.1171 SLBChan/30" etag="NT-J3R48uCnkkD8rHmlj" version="20.8.20" type="github">
   <diagram name="第 1 页" id="9O4FnTbL4-FGvF8JjFZC">
-    <mxGraphModel dx="794" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1444" dy="876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -117,8 +117,8 @@
         <mxCell id="beK0lDGrYjN-xLesWekz-12" value="我的理解就是，在同一个线程里，通过将&lt;br&gt;当前相关对象保存到ThreadLocal中即可&lt;br&gt;TransactionSynchronizationManager" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1000" y="690" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="beK0lDGrYjN-xLesWekz-13" value="try {&lt;br&gt;invocation.proceedWithInvocation();&lt;br&gt;执行真正对象的方法&lt;br&gt;}catch" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="372.5" y="840" width="200" height="60" as="geometry" />
+        <mxCell id="beK0lDGrYjN-xLesWekz-13" value="try {&lt;br&gt;invocation.proceedWithInvocation();&lt;br&gt;执行真正对象的方法&lt;br&gt;执行insert()方法&lt;br&gt;}catch" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="375" y="830" width="217.5" height="90" as="geometry" />
         </mxCell>
         <mxCell id="beK0lDGrYjN-xLesWekz-14" value="异常执行&lt;br&gt;completeTransactionAfterThrowing()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="370" y="940" width="200" height="60" as="geometry" />
@@ -195,11 +195,14 @@
         <mxCell id="jLnPm00kfVtLXneP1Erg-25" value="由于这是第一个事务&lt;br&gt;所以这里TransactionSynchronizationManager&lt;br&gt;会设置 当前事务活跃&lt;br&gt;当前隔离状态为默认&lt;br&gt;只读事务&lt;br&gt;事务名称(加了注解的方法全名)&lt;br&gt;初始化synchronizations集合（new一个set&amp;lt;&amp;gt;）" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="700" y="770" width="300" height="110" as="geometry" />
         </mxCell>
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="91x0pgqtPFHgfMTm1KJe-1" target="91x0pgqtPFHgfMTm1KJe-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="91x0pgqtPFHgfMTm1KJe-1" value="prepareTransactionInfo()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="414" y="590" width="166" height="40" as="geometry" />
         </mxCell>
         <mxCell id="91x0pgqtPFHgfMTm1KJe-3" value="new TransactionInfo()&lt;br&gt;这个对象是AOP管理需要的，他保存了事务管理器tm，属性，以及事务状态ts" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="650" width="190" height="60" as="geometry" />
+          <mxGeometry x="388.75" y="660" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="91x0pgqtPFHgfMTm1KJe-4" value="txInfo.bindToThread()&lt;br&gt;将该txInfo绑定到线程上transactionInfoHolder" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="740" width="170" height="60" as="geometry" />
@@ -212,6 +215,45 @@
         </mxCell>
         <mxCell id="91x0pgqtPFHgfMTm1KJe-7" value="保存线程当前的txInfo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1190" y="2285" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-8" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas; font-size: 9.8pt;&quot;&gt;@Transactional(rollbackFor = Exception.&lt;span style=&quot;color:#000080;font-weight:bold;&quot;&gt;class&lt;/span&gt;)&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas; font-size: 9.8pt;&quot;&gt;// 入口&lt;br&gt;&lt;span style=&quot;color:#000080;font-weight:bold;&quot;&gt;public void &lt;/span&gt;insert(User user) {&lt;br&gt;    &lt;span style=&quot;color:#660e7a;font-weight:bold;&quot;&gt;userRepository&lt;/span&gt;.insert(user);&lt;br&gt;    &lt;span style=&quot;color:#660e7a;font-weight:bold;&quot;&gt;userService&lt;/span&gt;.testSameMethod(user);&lt;br&gt;    &lt;span style=&quot;color:#808080;font-style:italic;&quot;&gt;//System.out.println(&quot;error:&quot;+(5/0));&lt;br&gt;&lt;/span&gt;}&lt;br&gt;&lt;br&gt;&lt;span style=&quot;color:#808000;&quot;&gt;@Transactional&lt;/span&gt;(rollbackFor = Exception.&lt;span style=&quot;color:#000080;font-weight:bold;&quot;&gt;class&lt;/span&gt;,&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas; font-size: 9.8pt;&quot;&gt;propagation = Propagation.&lt;span style=&quot;font-size: 9.8pt; white-space: normal; color: rgb(102, 14, 122); font-weight: bold; font-style: italic;&quot;&gt;REQUIRES_NEW&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt; white-space: normal;&quot;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;color:#000080;font-weight:bold;&quot;&gt;public void &lt;/span&gt;testSameMethod(User user) {&lt;br&gt;    user.setName(user.getName() + &lt;span style=&quot;color:#008000;font-weight:bold;&quot;&gt;&quot; A&quot;&lt;/span&gt;);&lt;br&gt;    &lt;span style=&quot;color:#660e7a;font-weight:bold;&quot;&gt;userRepository&lt;/span&gt;.insert(user);&lt;br&gt;    System.&lt;span style=&quot;color:#660e7a;font-weight:bold;font-style:italic;&quot;&gt;out&lt;/span&gt;.println(&lt;span style=&quot;color:#008000;font-weight:bold;&quot;&gt;&quot;insert&quot; &lt;/span&gt;+ &lt;span style=&quot;color:#0000ff;&quot;&gt;9&lt;/span&gt;/&lt;span style=&quot;color:#0000ff;&quot;&gt;0&lt;/span&gt;);&lt;br&gt;}&lt;/pre&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="5" y="270" width="370" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-10" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1450" y="1260" as="sourcePoint" />
+            <mxPoint x="1450" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-11" value="这里是进入insert()方法的切面逻辑" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#ffe6cc;sketch=1;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="20" y="140" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-12" value="这里是进入testSameMethod()方法的切面逻辑" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#ffe6cc;sketch=1;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="30" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-13" value="TransactionAspectSupport" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1555" y="110" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-14" value="invokeWithinTransaction" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1555" y="160" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-15" value="获取TransactionManager&lt;br&gt;determineTransactionManager(txAttr)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="230" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-17" value="和第一次获取&lt;br&gt;的是一个" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="240" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-18" value="TransactionInfo txInfo = createTransactionIfNecessary(ptm, txAttr, joinpointIdentification)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1512.5" y="310" width="255" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-19" value="创建txInfo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="330" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-20" value="status = tm.getTransaction(txAttr);" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="420" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-21" value="创建事务状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="430" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
