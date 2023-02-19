@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-19T04:47:19.013Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.1.1171 SLBChan/30" etag="_kXMsoLxptHA9tPqG4OZ" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-19T05:10:36.165Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.1.1171 SLBChan/30" etag="-chDo5dFg6rlYmTYAAtp" version="20.8.20" type="github">
   <diagram name="第 1 页" id="9O4FnTbL4-FGvF8JjFZC">
-    <mxGraphModel dx="1444" dy="938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1136" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -440,7 +440,7 @@
         <mxCell id="91x0pgqtPFHgfMTm1KJe-79" value="triggerBeforeCompletion()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="1180" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-80" value="由于是一个事务&lt;br&gt;会执行&lt;br&gt;TransactionSynchronizationUtils&lt;br&gt;.triggerBeforeCompletion();" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-80" value="由于是第一个事务&lt;br&gt;会执行&lt;br&gt;TransactionSynchronizationUtils&lt;br&gt;.triggerBeforeCompletion();" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="845" y="1230" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="91x0pgqtPFHgfMTm1KJe-82" value="如果会话Holder关闭了&lt;br&gt;就关闭sqlSeesion&lt;br&gt;会话close()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
