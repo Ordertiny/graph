@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-18T04:59:15.319Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.1.1171 SLBChan/30" etag="E7a-UMLjJcLb-zamMYOW" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-19T03:26:48.689Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.1.1171 SLBChan/30" etag="GFLzhTimIOny7DFPcKB5" version="20.8.20" type="github">
   <diagram name="第 1 页" id="9O4FnTbL4-FGvF8JjFZC">
-    <mxGraphModel dx="1444" dy="876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="794" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,7 +37,7 @@
         <mxCell id="beK0lDGrYjN-xLesWekz-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="FDEaTnU3AcvONRNsKdIK-13" target="beK0lDGrYjN-xLesWekz-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FDEaTnU3AcvONRNsKdIK-13" target="beK0lDGrYjN-xLesWekz-13">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="FDEaTnU3AcvONRNsKdIK-13" target="beK0lDGrYjN-xLesWekz-13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="480" y="510" />
@@ -198,58 +198,58 @@
         <mxCell id="jLnPm00kfVtLXneP1Erg-25" value="由于这是第一个事务&lt;br&gt;所以这里TransactionSynchronizationManager&lt;br&gt;会设置 当前事务活跃&lt;br&gt;当前隔离状态为默认&lt;br&gt;只读事务&lt;br&gt;事务名称(加了注解的方法全名)&lt;br&gt;初始化synchronizations集合（new一个set&amp;lt;&amp;gt;）" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="700" y="770" width="300" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="91x0pgqtPFHgfMTm1KJe-1" target="91x0pgqtPFHgfMTm1KJe-3">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="91x0pgqtPFHgfMTm1KJe-1" target="91x0pgqtPFHgfMTm1KJe-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-1" value="prepareTransactionInfo()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-1" value="prepareTransactionInfo()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="414" y="590" width="166" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-3" value="new TransactionInfo()&lt;br&gt;这个对象是AOP管理需要的，他保存了事务管理器tm，属性，以及事务状态ts" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-3" value="new TransactionInfo()&lt;br&gt;这个对象是AOP管理需要的，他保存了事务管理器tm，属性，以及事务状态ts" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="388.75" y="660" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-4" value="txInfo.bindToThread()&lt;br&gt;将该txInfo绑定到线程上transactionInfoHolder" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-4" value="txInfo.bindToThread()&lt;br&gt;将该txInfo绑定到线程上transactionInfoHolder" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="410" y="740" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-5" value="&lt;div&gt;ThreadLocal&amp;lt;TransactionInfo&amp;gt; transactionInfoHolder =&lt;/div&gt;&lt;div&gt;			new NamedThreadLocal&amp;lt;&amp;gt;(&quot;Current aspect-driven transaction&quot;);&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-5" value="&lt;div&gt;ThreadLocal&amp;lt;TransactionInfo&amp;gt; transactionInfoHolder =&lt;/div&gt;&lt;div&gt;   new NamedThreadLocal&amp;lt;&amp;gt;(&quot;Current aspect-driven transaction&quot;);&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="807.5" y="2700" width="370" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-6" value="TransactionAspectSupport" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-6" value="TransactionAspectSupport" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="867.5" y="2600" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-7" value="保存线程当前的txInfo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-7" value="保存线程当前的txInfo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1197.5" y="2705" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-8" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas; font-size: 9.8pt;&quot;&gt;@Transactional(rollbackFor = Exception.&lt;span style=&quot;color:#000080;font-weight:bold;&quot;&gt;class&lt;/span&gt;)&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas; font-size: 9.8pt;&quot;&gt;// 入口&lt;br&gt;&lt;span style=&quot;color:#000080;font-weight:bold;&quot;&gt;public void &lt;/span&gt;insert(User user) {&lt;br&gt;    &lt;span style=&quot;color:#660e7a;font-weight:bold;&quot;&gt;userRepository&lt;/span&gt;.insert(user);&lt;br&gt;    &lt;span style=&quot;color:#660e7a;font-weight:bold;&quot;&gt;userService&lt;/span&gt;.testSameMethod(user);&lt;br&gt;    &lt;span style=&quot;color:#808080;font-style:italic;&quot;&gt;//System.out.println(&quot;error:&quot;+(5/0));&lt;br&gt;&lt;/span&gt;}&lt;br&gt;&lt;br&gt;&lt;span style=&quot;color:#808000;&quot;&gt;@Transactional&lt;/span&gt;(rollbackFor = Exception.&lt;span style=&quot;color:#000080;font-weight:bold;&quot;&gt;class)&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;color:#000080;font-weight:bold;&quot;&gt;public void &lt;/span&gt;testSameMethod(User user) {&lt;br&gt;    user.setName(user.getName() + &lt;span style=&quot;color:#008000;font-weight:bold;&quot;&gt;&quot; A&quot;&lt;/span&gt;);&lt;br&gt;    &lt;span style=&quot;color:#660e7a;font-weight:bold;&quot;&gt;userRepository&lt;/span&gt;.insert(user);&lt;br&gt;    System.&lt;span style=&quot;color:#660e7a;font-weight:bold;font-style:italic;&quot;&gt;out&lt;/span&gt;.println(&lt;span style=&quot;color:#008000;font-weight:bold;&quot;&gt;&quot;insert&quot; &lt;/span&gt;+ &lt;span style=&quot;color:#0000ff;&quot;&gt;9&lt;/span&gt;/&lt;span style=&quot;color:#0000ff;&quot;&gt;0&lt;/span&gt;);&lt;br&gt;}&lt;/pre&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-8" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas; font-size: 9.8pt;&quot;&gt;@Transactional(rollbackFor = Exception.&lt;span style=&quot;color:#000080;font-weight:bold;&quot;&gt;class&lt;/span&gt;)&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas; font-size: 9.8pt;&quot;&gt;// 入口&lt;br&gt;&lt;span style=&quot;color:#000080;font-weight:bold;&quot;&gt;public void &lt;/span&gt;insert(User user) {&lt;br&gt;    &lt;span style=&quot;color:#660e7a;font-weight:bold;&quot;&gt;userRepository&lt;/span&gt;.insert(user);&lt;br&gt;    &lt;span style=&quot;color:#660e7a;font-weight:bold;&quot;&gt;userService&lt;/span&gt;.testSameMethod(user);&lt;br&gt;    &lt;span style=&quot;color:#808080;font-style:italic;&quot;&gt;//System.out.println(&quot;error:&quot;+(5/0));&lt;br&gt;&lt;/span&gt;}&lt;br&gt;&lt;br&gt;&lt;span style=&quot;color:#808000;&quot;&gt;@Transactional&lt;/span&gt;(rollbackFor = Exception.&lt;span style=&quot;color:#000080;font-weight:bold;&quot;&gt;class)&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;color:#000080;font-weight:bold;&quot;&gt;public void &lt;/span&gt;testSameMethod(User user) {&lt;br&gt;    user.setName(user.getName() + &lt;span style=&quot;color:#008000;font-weight:bold;&quot;&gt;&quot; A&quot;&lt;/span&gt;);&lt;br&gt;    &lt;span style=&quot;color:#660e7a;font-weight:bold;&quot;&gt;userRepository&lt;/span&gt;.insert(user);&lt;br&gt;    System.&lt;span style=&quot;color:#660e7a;font-weight:bold;font-style:italic;&quot;&gt;out&lt;/span&gt;.println(&lt;span style=&quot;color:#008000;font-weight:bold;&quot;&gt;&quot;insert&quot; &lt;/span&gt;+ &lt;span style=&quot;color:#0000ff;&quot;&gt;9&lt;/span&gt;/&lt;span style=&quot;color:#0000ff;&quot;&gt;0&lt;/span&gt;);&lt;br&gt;}&lt;/pre&gt;" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="5" y="270" width="370" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-10" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-10" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1450" y="1260" as="sourcePoint" />
             <mxPoint x="1450" y="20" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-11" value="这里是进入insert()方法的切面逻辑" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#ffe6cc;sketch=1;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-11" value="这里是进入insert()方法的切面逻辑" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#ffe6cc;sketch=1;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="20" y="140" width="260" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-12" value="这里是进入testSameMethod()方法的切面逻辑" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#ffe6cc;sketch=1;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-12" value="这里是进入testSameMethod()方法的切面逻辑" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#ffe6cc;sketch=1;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="1510" y="30" width="260" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-13" value="TransactionAspectSupport" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-13" value="TransactionAspectSupport" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1555" y="110" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-14" value="invokeWithinTransaction" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-14" value="invokeWithinTransaction" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1555" y="160" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-15" value="获取TransactionManager&lt;br&gt;determineTransactionManager(txAttr)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-15" value="获取TransactionManager&lt;br&gt;determineTransactionManager(txAttr)" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1530" y="230" width="210" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-17" value="和第一次获取&lt;br&gt;的是一个" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-17" value="和第一次获取&lt;br&gt;的是一个" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1750" y="240" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="91x0pgqtPFHgfMTm1KJe-18" target="91x0pgqtPFHgfMTm1KJe-20">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="91x0pgqtPFHgfMTm1KJe-18" target="91x0pgqtPFHgfMTm1KJe-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="91x0pgqtPFHgfMTm1KJe-18" target="91x0pgqtPFHgfMTm1KJe-43">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="91x0pgqtPFHgfMTm1KJe-18" target="91x0pgqtPFHgfMTm1KJe-43" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1640" y="400" />
@@ -259,79 +259,79 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-18" value="TransactionInfo txInfo = createTransactionIfNecessary(ptm, txAttr, joinpointIdentification)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-18" value="TransactionInfo txInfo = createTransactionIfNecessary(ptm, txAttr, joinpointIdentification)" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1512.5" y="310" width="255" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-19" value="创建txInfo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-19" value="创建txInfo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1770" y="330" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-20" value="status = tm.getTransaction(txAttr);" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-20" value="status = tm.getTransaction(txAttr);" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1580" y="420" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-21" value="创建事务状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-21" value="创建事务状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1770" y="430" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-22" value="AbstractPlatformTransactionManager" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-22" value="AbstractPlatformTransactionManager" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2170" y="110" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-23" value="transaction = doGetTransaction()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-23" value="transaction = doGetTransaction()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2175.5" y="170" width="209" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-24" value="new了一个DataSourceTransactionObject&lt;br&gt;设置connHolder&lt;br&gt;从TransactionSynchronizationManager.resources&lt;br&gt;获取，即该线程所有conn都是一个" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-24" value="new了一个DataSourceTransactionObject&lt;br&gt;设置connHolder&lt;br&gt;从TransactionSynchronizationManager.resources&lt;br&gt;获取，即该线程所有conn都是一个" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2400" y="155" width="290" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-25" value="isExistingTransaction()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-25" value="isExistingTransaction()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2170" y="260" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-26" value="由于DataSourceTransactionObject&lt;br&gt;中的connHolder非空且活跃 所有这次不会再和第一次&lt;br&gt;一样走&amp;nbsp;startTransaction()&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-26" value="由于DataSourceTransactionObject&lt;br&gt;中的connHolder非空且活跃 所有这次不会再和第一次&lt;br&gt;一样走&amp;nbsp;startTransaction()&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2400" y="250" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-27" value="return handleExistingTransaction()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-27" value="return handleExistingTransaction()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2181" y="325" width="209" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-28" value="注意，如果嵌套事务是REQUIRES_NEW&lt;br&gt;则这里会挂起上个事务并走startTransaction()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-28" value="注意，如果嵌套事务是REQUIRES_NEW&lt;br&gt;则这里会挂起上个事务并走startTransaction()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2400" y="330" width="260" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="91x0pgqtPFHgfMTm1KJe-29" target="91x0pgqtPFHgfMTm1KJe-34">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="91x0pgqtPFHgfMTm1KJe-29" target="91x0pgqtPFHgfMTm1KJe-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-29" value="return prepareTransactionStatus();" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-29" value="return prepareTransactionStatus();" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2160" y="380" width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-30" value="标记当前事务不是第一个事务，并且没有挂起是事务&lt;br&gt;和第一次比 少了dobegin()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-30" value="标记当前事务不是第一个事务，并且没有挂起是事务&lt;br&gt;和第一次比 少了dobegin()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2395" y="375" width="300" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-32" value="prepareSynchronization()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-32" value="prepareSynchronization()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2204.5" y="510" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-34" value="new&amp;nbsp;DefaultTransactionStatus()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-34" value="new&amp;nbsp;DefaultTransactionStatus()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2195" y="450" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-37" value="创建事务状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-37" value="创建事务状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2400" y="455" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-38" value="此时这个方法无实际逻辑，不会设置&lt;br&gt;TransactionSynchronizationManager相关线程数据&lt;br&gt;因为他们是同一个事务，所以再次设置一遍" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-38" value="此时这个方法无实际逻辑，不会设置&lt;br&gt;TransactionSynchronizationManager相关线程数据&lt;br&gt;因为他们是同一个事务，所以再次设置一遍" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2390" y="500" width="290" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-39" value="&lt;div&gt;		return prepareTransactionInfo(tm, txAttr, joinpointIdentification, status);&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-39" value="&lt;div&gt;  return prepareTransactionInfo(tm, txAttr, joinpointIdentification, status);&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1540" y="495" width="230" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-40" value="new TransactionInfo()&lt;br&gt;这个对象是AOP管理需要的，他保存了事务管理器tm，属性，以及事务状态ts" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-40" value="new TransactionInfo()&lt;br&gt;这个对象是AOP管理需要的，他保存了事务管理器tm，属性，以及事务状态ts" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1579.38" y="560" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-41" value="txInfo.bindToThread()&lt;br&gt;将该txInfo绑定到线程上transactionInfoHolder" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-41" value="txInfo.bindToThread()&lt;br&gt;将该txInfo绑定到线程上transactionInfoHolder" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1600.63" y="640" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-43" value="try{}catch{}&lt;br&gt;执行原逻辑" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-43" value="try{}catch{}&lt;br&gt;执行原逻辑" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1575" y="760" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-47" value="内部抛异常&lt;br&gt;走到catch中&lt;br&gt;1. completeTransactionAfterThrowing()&lt;br&gt;2.&amp;nbsp;throw ex;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-47" value="内部抛异常&lt;br&gt;走到catch中&lt;br&gt;1. completeTransactionAfterThrowing()&lt;br&gt;2.&amp;nbsp;throw ex;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1540" y="830" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-48" value="他会处理回滚&lt;br&gt;并且向上抛出异常" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-48" value="他会处理回滚&lt;br&gt;并且向上抛出异常" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1800" y="840" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="91x0pgqtPFHgfMTm1KJe-49" target="91x0pgqtPFHgfMTm1KJe-52">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="91x0pgqtPFHgfMTm1KJe-49" target="91x0pgqtPFHgfMTm1KJe-52" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1940" y="940" />
@@ -339,85 +339,85 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-49" value="txInfo.getTransactionManager()&lt;br&gt;.rollback(txInfo.getTransactionStatus())" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-49" value="txInfo.getTransactionManager()&lt;br&gt;.rollback(txInfo.getTransactionStatus())" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1575" y="910" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-50" value="让TM执行回滚" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-50" value="让TM执行回滚" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1810" y="920" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-51" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-51" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2070" y="580" as="sourcePoint" />
             <mxPoint x="2590" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-52" value="processRollback()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-52" value="processRollback()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2112.75" y="620" width="345.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-54" value="triggerBeforeCompletion()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-54" value="triggerBeforeCompletion()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2175.5" y="675" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-56" value="只有第一个事务状态TS&lt;br&gt;才会执行同步链的&lt;br&gt;triggerBeforeCompletion()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-56" value="只有第一个事务状态TS&lt;br&gt;才会执行同步链的&lt;br&gt;triggerBeforeCompletion()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2490" y="660" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="91x0pgqtPFHgfMTm1KJe-57" target="91x0pgqtPFHgfMTm1KJe-58">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="91x0pgqtPFHgfMTm1KJe-57" target="91x0pgqtPFHgfMTm1KJe-58" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-57" value="doSetRollbackOnly()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-57" value="doSetRollbackOnly()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2205.5" y="720" width="189.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-58" value="txObject.setRollbackOnly()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-58" value="txObject.setRollbackOnly()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2258" y="790" width="165" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-59" value="&amp;nbsp;this.getConnectionHolder().setRollbackOnly();" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-59" value="&amp;nbsp;this.getConnectionHolder().setRollbackOnly();" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2155" y="830" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-60" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-60" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="2480" y="730" width="20" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-62" value="这里就是说从TS中取出事务对象txObject&lt;br&gt;怕自己忘(就是这个DataSourceTransactionObject)&lt;br&gt;取出connHolder 标记为回滚，并不是真的回滚只是标记" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-62" value="这里就是说从TS中取出事务对象txObject&lt;br&gt;怕自己忘(就是这个DataSourceTransactionObject)&lt;br&gt;取出connHolder 标记为回滚，并不是真的回滚只是标记" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2495" y="750" width="320" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-63" value="triggerAfterCompletion()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-63" value="triggerAfterCompletion()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2165" y="880" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-66" value="只有第一个事务状态TS&lt;br&gt;才会执行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-66" value="只有第一个事务状态TS&lt;br&gt;才会执行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2495" y="875" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-67" value="cleanupAfterCompletion()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-67" value="cleanupAfterCompletion()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2165" y="930" width="275" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-68" value="status.setComplete()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-68" value="status.setComplete()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2246" y="980" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-69" value="标记状态为完成" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-69" value="标记状态为完成" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2500" y="980" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-70" value="【finally】&lt;br&gt;cleanupTransactionInfo" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-70" value="【finally】&lt;br&gt;cleanupTransactionInfo" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1565" y="1000" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-71" value="restoreThreadLocalStatus()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-71" value="restoreThreadLocalStatus()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1605.31" y="1060" width="159.38" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-72" value="清除事务信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-72" value="清除事务信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1795" y="1010" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-73" value="就是让当前线程持有之前的事务Info&lt;br&gt;transactionInfoHolder.set(this.oldTransactionInfo)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-73" value="就是让当前线程持有之前的事务Info&lt;br&gt;transactionInfoHolder.set(this.oldTransactionInfo)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1770" y="1050" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-74" value="由于内嵌事务抛出异常&lt;br&gt;这里会被捕捉" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-74" value="由于内嵌事务抛出异常&lt;br&gt;这里会被捕捉" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="1040" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-75" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-75" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="210" y="1020" as="sourcePoint" />
             <mxPoint x="810" y="1020" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-76" value="内嵌事务执行完毕&lt;br&gt;并抛出异常" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-76" value="内嵌事务执行完毕&lt;br&gt;并抛出异常" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="110" y="1000" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="91x0pgqtPFHgfMTm1KJe-77" target="91x0pgqtPFHgfMTm1KJe-78">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="91x0pgqtPFHgfMTm1KJe-77" target="91x0pgqtPFHgfMTm1KJe-78" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="653" y="1140" />
@@ -425,113 +425,152 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="91x0pgqtPFHgfMTm1KJe-77" target="91x0pgqtPFHgfMTm1KJe-91">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="91x0pgqtPFHgfMTm1KJe-77" target="91x0pgqtPFHgfMTm1KJe-91" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-77" value="completeTransactionAfterThrowing" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-77" value="completeTransactionAfterThrowing" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="378.75" y="1120" width="210" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-78" value="processRollback()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-78" value="processRollback()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="717.25" y="1125" width="345.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-79" value="triggerBeforeCompletion()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-79" value="triggerBeforeCompletion()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="1180" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-80" value="由于是一个事务&lt;br&gt;会执行&lt;br&gt;TransactionSynchronizationUtils&lt;br&gt;.triggerBeforeCompletion();" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-80" value="由于是一个事务&lt;br&gt;会执行&lt;br&gt;TransactionSynchronizationUtils&lt;br&gt;.triggerBeforeCompletion();" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="845" y="1230" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-82" value="如果会话Holder关闭了&lt;br&gt;就关闭sqlSeesion&lt;br&gt;会话close()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-82" value="如果会话Holder关闭了&lt;br&gt;就关闭sqlSeesion&lt;br&gt;会话close()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1102.75" y="1230" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-83" value="doRollback()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-83" value="doRollback()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="1320" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-84" value="第一个事务(最外层事务)才能执行回滚&lt;br&gt;因此这里会执行回滚" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-84" value="第一个事务(最外层事务)才能执行回滚&lt;br&gt;因此这里会执行回滚" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1062.75" y="1320" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-86" value="conn.rollback()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-86" value="conn.rollback()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="940" y="1360" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-87" value="triggerAfterCompletion()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-87" value="triggerAfterCompletion()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="785" y="1420" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-88" value="第一个事务才允许执行&lt;br&gt;就是执行同步链上的afterCompletion()&lt;br&gt;如果当前会话holder活跃就关闭会话" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-88" value="第一个事务才允许执行&lt;br&gt;就是执行同步链上的afterCompletion()&lt;br&gt;如果当前会话holder活跃就关闭会话" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1062.75" y="1400" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-89" value="cleanupAfterCompletion()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-89" value="cleanupAfterCompletion()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="782.5" y="1480" width="275" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-90" value="重置线程持有事务状态&lt;br&gt;恢复连接的自动提交" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-90" value="重置线程持有事务状态&lt;br&gt;恢复连接的自动提交" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1100" y="1480" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-91" value="【finally】&lt;br&gt;cleanupTransactionInfo" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-91" value="【finally】&lt;br&gt;cleanupTransactionInfo" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="385" y="1510" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-92" value="restoreThreadLocalStatus()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-92" value="restoreThreadLocalStatus()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="415.30999999999995" y="1580" width="159.38" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-93" value="清除事务信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-93" value="清除事务信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="600" y="1510" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-94" value="就是让当前线程持有之前的事务Info&lt;br&gt;transactionInfoHolder.set(this.oldTransactionInfo)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-94" value="就是让当前线程持有之前的事务Info&lt;br&gt;transactionInfoHolder.set(this.oldTransactionInfo)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="580" y="1570" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-97" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-97" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="240" y="1640" as="sourcePoint" />
             <mxPoint x="840" y="1640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-98" value="假如事务没有异常&lt;br&gt;则走这里提交" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-98" value="假如事务没有异常&lt;br&gt;则走这里提交" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="140" y="1620" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-99" value="txInfo.getTransactionManager()&lt;br&gt;.commit(txInfo.getTransactionStatus())" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-99" value="txInfo.getTransactionManager()&lt;br&gt;.commit(txInfo.getTransactionStatus())" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="1750" width="290" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-102" value="commit()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-102" value="commit()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="710" y="1757.5" width="380" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-103" value="processCommit" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-103" value="processCommit" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="740" y="1820" width="350" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-104" value="triggerBeforeCommit()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-104" value="triggerBeforeCommit()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="798.75" y="1870" width="252.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-106" value="doCommit()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-106" value="doCommit()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="800" y="1970" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-107" value="sqlsession执行commit()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-107" value="sqlsession执行commit()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1080" y="1870" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-108" value="triggerBeforeCompletion()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-108" value="triggerBeforeCompletion()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="798.75" y="1920" width="252.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-109" value="sqlsession执行close()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-109" value="sqlsession执行close()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1080" y="1920" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-110" value="con.commit()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-110" value="con.commit()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1090" y="1970" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-111" value="triggerAfterCommit()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-111" value="triggerAfterCommit()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="800" y="2020" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-112" value="空的方法体" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-112" value="空的方法体" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1100" y="2020" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-113" value="cleanupAfterCompletion()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-113" value="cleanupAfterCompletion()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="800" y="2060" width="275" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-114" value="status.setComplete()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-114" value="status.setComplete()" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="880" y="2100" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-115" value="标记状态为完成" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-115" value="标记状态为完成" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1099" y="2100" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-116" value="重置&lt;br&gt;TransactionSynchronizationManager" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-116" value="重置&lt;br&gt;TransactionSynchronizationManager" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="850" y="2150" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="91x0pgqtPFHgfMTm1KJe-117" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas; font-size: 9.8pt;&quot;&gt;synchronizations.remove();&lt;br&gt;&lt;span style=&quot;color:#660e7a;font-weight:bold;font-style:italic;&quot;&gt;currentTransactionName&lt;/span&gt;.remove();&lt;br&gt;&lt;span style=&quot;color:#660e7a;font-weight:bold;font-style:italic;&quot;&gt;currentTransactionReadOnly&lt;/span&gt;.remove();&lt;br&gt;&lt;span style=&quot;color:#660e7a;font-weight:bold;font-style:italic;&quot;&gt;currentTransactionIsolationLevel&lt;/span&gt;.remove();&lt;br&gt;&lt;span style=&quot;color:#660e7a;font-weight:bold;font-style:italic;&quot;&gt;actualTransactionActive&lt;/span&gt;.remove();&lt;/pre&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="91x0pgqtPFHgfMTm1KJe-117" value="&lt;pre style=&quot;background-color: rgb(255, 255, 255); font-family: Consolas; font-size: 9.8pt;&quot;&gt;synchronizations.remove();&lt;br&gt;&lt;span style=&quot;color:#660e7a;font-weight:bold;font-style:italic;&quot;&gt;currentTransactionName&lt;/span&gt;.remove();&lt;br&gt;&lt;span style=&quot;color:#660e7a;font-weight:bold;font-style:italic;&quot;&gt;currentTransactionReadOnly&lt;/span&gt;.remove();&lt;br&gt;&lt;span style=&quot;color:#660e7a;font-weight:bold;font-style:italic;&quot;&gt;currentTransactionIsolationLevel&lt;/span&gt;.remove();&lt;br&gt;&lt;span style=&quot;color:#660e7a;font-weight:bold;font-style:italic;&quot;&gt;actualTransactionActive&lt;/span&gt;.remove();&lt;/pre&gt;" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="1102.75" y="2160" width="321" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="B7AQcsgCZT6KHmZb6f0Q-1" value="Spring事务&lt;br&gt;基础模型" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#fff2cc;sketch=1;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="2060" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="B7AQcsgCZT6KHmZb6f0Q-2" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1764" y="2580" as="sourcePoint" />
+            <mxPoint x="1764" y="2150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B7AQcsgCZT6KHmZb6f0Q-3" value="AOP切面&lt;br&gt;入口" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1764" y="2120" width="166" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B7AQcsgCZT6KHmZb6f0Q-7" value="创建事务" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1764" y="2170" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B7AQcsgCZT6KHmZb6f0Q-8" value="执行原方法(SQL执行)" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="2250" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B7AQcsgCZT6KHmZb6f0Q-9" value="try" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1764" y="2210" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B7AQcsgCZT6KHmZb6f0Q-10" value="catch" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1764" y="2290" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B7AQcsgCZT6KHmZb6f0Q-11" value="回滚" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="2330" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B7AQcsgCZT6KHmZb6f0Q-12" value="finally" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1764" y="2410" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B7AQcsgCZT6KHmZb6f0Q-14" value="清除事务" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="2450" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B7AQcsgCZT6KHmZb6f0Q-15" value="提交事务" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1764" y="2492" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B7AQcsgCZT6KHmZb6f0Q-16" value="抛出异常【结束】" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="2370" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
