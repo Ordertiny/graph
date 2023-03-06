@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2023-03-06T02:59:33.179Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="20.8.20" etag="oDEDY1Mbhb6VVK6gtZ5f" type="github"><diagram name="第 1 页" id="Hy2DhsIZiKbO5J9a9AXR">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-06T03:08:46.678Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="8jRuhbOsDx8G7q5owEpF" version="20.8.20" type="github">
+  <diagram name="第 1 页" id="Hy2DhsIZiKbO5J9a9AXR">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CLUVnRlgYtxY9j5A_QXX-1" value="登录时" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="100" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CLUVnRlgYtxY9j5A_QXX-2" value="获取玩家的用户画像" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="472.5" y="270" width="137.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CLUVnRlgYtxY9j5A_QXX-3" value="根据用户画像查找满足条件与优先级的礼包" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="472.5" y="340" width="137.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CLUVnRlgYtxY9j5A_QXX-4" value="判定用户的礼包状态" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="420" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CLUVnRlgYtxY9j5A_QXX-5" value="返回符合条件的礼包" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="490" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CLUVnRlgYtxY9j5A_QXX-6" value="进大厅（无礼包）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="100" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CLUVnRlgYtxY9j5A_QXX-7" value="getRoleSecretShopInfo()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="170" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CLUVnRlgYtxY9j5A_QXX-8" value="模板表新增" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="100" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CLUVnRlgYtxY9j5A_QXX-9" value="模板表关闭" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="100" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CLUVnRlgYtxY9j5A_QXX-10" value="模板表变更" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="170" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CLUVnRlgYtxY9j5A_QXX-11" value="在线玩家重新获取一次符合条件的礼包&lt;br&gt;若与当前不一致则重新推送" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="895" y="270" width="230" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
