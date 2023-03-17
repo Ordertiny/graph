@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-03-17T08:52:27.714Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="AUVF3d5Vg5yiwbsEAVPK" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-17T08:52:46.028Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="0tk0-KwN7wEdYE_aul-b" version="21.0.2" type="github">
   <diagram name="第 1 页" id="bvX66JhwTWLIvs4cRmTm">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="_501b6ClL_6uTSRIw0sW-1" value="通用排行榜" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_501b6ClL_6uTSRIw0sW-1" value="通用排行榜&lt;br&gt;（500/600人）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="460" y="60" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="_501b6ClL_6uTSRIw0sW-2" value="分片排行榜（预设N人）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
