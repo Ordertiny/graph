@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-21T06:43:16.202Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="YaUvVmQYD8SsnVwvSCmC" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-21T08:04:22.997Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="U5PH6vudDyIGxOkphoSC" version="21.0.2" type="github">
   <diagram name="第 1 页" id="bvX66JhwTWLIvs4cRmTm">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -422,7 +422,7 @@
           <mxGeometry x="2520.25" y="780" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_501b6ClL_6uTSRIw0sW-188" value="索引表更新流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2535" y="655" width="110" height="30" as="geometry" />
+          <mxGeometry x="2509.75" y="715" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_501b6ClL_6uTSRIw0sW-190" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -463,6 +463,47 @@
         </mxCell>
         <mxCell id="_501b6ClL_6uTSRIw0sW-202" value="结束" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2515.25" y="1000" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_501b6ClL_6uTSRIw0sW-204" value="下榜操作" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2900" y="715" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_501b6ClL_6uTSRIw0sW-215" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_501b6ClL_6uTSRIw0sW-205" target="_501b6ClL_6uTSRIw0sW-206">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_501b6ClL_6uTSRIw0sW-205" value="加载索引表" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2930" y="775" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="_501b6ClL_6uTSRIw0sW-216" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_501b6ClL_6uTSRIw0sW-206" target="_501b6ClL_6uTSRIw0sW-208">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_501b6ClL_6uTSRIw0sW-206" value="根据分数&lt;br&gt;定位到索引表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2930" y="840" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_501b6ClL_6uTSRIw0sW-211" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_501b6ClL_6uTSRIw0sW-208" target="_501b6ClL_6uTSRIw0sW-209">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_501b6ClL_6uTSRIw0sW-213" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_501b6ClL_6uTSRIw0sW-208" target="_501b6ClL_6uTSRIw0sW-210">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3110" y="933" />
+              <mxPoint x="3110" y="1085" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_501b6ClL_6uTSRIw0sW-208" value="移除玩家" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2930" y="900" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="_501b6ClL_6uTSRIw0sW-209" value="所有榜单循环删除" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2930" y="1000" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_501b6ClL_6uTSRIw0sW-210" value="结束" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2930" y="1070" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_501b6ClL_6uTSRIw0sW-212" value="移除失败" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2980" y="965" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_501b6ClL_6uTSRIw0sW-214" value="移除成功" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3040" y="910" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
