@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-21T02:18:11.001Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="YbaY98JFnnFHqP2oi_FU" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-21T02:19:10.348Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="BArBMi7BbMTYoFZa4WrJ" version="21.0.2" type="github">
   <diagram name="第 1 页" id="bvX66JhwTWLIvs4cRmTm">
     <mxGraphModel dx="1687" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -296,6 +296,12 @@
         </mxCell>
         <mxCell id="_501b6ClL_6uTSRIw0sW-138" value="插榜&lt;br&gt;(roleId, oldScore, newScore)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1730" y="700" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_501b6ClL_6uTSRIw0sW-140" value="循环查找" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_501b6ClL_6uTSRIw0sW-142" value="鉴于：排行榜查找首尾的时间复杂度为O1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1435" y="650" width="240" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
