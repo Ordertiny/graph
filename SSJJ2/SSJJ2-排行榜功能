@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-24T03:53:03.615Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="EkiNhskcgcQnO5Y_LgMq" version="21.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-24T06:07:23.778Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="LgpCEUBpdts3SqfN0YsE" version="21.1.0" type="github">
   <diagram name="第 1 页" id="bvX66JhwTWLIvs4cRmTm">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -712,8 +712,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="jXpwBF5-t4CPoNQROat3-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lAnrHMMODbjeqQWXAta_-8" target="jXpwBF5-t4CPoNQROat3-1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="jXpwBF5-t4CPoNQROat3-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lAnrHMMODbjeqQWXAta_-8" target="lAnrHMMODbjeqQWXAta_-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2808.3" y="2210.016" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2809" y="2180" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="lAnrHMMODbjeqQWXAta_-8" value="分数是否&lt;br&gt;处于该区间" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2734.38" y="2110" width="146.25" height="70" as="geometry" />
@@ -784,7 +789,7 @@
           <mxGeometry x="3050.25" y="2577.5" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lAnrHMMODbjeqQWXAta_-29" value="处于" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="2805" y="2180" width="50" height="30" as="geometry" />
+          <mxGeometry x="2800" y="2205" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lAnrHMMODbjeqQWXAta_-30" value="不处于 N=N+1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2870" y="2120" width="100" height="30" as="geometry" />
@@ -881,38 +886,6 @@
         </mxCell>
         <mxCell id="lAnrHMMODbjeqQWXAta_-57" value="未超过" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2608.5" y="2355" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="jXpwBF5-t4CPoNQROat3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jXpwBF5-t4CPoNQROat3-1" target="jXpwBF5-t4CPoNQROat3-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="jXpwBF5-t4CPoNQROat3-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jXpwBF5-t4CPoNQROat3-1" target="lAnrHMMODbjeqQWXAta_-11">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="2910" y="2240" />
-              <mxPoint x="2910" y="2350" />
-              <mxPoint x="2809" y="2350" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jXpwBF5-t4CPoNQROat3-1" value="判定上一个榜单&lt;br&gt;人数是否溢出" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2733.26" y="2210" width="150" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="jXpwBF5-t4CPoNQROat3-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jXpwBF5-t4CPoNQROat3-2" target="lAnrHMMODbjeqQWXAta_-32">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="2710" y="2318" />
-              <mxPoint x="2710" y="2613" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jXpwBF5-t4CPoNQROat3-2" value="加入上一个排行榜" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2757.3900000000003" y="2300" width="101.74" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="jXpwBF5-t4CPoNQROat3-6" value="溢出" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2873.01" y="2215" width="50" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="jXpwBF5-t4CPoNQROat3-7" value="未溢出" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2805.26" y="2275" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jXpwBF5-t4CPoNQROat3-14" value="这里是因为&lt;br&gt;可能玩家清榜后&lt;br&gt;造成人数未满" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2970" y="2210" width="110" height="60" as="geometry" />
