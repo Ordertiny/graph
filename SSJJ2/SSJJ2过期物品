@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-03T10:54:31.918Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="GB9BabNVmsb4iOYLIeEK" version="21.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-03T12:42:22.395Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="2CXWyKM4sgiSQmiU1JSk" version="21.1.0" type="github">
   <diagram id="JiEZ7ssAAVFcg4aw3a9F" name="第 1 页">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -559,7 +559,7 @@
         <mxCell id="z6hQcGr4WHkzQZWA5QEE-41" value="覆盖原物品时间&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;结束" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2730" y="690" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="z6hQcGr4WHkzQZWA5QEE-42" value="不更新(埋点是否有)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;结束" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="z6hQcGr4WHkzQZWA5QEE-42" value="不更新(埋点是否有)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;结束" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="2862.5" y="780" width="115" height="40" as="geometry" />
         </mxCell>
         <mxCell id="z6hQcGr4WHkzQZWA5QEE-43" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -626,7 +626,7 @@
         <mxCell id="z6hQcGr4WHkzQZWA5QEE-57" value="是否有永久" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3270" y="352.5" width="130" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="z6hQcGr4WHkzQZWA5QEE-58" value="不更新(埋点是否有)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;结束" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="z6hQcGr4WHkzQZWA5QEE-58" value="不更新(埋点是否有)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;结束" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="3277.5" y="462.25" width="115" height="40" as="geometry" />
         </mxCell>
         <mxCell id="z6hQcGr4WHkzQZWA5QEE-59" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -645,7 +645,16 @@
           <mxGeometry x="2630" y="317" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="z6hQcGr4WHkzQZWA5QEE-91" value="&lt;font color=&quot;#3333ff&quot;&gt;绿色为原本逻辑&lt;/font&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="2255" y="160" width="110" height="40" as="geometry" />
+          <mxGeometry x="2255" y="160" width="165" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z6hQcGr4WHkzQZWA5QEE-93" value="角色皮肤卡使用流程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3820" y="230" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="z6hQcGr4WHkzQZWA5QEE-94" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3830" y="315" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="z6hQcGr4WHkzQZWA5QEE-95" value="蓝色框需要考虑玩家补偿" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2255" y="225" width="165" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
