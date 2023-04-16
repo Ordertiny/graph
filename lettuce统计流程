@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-16T04:44:59.309Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.1.1171 SLBChan/30" etag="HlGH_yb3WOYbIwX-8ImV" version="21.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-16T05:05:34.093Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.1.1171 SLBChan/30" etag="-DfLoYSaVFGsUw0JvwS2" version="21.1.8" type="github">
   <diagram name="第 1 页" id="bRiZic1QhODbisBs1nGl">
     <mxGraphModel dx="794" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -94,14 +94,88 @@
         <mxCell id="S-pAqqVMa8fh93rlRsGT-33" value="内部有一个Map是保存统计数据的&lt;br&gt;Key:根据本地，远端，命令类型生成的key&lt;br&gt;Value：Latencies 是包含直方图的统计数据对象" style="whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="1495" y="184.34" width="190" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="S-pAqqVMa8fh93rlRsGT-34" value="记录了当前命令的&lt;br&gt;响应和完成时间" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1510" y="288.66" width="160" height="41.34" as="geometry" />
+        <mxCell id="S-pAqqVMa8fh93rlRsGT-34" value="记录了当前命令的&lt;br&gt;响应时间和完成时间" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1510" y="288.66" width="160" height="31.34" as="geometry" />
         </mxCell>
         <mxCell id="S-pAqqVMa8fh93rlRsGT-36" value="响应耗时：响应时间-发送时间&lt;br&gt;完成时间“当前时间(执行此处的时间)-发送时间" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="770" y="510" width="270" height="40" as="geometry" />
         </mxCell>
         <mxCell id="y9NiW5uOfGGgMVXgFbQi-1" value="发送统计数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1890" y="20" width="100" height="30" as="geometry" />
+          <mxGeometry x="2040" y="20" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y9NiW5uOfGGgMVXgFbQi-2" value="DefaultCommandLatencyEventPublisher" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1930" y="72.17" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y9NiW5uOfGGgMVXgFbQi-3" value="将统计数据保存到直方图中，后续直接从&lt;br&gt;直方图对象中获取统计信息" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="284.33000000000004" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y9NiW5uOfGGgMVXgFbQi-4" value="构造函数中启动一个定时器，定时器的时间由EventPublisherOptions配置，固定单位是秒&lt;br&gt;每X秒去上报一次数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1965" y="120" width="255" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="y9NiW5uOfGGgMVXgFbQi-5" value="定时任务&lt;br&gt;emitMetricsEvent()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1965" y="190" width="255" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y9NiW5uOfGGgMVXgFbQi-7" value="eventBus&lt;br&gt;发送CommandLatencyEvent()&lt;br&gt;事件" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1965" y="238.66" width="255" height="51.34" as="geometry" />
+        </mxCell>
+        <mxCell id="y9NiW5uOfGGgMVXgFbQi-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="y9NiW5uOfGGgMVXgFbQi-8" target="y9NiW5uOfGGgMVXgFbQi-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9NiW5uOfGGgMVXgFbQi-8" value="上述事件的参数是Map&amp;lt;CommandLatencyId, CommandMetrics&amp;gt; latencies&lt;br&gt;就是记录器的统计数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1960" y="310" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y9NiW5uOfGGgMVXgFbQi-9" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1420" y="350" as="sourcePoint" />
+            <mxPoint x="1740" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y9NiW5uOfGGgMVXgFbQi-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="y9NiW5uOfGGgMVXgFbQi-10" target="y9NiW5uOfGGgMVXgFbQi-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9NiW5uOfGGgMVXgFbQi-10" value="retrieveMetrics()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1515" y="370" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y9NiW5uOfGGgMVXgFbQi-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="y9NiW5uOfGGgMVXgFbQi-11" target="y9NiW5uOfGGgMVXgFbQi-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9NiW5uOfGGgMVXgFbQi-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="y9NiW5uOfGGgMVXgFbQi-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1590" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y9NiW5uOfGGgMVXgFbQi-11" value="开启上报后&lt;br&gt;重置统计数据" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="435" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y9NiW5uOfGGgMVXgFbQi-13" value="每次上报数据后，若配置重置&lt;br&gt;则清空统计Map，后续命令重新统计时间&lt;br&gt;由CommandLatencyCollectorOptions配置" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="435" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="y9NiW5uOfGGgMVXgFbQi-14" value="getMetrics" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="530" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y9NiW5uOfGGgMVXgFbQi-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="y9NiW5uOfGGgMVXgFbQi-15" target="y9NiW5uOfGGgMVXgFbQi-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y9NiW5uOfGGgMVXgFbQi-15" value="先保存一份map用于下面的数据统计&lt;br&gt;重置map" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="440" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="y9NiW5uOfGGgMVXgFbQi-17" value="开启" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1665" y="435" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y9NiW5uOfGGgMVXgFbQi-20" value="每次去内部Map中将统计数据进行封装" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="375" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="y9NiW5uOfGGgMVXgFbQi-21" value="将Latencies封装成CommandLatency" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="590" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="y9NiW5uOfGGgMVXgFbQi-24" value="Latencies：内部包含直方图Histogram对象&lt;br&gt;CommandLatency：保存直方图的最大最小百分比值" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="595" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="y9NiW5uOfGGgMVXgFbQi-25" value="histogram.getMinValue()；&lt;br&gt;histogram.getMaxValue()；&lt;br&gt;histogram.getTotalCount()；" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="670" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="y9NiW5uOfGGgMVXgFbQi-26" value="统计响应时间，处理完成时间，最大最小值，&lt;br&gt;请求总数&lt;br&gt;耗时百分比分布" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="670" width="260" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
