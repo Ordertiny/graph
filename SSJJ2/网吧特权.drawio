@@ -1,0 +1,22 @@
+<mxfile host="app.diagrams.net" modified="2023-04-18T03:39:03.290Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="K8Djm5C9mqKH_tmEr41l" version="21.1.7" type="github">
+  <diagram name="第 1 页" id="98STv8WHStd1L3syZUIn">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="phvqhUlvL6FENhMKcl7T-1" value="登录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="100" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="phvqhUlvL6FENhMKcl7T-2" value="是否特权网吧" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="190" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="phvqhUlvL6FENhMKcl7T-3" value="对比原网吧特权物品" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="280" width="135" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="phvqhUlvL6FENhMKcl7T-4" value="删除不需要的&lt;br&gt;发送新增的" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="350" width="135" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
