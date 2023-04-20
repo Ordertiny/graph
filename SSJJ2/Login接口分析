@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2023-04-20T06:25:28.874Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.1.9" etag="EDHJLPATfreJnNZFu0wa" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-20T06:29:18.566Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="xknDFDVq7tc3eFPIRA4x" version="21.1.9" type="github">
   <diagram name="第 1 页" id="gJnYwzWwJIUjtY0E5f5y">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="1-xMCZKHjLWBw4Pv7Iou-1" value="&lt;div&gt;message LoginParameter {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; Account account = 1;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; string token = 2;&amp;nbsp; &amp;nbsp;// 网站平台传入token&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; int32 fromFlag = 3 ;//1:从登录器登录&amp;nbsp; 2:从exe登录&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; UserExtraParameter userExtraParameter = 4;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; int64 advertise_channel_id = 5;//广告渠道id&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="40" width="300" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="1-xMCZKHjLWBw4Pv7Iou-2" value="&lt;div&gt;message Account {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; string username = 1;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; string wdAccount = 2;//登录器账号&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; string loginIp = 3;//登录ip&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; int32 channelId = 4;//渠道id&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; int32 subChannelId = 5;//子渠道id&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; string railId = 6;&amp;nbsp; // weGame渠道的id&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; int32 antiLevel = 7;//防沉迷等级&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; int64 advertiseChannelId = 8;//广告渠道id&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="190" width="260" height="160" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
