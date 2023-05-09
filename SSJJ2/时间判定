@@ -1,9 +1,30 @@
-<mxfile host="app.diagrams.net" modified="2023-05-09T05:55:08.040Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.2.9" etag="GvqBEC8KxWyfWHM06GM7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-09T09:24:10.086Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="bvvKQJKGSEv0PIDoDoDP" version="21.2.9" type="github">
   <diagram name="第 1 页" id="eHydQagQMiXbPj_cBgBr">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ESMomNsVL46dHx4wK3xt-1" value="当前周数&amp;gt;=起始" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="150" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ESMomNsVL46dHx4wK3xt-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ESMomNsVL46dHx4wK3xt-3" value="开：周三~周二&amp;nbsp; 当前周二&amp;nbsp; 开始日期：周一" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="65" y="68" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ESMomNsVL46dHx4wK3xt-4" value="return true" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="212.5" y="230" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ESMomNsVL46dHx4wK3xt-5" value="开启时间对应周数&lt;br&gt;起始时间 和 当前时间比对" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="172.5" y="320" width="185" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ESMomNsVL46dHx4wK3xt-6" value="currentTime &amp;gt; startTime" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="465" y="138" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ESMomNsVL46dHx4wK3xt-7" value="开始时间的那一周的周三" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="188" width="160" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
