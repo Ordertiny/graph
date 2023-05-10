@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-10T02:26:58.374Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="KT6fEoNjWTvRGG8sjLza" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-10T02:27:19.267Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="dU9PoSGSpw5MyxiEfxeX" version="21.2.9" type="github">
   <diagram name="第 1 页" id="eHydQagQMiXbPj_cBgBr">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -253,8 +253,8 @@
         <mxCell id="tm6hhVerh8ZeqwuCfE60-84" value="起止星期存在【跨周】且【当前星期小于起始星期】且【有开始时间】&lt;br&gt;判定是否处于 开始时间到起始星期的时间段内" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#3333FF;" vertex="1" parent="1">
           <mxGeometry x="1610" y="772.5" width="400" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="tm6hhVerh8ZeqwuCfE60-85" value="注：彩色框表示结束符&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="830" y="818" width="140" height="30" as="geometry" />
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-85" value="注：彩色框表示结束符，蓝色文字对条件框做简要说明" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="870" y="860" width="310" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
