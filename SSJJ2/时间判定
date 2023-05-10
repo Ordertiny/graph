@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-10T02:14:02.779Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="oQN-Fe2cdd8cgJ6zsf-J" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-10T02:21:36.348Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="fXieq0d64ooA9kHZh3gI" version="21.2.9" type="github">
   <diagram name="第 1 页" id="eHydQagQMiXbPj_cBgBr">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -222,6 +222,36 @@
         </mxCell>
         <mxCell id="tm6hhVerh8ZeqwuCfE60-67" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1535" y="760" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-68" value="表示无时间规则" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="240" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-69" value="判定开始时间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="1135" y="343.75" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-71" value="判定结束时间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="1135" y="470" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-72" value="判定是否有星期限制" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="590" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-75" value="判定星期起止不存在跨周" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="340" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-77" value="起止星期在当周的判定" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="340" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-79" value="起止星期存在跨周&lt;br&gt;判定当前星期是否已大于起始星期" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="435" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-80" value="起止星期存在【跨周】且【当前星期小于起始星期】&lt;br&gt;判定是否有开始时间" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="550" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-82" value="起止星期存在【跨周】且【当前星期小于起始星期】且【没有开始时间】&lt;br&gt;直接判定是否小于结束星期" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="535" width="410" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-84" value="起止星期存在【跨周】且【当前星期小于起始星期】且【有开始时间】&lt;br&gt;判定是否处于 开始时间到起始星期的时间段内" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="772.5" width="400" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
