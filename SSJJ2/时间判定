@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-10T02:29:20.229Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="xPCYjScC1a7Bpvc_2YPK" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-10T02:50:15.179Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="u10CQg5i7WGe1gUonHJN" version="21.2.9" type="github">
   <diagram name="第 1 页" id="eHydQagQMiXbPj_cBgBr">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -258,6 +258,177 @@
         </mxCell>
         <mxCell id="tm6hhVerh8ZeqwuCfE60-86" value="时间范围：[startTime, endTime)&lt;br&gt;星期范围：[startDayOfWeek, endDayOfWeek]" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="880" y="800" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tm6hhVerh8ZeqwuCfE60-88" target="tm6hhVerh8ZeqwuCfE60-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-88" value="useItem()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2520" y="244" width="120" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tm6hhVerh8ZeqwuCfE60-91" target="tm6hhVerh8ZeqwuCfE60-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tm6hhVerh8ZeqwuCfE60-91" target="tm6hhVerh8ZeqwuCfE60-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-91" value="doTimeRule == 0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2515" y="316" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-92" value="可打开" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2350" y="336" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tm6hhVerh8ZeqwuCfE60-95" target="tm6hhVerh8ZeqwuCfE60-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tm6hhVerh8ZeqwuCfE60-95" target="tm6hhVerh8ZeqwuCfE60-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-95" value="startTime!=0&lt;br&gt;且&lt;br&gt;当前时间 &amp;lt; startTime" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2495" y="416" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-96" value="不可打开" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="2350" y="446" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tm6hhVerh8ZeqwuCfE60-99" target="tm6hhVerh8ZeqwuCfE60-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tm6hhVerh8ZeqwuCfE60-99" target="tm6hhVerh8ZeqwuCfE60-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-99" value="endTime!=0&lt;br&gt;且&lt;br&gt;当前时间 &amp;gt;= endTime" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2495" y="546" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-100" value="不可打开" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="2350" y="576" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tm6hhVerh8ZeqwuCfE60-103" target="tm6hhVerh8ZeqwuCfE60-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tm6hhVerh8ZeqwuCfE60-103" target="tm6hhVerh8ZeqwuCfE60-106">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2580" y="752" />
+              <mxPoint x="2760" y="752" />
+              <mxPoint x="2760" y="351" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-103" value="doTimeRule == 2" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2500" y="672.25" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-104" value="可打开" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="2350" y="687.25" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tm6hhVerh8ZeqwuCfE60-106" target="tm6hhVerh8ZeqwuCfE60-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-106" value="dayofWeek&lt;br&gt;&amp;nbsp;=&lt;br&gt;获取当前时间所在周几" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2845" y="326" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tm6hhVerh8ZeqwuCfE60-109" target="tm6hhVerh8ZeqwuCfE60-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tm6hhVerh8ZeqwuCfE60-109" target="tm6hhVerh8ZeqwuCfE60-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-109" value="endDayOfWeek &amp;gt;= startDayOfWeek" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2835" y="423.5" width="180" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tm6hhVerh8ZeqwuCfE60-112" target="tm6hhVerh8ZeqwuCfE60-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tm6hhVerh8ZeqwuCfE60-112" target="tm6hhVerh8ZeqwuCfE60-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-112" value="当前星期在&lt;br&gt;[startDayOfweek, endDayOfWeek]" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3155" y="419.75" width="170" height="82.5" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-113" value="可打开" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="3375" y="446" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-114" value="不可打开" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="3187.5" y="526" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tm6hhVerh8ZeqwuCfE60-117" target="tm6hhVerh8ZeqwuCfE60-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-166" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tm6hhVerh8ZeqwuCfE60-117" target="tm6hhVerh8ZeqwuCfE60-164">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-117" value="当前星期 &amp;gt;= startDayOfWeek&amp;nbsp;&lt;br&gt;||&lt;br&gt;当前星期 &amp;lt;= endDayOfWeek" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2815" y="536" width="220" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-118" value="可打开" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="3082.5" y="578" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-133" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2470" y="326" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-134" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2580" y="386" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-135" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2460" y="436" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-136" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2590" y="506" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-137" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2460" y="566" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-138" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2580" y="636" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-139" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2460" y="672.25" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-140" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3020" y="436" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-141" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3325" y="436" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-142" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3235" y="496" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-143" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2915" y="502.25" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-144" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3015" y="546" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-152" value="表示无时间规则" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="2610" y="316" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-153" value="判定开始时间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="2615" y="419.75" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-154" value="判定结束时间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="2615" y="546" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-155" value="判定是否有星期限制" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="2610" y="666" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-156" value="判定星期起止不存在跨周" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="2950" y="416" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-157" value="起止星期在当周的判定" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="3260" y="416" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-158" value="起止星期存在跨周&lt;br&gt;判定当前星期是否已大于起始星期&lt;br&gt;或小于结束星期" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#3333FF;" vertex="1" parent="1">
+          <mxGeometry x="2987.5" y="500" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-162" value="注：彩色框表示结束符，蓝色文字对条件框做简要说明" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2350" y="926" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-163" value="时间范围：[startTime, endTime)&lt;br&gt;星期范围：[startDayOfWeek, endDayOfWeek]" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="2360" y="876" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-164" value="不可打开" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="2872.5" y="696" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tm6hhVerh8ZeqwuCfE60-165" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2937.5" y="650" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
