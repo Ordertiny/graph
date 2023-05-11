@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-11T03:12:06.042Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="T3HtgakEXv0qguf0Ti0V" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-11T03:39:00.640Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="Sj2cIdjTzBXGM2u6QLmQ" version="21.2.9" type="github">
   <diagram name="第 1 页" id="lo6eDNQRnQ-R9a4vSu1y">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -78,6 +78,84 @@
         </mxCell>
         <mxCell id="QVYxjn7rWvsuamNu2KSq-30" value="AbstractChannelServerOnlineOfflineHandler" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="355" y="690" width="1295" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QVYxjn7rWvsuamNu2KSq-31" value="onlineServer" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="357.5" y="780" width="192.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVYxjn7rWvsuamNu2KSq-32" value="ZK更新节点数据为上线标记" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="357.5" y="860" width="192.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVYxjn7rWvsuamNu2KSq-33" value="offlineServer" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="780" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVYxjn7rWvsuamNu2KSq-34" value="上线" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="780" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVYxjn7rWvsuamNu2KSq-35" value="下线" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="705" y="780" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVYxjn7rWvsuamNu2KSq-36" value="设置成员变量 notifyChannel 为true" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="793.75" y="860" width="192.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVYxjn7rWvsuamNu2KSq-37" value="ZK更新节点数据为下线标记" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="793.75" y="930" width="192.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVYxjn7rWvsuamNu2KSq-38" value="registerServer" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="780" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVYxjn7rWvsuamNu2KSq-39" value="注册" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="780" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVYxjn7rWvsuamNu2KSq-40" value="获取当前值的状态值" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1305" y="840" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVYxjn7rWvsuamNu2KSq-42" value="通知下线logic 下线" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="775" y="360" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVYxjn7rWvsuamNu2KSq-44" value="设置服务为下线状态" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1703.75" y="930" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVYxjn7rWvsuamNu2KSq-45" value="通知 服务下线" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1703.75" y="980" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVYxjn7rWvsuamNu2KSq-46" value="卸载master节点" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1703.75" y="1030" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVYxjn7rWvsuamNu2KSq-47" value="设置成员变量 notifyChannel 为false" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1703.75" y="1080" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVYxjn7rWvsuamNu2KSq-48" value="负载均衡器清除" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1703.75" y="1130" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVYxjn7rWvsuamNu2KSq-49" value="handleServerStatusChanged()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1305" y="910" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVYxjn7rWvsuamNu2KSq-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QVYxjn7rWvsuamNu2KSq-51" target="QVYxjn7rWvsuamNu2KSq-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QVYxjn7rWvsuamNu2KSq-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QVYxjn7rWvsuamNu2KSq-51" target="QVYxjn7rWvsuamNu2KSq-54">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1960" y="870" />
+              <mxPoint x="1960" y="1190" />
+              <mxPoint x="1812" y="1190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QVYxjn7rWvsuamNu2KSq-51" value="如果节点状态为下线" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="840" width="147.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QVYxjn7rWvsuamNu2KSq-52" value="handleServerStatusChanged" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="780" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVYxjn7rWvsuamNu2KSq-53" value="处理节点状态变更" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="750" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVYxjn7rWvsuamNu2KSq-54" value="上线流程" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1703.75" y="1210" width="216.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVYxjn7rWvsuamNu2KSq-57" value="试成为master节点" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1723.75" y="1270" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
