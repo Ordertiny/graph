@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-11T03:07:02.929Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="MKG7qbSavowE3Xdxl4dD" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-11T03:12:06.042Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="T3HtgakEXv0qguf0Ti0V" version="21.2.9" type="github">
   <diagram name="第 1 页" id="lo6eDNQRnQ-R9a4vSu1y">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -72,6 +72,12 @@
         </mxCell>
         <mxCell id="QVYxjn7rWvsuamNu2KSq-28" value="更新ZK节点状态（按理说）&lt;br&gt;&lt;div&gt;logicServerInfo.updateServerStatus(EnumConstant.ServerStatusEnum.SERVER_ONLINE);&lt;/div&gt;&lt;div&gt;// 上线后所有的login都需要把符合条件的角色迁移到新的logic上&lt;/div&gt;&lt;div&gt;logicServiceHandler.forceUserToNewLogic(logicServerInfo.id);&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="1150" y="280" width="490" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="QVYxjn7rWvsuamNu2KSq-29" value="Channel服务逻辑" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="695" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVYxjn7rWvsuamNu2KSq-30" value="AbstractChannelServerOnlineOfflineHandler" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="690" width="1295" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
