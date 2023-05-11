@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-11T05:48:41.212Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="YCJVYSHN3NcnFZieQSid" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-11T07:13:32.145Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="Uj-qtKLyzFvv8zGhi5xb" version="21.2.9" type="github">
   <diagram name="第 1 页" id="lo6eDNQRnQ-R9a4vSu1y">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -156,6 +156,9 @@
         </mxCell>
         <mxCell id="QVYxjn7rWvsuamNu2KSq-57" value="试成为master节点" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1721.88" y="1260" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVYxjn7rWvsuamNu2KSq-58" value="注意：channel是单实例的，就是serverType+gamemode实际上就确定了一个进程&lt;br&gt;match 6001&lt;br&gt;match 6002" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1035" width="460" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
