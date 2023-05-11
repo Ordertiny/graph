@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-11T02:37:50.885Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="zavKaIayounj9ThFYT1H" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-11T02:47:33.715Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="iEBuXpZPanG6v-fkwa91" version="21.2.9" type="github">
   <diagram name="第 1 页" id="lo6eDNQRnQ-R9a4vSu1y">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -11,22 +11,61 @@
           <mxGeometry x="20" y="30" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QVYxjn7rWvsuamNu2KSq-4" value="LogicServerOnlineOfflineHandler" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="150" width="220" height="40" as="geometry" />
+          <mxGeometry x="355" y="120" width="635" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QVYxjn7rWvsuamNu2KSq-5" value="上线" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="250" y="155" width="50" height="30" as="geometry" />
+          <mxGeometry x="250" y="210" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QVYxjn7rWvsuamNu2KSq-6" value="从下线缓存移除当前上线服务" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QVYxjn7rWvsuamNu2KSq-6" value="从离线缓存Map移除当前上线服务" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="355" y="260" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QVYxjn7rWvsuamNu2KSq-7" value="本地有个下线服务Map缓存" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="140" y="260" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QVYxjn7rWvsuamNu2KSq-8" value="将该服务加入负载均衡器中" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="355" y="330" width="190" height="30" as="geometry" />
+        <mxCell id="QVYxjn7rWvsuamNu2KSq-8" value="将该服务加入Logic管理器中" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="360" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QVYxjn7rWvsuamNu2KSq-9" value="看起来好像只能先下线" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="160" y="330" width="140" height="30" as="geometry" />
+        <mxCell id="QVYxjn7rWvsuamNu2KSq-9" value="看起来好像只能先下线，不能直接上线" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="75" y="360" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVYxjn7rWvsuamNu2KSq-10" value="更新服务状态-上线" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="420" width="195" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVYxjn7rWvsuamNu2KSq-12" value="onlineServer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="210" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVYxjn7rWvsuamNu2KSq-13" value="将服务状态设为 上线" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="357.5" y="480" width="192.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVYxjn7rWvsuamNu2KSq-14" value="强制 role 迁移" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="540" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVYxjn7rWvsuamNu2KSq-15" value="offlineServer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="210" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVYxjn7rWvsuamNu2KSq-17" value="下线" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="690" y="210" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVYxjn7rWvsuamNu2KSq-18" value="根据serverId 找到LogicServerInfo" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="765" y="260" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVYxjn7rWvsuamNu2KSq-20" value="zk 写入节点状态 false" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="775" y="310" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVYxjn7rWvsuamNu2KSq-21" value="zk 写入节点状态 true" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="310" width="185" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVYxjn7rWvsuamNu2KSq-22" value="更新服务状态-下线" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="420" width="195" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVYxjn7rWvsuamNu2KSq-24" value="将服务加入到 离线缓存Map中" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="470" width="195" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVYxjn7rWvsuamNu2KSq-25" value="Logic管理器释放节点" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="785" y="520" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QVYxjn7rWvsuamNu2KSq-26" value="将服务状态设为 下线" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="570" width="192.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
