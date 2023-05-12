@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-11T07:26:04.984Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="lv1O3wOWKLeWmgRRO0Q6" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-12T01:26:23.927Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="jZBbWBBEhO5hK56Sbhci" version="21.2.9" type="github">
   <diagram name="第 1 页" id="lo6eDNQRnQ-R9a4vSu1y">
-    <mxGraphModel dx="1142" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1674" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -74,7 +74,7 @@
           <mxGeometry x="1150" y="280" width="490" height="90" as="geometry" />
         </mxCell>
         <mxCell id="QVYxjn7rWvsuamNu2KSq-29" value="Channel服务逻辑" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="110" y="695" width="120" height="30" as="geometry" />
+          <mxGeometry x="200" y="690" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QVYxjn7rWvsuamNu2KSq-30" value="AbstractChannelServerOnlineOfflineHandler" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="355" y="690" width="1295" height="40" as="geometry" />
@@ -158,7 +158,7 @@
           <mxGeometry x="1721.88" y="1260" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QVYxjn7rWvsuamNu2KSq-58" value="注意：channel是单实例的，就是serverType+gamemode实际上就确定了一个进程&lt;br&gt;match 6001&lt;br&gt;match 6002" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="80" y="1035" width="460" height="60" as="geometry" />
+          <mxGeometry x="190" y="1030" width="460" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QVYxjn7rWvsuamNu2KSq-60" value="竞选master是为了保证同一个模式只有一个匹配服务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1960" y="1260" width="300" height="30" as="geometry" />
