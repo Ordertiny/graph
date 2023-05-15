@@ -1,9 +1,101 @@
-<mxfile host="app.diagrams.net" modified="2023-05-15T08:12:18.131Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.2.9" etag="CMofU8YccBGyRyWeG0_5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-15T08:22:36.343Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="3_EiTeB7vyyYIJt7uRFd" version="21.2.9" type="github">
   <diagram name="第 1 页" id="uwX0tmavyEd_cTAiMFZv">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="IAfTvrnOz8ujcvWwOnH3-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IAfTvrnOz8ujcvWwOnH3-1" target="IAfTvrnOz8ujcvWwOnH3-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IAfTvrnOz8ujcvWwOnH3-1" value="发送新任务流程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="150" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IAfTvrnOz8ujcvWwOnH3-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IAfTvrnOz8ujcvWwOnH3-2" target="IAfTvrnOz8ujcvWwOnH3-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IAfTvrnOz8ujcvWwOnH3-2" value="获取最近一次创建任务时间CT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="230" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IAfTvrnOz8ujcvWwOnH3-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IAfTvrnOz8ujcvWwOnH3-3" target="IAfTvrnOz8ujcvWwOnH3-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IAfTvrnOz8ujcvWwOnH3-3" value="获取最近一次已领取任务时间RT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IAfTvrnOz8ujcvWwOnH3-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="IAfTvrnOz8ujcvWwOnH3-4" target="IAfTvrnOz8ujcvWwOnH3-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IAfTvrnOz8ujcvWwOnH3-4" value="计算CT和当前时间间隔天数 CTDay" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="370" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IAfTvrnOz8ujcvWwOnH3-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="IAfTvrnOz8ujcvWwOnH3-5" target="IAfTvrnOz8ujcvWwOnH3-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IAfTvrnOz8ujcvWwOnH3-5" value="计算RT和当前时间间隔天数 RTDay" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="550" y="430" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IAfTvrnOz8ujcvWwOnH3-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="IAfTvrnOz8ujcvWwOnH3-7" target="IAfTvrnOz8ujcvWwOnH3-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IAfTvrnOz8ujcvWwOnH3-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IAfTvrnOz8ujcvWwOnH3-7" target="IAfTvrnOz8ujcvWwOnH3-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="790" y="530" />
+              <mxPoint x="790" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IAfTvrnOz8ujcvWwOnH3-7" value="玩家未领取任务数 &amp;lt; 6&lt;br&gt;且&lt;br&gt;CTDay &amp;gt; 0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="490" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IAfTvrnOz8ujcvWwOnH3-8" value="CTDay 可以理解为最近一次刷新任务间隔天数&lt;br&gt;注：玩家第一次进来默认为1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="370" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IAfTvrnOz8ujcvWwOnH3-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="IAfTvrnOz8ujcvWwOnH3-9" target="IAfTvrnOz8ujcvWwOnH3-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IAfTvrnOz8ujcvWwOnH3-9" value="应获得任务数Num=&lt;br&gt;min(CTDays*3, 6-玩家进行中任务数)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="600" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IAfTvrnOz8ujcvWwOnH3-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="IAfTvrnOz8ujcvWwOnH3-10" target="IAfTvrnOz8ujcvWwOnH3-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IAfTvrnOz8ujcvWwOnH3-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IAfTvrnOz8ujcvWwOnH3-10" target="IAfTvrnOz8ujcvWwOnH3-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IAfTvrnOz8ujcvWwOnH3-10" value="num&amp;gt;3&lt;br&gt;且&lt;br&gt;RTDays ==1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="535" y="680" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IAfTvrnOz8ujcvWwOnH3-11" value="如果应获得任务数大于3条，且上次领取任务时间间隔1天，则强制为3条" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="700" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IAfTvrnOz8ujcvWwOnH3-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="IAfTvrnOz8ujcvWwOnH3-12" target="IAfTvrnOz8ujcvWwOnH3-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IAfTvrnOz8ujcvWwOnH3-12" value="num=3" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="550" y="790" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IAfTvrnOz8ujcvWwOnH3-14" value="结束" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IAfTvrnOz8ujcvWwOnH3-17" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="620" y="758" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IAfTvrnOz8ujcvWwOnH3-18" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="700" y="720" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IAfTvrnOz8ujcvWwOnH3-21" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="620" y="570" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IAfTvrnOz8ujcvWwOnH3-23" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="720" y="498" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IAfTvrnOz8ujcvWwOnH3-29" value="红色为本次新增流程" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="100" y="830" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IAfTvrnOz8ujcvWwOnH3-30" value="3和6是根据global_data配置&lt;br&gt;3是293&lt;br&gt;6是292" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="860" width="170" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
