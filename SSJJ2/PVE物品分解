@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-22T06:59:19.595Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Gg2a2H1RzwdrtDcZkrS3" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-22T07:23:28.745Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="oe_bumtTPBKEzIdFWh1A" version="21.3.2" type="github">
   <diagram name="第 1 页" id="3f78dTXEGv6ihF1fsG1J">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -22,11 +22,17 @@
         <mxCell id="zc44xcRpZzDUty0XXRJF-6" value="获取PveMod的Level" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="510" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zc44xcRpZzDUty0XXRJF-7" value="这个比率为啥不读表" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="400" y="275" width="130" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="zc44xcRpZzDUty0XXRJF-8" value="从&lt;br&gt;PveModLevelTemplate&lt;br&gt;获取返还比率" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zc44xcRpZzDUty0XXRJF-9" value="获取PveMod配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zc44xcRpZzDUty0XXRJF-10" value="计算从L1-》当前经验" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zc44xcRpZzDUty0XXRJF-11" value="经验返还公式 =&amp;nbsp;&lt;br&gt;(基础经验+获得经验)*比例(读表)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="250" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
