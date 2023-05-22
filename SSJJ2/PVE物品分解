@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-22T06:52:04.953Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="6wwM15AmjRmSUhG2j0QN" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-22T06:56:27.827Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="GXm7R2jNdUgkaaXPhiC3" version="21.3.2" type="github">
   <diagram name="第 1 页" id="3f78dTXEGv6ihF1fsG1J">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -6,6 +6,18 @@
         <mxCell id="1" parent="0" />
         <mxCell id="zc44xcRpZzDUty0XXRJF-1" value="获取PveMod配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zc44xcRpZzDUty0XXRJF-2" value="获取1级经验作为基础经验" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zc44xcRpZzDUty0XXRJF-3" value="获取回收比例ratio(364)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zc44xcRpZzDUty0XXRJF-4" value="计算基础经验=Leve1Exp * ratio" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zc44xcRpZzDUty0XXRJF-5" value="如果此时物品未落库（卡池），直接返回基础经验对应的道具" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="430" width="330" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
