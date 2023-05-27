@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-27T06:34:45.140Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="513_V58nIC3hOhoo85vJ" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-27T06:43:42.420Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="DWKS2mFqafOhEdXVFs3T" version="21.3.2" type="github">
   <diagram name="第 1 页" id="wGoyXtgaCvN9eMZ-7U0j">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vhMgLgCbLFib4qxDdNq4-1" value="Pve武器装备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="990" y="70" width="120" height="60" as="geometry" />
+          <mxGeometry x="990" y="90" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vhMgLgCbLFib4qxDdNq4-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vhMgLgCbLFib4qxDdNq4-2" target="vhMgLgCbLFib4qxDdNq4-3">
           <mxGeometry relative="1" as="geometry" />
@@ -102,6 +102,185 @@
         </mxCell>
         <mxCell id="vhMgLgCbLFib4qxDdNq4-34" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="930" y="640" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vhMgLgCbLFib4qxDdNq4-36" target="vhMgLgCbLFib4qxDdNq4-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-36" value="Pve武器装备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="90" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vhMgLgCbLFib4qxDdNq4-39" target="vhMgLgCbLFib4qxDdNq4-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vhMgLgCbLFib4qxDdNq4-39" target="vhMgLgCbLFib4qxDdNq4-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-39" value="验证武器实例存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1775" y="160" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vhMgLgCbLFib4qxDdNq4-42" target="vhMgLgCbLFib4qxDdNq4-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vhMgLgCbLFib4qxDdNq4-42" target="vhMgLgCbLFib4qxDdNq4-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-42" value="验证是否重复装备" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1775" y="260" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vhMgLgCbLFib4qxDdNq4-45" target="vhMgLgCbLFib4qxDdNq4-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="vhMgLgCbLFib4qxDdNq4-45" target="vhMgLgCbLFib4qxDdNq4-82">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2038" y="380" />
+              <mxPoint x="2038" y="140" />
+              <mxPoint x="2235" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-45" value="验证武器模板表存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1775" y="350" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1" source="vhMgLgCbLFib4qxDdNq4-48" target="vhMgLgCbLFib4qxDdNq4-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="vhMgLgCbLFib4qxDdNq4-48" target="vhMgLgCbLFib4qxDdNq4-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-48" value="验证槽位是否满足" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1765" y="540" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vhMgLgCbLFib4qxDdNq4-51" target="vhMgLgCbLFib4qxDdNq4-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vhMgLgCbLFib4qxDdNq4-51" target="vhMgLgCbLFib4qxDdNq4-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-51" value="验证是否满足芯片" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1765" y="640" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-52" value="ALREADY_EQUIP_ON_THIS_SLOT" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="270" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-53" value="ITEM_NOT_EXIST" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="170" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-54" value="ITEM_TEMPLATE_NOT_EXIST" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="360" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vhMgLgCbLFib4qxDdNq4-58" target="vhMgLgCbLFib4qxDdNq4-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vhMgLgCbLFib4qxDdNq4-58" target="vhMgLgCbLFib4qxDdNq4-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-58" value="验证武器是否允许装备" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1775" y="440" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-59" value="WEAPON_EQUIP_NOT_MATCH_BAG_SLOT" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="450" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-60" value="WEAPON_AND_CHIP_TYPE_ERROR" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="650" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-61" value="SUCCESS" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="740" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-62" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1725" y="160" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-63" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1725" y="260" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-64" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1725" y="350" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-65" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1725" y="440" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-67" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="640" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vhMgLgCbLFib4qxDdNq4-69" target="vhMgLgCbLFib4qxDdNq4-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vhMgLgCbLFib4qxDdNq4-69" target="vhMgLgCbLFib4qxDdNq4-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-69" value="当前装备的是否&lt;br&gt;特殊武器" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2130" y="535" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-70" value="WEAPON_EQUIP_NOT_MATCH_BAG_SLOT" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2341" y="550" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="vhMgLgCbLFib4qxDdNq4-71" target="vhMgLgCbLFib4qxDdNq4-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vhMgLgCbLFib4qxDdNq4-71" target="vhMgLgCbLFib4qxDdNq4-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-71" value="验证是否匹配特殊槽位" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2130" y="640" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-72" value="WEAPON_EQUIP_NOT_MATCH_BAG_SLOT" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2341" y="655" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-75" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2070" y="528" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-77" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2290" y="528" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-81" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2290" y="650" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vhMgLgCbLFib4qxDdNq4-82" target="vhMgLgCbLFib4qxDdNq4-58">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2100" y="220" />
+              <mxPoint x="2100" y="430" />
+              <mxPoint x="1840" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vhMgLgCbLFib4qxDdNq4-82" target="vhMgLgCbLFib4qxDdNq4-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-82" value="是否特殊槽位" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2170" y="190" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vhMgLgCbLFib4qxDdNq4-84" target="vhMgLgCbLFib4qxDdNq4-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="vhMgLgCbLFib4qxDdNq4-84" target="vhMgLgCbLFib4qxDdNq4-58">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2235" y="430" />
+              <mxPoint x="1840" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-84" value="验证对应位置&lt;br&gt;是否有特殊武器" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2165" y="280" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-85" value="WEAPON_EQUIP_NOT_MATCH_BAG_SLOT" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2341" y="295" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-88" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2130" y="188" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-90" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2300" y="280" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-94" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2190" y="350" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-96" value="蓝色表示 新增流程" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2400" y="780" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-97" value="红色线表示修改流程" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="2400" y="840" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
