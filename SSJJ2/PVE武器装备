@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-27T07:06:04.715Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="f4uxFbBIgs2Pd20EbKgM" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-27T07:58:46.173Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="2uWVznP62KU016TXBG81" version="21.3.2" type="github">
   <diagram name="第 1 页" id="wGoyXtgaCvN9eMZ-7U0j">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -261,7 +261,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="vhMgLgCbLFib4qxDdNq4-84" value="验证对应位置&lt;br&gt;是否有特殊武器" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-84" value="验证对应位置&lt;br&gt;是否有特殊武器&lt;br&gt;且 特殊武器类型是该槽位的类型" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="2165" y="280" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="vhMgLgCbLFib4qxDdNq4-85" value="WEAPON_EQUIP_NOT_MATCH_BAG_SLOT" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
