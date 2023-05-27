@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-27T06:44:04.167Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="lYmji25LNMUvD2kSKDqU" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-27T07:06:04.715Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="f4uxFbBIgs2Pd20EbKgM" version="21.3.2" type="github">
   <diagram name="第 1 页" id="wGoyXtgaCvN9eMZ-7U0j">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -247,7 +247,7 @@
         <mxCell id="vhMgLgCbLFib4qxDdNq4-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vhMgLgCbLFib4qxDdNq4-82" target="vhMgLgCbLFib4qxDdNq4-84">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vhMgLgCbLFib4qxDdNq4-82" value="是否特殊槽位" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="vhMgLgCbLFib4qxDdNq4-82" value="验证当前槽位&lt;br&gt;是否特殊槽位" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="2170" y="190" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vhMgLgCbLFib4qxDdNq4-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="vhMgLgCbLFib4qxDdNq4-84" target="vhMgLgCbLFib4qxDdNq4-85">
