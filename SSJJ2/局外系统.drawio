@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-01T08:43:06.287Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="mXLJfRtpe8kquUqXn2_h" version="21.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-01T08:46:38.512Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="zwqq0CRV1Fsz8EXlB_jV" version="21.3.6" type="github">
   <diagram name="第 1 页" id="kdVOFN4OeXV8Te4mJ-ZW">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -120,38 +120,41 @@
         <mxCell id="3l4a-vmYQsrZcGw0gVcB-13" value="登录逻辑" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1632.5" y="160" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3l4a-vmYQsrZcGw0gVcB-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3l4a-vmYQsrZcGw0gVcB-14" target="3l4a-vmYQsrZcGw0gVcB-15">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="3l4a-vmYQsrZcGw0gVcB-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3l4a-vmYQsrZcGw0gVcB-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1692.5" y="300" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="3l4a-vmYQsrZcGw0gVcB-14" value="获取配置了角色资料的角色ID" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1605" y="230" width="175" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3l4a-vmYQsrZcGw0gVcB-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3l4a-vmYQsrZcGw0gVcB-15" target="3l4a-vmYQsrZcGw0gVcB-18">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3l4a-vmYQsrZcGw0gVcB-15" value="筛选玩家拥有的角色的角色资料" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1605" y="300" width="175" height="40" as="geometry" />
+        <mxCell id="3l4a-vmYQsrZcGw0gVcB-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="3l4a-vmYQsrZcGw0gVcB-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1692.5" y="340" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="3l4a-vmYQsrZcGw0gVcB-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3l4a-vmYQsrZcGw0gVcB-18" target="3l4a-vmYQsrZcGw0gVcB-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3l4a-vmYQsrZcGw0gVcB-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3l4a-vmYQsrZcGw0gVcB-18" target="3l4a-vmYQsrZcGw0gVcB-23">
+        <mxCell id="3l4a-vmYQsrZcGw0gVcB-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3l4a-vmYQsrZcGw0gVcB-18">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1605" y="320" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1860" y="400" />
-              <mxPoint x="1860" y="250" />
+              <mxPoint x="1570" y="400" />
+              <mxPoint x="1570" y="320" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="3l4a-vmYQsrZcGw0gVcB-18" value="是否有角色资料&lt;br&gt;进度entity" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1620" y="370" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3l4a-vmYQsrZcGw0gVcB-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3l4a-vmYQsrZcGw0gVcB-19" target="3l4a-vmYQsrZcGw0gVcB-23">
+        <mxCell id="3l4a-vmYQsrZcGw0gVcB-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3l4a-vmYQsrZcGw0gVcB-19" target="3l4a-vmYQsrZcGw0gVcB-49">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1690" y="520" />
-              <mxPoint x="1860" y="520" />
-              <mxPoint x="1860" y="250" />
+              <mxPoint x="1570" y="520" />
+              <mxPoint x="1570" y="320" />
+              <mxPoint x="1599" y="320" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -173,8 +176,10 @@
         <mxCell id="3l4a-vmYQsrZcGw0gVcB-28" value="推送到蓝点系统" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1940" y="365" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3l4a-vmYQsrZcGw0gVcB-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3l4a-vmYQsrZcGw0gVcB-30" target="3l4a-vmYQsrZcGw0gVcB-33">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="3l4a-vmYQsrZcGw0gVcB-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3l4a-vmYQsrZcGw0gVcB-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1692.5" y="670" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="3l4a-vmYQsrZcGw0gVcB-30" value="进大厅时" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1620" y="600" width="150" height="40" as="geometry" />
@@ -182,11 +187,10 @@
         <mxCell id="3l4a-vmYQsrZcGw0gVcB-32" value="通知蓝点系统通知客户端" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1622.5" y="770" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3l4a-vmYQsrZcGw0gVcB-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3l4a-vmYQsrZcGw0gVcB-33" target="3l4a-vmYQsrZcGw0gVcB-32">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="3l4a-vmYQsrZcGw0gVcB-33" value="蓝点系统判定&lt;br&gt;是否有未读" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1627.5" y="670" width="130" height="60" as="geometry" />
+        <mxCell id="3l4a-vmYQsrZcGw0gVcB-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="3l4a-vmYQsrZcGw0gVcB-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1692.5" y="730" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="3l4a-vmYQsrZcGw0gVcB-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3l4a-vmYQsrZcGw0gVcB-36" target="3l4a-vmYQsrZcGw0gVcB-38">
           <mxGeometry relative="1" as="geometry" />
@@ -211,6 +215,27 @@
         </mxCell>
         <mxCell id="3l4a-vmYQsrZcGw0gVcB-44" value="此处有可能没进大厅，推送进度，大厅无法收到" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1880" y="430" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3l4a-vmYQsrZcGw0gVcB-47" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="375" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3l4a-vmYQsrZcGw0gVcB-48" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="430" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3l4a-vmYQsrZcGw0gVcB-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3l4a-vmYQsrZcGw0gVcB-49" target="3l4a-vmYQsrZcGw0gVcB-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3l4a-vmYQsrZcGw0gVcB-49" value="筛选玩家拥有的角色的角色资料" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1589" y="300" width="202" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3l4a-vmYQsrZcGw0gVcB-51" value="继续循环" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1565" y="498" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3l4a-vmYQsrZcGw0gVcB-53" value="循环结束" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1791" y="290" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3l4a-vmYQsrZcGw0gVcB-54" value="&lt;div&gt;蓝点系统判定&lt;/div&gt;&lt;div&gt;是否有未读&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1617.5" y="670" width="150" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
