@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-01T08:46:38.512Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="zwqq0CRV1Fsz8EXlB_jV" version="21.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-01T09:32:53.901Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="EUGgM12B6j9c84kTKnOA" version="21.3.6" type="github">
   <diagram name="第 1 页" id="kdVOFN4OeXV8Te4mJ-ZW">
-    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -196,22 +196,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3l4a-vmYQsrZcGw0gVcB-36" value="消除蓝点" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2000" y="600" width="150" height="40" as="geometry" />
+          <mxGeometry x="2000" y="610" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3l4a-vmYQsrZcGw0gVcB-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3l4a-vmYQsrZcGw0gVcB-38" target="3l4a-vmYQsrZcGw0gVcB-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3l4a-vmYQsrZcGw0gVcB-38" value="找到对应蓝点服务" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3l4a-vmYQsrZcGw0gVcB-38" value="根据枚举参数找到系统服务" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2000" y="680" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3l4a-vmYQsrZcGw0gVcB-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3l4a-vmYQsrZcGw0gVcB-39" target="3l4a-vmYQsrZcGw0gVcB-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3l4a-vmYQsrZcGw0gVcB-39" value="修改资料，取消蓝点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2000" y="770" width="150" height="40" as="geometry" />
+        <mxCell id="3l4a-vmYQsrZcGw0gVcB-39" value="角色资料系统将对应资料取消蓝点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2000" y="750" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3l4a-vmYQsrZcGw0gVcB-40" value="清除蓝点对应标记" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2000" y="850" width="150" height="40" as="geometry" />
+        <mxCell id="3l4a-vmYQsrZcGw0gVcB-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3l4a-vmYQsrZcGw0gVcB-40" target="3l4a-vmYQsrZcGw0gVcB-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3l4a-vmYQsrZcGw0gVcB-40" value="发送取消蓝点事件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="2000" y="820" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3l4a-vmYQsrZcGw0gVcB-44" value="此处有可能没进大厅，推送进度，大厅无法收到" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1880" y="430" width="280" height="30" as="geometry" />
@@ -236,6 +239,63 @@
         </mxCell>
         <mxCell id="3l4a-vmYQsrZcGw0gVcB-54" value="&lt;div&gt;蓝点系统判定&lt;/div&gt;&lt;div&gt;是否有未读&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1617.5" y="670" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3l4a-vmYQsrZcGw0gVcB-55" value="例如是资料系统" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2070" y="720" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3l4a-vmYQsrZcGw0gVcB-56" value="蓝点缓存取消" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2000" y="880" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3l4a-vmYQsrZcGw0gVcB-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3l4a-vmYQsrZcGw0gVcB-66" target="3l4a-vmYQsrZcGw0gVcB-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3l4a-vmYQsrZcGw0gVcB-66" value="角色资料-判定解锁资料" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2230" y="615" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3l4a-vmYQsrZcGw0gVcB-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3l4a-vmYQsrZcGw0gVcB-67" target="3l4a-vmYQsrZcGw0gVcB-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3l4a-vmYQsrZcGw0gVcB-67" value="角色资料标记为蓝点状态" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2230" y="680" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3l4a-vmYQsrZcGw0gVcB-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3l4a-vmYQsrZcGw0gVcB-68" target="3l4a-vmYQsrZcGw0gVcB-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3l4a-vmYQsrZcGw0gVcB-68" value="发送增加蓝点事件" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="2230" y="745" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3l4a-vmYQsrZcGw0gVcB-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3l4a-vmYQsrZcGw0gVcB-69" target="3l4a-vmYQsrZcGw0gVcB-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3l4a-vmYQsrZcGw0gVcB-69" value="蓝点缓存标记对应蓝点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2230" y="805" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3l4a-vmYQsrZcGw0gVcB-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3l4a-vmYQsrZcGw0gVcB-71" target="3l4a-vmYQsrZcGw0gVcB-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3l4a-vmYQsrZcGw0gVcB-71" value="获取蓝点" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2460" y="615" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3l4a-vmYQsrZcGw0gVcB-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3l4a-vmYQsrZcGw0gVcB-73" target="3l4a-vmYQsrZcGw0gVcB-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3l4a-vmYQsrZcGw0gVcB-73" value="蓝点缓存查找对应系统的位图" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2460" y="685" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3l4a-vmYQsrZcGw0gVcB-83" value="新增蓝点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2270" y="575" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3l4a-vmYQsrZcGw0gVcB-84" value="蓝点缓存获取业务系统蓝点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2458" y="575" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3l4a-vmYQsrZcGw0gVcB-85" value="返回是否有蓝点&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;不支持返回具体蓝点哪一个&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2460" y="745" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3l4a-vmYQsrZcGw0gVcB-86" value="由蓝点缓存统一通知客户端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2230" y="875" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3l4a-vmYQsrZcGw0gVcB-92" value="消除蓝点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="575" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
