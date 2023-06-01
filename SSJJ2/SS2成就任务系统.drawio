@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-01T06:19:35.837Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="PdZ3ANwMMmN-i9CExh7u" version="21.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-01T08:05:29.531Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="0oEQJqCH9cjGonc0uut4" version="21.3.6" type="github">
   <diagram id="ENxEs4GuXWoanbtWAxck" name="第 1 页">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -529,6 +529,23 @@
         </mxCell>
         <mxCell id="qh5if6X5rxDFb2PUgvWU-109" value="红色内容为本次新增" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1785" y="930" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qh5if6X5rxDFb2PUgvWU-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF3333;" edge="1" parent="1" source="qh5if6X5rxDFb2PUgvWU-110" target="qh5if6X5rxDFb2PUgvWU-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2075" y="290" />
+              <mxPoint x="1900" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qh5if6X5rxDFb2PUgvWU-110" value="结算处理成就" style="whiteSpace=wrap;html=1;strokeColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="2005" y="230" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qh5if6X5rxDFb2PUgvWU-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#FF3333;" edge="1" parent="1" source="qh5if6X5rxDFb2PUgvWU-111" target="qh5if6X5rxDFb2PUgvWU-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qh5if6X5rxDFb2PUgvWU-111" value="收到PVE结算协议" style="whiteSpace=wrap;html=1;strokeColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="2005" y="160" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
