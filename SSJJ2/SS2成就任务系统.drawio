@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-07T12:56:13.937Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="4vxlveKQeFcM-ai4DJJA" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-07T12:57:09.422Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="uKC_ZqgFjPexCYyPx1Sf" version="21.3.7" type="github">
   <diagram id="ENxEs4GuXWoanbtWAxck" name="第 1 页">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -407,7 +407,7 @@
         <mxCell id="qh5if6X5rxDFb2PUgvWU-56" value="通知客户端（批量）" style="whiteSpace=wrap;html=1;strokeColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="2100" y="1050" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qh5if6X5rxDFb2PUgvWU-59" value="异步更新" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" parent="1" vertex="1">
+        <mxCell id="qh5if6X5rxDFb2PUgvWU-59" value="同步更新" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="1990" y="370" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qh5if6X5rxDFb2PUgvWU-61" value="原始流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
