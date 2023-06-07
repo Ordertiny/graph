@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-07T12:55:01.970Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="k8iMoLbSNEVnMq2NMFZm" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-07T12:56:13.937Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="4vxlveKQeFcM-ai4DJJA" version="21.3.7" type="github">
   <diagram id="ENxEs4GuXWoanbtWAxck" name="第 1 页">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -458,7 +458,7 @@
         <mxCell id="qh5if6X5rxDFb2PUgvWU-71" value="循环成就Map&lt;font color=&quot;#ff3333&quot;&gt;（包含已完成的累计多局任务）&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="1260" y="1205" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qh5if6X5rxDFb2PUgvWU-72" value="成就状态：不可领取&lt;br&gt;成就进度：进度" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="qh5if6X5rxDFb2PUgvWU-72" value="成就状态：原状态&lt;br&gt;成就进度：进度" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1105" y="1590" width="142" height="40" as="geometry" />
         </mxCell>
         <mxCell id="qh5if6X5rxDFb2PUgvWU-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="qh5if6X5rxDFb2PUgvWU-73" target="qh5if6X5rxDFb2PUgvWU-74" edge="1">
@@ -553,7 +553,7 @@
         <mxCell id="kUKS1Cz0ec9DYAM7edZr-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kUKS1Cz0ec9DYAM7edZr-1" target="kUKS1Cz0ec9DYAM7edZr-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kUKS1Cz0ec9DYAM7edZr-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.825;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="kUKS1Cz0ec9DYAM7edZr-9">
+        <mxCell id="kUKS1Cz0ec9DYAM7edZr-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.825;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;strokeColor=#FF3333;" edge="1" parent="1" source="kUKS1Cz0ec9DYAM7edZr-9">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1601.5" y="1575" as="sourcePoint" />
             <mxPoint x="1400.5" y="1575" as="targetPoint" />
@@ -567,7 +567,7 @@
         <mxCell id="kUKS1Cz0ec9DYAM7edZr-1" value="是否已完成" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="1603.5" y="1550" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="kUKS1Cz0ec9DYAM7edZr-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kUKS1Cz0ec9DYAM7edZr-3" target="qh5if6X5rxDFb2PUgvWU-74">
+        <mxCell id="kUKS1Cz0ec9DYAM7edZr-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF3333;" edge="1" parent="1" source="kUKS1Cz0ec9DYAM7edZr-3" target="qh5if6X5rxDFb2PUgvWU-74">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1659" y="1675" />
