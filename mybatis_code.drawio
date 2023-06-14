@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T02:56:22.073Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="rFYuGEzBzkjQy0xK_THv" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-14T02:57:20.143Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="t3YXjOR_KpK4azxBxARc" version="21.3.7" type="github">
   <diagram name="第 1 页" id="8moscndvdpV5RSmBcOwa">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -34,8 +34,29 @@
         <mxCell id="LAEddHHhVlXlAhCUqJPJ-12" value="mapper.getMethods()" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="962.5" y="330" width="175" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="LAEddHHhVlXlAhCUqJPJ-13" target="LAEddHHhVlXlAhCUqJPJ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LAEddHHhVlXlAhCUqJPJ-13" target="LAEddHHhVlXlAhCUqJPJ-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1155" y="420" />
+              <mxPoint x="1155" y="520" />
+              <mxPoint x="1050" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="LAEddHHhVlXlAhCUqJPJ-13" value="是否有@Select或&lt;br&gt;@SelectProvider&lt;br&gt;且加了@ResultMap" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="965" y="380" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LAEddHHhVlXlAhCUqJPJ-14" target="LAEddHHhVlXlAhCUqJPJ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-14" value="parseResultMap" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="480" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-15" value="parseStatement" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="540" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
