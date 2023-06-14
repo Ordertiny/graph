@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T02:35:41.900Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ACRvZAbEzacdpuRAk113" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-14T02:36:50.600Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="NrUkeyjJBF_4DgrOZ4iW" version="21.3.7" type="github">
   <diagram name="第 1 页" id="8moscndvdpV5RSmBcOwa">
     <mxGraphModel dx="1129" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -8,13 +8,16 @@
           <mxGeometry x="220" y="40" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LAEddHHhVlXlAhCUqJPJ-4" value="addMapper()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="225" y="120" width="140" height="40" as="geometry" />
+          <mxGeometry x="225" y="100" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LAEddHHhVlXlAhCUqJPJ-5" value="mapperRegistry.addMapper(type);" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="185" y="190" width="220" height="40" as="geometry" />
+          <mxGeometry x="185" y="160" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LAEddHHhVlXlAhCUqJPJ-6" value="MapperRegistry" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="40" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-7" value="addMapper()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="160" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
