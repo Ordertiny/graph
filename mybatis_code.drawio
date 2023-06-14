@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T03:34:45.498Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="L0T9WDuEYiuHyw9BinqZ" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-14T03:46:16.446Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="8R8bhfyrR7lRw71zWwSv" version="21.3.7" type="github">
   <diagram name="第 1 页" id="8moscndvdpV5RSmBcOwa">
     <mxGraphModel dx="1129" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -83,7 +83,22 @@
           <mxGeometry x="1245" y="660" width="155" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LAEddHHhVlXlAhCUqJPJ-26" value="设置KeyGenerator" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1262.5" y="740" width="120" height="30" as="geometry" />
+          <mxGeometry x="1265" y="740" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-27" value="MapperBuilderAssistant" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="40" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-28" value="assistant.addMappedStatement()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="800" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-29" value="addMappedStatement()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1515" y="800" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-30" value="构建MappedStatement" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1515" y="870" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-31" value="MappedStatement中包含 fetchSize&lt;br&gt;超时时间，结果集等数据" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1710" y="865" width="210" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
