@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-15T02:46:38.390Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="0QZ8OFIuD3WseZ8R35-C" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-15T09:12:19.809Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ZB43IYaH0pED-5nVM5rP" version="21.3.7" type="github">
   <diagram name="第 1 页" id="8moscndvdpV5RSmBcOwa">
-    <mxGraphModel dx="1195" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -313,6 +313,39 @@
         </mxCell>
         <mxCell id="LAEddHHhVlXlAhCUqJPJ-103" value="放入配置类中" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="355" y="1200" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-104" value="是否加了&lt;br&gt;@SelectKey" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1840" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-105" value="是否没加@Options" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="2002.5" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-106" value="配置类是否设置&lt;br&gt;isUseGeneratedKeys" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="482.5" y="2000" width="160" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-107" value="keyGenerator=&lt;br&gt;Jdbc3KeyGenerator.INSTANCE" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="467.5" y="2122.5" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-108" value="keyGenerator=&lt;br&gt;NoKeyGenerator.INSTANCE" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="697.5" y="2022.5" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-109" value="option是否&lt;br&gt;指定useGeneratedKeys" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="2202.5" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-111" value="keyGenerator=&lt;br&gt;Jdbc3KeyGenerator.INSTANCE" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="2300" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-112" value="&lt;div&gt;keyProperty = options.keyProperty();&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="2370" width="197.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-113" value="keyColumn = options.keyColumn();" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="2440" width="197.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-114" value="keyGenerator=&lt;br&gt;NoKeyGenerator.INSTANCE" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="467.5" y="2212.5" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-115" value="对statement属性值SQL&lt;br&gt;创建MappedStatement" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="688" y="1680" width="262" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
