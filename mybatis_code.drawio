@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-15T02:28:44.907Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Vx5_ziNna2X5cWB0NgGo" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-15T02:37:46.326Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="v0F5n08Rc1JVovny21iI" version="21.3.7" type="github">
   <diagram name="第 1 页" id="8moscndvdpV5RSmBcOwa">
     <mxGraphModel dx="1129" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -216,7 +216,7 @@
         <mxCell id="LAEddHHhVlXlAhCUqJPJ-66" value="applyResultMap()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="910" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LAEddHHhVlXlAhCUqJPJ-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LAEddHHhVlXlAhCUqJPJ-67" target="LAEddHHhVlXlAhCUqJPJ-76">
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FFB570;" edge="1" parent="1" source="LAEddHHhVlXlAhCUqJPJ-67" target="LAEddHHhVlXlAhCUqJPJ-76">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="840" y="1060" />
@@ -230,14 +230,23 @@
         <mxCell id="LAEddHHhVlXlAhCUqJPJ-68" value="applyDiscriminator()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="1110" width="170" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LAEddHHhVlXlAhCUqJPJ-69" target="LAEddHHhVlXlAhCUqJPJ-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="LAEddHHhVlXlAhCUqJPJ-69" value="assistant.addResultMap()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="1180" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LAEddHHhVlXlAhCUqJPJ-70" value="createDiscriminatorResultMaps()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="1250" width="190" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LAEddHHhVlXlAhCUqJPJ-71" target="LAEddHHhVlXlAhCUqJPJ-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="LAEddHHhVlXlAhCUqJPJ-71" value="循环遍历@Arg注解" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="490" y="980" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="LAEddHHhVlXlAhCUqJPJ-72" target="LAEddHHhVlXlAhCUqJPJ-74">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LAEddHHhVlXlAhCUqJPJ-72" value="构建ResultMapping" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="1040" width="150" height="30" as="geometry" />
@@ -251,14 +260,29 @@
         <mxCell id="LAEddHHhVlXlAhCUqJPJ-75" value="标记为构造函数使用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="665" y="1095" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LAEddHHhVlXlAhCUqJPJ-76" value="循环遍历@Result&lt;span style=&quot;background-color: initial;&quot;&gt;注解&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LAEddHHhVlXlAhCUqJPJ-76" target="LAEddHHhVlXlAhCUqJPJ-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-76" value="循环遍历@Result&lt;span style=&quot;background-color: initial;&quot;&gt;注解&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#FFB570;" vertex="1" parent="1">
           <mxGeometry x="872.5" y="980" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LAEddHHhVlXlAhCUqJPJ-77" value="构建ResultMapping" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-77" value="构建ResultMapping" style="whiteSpace=wrap;html=1;strokeColor=#FFB570;" vertex="1" parent="1">
           <mxGeometry x="882.5" y="1040" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="LAEddHHhVlXlAhCUqJPJ-78" value="每一column是一个RM" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1047.5" y="1040" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-89" value="构建ResultMap" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1180" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-90" value="将@Arg的RM放入&lt;br&gt;constructorResultMappings集合" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="485" y="1250" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-91" value="注：缩写声明&lt;br&gt;ResultMapping -&amp;gt; RM" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="825" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-92" value="将@Result的RM放入&lt;br&gt;propertyResultMappings集合" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="485" y="1320" width="190" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
