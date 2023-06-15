@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-15T09:26:37.803Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="OjdOOZKRSOUtp54VcDGf" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-15T09:27:01.366Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="41lhTV6ozPKsH4r5h5_1" version="21.3.7" type="github">
   <diagram name="第 1 页" id="8moscndvdpV5RSmBcOwa">
     <mxGraphModel dx="1129" dy="625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -329,7 +329,7 @@
         <mxCell id="LAEddHHhVlXlAhCUqJPJ-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LAEddHHhVlXlAhCUqJPJ-105" target="LAEddHHhVlXlAhCUqJPJ-109">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LAEddHHhVlXlAhCUqJPJ-105" value="是否没加@Options" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-105" value="是否没加@Options" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="240" y="2002.5" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="LAEddHHhVlXlAhCUqJPJ-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="LAEddHHhVlXlAhCUqJPJ-106" target="LAEddHHhVlXlAhCUqJPJ-107">
@@ -338,13 +338,13 @@
         <mxCell id="LAEddHHhVlXlAhCUqJPJ-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LAEddHHhVlXlAhCUqJPJ-106" target="LAEddHHhVlXlAhCUqJPJ-108">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LAEddHHhVlXlAhCUqJPJ-106" value="配置类是否设置&lt;br&gt;isUseGeneratedKeys" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-106" value="配置类是否设置&lt;br&gt;isUseGeneratedKeys" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="482.5" y="2000" width="160" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="LAEddHHhVlXlAhCUqJPJ-107" value="keyGenerator=&lt;br&gt;Jdbc3KeyGenerator.INSTANCE" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-107" value="keyGenerator=&lt;br&gt;Jdbc3KeyGenerator.INSTANCE" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="462.5" y="2122.5" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LAEddHHhVlXlAhCUqJPJ-108" value="keyGenerator=&lt;br&gt;NoKeyGenerator.INSTANCE" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-108" value="keyGenerator=&lt;br&gt;NoKeyGenerator.INSTANCE" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="682.5" y="2017.5" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LAEddHHhVlXlAhCUqJPJ-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LAEddHHhVlXlAhCUqJPJ-109" target="LAEddHHhVlXlAhCUqJPJ-114">
@@ -353,25 +353,25 @@
         <mxCell id="LAEddHHhVlXlAhCUqJPJ-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="LAEddHHhVlXlAhCUqJPJ-109" target="LAEddHHhVlXlAhCUqJPJ-111">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LAEddHHhVlXlAhCUqJPJ-109" value="option是否&lt;br&gt;指定useGeneratedKeys" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-109" value="option是否&lt;br&gt;指定useGeneratedKeys" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="235" y="2180" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LAEddHHhVlXlAhCUqJPJ-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LAEddHHhVlXlAhCUqJPJ-111" target="LAEddHHhVlXlAhCUqJPJ-112">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LAEddHHhVlXlAhCUqJPJ-111" value="keyGenerator=&lt;br&gt;Jdbc3KeyGenerator.INSTANCE" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-111" value="keyGenerator=&lt;br&gt;Jdbc3KeyGenerator.INSTANCE" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="220" y="2260" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LAEddHHhVlXlAhCUqJPJ-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="LAEddHHhVlXlAhCUqJPJ-112" target="LAEddHHhVlXlAhCUqJPJ-113">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LAEddHHhVlXlAhCUqJPJ-112" value="&lt;div&gt;keyProperty = options.keyProperty();&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-112" value="&lt;div&gt;keyProperty = options.keyProperty();&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="220" y="2320" width="197.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LAEddHHhVlXlAhCUqJPJ-113" value="keyColumn = options.keyColumn();" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-113" value="keyColumn = options.keyColumn();" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="220" y="2380" width="197.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LAEddHHhVlXlAhCUqJPJ-114" value="keyGenerator=&lt;br&gt;NoKeyGenerator.INSTANCE" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-114" value="keyGenerator=&lt;br&gt;NoKeyGenerator.INSTANCE" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="465" y="2190" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LAEddHHhVlXlAhCUqJPJ-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="LAEddHHhVlXlAhCUqJPJ-115" target="LAEddHHhVlXlAhCUqJPJ-116">
@@ -395,10 +395,10 @@
         <mxCell id="LAEddHHhVlXlAhCUqJPJ-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LAEddHHhVlXlAhCUqJPJ-119" target="LAEddHHhVlXlAhCUqJPJ-121">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LAEddHHhVlXlAhCUqJPJ-119" value="执行完insert语句后，&lt;br&gt;会查询ID值并复制给返回值中" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-119" value="执行完insert语句后，&lt;br&gt;会查询ID值并复制给返回值中" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="688" y="1870" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="LAEddHHhVlXlAhCUqJPJ-121" value="keyProperty = selectKey.keyProperty()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-121" value="keyProperty = selectKey.keyProperty()" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="687" y="1940" width="192" height="40" as="geometry" />
         </mxCell>
         <mxCell id="LAEddHHhVlXlAhCUqJPJ-122" value="加了" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -418,6 +418,15 @@
         </mxCell>
         <mxCell id="LAEddHHhVlXlAhCUqJPJ-136" value="没有" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="405" y="2178" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-140" value="是否加了&lt;br&gt;@SelectKey" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1730" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-141" value="对statement属性值SQL&lt;br&gt;创建MappedStatement" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="688" y="1740" width="192" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LAEddHHhVlXlAhCUqJPJ-142" value="创建SelectKeyGenerator对象" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="688" y="1810" width="192" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
