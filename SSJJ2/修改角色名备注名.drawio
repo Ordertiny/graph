@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-05T07:42:18.868Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="_ky8yTAQozoL8z1O4MrY" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-05T07:43:01.142Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="wYa2JqSdKD3xQxtq6-mv" version="21.5.2" type="github">
   <diagram name="第 1 页" id="MvaNPlfzRtb8qux0nWip">
     <mxGraphModel dx="1674" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -186,6 +186,12 @@
         </mxCell>
         <mxCell id="C8dWipBdWJElSoxGy65P-67" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1740" y="298" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C8dWipBdWJElSoxGy65P-68" value="修改角色名" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="90" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C8dWipBdWJElSoxGy65P-69" value="修改好友备注" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="950" y="100" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
