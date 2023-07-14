@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-14T06:14:39.549Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="HpUfyj08OA-cWMJksneD" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-14T06:21:33.512Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Bqqem0o1QtCRM64K048_" version="21.6.2" type="github">
   <diagram name="第 1 页" id="Hy2DhsIZiKbO5J9a9AXR">
-    <mxGraphModel dx="1195" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -211,16 +211,16 @@
           <mxGeometry x="510" y="940" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7wxV82E0H7d-9e0uCCRH-48" value="getRoleSecretShopInfo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1150" y="800" width="170" height="40" as="geometry" />
+          <mxGeometry x="1550" y="490" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7wxV82E0H7d-9e0uCCRH-49" value="获取礼包" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1170" y="760" width="70" height="30" as="geometry" />
+          <mxGeometry x="1570" y="450" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7wxV82E0H7d-9e0uCCRH-50" value="从DB中获取有效的商店记录" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1140" y="880" width="190" height="40" as="geometry" />
+          <mxGeometry x="1540" y="570" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7wxV82E0H7d-9e0uCCRH-51" value="DB中不存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1175" y="950" width="120" height="60" as="geometry" />
+          <mxGeometry x="1575" y="640" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7wxV82E0H7d-9e0uCCRH-53" value="查找玩家的所有生效礼包" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1510" y="880" width="170" height="40" as="geometry" />
@@ -235,6 +235,9 @@
           <mxGeometry x="1522.5" y="1030" width="135" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7wxV82E0H7d-9e0uCCRH-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7wxV82E0H7d-9e0uCCRH-55" target="7wxV82E0H7d-9e0uCCRH-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7wxV82E0H7d-9e0uCCRH-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7wxV82E0H7d-9e0uCCRH-55" target="7wxV82E0H7d-9e0uCCRH-103">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7wxV82E0H7d-9e0uCCRH-55" value="所有礼包实体" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
@@ -390,6 +393,21 @@
         </mxCell>
         <mxCell id="7wxV82E0H7d-9e0uCCRH-100" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1670" y="1410" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7wxV82E0H7d-9e0uCCRH-103" value="null" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="960" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7wxV82E0H7d-9e0uCCRH-105" value="创建或者返回正在处理的实体" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2660" y="870" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7wxV82E0H7d-9e0uCCRH-106" value="遍历匹配的商店模板表" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="2655" y="958" width="200" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="7wxV82E0H7d-9e0uCCRH-108" value="实体不存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2682.5" y="1051" width="145" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="7wxV82E0H7d-9e0uCCRH-109" value="若在有效时间内且未购买完 直接返回" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2950" y="1065" width="220" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
