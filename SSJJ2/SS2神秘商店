@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-14T04:10:15.721Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="-IhlqyKLZXhxfBpedse-" version="21.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-14T05:53:33.248Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="j08qMXjdUMOU_c_nq4q5" version="21.6.2" type="github">
   <diagram name="第 1 页" id="Hy2DhsIZiKbO5J9a9AXR">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -221,6 +221,9 @@
         </mxCell>
         <mxCell id="7wxV82E0H7d-9e0uCCRH-51" value="DB中不存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1175" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7wxV82E0H7d-9e0uCCRH-53" value="查找玩家的所有生效礼包" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="870" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
