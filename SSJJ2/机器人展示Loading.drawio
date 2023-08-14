@@ -1,9 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2023-08-11T07:46:59.091Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" version="21.6.7" etag="fwIgqNn90T5Pa2eg0pEi" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-14T01:45:04.673Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="T2M8vEUDG0QoAEgf4ocy" version="21.6.7" type="github">
   <diagram name="第 1 页" id="GIDFDQQ-i0uCsXtVJIqb">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="laQibWiwvQj4CBXzZVvx-1" value="开局&lt;br&gt;加入房间（重连）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="430" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-3" value="hostingGame" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="225" y="430" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-4" value="responseJoinRoom" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="205" y="460" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-6" value="通知加入房间&lt;br&gt;notifyJoinRoomResponse" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="520" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-7" value="构建当前房间真人&lt;br&gt;buildCurrentRoomPlayer" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="600" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-8" value="构建房间机器人" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="680" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-9" value="通知客户端&lt;br&gt;callbackPreparePveGame&lt;br&gt;callbackStartGame" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="760" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-10" value="构建房间机器人" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="420" width="150" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
