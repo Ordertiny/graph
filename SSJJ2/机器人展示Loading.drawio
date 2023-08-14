@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T03:40:36.440Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="b_xtnq_Ic-FqZy3IUKJH" version="21.6.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-14T03:45:33.260Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="i5VB64DOVNSucCf8XYUN" version="21.6.7" type="github">
   <diagram name="第 1 页" id="GIDFDQQ-i0uCsXtVJIqb">
     <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -198,6 +198,24 @@
         </mxCell>
         <mxCell id="laQibWiwvQj4CBXzZVvx-64" value="正常匹配开房" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="180" y="1830" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="laQibWiwvQj4CBXzZVvx-65" target="laQibWiwvQj4CBXzZVvx-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-65" value="ResponseHallClientConnectHandler流程" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="2160" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="laQibWiwvQj4CBXzZVvx-66" target="laQibWiwvQj4CBXzZVvx-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-66" value="移除机器人" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="2250" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-67" value="玩家是否加入成功逻辑" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="2330" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-69" value="从房间中移除" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="2255" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
