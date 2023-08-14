@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T02:30:03.925Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="lGvqQtZv97ex6tUDrjcB" version="21.6.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-14T03:15:24.718Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="sFi0eGqehr5ELiClrASH" version="21.6.7" type="github">
   <diagram name="第 1 页" id="GIDFDQQ-i0uCsXtVJIqb">
     <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -142,8 +142,17 @@
         <mxCell id="laQibWiwvQj4CBXzZVvx-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="laQibWiwvQj4CBXzZVvx-45" target="laQibWiwvQj4CBXzZVvx-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="laQibWiwvQj4CBXzZVvx-45" value="局内告知剔除机器人&lt;br&gt;信息" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="laQibWiwvQj4CBXzZVvx-45" value="局内告知剔除机器人&lt;br&gt;信息" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="550" y="1300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-50" value="responseJoinRoomList" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1860" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-51" value="Lobby" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="125" y="1590" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-52" value="Battle" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1530" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
