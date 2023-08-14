@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T01:45:04.673Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="T2M8vEUDG0QoAEgf4ocy" version="21.6.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-14T01:45:15.571Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="sokmFjPP8bQa4x9HUEQw" version="21.6.7" type="github">
   <diagram name="第 1 页" id="GIDFDQQ-i0uCsXtVJIqb">
     <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -27,6 +27,9 @@
         </mxCell>
         <mxCell id="laQibWiwvQj4CBXzZVvx-10" value="构建房间机器人" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="840" y="420" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="540" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
