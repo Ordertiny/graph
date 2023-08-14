@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T01:49:17.680Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="7dpRiR_K2F1u5hsY5ZFu" version="21.6.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-14T02:30:03.925Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="lGvqQtZv97ex6tUDrjcB" version="21.6.7" type="github">
   <diagram name="第 1 页" id="GIDFDQQ-i0uCsXtVJIqb">
     <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="laQibWiwvQj4CBXzZVvx-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="laQibWiwvQj4CBXzZVvx-1" target="laQibWiwvQj4CBXzZVvx-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="laQibWiwvQj4CBXzZVvx-1" value="开局&lt;br&gt;加入房间（重连）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="430" width="170" height="60" as="geometry" />
         </mxCell>
@@ -13,32 +16,134 @@
         <mxCell id="laQibWiwvQj4CBXzZVvx-4" value="responseJoinRoom" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="205" y="460" width="130" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="laQibWiwvQj4CBXzZVvx-6" target="laQibWiwvQj4CBXzZVvx-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="laQibWiwvQj4CBXzZVvx-6" value="通知加入房间&lt;br&gt;notifyJoinRoomResponse" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="355" y="520" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="laQibWiwvQj4CBXzZVvx-7" target="laQibWiwvQj4CBXzZVvx-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="laQibWiwvQj4CBXzZVvx-7" value="构建当前房间真人&lt;br&gt;buildCurrentRoomPlayer" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="370" y="600" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="laQibWiwvQj4CBXzZVvx-8" value="构建房间机器人" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="laQibWiwvQj4CBXzZVvx-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="laQibWiwvQj4CBXzZVvx-8" target="laQibWiwvQj4CBXzZVvx-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-8" value="构建房间机器人" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="370" y="680" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="laQibWiwvQj4CBXzZVvx-9" value="通知客户端&lt;br&gt;callbackPreparePveGame&lt;br&gt;callbackStartGame" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="355" y="760" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="laQibWiwvQj4CBXzZVvx-10" value="构建房间机器人" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="840" y="420" width="150" height="50" as="geometry" />
+        <mxCell id="laQibWiwvQj4CBXzZVvx-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="laQibWiwvQj4CBXzZVvx-10" target="laQibWiwvQj4CBXzZVvx-22">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="laQibWiwvQj4CBXzZVvx-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="870" y="540" width="120" height="60" as="geometry" />
+        <mxCell id="laQibWiwvQj4CBXzZVvx-10" value="构建房间机器人&lt;br&gt;buildAiRoomUser" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="430" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="laQibWiwvQj4CBXzZVvx-13" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1140" y="400" width="180" height="120" as="geometry" />
+        <mxCell id="laQibWiwvQj4CBXzZVvx-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="laQibWiwvQj4CBXzZVvx-12" target="laQibWiwvQj4CBXzZVvx-18">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="laQibWiwvQj4CBXzZVvx-14" value="ChannelRoom" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1180" y="400" width="100" height="30" as="geometry" />
+        <mxCell id="laQibWiwvQj4CBXzZVvx-12" value="根据AI等级 获取RobotAiLevelTemplate" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="697.5" y="630" width="155" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="laQibWiwvQj4CBXzZVvx-17" value="userMap：真实玩家信息&lt;br&gt;aiUserMap: AI玩家信息&lt;br&gt;supplyAiUserMap: 局内补位AI" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1140" y="445" width="180" height="60" as="geometry" />
+        <mxCell id="laQibWiwvQj4CBXzZVvx-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="laQibWiwvQj4CBXzZVvx-18" target="laQibWiwvQj4CBXzZVvx-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-18" value="构建外显&lt;br&gt;buildAiRoomPlayerAvatarListAndRoleModel" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="645" y="720" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="laQibWiwvQj4CBXzZVvx-19" target="laQibWiwvQj4CBXzZVvx-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-19" value="构建武器背包&lt;br&gt;buildAiRoomPlayerWeaponBag" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="800" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="laQibWiwvQj4CBXzZVvx-22" target="laQibWiwvQj4CBXzZVvx-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-22" value="设置基础信息&lt;br&gt;(roleId，level，roleName，username，camp，teamId， aiLevel， 暗分等)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="520" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-23" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1050" y="430" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-13" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="laQibWiwvQj4CBXzZVvx-23">
+          <mxGeometry width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-14" value="ChannelRoom" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="laQibWiwvQj4CBXzZVvx-23">
+          <mxGeometry x="40" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-17" value="userMap：真实玩家信息&lt;br&gt;aiUserMap: AI玩家信息&lt;br&gt;supplyAiUserMap: 局内补位AI" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="laQibWiwvQj4CBXzZVvx-23">
+          <mxGeometry y="45" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-24" value="设置LadderModeVo和喷漆信息" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="685" y="880" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-25" value="从RobotAiLevelTemplate中随机选择一个&lt;br&gt;&lt;font color=&quot;#0000ff&quot;&gt;(增加月卡玩家状态设定)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="900" y="725" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-26" value="蓝色：修改" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="960" y="864" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-27" value="红色：新增" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="960" y="906" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="laQibWiwvQj4CBXzZVvx-37" target="laQibWiwvQj4CBXzZVvx-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="laQibWiwvQj4CBXzZVvx-37" target="laQibWiwvQj4CBXzZVvx-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-37" value="匹配" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="1200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="laQibWiwvQj4CBXzZVvx-38" target="laQibWiwvQj4CBXzZVvx-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="1200" />
+              <mxPoint x="770" y="1240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-38" value="正常匹配" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="1170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="laQibWiwvQj4CBXzZVvx-39" target="laQibWiwvQj4CBXzZVvx-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="1270" />
+              <mxPoint x="460" y="1330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-39" value="中途加入" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="1240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="245" y="1370" as="sourcePoint" />
+            <mxPoint x="550" y="1340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="245" y="1380" />
+              <mxPoint x="460" y="1380" />
+              <mxPoint x="460" y="1340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-40" value="断线" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="1350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-43" value="显示机器人信息" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="1210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="laQibWiwvQj4CBXzZVvx-45" target="laQibWiwvQj4CBXzZVvx-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="laQibWiwvQj4CBXzZVvx-45" value="局内告知剔除机器人&lt;br&gt;信息" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1300" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
