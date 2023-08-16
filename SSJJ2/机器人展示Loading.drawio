@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-16T07:22:31.769Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="j30uWkvcYm0pLOU4aqmY" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-16T08:56:30.007Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="e72fmU3PCTutsHWO78PQ" version="21.6.8" type="github">
   <diagram name="第 1 页" id="GIDFDQQ-i0uCsXtVJIqb">
     <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -273,6 +273,120 @@
         </mxCell>
         <mxCell id="dbwQvPrRD2itUM1JHdu3-15" value="若真人数+AI数超过房间上限，则随机剔除机器人" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="540" y="1380" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dbwQvPrRD2itUM1JHdu3-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dbwQvPrRD2itUM1JHdu3-18" target="dbwQvPrRD2itUM1JHdu3-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dbwQvPrRD2itUM1JHdu3-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="dbwQvPrRD2itUM1JHdu3-18" target="dbwQvPrRD2itUM1JHdu3-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dbwQvPrRD2itUM1JHdu3-18" value="模式是团队模式，且同一个团队的" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1710" y="360" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dbwQvPrRD2itUM1JHdu3-19" value="展示同一团队的" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1990" y="375" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dbwQvPrRD2itUM1JHdu3-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="dbwQvPrRD2itUM1JHdu3-20" target="dbwQvPrRD2itUM1JHdu3-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dbwQvPrRD2itUM1JHdu3-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dbwQvPrRD2itUM1JHdu3-20" target="dbwQvPrRD2itUM1JHdu3-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dbwQvPrRD2itUM1JHdu3-20" value="阵营模式或无阵营模式" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1710" y="460" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dbwQvPrRD2itUM1JHdu3-21" value="展示所有玩家" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1990" y="475" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dbwQvPrRD2itUM1JHdu3-23" value="不展示" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="560" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dbwQvPrRD2itUM1JHdu3-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="dbwQvPrRD2itUM1JHdu3-25" target="dbwQvPrRD2itUM1JHdu3-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dbwQvPrRD2itUM1JHdu3-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dbwQvPrRD2itUM1JHdu3-25" target="dbwQvPrRD2itUM1JHdu3-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dbwQvPrRD2itUM1JHdu3-25" value="模式是团队模式，且同一个团队的" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2290" y="340" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dbwQvPrRD2itUM1JHdu3-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dbwQvPrRD2itUM1JHdu3-26" target="dbwQvPrRD2itUM1JHdu3-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dbwQvPrRD2itUM1JHdu3-26" value="展示同一团队的" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2610" y="355" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dbwQvPrRD2itUM1JHdu3-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dbwQvPrRD2itUM1JHdu3-27" target="dbwQvPrRD2itUM1JHdu3-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dbwQvPrRD2itUM1JHdu3-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="dbwQvPrRD2itUM1JHdu3-27" target="dbwQvPrRD2itUM1JHdu3-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dbwQvPrRD2itUM1JHdu3-27" value="阵营模式或无阵营模式" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2290" y="600" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="dbwQvPrRD2itUM1JHdu3-28" value="无阵营，保证 真人数+机器人 少于房间上限" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2792.5" y="620" width="237.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dbwQvPrRD2itUM1JHdu3-29" value="不展示" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2340" y="790" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dbwQvPrRD2itUM1JHdu3-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dbwQvPrRD2itUM1JHdu3-30" target="dbwQvPrRD2itUM1JHdu3-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dbwQvPrRD2itUM1JHdu3-30" value="若机器人属于同一团队的加入" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2610" y="430" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dbwQvPrRD2itUM1JHdu3-31" value="确保 给玩家展示的 真人+机器人 小于房间数" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2590" y="500" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dbwQvPrRD2itUM1JHdu3-32" value="阵营模式，保证单边阵营人数 少于 房间上限一半" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2533.75" y="710" width="262.5" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="dbwQvPrRD2itUM1JHdu3-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="dbwQvPrRD2itUM1JHdu3-47" target="dbwQvPrRD2itUM1JHdu3-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dbwQvPrRD2itUM1JHdu3-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="dbwQvPrRD2itUM1JHdu3-47" target="dbwQvPrRD2itUM1JHdu3-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dbwQvPrRD2itUM1JHdu3-47" value="是否阵营模式" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2600" y="605" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dbwQvPrRD2itUM1JHdu3-52" value="只展示真人下 loading阶段展示规则" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1675" y="300" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dbwQvPrRD2itUM1JHdu3-53" value="真人+机器人下 loading阶段展示规则" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2250" y="300" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dbwQvPrRD2itUM1JHdu3-54" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1940" y="365" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dbwQvPrRD2itUM1JHdu3-55" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1820" y="430" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dbwQvPrRD2itUM1JHdu3-56" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1940" y="458" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dbwQvPrRD2itUM1JHdu3-57" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1820" y="530" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dbwQvPrRD2itUM1JHdu3-58" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2533.75" y="345" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dbwQvPrRD2itUM1JHdu3-59" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2533.75" y="610" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dbwQvPrRD2itUM1JHdu3-60" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2630" y="670" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dbwQvPrRD2itUM1JHdu3-61" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2400" y="430" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dbwQvPrRD2itUM1JHdu3-62" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2410" y="690" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dbwQvPrRD2itUM1JHdu3-63" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2730" y="610" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
