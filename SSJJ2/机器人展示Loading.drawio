@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-16T07:14:16.311Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="v13VTVqvFck29gzSvo2e" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-16T07:22:31.769Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="j30uWkvcYm0pLOU4aqmY" version="21.6.8" type="github">
   <diagram name="第 1 页" id="GIDFDQQ-i0uCsXtVJIqb">
     <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -232,12 +232,9 @@
         <mxCell id="dbwQvPrRD2itUM1JHdu3-6" value="匹配" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="1340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dbwQvPrRD2itUM1JHdu3-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dbwQvPrRD2itUM1JHdu3-8" target="dbwQvPrRD2itUM1JHdu3-13">
+        <mxCell id="dbwQvPrRD2itUM1JHdu3-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dbwQvPrRD2itUM1JHdu3-8" target="dbwQvPrRD2itUM1JHdu3-15">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="690" y="1340" />
-              <mxPoint x="690" y="1400" />
-            </Array>
+            <mxPoint x="480" y="1380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dbwQvPrRD2itUM1JHdu3-8" value="正常匹配" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -246,8 +243,8 @@
         <mxCell id="dbwQvPrRD2itUM1JHdu3-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dbwQvPrRD2itUM1JHdu3-10" target="dbwQvPrRD2itUM1JHdu3-15">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="425" y="1410" />
-              <mxPoint x="425" y="1470" />
+              <mxPoint x="460" y="1410" />
+              <mxPoint x="460" y="1410" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -260,28 +257,22 @@
             <mxPoint x="530" y="1470" as="targetPoint" />
             <Array as="points">
               <mxPoint x="210" y="1520" />
-              <mxPoint x="425" y="1520" />
-              <mxPoint x="425" y="1470" />
+              <mxPoint x="460" y="1520" />
+              <mxPoint x="460" y="1410" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="dbwQvPrRD2itUM1JHdu3-12" value="断线" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="1490" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dbwQvPrRD2itUM1JHdu3-13" value="显示机器人信息" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="780" y="1370" width="120" height="60" as="geometry" />
+        <mxCell id="dbwQvPrRD2itUM1JHdu3-13" value="显示真人+机器人信息" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1380" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dbwQvPrRD2itUM1JHdu3-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dbwQvPrRD2itUM1JHdu3-15" target="dbwQvPrRD2itUM1JHdu3-13">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="690" y="1470" />
-              <mxPoint x="690" y="1400" />
-              <mxPoint x="770" y="1400" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="dbwQvPrRD2itUM1JHdu3-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="dbwQvPrRD2itUM1JHdu3-15" target="dbwQvPrRD2itUM1JHdu3-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dbwQvPrRD2itUM1JHdu3-15" value="若真人数+AI数超过房间上限，则随机剔除机器人" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="475" y="1440" width="160" height="60" as="geometry" />
+          <mxGeometry x="540" y="1380" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
