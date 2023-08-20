@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-20T07:09:42.944Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.1.4031 SLBChan/30" etag="b89hUuo59cmS5unI6kTw" version="21.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-20T15:16:36.016Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.1.4031 SLBChan/30" etag="DOAl89-kwKNkwCy9nZ5D" version="21.3.3" type="github">
   <diagram name="第 1 页" id="eEeRUdgtlv-osGGo4KyX">
     <mxGraphModel dx="934" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -77,7 +77,10 @@
           <mxGeometry x="-35" y="229" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jJ9oYjbHO_kGSj09Swgw-76" value="doExecuteCommand" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-14">
-          <mxGeometry x="-10" y="499" width="160" height="30" as="geometry" />
+          <mxGeometry x="-10" y="600" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-82" value="commandExecutor.execute()" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-14">
+          <mxGeometry x="-10" y="650" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jJ9oYjbHO_kGSj09Swgw-18" value="代理正常状态处理器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="504" y="4" width="130" height="30" as="geometry" />
@@ -142,13 +145,16 @@
         <mxCell id="jJ9oYjbHO_kGSj09Swgw-60" value="创建ProxyBackendHandler&lt;br&gt;用于实际执行sql，保存结果的对象" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-43">
           <mxGeometry x="10" y="430" width="190" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-84" value="proxyBackendHandler&lt;br&gt;.execute()" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-43">
+          <mxGeometry x="15" y="650" width="170" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="jJ9oYjbHO_kGSj09Swgw-59" value="根据sql字面义&lt;br&gt;创建sql解析后的语法树&lt;br&gt;例如查询字段，表名，&lt;br&gt;where条件等" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1340" y="390" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="jJ9oYjbHO_kGSj09Swgw-61" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="2010" y="40" width="320" height="1680" as="geometry" />
+          <mxGeometry x="1850" y="30" width="320" height="1680" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-62" value="ProxyBackendHandlerFactory" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-61">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-62" value="DatabaseConnector" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-61">
           <mxGeometry width="200" height="30.1840490797546" as="geometry" />
         </mxCell>
         <mxCell id="jJ9oYjbHO_kGSj09Swgw-63" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="jJ9oYjbHO_kGSj09Swgw-61" target="jJ9oYjbHO_kGSj09Swgw-62">
@@ -156,6 +162,12 @@
             <mxPoint x="100" y="1640" as="sourcePoint" />
             <mxPoint x="185.71428571428575" y="261.5950920245399" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-88" value="execute" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-61">
+          <mxGeometry x="20" y="710" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-89" value="generateExecutionContexts" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-61">
+          <mxGeometry x="10" y="770" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jJ9oYjbHO_kGSj09Swgw-26" value="ProxyBackendHandlerFactory" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1470" y="30" width="200" height="30.1840490797546" as="geometry" />
@@ -191,10 +203,10 @@
           <mxGeometry x="1475" y="630" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jJ9oYjbHO_kGSj09Swgw-74" value="就是返回的&lt;br&gt;proxyBackendHandler" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1635" y="640" width="140" height="40" as="geometry" />
+          <mxGeometry x="1700" y="625" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="jJ9oYjbHO_kGSj09Swgw-75" value="他就是最终的执行器，执行SQL&lt;br&gt;返回执行结果集&lt;br&gt;组装响应数据包等" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1610" y="680" width="190" height="60" as="geometry" />
+          <mxGeometry x="1580" y="665" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jJ9oYjbHO_kGSj09Swgw-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jJ9oYjbHO_kGSj09Swgw-33" target="jJ9oYjbHO_kGSj09Swgw-38">
           <mxGeometry relative="1" as="geometry" />
@@ -207,6 +219,42 @@
         </mxCell>
         <mxCell id="jJ9oYjbHO_kGSj09Swgw-81" value="返回创建的对象" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1370" y="620" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-85" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="2170" y="30" width="320" height="1680" as="geometry" />
+        </mxCell>
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-86" value="KernelProcessor" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-85">
+          <mxGeometry width="200" height="30.1840490797546" as="geometry" />
+        </mxCell>
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-87" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="jJ9oYjbHO_kGSj09Swgw-85" target="jJ9oYjbHO_kGSj09Swgw-86">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="1640" as="sourcePoint" />
+            <mxPoint x="185.71428571428575" y="261.5950920245399" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-96" value="主要作用：&lt;br&gt;1. 进行分库分表&lt;br&gt;2. sql重写&lt;br&gt;3.打印生成的SQL&lt;br&gt;4.创建执行db任务上下文" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-85">
+          <mxGeometry x="120" y="50" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-90" value="将sql进行组装&lt;br&gt;生成分库分表下需要执行的sql信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1645" y="794" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-91" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="2750" y="40" width="320" height="1680" as="geometry" />
+        </mxCell>
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-92" value="KernelProcessor" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-91">
+          <mxGeometry width="200" height="30.1840490797546" as="geometry" />
+        </mxCell>
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-93" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="jJ9oYjbHO_kGSj09Swgw-91" target="jJ9oYjbHO_kGSj09Swgw-92">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="1640" as="sourcePoint" />
+            <mxPoint x="185.71428571428575" y="261.5950920245399" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-94" value="sharding代理的数据库逻辑执行器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1843" y="4" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-95" value="核心逻辑" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2230" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
