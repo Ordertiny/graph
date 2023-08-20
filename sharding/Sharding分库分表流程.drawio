@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-20T06:18:57.710Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.1.4031 SLBChan/30" etag="7Z2473cYemgpyUMveYy9" version="21.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-20T06:33:11.750Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.1.4031 SLBChan/30" etag="bdyN9bQ_YThsM1V7mdeU" version="21.3.3" type="github">
   <diagram name="第 1 页" id="eEeRUdgtlv-osGGo4KyX">
-    <mxGraphModel dx="2269" dy="1377" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1216" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12,6 +12,90 @@
             <mxPoint x="155" y="1660" as="sourcePoint" />
             <mxPoint x="170" y="290" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-3" value="channelRead" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="90" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-6" value="这个是处理client数据包的nettyhandler" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="3" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-9" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="314" y="31" width="140" height="1630" as="geometry" />
+        </mxCell>
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-4" value="ProxyStateContext" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-9">
+          <mxGeometry width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="jJ9oYjbHO_kGSj09Swgw-9" target="jJ9oYjbHO_kGSj09Swgw-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="1630" as="sourcePoint" />
+            <mxPoint x="130" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-19" value="execute" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-9">
+          <mxGeometry x="10" y="70" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-10" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="504" y="31" width="140" height="1630" as="geometry" />
+        </mxCell>
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-11" value="OKProxyState" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-10">
+          <mxGeometry width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-12" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="jJ9oYjbHO_kGSj09Swgw-10" target="jJ9oYjbHO_kGSj09Swgw-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="1630" as="sourcePoint" />
+            <mxPoint x="130" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-20" value="execute" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-10">
+          <mxGeometry x="10" y="80" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-28" value="new Task()" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-10">
+          <mxGeometry x="10" y="140" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-13" value="这里是目前代理状态的管理器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="294" y="1" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-14" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="714" y="31" width="140" height="1640" as="geometry" />
+        </mxCell>
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-15" value="CommandExecutorTask" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-14">
+          <mxGeometry width="140" height="30.1840490797546" as="geometry" />
+        </mxCell>
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-16" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="jJ9oYjbHO_kGSj09Swgw-14" target="jJ9oYjbHO_kGSj09Swgw-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="1640" as="sourcePoint" />
+            <mxPoint x="130" y="261.5950920245399" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-29" value="run" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-14">
+          <mxGeometry x="20" y="150" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-32" value="executeCommand" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-14">
+          <mxGeometry x="5" y="189" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-18" value="代理正常状态处理器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="504" y="1" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-22" value="收到mysql数据包&lt;br&gt;将协议交给Prxoy的&lt;br&gt;业务模块处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="184" y="76" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-25" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1250" y="70" width="140" height="1640" as="geometry" />
+        </mxCell>
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-26" value="CommandExecutorTask" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-25">
+          <mxGeometry width="140" height="30.1840490797546" as="geometry" />
+        </mxCell>
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-27" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="jJ9oYjbHO_kGSj09Swgw-25" target="jJ9oYjbHO_kGSj09Swgw-26">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="1640" as="sourcePoint" />
+            <mxPoint x="130" y="261.5950920245399" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-30" value="将请求数据封装到命令Task&lt;br&gt;交给命令线程池处理&lt;br&gt;命令线程池单线程，不阻塞netty线程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="584" y="111" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-31" value="mysql实际执行业务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="714" y="4" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
