@@ -1,308 +1,366 @@
-<mxfile host="app.diagrams.net" modified="2023-08-20T15:37:01.778Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.1.4031 SLBChan/30" etag="h2Z0ZLvLWKwkpAuZo2kv" version="21.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-21T15:40:27.390Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.1.4031 SLBChan/30" etag="T7dH0_X9xYuGjpg97bUD" version="21.6.8" type="github">
   <diagram name="第 1 页" id="eEeRUdgtlv-osGGo4KyX">
-    <mxGraphModel dx="934" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1059" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-1" value="FrontendChannelInboundHandler" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-1" value="FrontendChannelInboundHandler" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="30" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-2" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="jJ9oYjbHO_kGSj09Swgw-1">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-2" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="jJ9oYjbHO_kGSj09Swgw-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="155" y="1660" as="sourcePoint" />
             <mxPoint x="170" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-3" value="channelRead" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-3" value="channelRead" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="90" y="90" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-6" value="这个是处理client数据包的nettyhandler" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-6" value="这个是处理client数据包的nettyhandler" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="40" y="3" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-9" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-9" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="314" y="31" width="140" height="1630" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-4" value="ProxyStateContext" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-9">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-4" value="ProxyStateContext" style="whiteSpace=wrap;html=1;" parent="jJ9oYjbHO_kGSj09Swgw-9" vertex="1">
           <mxGeometry width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="jJ9oYjbHO_kGSj09Swgw-9" target="jJ9oYjbHO_kGSj09Swgw-4">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="jJ9oYjbHO_kGSj09Swgw-9" target="jJ9oYjbHO_kGSj09Swgw-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="70" y="1630" as="sourcePoint" />
             <mxPoint x="130" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-19" value="execute" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-9">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-19" value="execute" style="whiteSpace=wrap;html=1;" parent="jJ9oYjbHO_kGSj09Swgw-9" vertex="1">
           <mxGeometry x="10" y="70" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-10" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-10" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="504" y="31" width="140" height="1630" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-11" value="OKProxyState" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-10">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-11" value="OKProxyState" style="whiteSpace=wrap;html=1;" parent="jJ9oYjbHO_kGSj09Swgw-10" vertex="1">
           <mxGeometry width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-12" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="jJ9oYjbHO_kGSj09Swgw-10" target="jJ9oYjbHO_kGSj09Swgw-11">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-12" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="jJ9oYjbHO_kGSj09Swgw-10" target="jJ9oYjbHO_kGSj09Swgw-11" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="70" y="1630" as="sourcePoint" />
             <mxPoint x="130" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-20" value="execute" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-10">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-20" value="execute" style="whiteSpace=wrap;html=1;" parent="jJ9oYjbHO_kGSj09Swgw-10" vertex="1">
           <mxGeometry x="10" y="80" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-28" value="new Task()" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-10">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-28" value="new Task()" style="whiteSpace=wrap;html=1;" parent="jJ9oYjbHO_kGSj09Swgw-10" vertex="1">
           <mxGeometry x="10" y="140" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-13" value="这里是目前代理状态的管理器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-13" value="这里是目前代理状态的管理器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="294" y="1" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-14" value="" style="group;align=center;" vertex="1" connectable="0" parent="1">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-14" value="" style="group;align=center;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="714" y="31" width="175" height="1640" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-15" value="CommandExecutorTask" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-14">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-15" value="CommandExecutorTask" style="whiteSpace=wrap;html=1;" parent="jJ9oYjbHO_kGSj09Swgw-14" vertex="1">
           <mxGeometry width="140" height="30.1840490797546" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-16" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="jJ9oYjbHO_kGSj09Swgw-14" target="jJ9oYjbHO_kGSj09Swgw-15">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-16" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="jJ9oYjbHO_kGSj09Swgw-14" target="jJ9oYjbHO_kGSj09Swgw-15" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="70" y="1640" as="sourcePoint" />
             <mxPoint x="130" y="261.5950920245399" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-29" value="run" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-14">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-29" value="run" style="whiteSpace=wrap;html=1;" parent="jJ9oYjbHO_kGSj09Swgw-14" vertex="1">
           <mxGeometry x="20" y="150" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-32" value="executeCommand" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-14">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-32" value="executeCommand" style="whiteSpace=wrap;html=1;" parent="jJ9oYjbHO_kGSj09Swgw-14" vertex="1">
           <mxGeometry x="5" y="189" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-33" value="获取执行引擎: MySQL&lt;br&gt;获取数据包类型：查询&lt;br&gt;解析数据包&lt;br&gt;通过执行引擎和数据包生成命令执行器" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-14">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-33" value="获取执行引擎: MySQL&lt;br&gt;获取数据包类型：查询&lt;br&gt;解析数据包&lt;br&gt;通过执行引擎和数据包生成命令执行器" style="whiteSpace=wrap;html=1;align=center;" parent="jJ9oYjbHO_kGSj09Swgw-14" vertex="1">
           <mxGeometry x="-35" y="229" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-76" value="doExecuteCommand" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-14">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-76" value="doExecuteCommand" style="whiteSpace=wrap;html=1;" parent="jJ9oYjbHO_kGSj09Swgw-14" vertex="1">
           <mxGeometry x="-10" y="600" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-82" value="commandExecutor.execute()" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-14">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-82" value="commandExecutor.execute()" style="whiteSpace=wrap;html=1;" parent="jJ9oYjbHO_kGSj09Swgw-14" vertex="1">
           <mxGeometry x="-10" y="650" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-18" value="代理正常状态处理器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="MQdfIhm337BqC4CpLuAk-26" value="responsePackets.&lt;br&gt;forEach(context::write);" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-14">
+          <mxGeometry x="-20" y="1459" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-18" value="代理正常状态处理器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="504" y="4" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-22" value="收到mysql数据包&lt;br&gt;将协议交给Prxoy的&lt;br&gt;业务模块处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-22" value="收到mysql数据包&lt;br&gt;将协议交给Prxoy的&lt;br&gt;业务模块处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="184" y="76" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-30" value="将请求数据封装到命令Task&lt;br&gt;交给命令线程池处理&lt;br&gt;命令线程池单线程，不阻塞netty线程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-30" value="将请求数据封装到命令Task&lt;br&gt;交给命令线程池处理&lt;br&gt;命令线程池单线程，不阻塞netty线程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="584" y="111" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-31" value="mysql实际执行业务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-31" value="mysql实际执行业务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="714" y="4" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-34" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-34" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="930" y="30" width="205" height="1640" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-35" value="MySQLCommandExecuteEngine" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-34">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-35" value="MySQLCommandExecuteEngine" style="whiteSpace=wrap;html=1;" parent="jJ9oYjbHO_kGSj09Swgw-34" vertex="1">
           <mxGeometry width="190" height="30.1840490797546" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-36" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="jJ9oYjbHO_kGSj09Swgw-34" target="jJ9oYjbHO_kGSj09Swgw-35">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-36" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="jJ9oYjbHO_kGSj09Swgw-34" target="jJ9oYjbHO_kGSj09Swgw-35" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="95" y="1640" as="sourcePoint" />
             <mxPoint x="176.42857142857142" y="261.5950920245399" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-38" value="getCommandExecutor" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-34">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-38" value="getCommandExecutor" style="whiteSpace=wrap;html=1;" parent="jJ9oYjbHO_kGSj09Swgw-34" vertex="1">
           <mxGeometry x="10" y="250" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-40" value="new MySQLComQueryPacketExecutor" style="whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-34">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-40" value="new MySQLComQueryPacketExecutor" style="whiteSpace=wrap;html=1;verticalAlign=top;" parent="jJ9oYjbHO_kGSj09Swgw-34" vertex="1">
           <mxGeometry x="-15" y="320" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-41" value="委托给Mysql执行器工厂&lt;br&gt;根据数据包类型创建执行器；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-34">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-41" value="委托给Mysql执行器工厂&lt;br&gt;根据数据包类型创建执行器；" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="jJ9oYjbHO_kGSj09Swgw-34" vertex="1">
           <mxGeometry x="10" y="280" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-42" value="这里是查询包，需要创建该执行器" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-34">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-42" value="这里是查询包，需要创建该执行器" style="text;html=1;align=center;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="jJ9oYjbHO_kGSj09Swgw-34" vertex="1">
           <mxGeometry x="-4" y="331" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-37" value="Mysql执行引擎" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-37" value="Mysql执行引擎" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="976" y="3" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-43" value="Z" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1170" y="30" width="200" height="1640" as="geometry" />
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-43" value="Z" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1170" y="54" width="200" height="1640" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-44" value="MySQLComQueryPacketExecutor" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-43">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-44" value="MySQLComQueryPacketExecutor" style="whiteSpace=wrap;html=1;" parent="jJ9oYjbHO_kGSj09Swgw-43" vertex="1">
           <mxGeometry width="200" height="30.1840490797546" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-45" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="jJ9oYjbHO_kGSj09Swgw-43" target="jJ9oYjbHO_kGSj09Swgw-44">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-45" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="jJ9oYjbHO_kGSj09Swgw-43" target="jJ9oYjbHO_kGSj09Swgw-44" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="100" y="1640" as="sourcePoint" />
             <mxPoint x="185.71428571428575" y="261.5950920245399" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-46" value="_init&lt;br&gt;构造方法" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-43">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-46" value="_init&lt;br&gt;构造方法" style="whiteSpace=wrap;html=1;" parent="jJ9oYjbHO_kGSj09Swgw-43" vertex="1">
           <mxGeometry y="320" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-47" value="SQLStatement&lt;br&gt;= parseSQL()" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-43">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-47" value="SQLStatement&lt;br&gt;= parseSQL()" style="whiteSpace=wrap;html=1;" parent="jJ9oYjbHO_kGSj09Swgw-43" vertex="1">
           <mxGeometry x="35" y="370" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-58" value="Mysql执行器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-43">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-58" value="Mysql执行器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="jJ9oYjbHO_kGSj09Swgw-43" vertex="1">
           <mxGeometry x="55" y="-30" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-60" value="创建ProxyBackendHandler&lt;br&gt;用于实际执行sql，保存结果的对象" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-43">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-60" value="创建ProxyBackendHandler&lt;br&gt;用于实际执行sql，保存结果的对象" style="whiteSpace=wrap;html=1;" parent="jJ9oYjbHO_kGSj09Swgw-43" vertex="1">
           <mxGeometry x="10" y="430" width="190" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-84" value="proxyBackendHandler&lt;br&gt;.execute()" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-43">
-          <mxGeometry x="15" y="650" width="170" height="40" as="geometry" />
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-84" value="proxyBackendHandler&lt;br&gt;.execute()" style="whiteSpace=wrap;html=1;strokeColor=#FF6666;" parent="jJ9oYjbHO_kGSj09Swgw-43" vertex="1">
+          <mxGeometry x="15" y="730" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-59" value="根据sql字面义&lt;br&gt;创建sql解析后的语法树&lt;br&gt;例如查询字段，表名，&lt;br&gt;where条件等" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="MQdfIhm337BqC4CpLuAk-20" value="processQuery()" style="whiteSpace=wrap;html=1;strokeColor=#FF6666;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-43">
+          <mxGeometry x="7.5" y="1360" width="185" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MQdfIhm337BqC4CpLuAk-22" value="execute" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-43">
+          <mxGeometry x="15" y="670" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-59" value="根据sql字面义&lt;br&gt;创建sql解析后的语法树&lt;br&gt;例如查询字段，表名，&lt;br&gt;where条件等" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1340" y="390" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-61" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1850" y="30" width="340" height="1680" as="geometry" />
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-61" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1850" y="30" width="390" height="1680" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-62" value="DatabaseConnector" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-61">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-62" value="DatabaseConnector" style="whiteSpace=wrap;html=1;" parent="jJ9oYjbHO_kGSj09Swgw-61" vertex="1">
           <mxGeometry width="200" height="30.1840490797546" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-63" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="jJ9oYjbHO_kGSj09Swgw-61" target="jJ9oYjbHO_kGSj09Swgw-62">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-63" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="jJ9oYjbHO_kGSj09Swgw-61" target="jJ9oYjbHO_kGSj09Swgw-62" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="100" y="1640" as="sourcePoint" />
             <mxPoint x="185.71428571428575" y="261.5950920245399" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-88" value="execute" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-61">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-88" value="execute" style="whiteSpace=wrap;html=1;" parent="jJ9oYjbHO_kGSj09Swgw-61" vertex="1">
           <mxGeometry x="20" y="710" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-89" value="generateExecutionContexts" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-61">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-89" value="generateExecutionContexts" style="whiteSpace=wrap;html=1;" parent="jJ9oYjbHO_kGSj09Swgw-61" vertex="1">
           <mxGeometry x="10" y="770" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-26" value="ProxyBackendHandlerFactory" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MQdfIhm337BqC4CpLuAk-1" value="doExecute" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-61">
+          <mxGeometry x="25" y="1030" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MQdfIhm337BqC4CpLuAk-3" value="proxySQLExecutor.&lt;br&gt;execute(executionContext)" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-61">
+          <mxGeometry x="15" y="1090" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MQdfIhm337BqC4CpLuAk-4" value="proxySQLExecutor&lt;br&gt;是new this的时候创建的&lt;br&gt;用于执行JDBC的查询" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-61">
+          <mxGeometry x="190" y="1080" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MQdfIhm337BqC4CpLuAk-13" value="processExecuteQuery()" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-61">
+          <mxGeometry x="5" y="1160" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MQdfIhm337BqC4CpLuAk-14" value="createQueryHeaders()" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-61">
+          <mxGeometry x="20" y="1220" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MQdfIhm337BqC4CpLuAk-17" value="mergeQuery()" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-61">
+          <mxGeometry x="25" y="1290" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-26" value="ProxyBackendHandlerFactory" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1470" y="30" width="200" height="30.1840490797546" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-65" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="jJ9oYjbHO_kGSj09Swgw-26">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-65" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="jJ9oYjbHO_kGSj09Swgw-26" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1570" y="1702.3529411764705" as="sourcePoint" />
             <mxPoint x="1620" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-66" value="执行器代理的工厂类" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-66" value="执行器代理的工厂类" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1500" y="4" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-67" value="newInstance" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-67" value="newInstance" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1505" y="465" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-68" value="创建&lt;br&gt;SQLStatementContext" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-68" value="创建&lt;br&gt;SQLStatementContext" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1495" y="510" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-70" value="创建&lt;span style=&quot;text-align: center;&quot;&gt;SQLStatementContext&lt;br&gt;&lt;/span&gt;&lt;br&gt;主要做以下内容&lt;br&gt;1、重新组装的SqlStatement&lt;br&gt;因为sql字面含义不会包含表结构信息&lt;br&gt;例如 * ,这里需要填充一些表元数据信息&lt;br&gt;2、根据不同类型的SQL生成对应的上下文&lt;br&gt;方便后续根据上下文断定sql的含义；&lt;br&gt;例如是插入还是查询" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-70" value="创建&lt;span style=&quot;text-align: center;&quot;&gt;SQLStatementContext&lt;br&gt;&lt;/span&gt;&lt;br&gt;主要做以下内容&lt;br&gt;1、重新组装的SqlStatement&lt;br&gt;因为sql字面含义不会包含表结构信息&lt;br&gt;例如 * ,这里需要填充一些表元数据信息&lt;br&gt;2、根据不同类型的SQL生成对应的上下文&lt;br&gt;方便后续根据上下文断定sql的含义；&lt;br&gt;例如是插入还是查询" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1520" y="150" width="250" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-71" value="创建&lt;br&gt;QueryContext" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-71" value="创建&lt;br&gt;QueryContext" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1495" y="570" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-72" value="创建QueryContext&lt;br&gt;主要做以下内容&lt;br&gt;1、保存原始SQL&lt;br&gt;2、保存SQLStatementContext等数据&lt;br&gt;可以理解是封装成一个查询整体" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-72" value="创建QueryContext&lt;br&gt;主要做以下内容&lt;br&gt;1、保存原始SQL&lt;br&gt;2、保存SQLStatementContext等数据&lt;br&gt;可以理解是封装成一个查询整体" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1520" y="330" width="220" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="jJ9oYjbHO_kGSj09Swgw-73" target="jJ9oYjbHO_kGSj09Swgw-60">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="1" source="jJ9oYjbHO_kGSj09Swgw-73" target="jJ9oYjbHO_kGSj09Swgw-60" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-73" value="封装成DatabaseConnector对象" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-73" value="封装成DatabaseConnector对象" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1475" y="630" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-74" value="就是返回的&lt;br&gt;proxyBackendHandler" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-74" value="就是返回的&lt;br&gt;proxyBackendHandler" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1700" y="625" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-75" value="他就是最终的执行器，执行SQL&lt;br&gt;返回执行结果集&lt;br&gt;组装响应数据包等" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-75" value="他就是最终的执行器，执行SQL&lt;br&gt;返回执行结果集&lt;br&gt;组装响应数据包等" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1580" y="665" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jJ9oYjbHO_kGSj09Swgw-33" target="jJ9oYjbHO_kGSj09Swgw-38">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="jJ9oYjbHO_kGSj09Swgw-33" target="jJ9oYjbHO_kGSj09Swgw-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jJ9oYjbHO_kGSj09Swgw-40" target="jJ9oYjbHO_kGSj09Swgw-46">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="jJ9oYjbHO_kGSj09Swgw-40" target="jJ9oYjbHO_kGSj09Swgw-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jJ9oYjbHO_kGSj09Swgw-60" target="jJ9oYjbHO_kGSj09Swgw-67">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="jJ9oYjbHO_kGSj09Swgw-60" target="jJ9oYjbHO_kGSj09Swgw-67" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-81" value="返回创建的对象" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-81" value="返回创建的对象" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1370" y="620" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-85" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="2170" y="30" width="340" height="1680" as="geometry" />
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-85" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="2170" y="30" width="470" height="1680" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-86" value="KernelProcessor" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-85">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-86" value="KernelProcessor" style="whiteSpace=wrap;html=1;" parent="jJ9oYjbHO_kGSj09Swgw-85" vertex="1">
           <mxGeometry width="200" height="30.1840490797546" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-87" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="jJ9oYjbHO_kGSj09Swgw-85" target="jJ9oYjbHO_kGSj09Swgw-86">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-87" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="jJ9oYjbHO_kGSj09Swgw-85" target="jJ9oYjbHO_kGSj09Swgw-86" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="100" y="1640" as="sourcePoint" />
             <mxPoint x="185.71428571428575" y="261.5950920245399" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-96" value="主要作用：&lt;br&gt;1. 进行分库分表&lt;br&gt;2. sql重写&lt;br&gt;3.打印生成的SQL&lt;br&gt;4.创建执行db任务上下文" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-85">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-96" value="主要作用：&lt;br&gt;1. 进行分库分表&lt;br&gt;2. sql重写&lt;br&gt;3.打印生成的SQL&lt;br&gt;4.创建执行db任务上下文" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="jJ9oYjbHO_kGSj09Swgw-85" vertex="1">
           <mxGeometry x="120" y="50" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-97" value="route()" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-85">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-97" value="route()" style="whiteSpace=wrap;html=1;" parent="jJ9oYjbHO_kGSj09Swgw-85" vertex="1">
           <mxGeometry x="40" y="820" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-98" value="generateExecutionContext" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-85">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-98" value="generateExecutionContext" style="whiteSpace=wrap;html=1;" parent="jJ9oYjbHO_kGSj09Swgw-85" vertex="1">
           <mxGeometry y="770" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-114" value="返回的是匹配的&lt;br&gt;库名和表名" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-85">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-114" value="返回的是匹配的&lt;br&gt;库名和表名" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="jJ9oYjbHO_kGSj09Swgw-85" vertex="1">
           <mxGeometry x="230" y="870" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-115" value="路由好的sql语句" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-85">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-115" value="路由好的sql语句" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="jJ9oYjbHO_kGSj09Swgw-85" vertex="1">
           <mxGeometry x="220" y="940" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-90" value="将sql进行组装&lt;br&gt;生成分库分表下需要执行的sql信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-90" value="将sql进行组装&lt;br&gt;生成分库分表下需要执行的sql信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1645" y="794" width="210" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-91" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-91" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="2480" y="30" width="440" height="1680" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-92" value="PartialSQLRouteExecutor" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-91">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-92" value="PartialSQLRouteExecutor" style="whiteSpace=wrap;html=1;" parent="jJ9oYjbHO_kGSj09Swgw-91" vertex="1">
           <mxGeometry width="200" height="30.1840490797546" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-93" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="jJ9oYjbHO_kGSj09Swgw-91" target="jJ9oYjbHO_kGSj09Swgw-92">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-93" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="jJ9oYjbHO_kGSj09Swgw-91" target="jJ9oYjbHO_kGSj09Swgw-92" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="100" y="1640" as="sourcePoint" />
             <mxPoint x="185.71428571428575" y="261.5950920245399" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-105" value="route" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-91">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-105" value="route" style="whiteSpace=wrap;html=1;" parent="jJ9oYjbHO_kGSj09Swgw-91" vertex="1">
           <mxGeometry x="40" y="820" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-106" value="ShardingSQLRouter.&lt;br&gt;createRouteContext()" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-91">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-106" value="ShardingSQLRouter.&lt;br&gt;createRouteContext()" style="whiteSpace=wrap;html=1;" parent="jJ9oYjbHO_kGSj09Swgw-91" vertex="1">
           <mxGeometry x="20" y="870" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-108" value="这里是要根据查询条件&lt;br&gt;判定需要路由的数据库名和表名&lt;br&gt;根据where条件 和 分库分表字段规&lt;br&gt;判定最终匹配的查询库名集合和表名集合&lt;br&gt;组装成RouterContext上下文对象返回" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-91">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-108" value="这里是要根据查询条件&lt;br&gt;判定需要路由的数据库名和表名&lt;br&gt;根据where条件 和 分库分表字段规&lt;br&gt;判定最终匹配的查询库名集合和表名集合&lt;br&gt;组装成RouterContext上下文对象返回" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="jJ9oYjbHO_kGSj09Swgw-91" vertex="1">
           <mxGeometry x="200" y="850" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-110" value="rewrite()" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-91">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-110" value="rewrite()" style="whiteSpace=wrap;html=1;" parent="jJ9oYjbHO_kGSj09Swgw-91" vertex="1">
           <mxGeometry x="40" y="940" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-111" value="根据上面的路由规则重写SQL&lt;br&gt;这里只改sql的表名" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-91">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-111" value="根据上面的路由规则重写SQL&lt;br&gt;这里只改sql的表名" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="jJ9oYjbHO_kGSj09Swgw-91" vertex="1">
           <mxGeometry x="200" y="940" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-112" value="createExecutionContext()" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-91">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-112" value="createExecutionContext()" style="whiteSpace=wrap;html=1;" parent="jJ9oYjbHO_kGSj09Swgw-91" vertex="1">
           <mxGeometry x="10" y="1000" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-113" value="将上述生成的上下文&lt;br&gt;组装ExecutionContext&lt;br&gt;包含路由上下文，重写sql，查询上下文" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-91">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-113" value="将上述生成的上下文&lt;br&gt;组装ExecutionContext&lt;br&gt;包含路由上下文，重写sql，查询上下文" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="jJ9oYjbHO_kGSj09Swgw-91" vertex="1">
           <mxGeometry x="200" y="990" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-94" value="sharding代理的数据库逻辑执行器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-94" value="sharding代理的数据库逻辑执行器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1843" y="4" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-95" value="核心逻辑" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-95" value="核心逻辑" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2230" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-99" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-99" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="3070" y="34" width="320" height="1680" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-100" value="PartialSQLRouteExecutor" style="whiteSpace=wrap;html=1;" vertex="1" parent="jJ9oYjbHO_kGSj09Swgw-99">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-100" value="PartialSQLRouteExecutor" style="whiteSpace=wrap;html=1;" parent="jJ9oYjbHO_kGSj09Swgw-99" vertex="1">
           <mxGeometry width="200" height="30.1840490797546" as="geometry" />
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-101" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="jJ9oYjbHO_kGSj09Swgw-99" target="jJ9oYjbHO_kGSj09Swgw-100">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-101" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="jJ9oYjbHO_kGSj09Swgw-99" target="jJ9oYjbHO_kGSj09Swgw-100" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="100" y="1640" as="sourcePoint" />
             <mxPoint x="185.71428571428575" y="261.5950920245399" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jJ9oYjbHO_kGSj09Swgw-103" value="SQL路由执行器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="jJ9oYjbHO_kGSj09Swgw-103" value="SQL路由执行器" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="2530" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MQdfIhm337BqC4CpLuAk-15" value="&amp;nbsp;从executionContext中获取sqlStatementContext, &lt;br&gt;从sqlStatementContext中获取projectionsContext,&lt;br&gt;&amp;nbsp;从projectionsContext中获取expandProjects 里面是表要查询的列" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="1240" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MQdfIhm337BqC4CpLuAk-18" value="将结果合并，&lt;br&gt;实际上就是用迭代器保存queryResults" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="1310" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MQdfIhm337BqC4CpLuAk-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MQdfIhm337BqC4CpLuAk-17" target="MQdfIhm337BqC4CpLuAk-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1950" y="1390" />
+              <mxPoint x="1270" y="1390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MQdfIhm337BqC4CpLuAk-24" value="将返回列头组装成ResponseHeader 返回&lt;br&gt;其余信息保存在 this 中" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="1390" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MQdfIhm337BqC4CpLuAk-25" value="将列头组装成数据包" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="1420" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MQdfIhm337BqC4CpLuAk-27" value="将表头数据写回" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="880" y="1500" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MQdfIhm337BqC4CpLuAk-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MQdfIhm337BqC4CpLuAk-20" target="MQdfIhm337BqC4CpLuAk-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1270" y="1474" />
+              <mxPoint x="784" y="1474" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
