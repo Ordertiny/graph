@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-23T08:03:02.168Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="A050ff9TFDYcD7j9IqfX" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-23T08:05:56.679Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="0k-YcYDDs75NjvFeCt0E" version="21.6.9" type="github">
   <diagram id="QiZT7JKPZb_8ZStIjmSi" name="第 1 页">
     <mxGraphModel dx="853" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -126,17 +126,29 @@
             <mxPoint x="1090" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="MRDX_AlQYD_xYlrHhl6h-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MRDX_AlQYD_xYlrHhl6h-1" target="MRDX_AlQYD_xYlrHhl6h-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-1" value="login" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1070" y="670" width="252.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-2" value="Login" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1170" y="620" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="MRDX_AlQYD_xYlrHhl6h-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MRDX_AlQYD_xYlrHhl6h-3" target="MRDX_AlQYD_xYlrHhl6h-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-3" value="ParseTokenHandler" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1110" y="730" width="180" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="MRDX_AlQYD_xYlrHhl6h-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MRDX_AlQYD_xYlrHhl6h-4" target="MRDX_AlQYD_xYlrHhl6h-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-4" value="DuplicateLoginHandler" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1110" y="790" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MRDX_AlQYD_xYlrHhl6h-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MRDX_AlQYD_xYlrHhl6h-5" target="MRDX_AlQYD_xYlrHhl6h-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-5" value="BindNetSessionHandler" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1110" y="847" width="180" height="30" as="geometry" />
@@ -155,6 +167,12 @@
         </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-10" value="请求Logic登录" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1312.5" y="910" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MRDX_AlQYD_xYlrHhl6h-15" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="737" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="MRDX_AlQYD_xYlrHhl6h-16" value="BeforeLoginHandler" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="910" y="782" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
