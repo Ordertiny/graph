@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-23T08:38:06.575Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="xJh62j1ApwfOMPjyOX0z" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-23T08:39:10.453Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="DPSq0Qv2H5IeRDX_u5lX" version="21.6.9" type="github">
   <diagram id="QiZT7JKPZb_8ZStIjmSi" name="第 1 页">
     <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -211,16 +211,16 @@
           <mxGeometry x="1821.25" y="900" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-23" value="检查服务器维护状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2060" y="900" width="130" height="30" as="geometry" />
+          <mxGeometry x="2037" y="900" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-24" value="加载Role对象" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2060" y="847" width="100" height="30" as="geometry" />
+          <mxGeometry x="2037" y="847" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-25" value="顶号判定，验证在线缓存中是否存在该玩家" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2060" y="797" width="250" height="30" as="geometry" />
+          <mxGeometry x="2037" y="797" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-26" value="防沉迷检测" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2060" y="737" width="80" height="30" as="geometry" />
+          <mxGeometry x="2037" y="737" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-27" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="1780" y="745" width="20" height="175" as="geometry" />
@@ -235,7 +235,7 @@
           <mxGeometry x="1820.25" y="955" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-30" value="封禁状态判定" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2059" y="955" width="100" height="30" as="geometry" />
+          <mxGeometry x="2036" y="955" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MRDX_AlQYD_xYlrHhl6h-31" target="MRDX_AlQYD_xYlrHhl6h-32">
           <mxGeometry relative="1" as="geometry" />
@@ -261,13 +261,13 @@
           <mxGeometry x="1820.25" y="1105" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-34" value="绑定在线对象" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2059" y="1003" width="100" height="30" as="geometry" />
+          <mxGeometry x="2036" y="1003" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-35" value="数据修复" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2064" y="1052.5" width="70" height="30" as="geometry" />
+          <mxGeometry x="2041" y="1052.5" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-36" value="登录成功发送事件等逻辑" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2064" y="1105" width="160" height="30" as="geometry" />
+          <mxGeometry x="2039" y="1105" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-37" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="1779" y="950" width="20" height="175" as="geometry" />
