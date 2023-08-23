@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-23T08:26:01.412Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="BWxodshTnm_OAWpucK-B" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-23T08:38:06.575Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="xJh62j1ApwfOMPjyOX0z" version="21.6.9" type="github">
   <diagram id="QiZT7JKPZb_8ZStIjmSi" name="第 1 页">
     <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -129,55 +129,61 @@
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MRDX_AlQYD_xYlrHhl6h-1" target="MRDX_AlQYD_xYlrHhl6h-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MRDX_AlQYD_xYlrHhl6h-1" value="login" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1070" y="670" width="252.5" height="30" as="geometry" />
+        <mxCell id="MRDX_AlQYD_xYlrHhl6h-1" value="login" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="670" width="252.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-2" value="Login" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1170" y="620" width="60" height="30" as="geometry" />
+          <mxGeometry x="1310" y="620" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MRDX_AlQYD_xYlrHhl6h-3" target="MRDX_AlQYD_xYlrHhl6h-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-3" value="ParseTokenHandler" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1110" y="730" width="180" height="30" as="geometry" />
+          <mxGeometry x="1250" y="730" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MRDX_AlQYD_xYlrHhl6h-4" target="MRDX_AlQYD_xYlrHhl6h-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-4" value="DuplicateLoginHandler" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1110" y="790" width="180" height="30" as="geometry" />
+          <mxGeometry x="1250" y="790" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MRDX_AlQYD_xYlrHhl6h-5" target="MRDX_AlQYD_xYlrHhl6h-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-5" value="BindNetSessionHandler" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1110" y="847" width="180" height="30" as="geometry" />
+          <mxGeometry x="1250" y="847" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-6" value="解析token" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1322.5" y="730" width="80" height="30" as="geometry" />
+          <mxGeometry x="1457.5" y="730" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-7" value="顶号登录" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1327.5" y="790" width="70" height="30" as="geometry" />
+          <mxGeometry x="1460" y="790" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MRDX_AlQYD_xYlrHhl6h-8" value="绑定session" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1317.5" y="847" width="90" height="30" as="geometry" />
+        <mxCell id="MRDX_AlQYD_xYlrHhl6h-8" value="创建连接对象放入缓存" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="1457.5" y="847" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MRDX_AlQYD_xYlrHhl6h-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="MRDX_AlQYD_xYlrHhl6h-9" target="MRDX_AlQYD_xYlrHhl6h-18">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-9" value="call Logic 登录" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="910" width="160" height="30" as="geometry" />
+          <mxGeometry x="1260" y="910" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-10" value="请求Logic登录" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1312.5" y="910" width="100" height="30" as="geometry" />
+          <mxGeometry x="1452.5" y="910" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-15" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="737" width="20" height="120" as="geometry" />
+          <mxGeometry x="1190" y="737" width="20" height="120" as="geometry" />
         </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-16" value="BeforeLoginHandler" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="910" y="782" width="130" height="30" as="geometry" />
+          <mxGeometry x="1050" y="782" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-17" value="Logic" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1891.25" y="628" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MRDX_AlQYD_xYlrHhl6h-18" value="login" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MRDX_AlQYD_xYlrHhl6h-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MRDX_AlQYD_xYlrHhl6h-18" target="MRDX_AlQYD_xYlrHhl6h-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MRDX_AlQYD_xYlrHhl6h-18" value="login" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="1790" y="670" width="252.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MRDX_AlQYD_xYlrHhl6h-19" target="MRDX_AlQYD_xYlrHhl6h-20">
@@ -226,40 +232,93 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-29" value="ForbidCheckHandler" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1821.25" y="970" width="190" height="30" as="geometry" />
+          <mxGeometry x="1820.25" y="955" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-30" value="封禁状态判定" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2060" y="970" width="100" height="30" as="geometry" />
+          <mxGeometry x="2059" y="955" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MRDX_AlQYD_xYlrHhl6h-31" target="MRDX_AlQYD_xYlrHhl6h-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-31" value="BindOnlineRoleHandler" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1821.25" y="1020" width="190" height="30" as="geometry" />
+          <mxGeometry x="1820.25" y="1005" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MRDX_AlQYD_xYlrHhl6h-32" target="MRDX_AlQYD_xYlrHhl6h-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-32" value="RepairDataHandler" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1821.25" y="1067.5" width="190" height="30" as="geometry" />
+          <mxGeometry x="1820.25" y="1052.5" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MRDX_AlQYD_xYlrHhl6h-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MRDX_AlQYD_xYlrHhl6h-33" target="MRDX_AlQYD_xYlrHhl6h-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1915" y="1150" />
+              <mxPoint x="1340" y="1150" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-33" value="LoginSuccessHandler" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1821.25" y="1120" width="190" height="30" as="geometry" />
+          <mxGeometry x="1820.25" y="1105" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-34" value="绑定在线对象" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2060" y="1018" width="100" height="30" as="geometry" />
+          <mxGeometry x="2059" y="1003" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-35" value="数据修复" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2065" y="1067.5" width="70" height="30" as="geometry" />
+          <mxGeometry x="2064" y="1052.5" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-36" value="登录成功发送事件等逻辑" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2065" y="1120" width="160" height="30" as="geometry" />
+          <mxGeometry x="2064" y="1105" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-37" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1780" y="965" width="20" height="175" as="geometry" />
+          <mxGeometry x="1779" y="950" width="20" height="175" as="geometry" />
         </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-38" value="AfterLoginHandler" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1635" y="1037.5" width="120" height="30" as="geometry" />
+          <mxGeometry x="1634" y="1022.5" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MRDX_AlQYD_xYlrHhl6h-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MRDX_AlQYD_xYlrHhl6h-47" target="MRDX_AlQYD_xYlrHhl6h-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MRDX_AlQYD_xYlrHhl6h-47" value="logicCallOnLogin" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1220" y="1170" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MRDX_AlQYD_xYlrHhl6h-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MRDX_AlQYD_xYlrHhl6h-49" target="MRDX_AlQYD_xYlrHhl6h-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MRDX_AlQYD_xYlrHhl6h-49" value="LoginFailHandler" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1253.13" y="1230" width="173.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MRDX_AlQYD_xYlrHhl6h-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MRDX_AlQYD_xYlrHhl6h-52" target="MRDX_AlQYD_xYlrHhl6h-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MRDX_AlQYD_xYlrHhl6h-52" value="BindClientInfoHandler" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1253.1200000000001" y="1280" width="173.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MRDX_AlQYD_xYlrHhl6h-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MRDX_AlQYD_xYlrHhl6h-53" target="MRDX_AlQYD_xYlrHhl6h-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MRDX_AlQYD_xYlrHhl6h-53" value="PublishLoginEventHandler" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1253.13" y="1330" width="173.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MRDX_AlQYD_xYlrHhl6h-54" value="LoginCommunityHandler" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1253.1200000000001" y="1380" width="173.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MRDX_AlQYD_xYlrHhl6h-55" value="验证是否登录成功" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1457.5" y="1230" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MRDX_AlQYD_xYlrHhl6h-56" value="绑定缓存中的ClientInfo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#EA6B66;" vertex="1" parent="1">
+          <mxGeometry x="1452.5" y="1280" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MRDX_AlQYD_xYlrHhl6h-57" value="发布OnLoginEvent事件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1452.5" y="1330" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MRDX_AlQYD_xYlrHhl6h-58" value="登录社交服处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1455" y="1378" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MRDX_AlQYD_xYlrHhl6h-64" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="1230" width="20" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="MRDX_AlQYD_xYlrHhl6h-65" value="AfterLoginHandler" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1045" y="1302.5" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
