@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-23T08:39:24.295Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="fePCU5wr2jFdfxfamzhx" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-23T08:41:19.028Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="19XCONNaF0okCe4ImJN7" version="21.6.9" type="github">
   <diagram id="QiZT7JKPZb_8ZStIjmSi" name="第 1 页">
     <mxGraphModel dx="1434" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -162,7 +162,7 @@
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-8" value="创建连接对象放入缓存" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#EA6B66;" vertex="1" parent="1">
           <mxGeometry x="1457.5" y="847" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MRDX_AlQYD_xYlrHhl6h-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="MRDX_AlQYD_xYlrHhl6h-9" target="MRDX_AlQYD_xYlrHhl6h-18">
+        <mxCell id="MRDX_AlQYD_xYlrHhl6h-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#FF3333;dashed=1;dashPattern=8 8;strokeWidth=2;" edge="1" parent="1" source="MRDX_AlQYD_xYlrHhl6h-9" target="MRDX_AlQYD_xYlrHhl6h-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-9" value="call Logic 登录" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -249,7 +249,7 @@
         <mxCell id="MRDX_AlQYD_xYlrHhl6h-32" value="RepairDataHandler" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1820.25" y="1052.5" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MRDX_AlQYD_xYlrHhl6h-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MRDX_AlQYD_xYlrHhl6h-33" target="MRDX_AlQYD_xYlrHhl6h-47">
+        <mxCell id="MRDX_AlQYD_xYlrHhl6h-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF3333;dashed=1;dashPattern=8 8;strokeWidth=2;" edge="1" parent="1" source="MRDX_AlQYD_xYlrHhl6h-33" target="MRDX_AlQYD_xYlrHhl6h-47">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1915" y="1150" />
