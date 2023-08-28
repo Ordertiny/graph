@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-28T01:55:20.661Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="JnC8BIRfbV3WZvbdNr0Z" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-28T03:34:57.001Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Ermqd4j0iOrtYvQI_Z-G" version="21.6.9" type="github">
   <diagram name="第 1 页" id="teM6AfVNy8LJhYtSs8e2">
     <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -18,6 +18,90 @@
         </mxCell>
         <mxCell id="GViwslcjHWhf-yFjz9Ba-5" value="logic创角" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="500" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GViwslcjHWhf-yFjz9Ba-6" value="username empty&lt;br&gt;|| roleName empty&lt;br&gt;|| gpu&amp;nbsp; empty" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="570" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GViwslcjHWhf-yFjz9Ba-9" value="PARAMTER_ERROR" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="595" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GViwslcjHWhf-yFjz9Ba-11" value="检测角色名已保留" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="670" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GViwslcjHWhf-yFjz9Ba-12" value="PLAYER_NAME_EXIST" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="680" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GViwslcjHWhf-yFjz9Ba-13" value="预创角逻辑是否正常" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="282.5" y="750" width="145" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GViwslcjHWhf-yFjz9Ba-15" value="PLAYER_NAME_EXIST" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="760" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GViwslcjHWhf-yFjz9Ba-16" value="创角模板是否为空" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="282.5" y="820" width="145" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GViwslcjHWhf-yFjz9Ba-17" value="SYSTEM_FAIL" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="835" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GViwslcjHWhf-yFjz9Ba-20" value="创建role对象" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="920" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GViwslcjHWhf-yFjz9Ba-21" value="发送默认物品" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="990" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GViwslcjHWhf-yFjz9Ba-22" value="记录cpu\显卡等硬件数据" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="277.5" y="1050" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GViwslcjHWhf-yFjz9Ba-23" value="初始化RoleExt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="1100" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GViwslcjHWhf-yFjz9Ba-24" value="安全积分初始化" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="1160" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GViwslcjHWhf-yFjz9Ba-25" value="占角色名缓存清理" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="295" y="1220" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GViwslcjHWhf-yFjz9Ba-26" value="下发&amp;nbsp;onCreateUser" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="295" y="1350" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GViwslcjHWhf-yFjz9Ba-27" value="下发callback前的登录成功事件" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="295" y="1290" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GViwslcjHWhf-yFjz9Ba-28" value="下发创角事件" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="1410" width="127.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GViwslcjHWhf-yFjz9Ba-29" value="活动积分 初始化积分数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1360" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GViwslcjHWhf-yFjz9Ba-30" value="举报次数 更新举报次数" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1410" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GViwslcjHWhf-yFjz9Ba-31" value="创角埋点日志" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1460" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GViwslcjHWhf-yFjz9Ba-32" value="发送创角邮件" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1510" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GViwslcjHWhf-yFjz9Ba-33" value="初始化排行榜" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1560" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GViwslcjHWhf-yFjz9Ba-34" value="构建RoleSimple" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1610" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GViwslcjHWhf-yFjz9Ba-35" value="external 奖励" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1660" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GViwslcjHWhf-yFjz9Ba-36" value="玩家数据修复" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1710" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GViwslcjHWhf-yFjz9Ba-37" value="下发登录事件" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="295" y="1470" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GViwslcjHWhf-yFjz9Ba-38" value="重置创角物品变化标记" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="1520" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GViwslcjHWhf-yFjz9Ba-39" value="创建角色成功后把角色名放入缓存" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="1570" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
