@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-07T09:55:16.133Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="fOc8vJXAXZ8-hJdWW3jx" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-07T09:59:14.366Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="cVYgr12sPfHNs1NGw-sr" version="21.7.2" type="github">
   <diagram name="第 1 页" id="UAg1QHeCWXkbtHn-mjAL">
     <mxGraphModel dx="1259" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -154,10 +154,25 @@
           <mxGeometry x="1170" y="790" width="270" height="270" as="geometry" />
         </mxCell>
         <mxCell id="KjNFaDXAHhMrWs6GbARq-27" value="分表后缀名" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1470" y="980" width="110" height="30" as="geometry" />
+          <mxGeometry x="1210" y="850" width="85" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KjNFaDXAHhMrWs6GbARq-29" value="AutoOrmTable" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1255" y="800" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KjNFaDXAHhMrWs6GbARq-30" value="表名" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="850" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KjNFaDXAHhMrWs6GbARq-31" value="列数据集合" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="900" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KjNFaDXAHhMrWs6GbARq-32" value="唯一键集合" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="900" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KjNFaDXAHhMrWs6GbARq-33" value="索引键集合" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="950" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KjNFaDXAHhMrWs6GbARq-34" value="备注" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="950" width="85" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
