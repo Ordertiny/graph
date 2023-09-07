@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-07T09:59:14.366Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="cVYgr12sPfHNs1NGw-sr" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-07T12:33:23.566Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="IEIOchWx6c_lhZXOGHX4" version="21.7.2" type="github">
   <diagram name="第 1 页" id="UAg1QHeCWXkbtHn-mjAL">
     <mxGraphModel dx="1259" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -118,14 +118,94 @@
         <mxCell id="KjNFaDXAHhMrWs6GbARq-11" value="修改表唯一索引的sql&lt;br&gt;AutoOrmAlterTableIndexStrategyExecutor" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="700" y="1217" width="230" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="KjNFaDXAHhMrWs6GbARq-12" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="840" y="770" width="240" height="150" as="geometry" />
+        <mxCell id="KjNFaDXAHhMrWs6GbARq-25" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KjNFaDXAHhMrWs6GbARq-4" target="KjNFaDXAHhMrWs6GbARq-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="1040" as="sourcePoint" />
+            <mxPoint x="730" y="990" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="710" y="1020" />
+              <mxPoint x="690" y="990" />
+              <mxPoint x="700" y="920" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="KjNFaDXAHhMrWs6GbARq-13" value="AutoOrmScheme" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="900" y="780" width="120" height="30" as="geometry" />
+        <mxCell id="KjNFaDXAHhMrWs6GbARq-35" value="" style="group;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1070" y="790" width="210" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="KjNFaDXAHhMrWs6GbARq-16" value="" style="group;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="860" y="820" width="200" height="80" as="geometry" />
+        <mxCell id="KjNFaDXAHhMrWs6GbARq-26" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="KjNFaDXAHhMrWs6GbARq-35">
+          <mxGeometry width="210" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="KjNFaDXAHhMrWs6GbARq-27" value="分表后缀名" style="whiteSpace=wrap;html=1;" vertex="1" parent="KjNFaDXAHhMrWs6GbARq-35">
+          <mxGeometry x="13" y="60" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KjNFaDXAHhMrWs6GbARq-29" value="AutoOrmTable" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KjNFaDXAHhMrWs6GbARq-35">
+          <mxGeometry x="55" y="10" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KjNFaDXAHhMrWs6GbARq-30" value="表名" style="whiteSpace=wrap;html=1;" vertex="1" parent="KjNFaDXAHhMrWs6GbARq-35">
+          <mxGeometry x="113" y="60" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KjNFaDXAHhMrWs6GbARq-31" value="列数据集合" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="KjNFaDXAHhMrWs6GbARq-35">
+          <mxGeometry x="113" y="110" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KjNFaDXAHhMrWs6GbARq-33" value="索引键集合" style="whiteSpace=wrap;html=1;" vertex="1" parent="KjNFaDXAHhMrWs6GbARq-35">
+          <mxGeometry x="13" y="160" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KjNFaDXAHhMrWs6GbARq-34" value="表备注" style="whiteSpace=wrap;html=1;" vertex="1" parent="KjNFaDXAHhMrWs6GbARq-35">
+          <mxGeometry x="113" y="160" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KjNFaDXAHhMrWs6GbARq-32" value="唯一键集合" style="whiteSpace=wrap;html=1;" vertex="1" parent="KjNFaDXAHhMrWs6GbARq-35">
+          <mxGeometry x="13" y="110" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KjNFaDXAHhMrWs6GbARq-50" value="" style="group;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1350" y="815" width="290" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="KjNFaDXAHhMrWs6GbARq-37" value="" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="KjNFaDXAHhMrWs6GbARq-50">
+          <mxGeometry width="290" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="KjNFaDXAHhMrWs6GbARq-38" value="字段名" style="whiteSpace=wrap;html=1;" vertex="1" parent="KjNFaDXAHhMrWs6GbARq-50">
+          <mxGeometry x="10" y="60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KjNFaDXAHhMrWs6GbARq-39" value="字段类型" style="whiteSpace=wrap;html=1;" vertex="1" parent="KjNFaDXAHhMrWs6GbARq-50">
+          <mxGeometry x="80" y="60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KjNFaDXAHhMrWs6GbARq-40" value="默认值" style="whiteSpace=wrap;html=1;" vertex="1" parent="KjNFaDXAHhMrWs6GbARq-50">
+          <mxGeometry x="10" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KjNFaDXAHhMrWs6GbARq-41" value="是否为空" style="whiteSpace=wrap;html=1;" vertex="1" parent="KjNFaDXAHhMrWs6GbARq-50">
+          <mxGeometry x="80" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KjNFaDXAHhMrWs6GbARq-42" value="是否唯一" style="whiteSpace=wrap;html=1;" vertex="1" parent="KjNFaDXAHhMrWs6GbARq-50">
+          <mxGeometry x="150" y="60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KjNFaDXAHhMrWs6GbARq-43" value="列备注" style="whiteSpace=wrap;html=1;" vertex="1" parent="KjNFaDXAHhMrWs6GbARq-50">
+          <mxGeometry x="150" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KjNFaDXAHhMrWs6GbARq-44" value="列长度" style="whiteSpace=wrap;html=1;" vertex="1" parent="KjNFaDXAHhMrWs6GbARq-50">
+          <mxGeometry x="220" y="60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KjNFaDXAHhMrWs6GbARq-45" value="精度" style="whiteSpace=wrap;html=1;" vertex="1" parent="KjNFaDXAHhMrWs6GbARq-50">
+          <mxGeometry x="220" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KjNFaDXAHhMrWs6GbARq-52" value="AutoOrmColumn" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KjNFaDXAHhMrWs6GbARq-50">
+          <mxGeometry x="100" y="10" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KjNFaDXAHhMrWs6GbARq-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="KjNFaDXAHhMrWs6GbARq-14" target="KjNFaDXAHhMrWs6GbARq-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KjNFaDXAHhMrWs6GbARq-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;curved=1;" edge="1" parent="1" source="KjNFaDXAHhMrWs6GbARq-31" target="KjNFaDXAHhMrWs6GbARq-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KjNFaDXAHhMrWs6GbARq-55" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="770" y="850" width="240" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="KjNFaDXAHhMrWs6GbARq-12" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="KjNFaDXAHhMrWs6GbARq-55">
+          <mxGeometry width="240" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="KjNFaDXAHhMrWs6GbARq-13" value="AutoOrmScheme" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="KjNFaDXAHhMrWs6GbARq-55">
+          <mxGeometry x="60" y="10" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KjNFaDXAHhMrWs6GbARq-16" value="" style="group;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" connectable="0" parent="KjNFaDXAHhMrWs6GbARq-55">
+          <mxGeometry x="20" y="50" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="KjNFaDXAHhMrWs6GbARq-14" value="" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="KjNFaDXAHhMrWs6GbARq-16">
           <mxGeometry width="200" height="80" as="geometry" />
@@ -138,41 +218,6 @@
         </mxCell>
         <mxCell id="KjNFaDXAHhMrWs6GbARq-24" value="AutoOrmTable" style="whiteSpace=wrap;html=1;" vertex="1" parent="KjNFaDXAHhMrWs6GbARq-16">
           <mxGeometry x="63" y="35" width="90" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="KjNFaDXAHhMrWs6GbARq-25" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KjNFaDXAHhMrWs6GbARq-4" target="KjNFaDXAHhMrWs6GbARq-12">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="680" y="1040" as="sourcePoint" />
-            <mxPoint x="730" y="990" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="710" y="1020" />
-              <mxPoint x="690" y="990" />
-              <mxPoint x="700" y="920" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="KjNFaDXAHhMrWs6GbARq-26" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="1170" y="790" width="270" height="270" as="geometry" />
-        </mxCell>
-        <mxCell id="KjNFaDXAHhMrWs6GbARq-27" value="分表后缀名" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1210" y="850" width="85" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="KjNFaDXAHhMrWs6GbARq-29" value="AutoOrmTable" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1255" y="800" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="KjNFaDXAHhMrWs6GbARq-30" value="表名" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="850" width="85" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="KjNFaDXAHhMrWs6GbARq-31" value="列数据集合" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1210" y="900" width="85" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="KjNFaDXAHhMrWs6GbARq-32" value="唯一键集合" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="900" width="85" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="KjNFaDXAHhMrWs6GbARq-33" value="索引键集合" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1210" y="950" width="85" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="KjNFaDXAHhMrWs6GbARq-34" value="备注" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="950" width="85" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
