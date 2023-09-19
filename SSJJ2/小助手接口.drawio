@@ -1,26 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2023-09-19T07:27:40.825Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="Lall6A9xbkFkcYl5p6nX" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-19T07:35:05.478Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="mZ-XqP0Ux4ux2cakOs3x" version="21.7.5" type="github">
   <diagram name="第 1 页" id="KWQHc-y4WQyEWoKKa06l">
     <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="av_mlNTD5LwuY0EcRqsx-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="av_mlNTD5LwuY0EcRqsx-1" target="av_mlNTD5LwuY0EcRqsx-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="av_mlNTD5LwuY0EcRqsx-1" value="加载数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="311.25" y="160" width="190" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="av_mlNTD5LwuY0EcRqsx-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="av_mlNTD5LwuY0EcRqsx-3" target="av_mlNTD5LwuY0EcRqsx-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="av_mlNTD5LwuY0EcRqsx-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="av_mlNTD5LwuY0EcRqsx-3" target="av_mlNTD5LwuY0EcRqsx-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="av_mlNTD5LwuY0EcRqsx-3" value="角色是否在线" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="337.5" y="240" width="135" height="50" as="geometry" />
+          <mxGeometry x="338.75" y="230" width="135" height="50" as="geometry" />
         </mxCell>
         <mxCell id="av_mlNTD5LwuY0EcRqsx-5" value="缓存中查询数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="250" width="125" height="30" as="geometry" />
+          <mxGeometry x="550" y="240" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="av_mlNTD5LwuY0EcRqsx-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="av_mlNTD5LwuY0EcRqsx-6" target="av_mlNTD5LwuY0EcRqsx-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="av_mlNTD5LwuY0EcRqsx-6" value="将roleId加入缓存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="342.5" y="350" width="125" height="30" as="geometry" />
+          <mxGeometry x="343.75" y="310" width="125" height="30" as="geometry" />
         </mxCell>
         <mxCell id="av_mlNTD5LwuY0EcRqsx-7" value="查询仓库DB并将数据放入缓存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="342.5" y="420" width="127.5" height="40" as="geometry" />
+          <mxGeometry x="342.5" y="370" width="127.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="av_mlNTD5LwuY0EcRqsx-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="av_mlNTD5LwuY0EcRqsx-8" target="av_mlNTD5LwuY0EcRqsx-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="av_mlNTD5LwuY0EcRqsx-8" value="移除RoleId缓存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1010" y="160" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="av_mlNTD5LwuY0EcRqsx-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="av_mlNTD5LwuY0EcRqsx-9" target="av_mlNTD5LwuY0EcRqsx-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="av_mlNTD5LwuY0EcRqsx-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="av_mlNTD5LwuY0EcRqsx-9" target="av_mlNTD5LwuY0EcRqsx-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="av_mlNTD5LwuY0EcRqsx-9" value="角色是否在线" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1052.5" y="230" width="135" height="50" as="geometry" />
@@ -34,8 +55,23 @@
         <mxCell id="av_mlNTD5LwuY0EcRqsx-12" value="移除仓库缓存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1057.5" y="360" width="125" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="av_mlNTD5LwuY0EcRqsx-13" value="移除roleId即可" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="av_mlNTD5LwuY0EcRqsx-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="av_mlNTD5LwuY0EcRqsx-13" target="av_mlNTD5LwuY0EcRqsx-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="av_mlNTD5LwuY0EcRqsx-13" value="移除roleId" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1057.5" y="310" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="av_mlNTD5LwuY0EcRqsx-22" value="在线" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="230" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="av_mlNTD5LwuY0EcRqsx-23" value="不在线" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="av_mlNTD5LwuY0EcRqsx-24" value="在线" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1187.5" y="230" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="av_mlNTD5LwuY0EcRqsx-25" value="不在线" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1122.5" y="280" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
