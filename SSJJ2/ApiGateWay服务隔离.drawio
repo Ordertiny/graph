@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-25T08:47:05.156Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="9h93OFtMg1EQoK-oh5w2" version="21.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-25T08:48:06.755Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="C61sIqecokHTRW2Ydqq9" version="21.8.0" type="github">
   <diagram name="第 1 页" id="-euYrq6UXhqAbyDrJ8by">
     <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -289,6 +289,9 @@
         <mxCell id="ZTsOR0KiFuearrxY1AdN-10" value="GM请求可以相应" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#00CC00;" vertex="1" parent="ZTsOR0KiFuearrxY1AdN-2">
           <mxGeometry x="105" y="-30" width="110" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="ZTsOR0KiFuearrxY1AdN-60" value="GM服务组" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZTsOR0KiFuearrxY1AdN-2">
+          <mxGeometry x="90" y="100" width="80" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="ZTsOR0KiFuearrxY1AdN-11" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="940" y="1085" width="40" height="50" as="geometry" />
         </mxCell>
@@ -311,7 +314,7 @@
           <mxGeometry x="1002" y="1326" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZTsOR0KiFuearrxY1AdN-31" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1410" y="1240" width="267" height="150" as="geometry" />
+          <mxGeometry x="1410" y="1240" width="267" height="187" as="geometry" />
         </mxCell>
         <mxCell id="ZTsOR0KiFuearrxY1AdN-32" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZTsOR0KiFuearrxY1AdN-31">
           <mxGeometry x="-10" y="52" width="260" height="130" as="geometry" />
@@ -327,6 +330,9 @@
         </mxCell>
         <mxCell id="ZTsOR0KiFuearrxY1AdN-39" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;非GM请求可以相应" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#00CC00;" vertex="1" parent="ZTsOR0KiFuearrxY1AdN-31">
           <mxGeometry x="80" y="31" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTsOR0KiFuearrxY1AdN-61" value="非GM服务组" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ZTsOR0KiFuearrxY1AdN-31">
+          <mxGeometry x="80" y="157" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZTsOR0KiFuearrxY1AdN-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ZTsOR0KiFuearrxY1AdN-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -384,6 +390,9 @@
         </mxCell>
         <mxCell id="ZTsOR0KiFuearrxY1AdN-58" value="port3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1155" y="1390" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTsOR0KiFuearrxY1AdN-59" value="同一个SLB" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="1448" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
