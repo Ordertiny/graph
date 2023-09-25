@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-09-25T08:45:40.610Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="ROqMe0FBgbYWHzkyNoUC" version="21.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-25T08:47:05.156Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="9h93OFtMg1EQoK-oh5w2" version="21.8.0" type="github">
   <diagram name="第 1 页" id="-euYrq6UXhqAbyDrJ8by">
     <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ZTsOR0KiFuearrxY1AdN-50" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="1030" width="130" height="390" as="geometry" />
+          <mxGeometry x="1120" y="1037" width="130" height="390" as="geometry" />
         </mxCell>
         <mxCell id="s5ZnHEbZAF1jLoiQEf9y-1" value="GM-SLB" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="150" width="120" height="80" as="geometry" />
@@ -368,13 +368,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ZTsOR0KiFuearrxY1AdN-51" value="SLB" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1155" y="1000" width="50" height="30" as="geometry" />
+          <mxGeometry x="1160" y="1000" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZTsOR0KiFuearrxY1AdN-53" value="蓝色表示nodeA节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1423.5" y="1480" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZTsOR0KiFuearrxY1AdN-54" value="黄色表示nodeB节点" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1423.5" y="1540" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTsOR0KiFuearrxY1AdN-56" value="port2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="1260" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTsOR0KiFuearrxY1AdN-57" value="port1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="1135" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZTsOR0KiFuearrxY1AdN-58" value="port3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="1390" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
