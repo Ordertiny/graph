@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-09T14:03:29.150Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.1.4031 SLBChan/30" etag="T14k575CYSOq5wXHVi10" version="22.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-09T15:08:21.483Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.1.4031 SLBChan/30" etag="qQ686aT8XqPcbZSsbAn5" version="22.0.0" type="github">
   <diagram name="第 1 页" id="wUAEAIxkWxok8icOV6td">
     <mxGraphModel dx="794" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -69,6 +69,263 @@
         </mxCell>
         <mxCell id="ddNXW40_BPUpoWxZo95l-13" value="空条件等待&lt;br&gt;empty.await()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="915" y="202" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-14" value="创建物理连接&lt;br&gt;createPhysicalConnection()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="895" y="260" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-15" value="conn = getDriver().connect(url, info);" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="875" y="320" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-16" value="通过驱动创建连接" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="750" y="320" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-17" value="initPhysicalConnection" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="895" y="380" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-18" value="初始化连接属性" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="750" y="380" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-19" value="将Connection包装成&lt;br&gt;PhysicalConnectionInfo" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="435" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-20" value="将连接放入连接池中&lt;br&gt;connections[poolingCount] = holder" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="550" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-21" value="生产完成通知不空条件&lt;br&gt;notEmpty.signal()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="895" y="625" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-22" value="将PhysicalConnectionInfo包装成&lt;br&gt;DruidConnectionHolder" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="490" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-23" value="DestroyConnectionThread" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="50" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-24" value="死循环" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1292.5" y="140" width="185" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-26" value="等待&amp;nbsp;timeBetweenEvictionRunsMillis&lt;br&gt;或等待1s" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="208" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-27" value="DestroyTask.run()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="290" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-28" value="DestroyTask" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="50" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-29" value="run" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1665" y="295" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-30" value="shrink(true, keepAlive)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="350" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-31" value="检查回收数量" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="405" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-32" value="&lt;div&gt;&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; // 确定要回收的数量&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // 假设当前连接池中有 20 个连接（poolingCount = 20），而 minIdle 设置为 10。&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // 那么，checkCount 就会被计算为 20 - 10 = 10。&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // 这意味着连接池中有 10 个多余的连接，需要检查它们的状态，决定是否回收一些连接以满足 minIdle 的要求。&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="385" width="660" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ddNXW40_BPUpoWxZo95l-33" target="ddNXW40_BPUpoWxZo95l-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-33" value="循环连接池连接" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1662.5" y="470" width="145" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-34" value="&lt;div&gt;如果连接池处于致命错误模式（onFatalError 为 true）或者在最近发生了致命错误（fatalErrorIncrement 大于 0）&lt;/div&gt;&lt;div&gt;并且&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;同时连接是在最后一次致命错误之前创建的，那么保留这个连接（不回收），因为这个连接可能是在致命错误之前创建的，仍然可用。&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1830" y="527.5" width="370" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ddNXW40_BPUpoWxZo95l-35" target="ddNXW40_BPUpoWxZo95l-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ddNXW40_BPUpoWxZo95l-35" target="ddNXW40_BPUpoWxZo95l-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1560" y="573" />
+              <mxPoint x="1560" y="710" />
+              <mxPoint x="1735" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-35" value="判定条件" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="545" width="110" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-36" value="&lt;div&gt;keepAliveConnections[keepAliveCount++] = connection;&lt;/div&gt;&lt;div&gt;connectionsFlag[i] = true;&lt;/div&gt;&lt;div&gt;continue;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="635" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-38" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1730" y="600" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ddNXW40_BPUpoWxZo95l-39" target="ddNXW40_BPUpoWxZo95l-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ddNXW40_BPUpoWxZo95l-39" target="ddNXW40_BPUpoWxZo95l-85">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1510" y="765" />
+              <mxPoint x="1510" y="1980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-39" value="开启对时间check" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="740" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-42" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="545" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ddNXW40_BPUpoWxZo95l-43" target="ddNXW40_BPUpoWxZo95l-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ddNXW40_BPUpoWxZo95l-43" target="ddNXW40_BPUpoWxZo95l-51">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1570" y="845" />
+              <mxPoint x="1570" y="970" />
+              <mxPoint x="1735" y="970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-43" value="若配置超时时间&lt;br&gt;且&lt;br&gt;连接超时则" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1645" y="810" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-44" value="放入保活数组" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="648" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-45" value="&lt;div&gt;&amp;nbsp;evictConnections[evictCount++] = connection;&lt;/div&gt;&lt;div&gt;&amp;nbsp;connectionsFlag[i] = true;&lt;/div&gt;&lt;div&gt;&amp;nbsp;continue;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="900" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-46" value="放入驱逐数组" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1870" y="915" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-48" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="868" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-50" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="780" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ddNXW40_BPUpoWxZo95l-51" target="ddNXW40_BPUpoWxZo95l-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ddNXW40_BPUpoWxZo95l-51" target="ddNXW40_BPUpoWxZo95l-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1570" y="1035" />
+              <mxPoint x="1570" y="1180" />
+              <mxPoint x="1735" y="1180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-51" value="&lt;div&gt;最小驱逐间隔时间&amp;gt;当前连接存活间隔&lt;/div&gt;&lt;div&gt;并且&lt;/div&gt;&lt;div&gt;有效连接时间 &amp;gt;间隔时间&amp;nbsp;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1605" y="990" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-52" value="break" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1675" y="1120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-54" value="表示本次检测太快了&lt;br&gt;没意义" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="1123" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-56" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="820" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ddNXW40_BPUpoWxZo95l-57" target="ddNXW40_BPUpoWxZo95l-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ddNXW40_BPUpoWxZo95l-57" target="ddNXW40_BPUpoWxZo95l-76">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1530" y="1245" />
+              <mxPoint x="1530" y="1660" />
+              <mxPoint x="1735" y="1660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-57" value="当前连接时间 &amp;gt; 最小回收时间" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1645" y="1210" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-58" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="1078" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-60" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="1010" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ddNXW40_BPUpoWxZo95l-61" target="ddNXW40_BPUpoWxZo95l-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ddNXW40_BPUpoWxZo95l-61" target="ddNXW40_BPUpoWxZo95l-68">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1570" y="1325" />
+              <mxPoint x="1570" y="1460" />
+              <mxPoint x="1735" y="1460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-61" value="i &amp;lt; checkCount" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1675" y="1300" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-62" value="表示当前序号是多余的" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1817.5" y="1310" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-63" value="&lt;div&gt;&amp;nbsp;evictConnections[evictCount++] = connection;&lt;/div&gt;&lt;div&gt;&amp;nbsp;connectionsFlag[i] = true;&lt;/div&gt;&lt;div&gt;&amp;nbsp; continue;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="1370" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-65" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="1340" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-67" value="回收" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1870" y="1378" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ddNXW40_BPUpoWxZo95l-68" target="ddNXW40_BPUpoWxZo95l-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ddNXW40_BPUpoWxZo95l-68" target="ddNXW40_BPUpoWxZo95l-76">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1560" y="1510" />
+              <mxPoint x="1560" y="1660" />
+              <mxPoint x="1735" y="1660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-68" value="存活时间 &amp;gt; 最大回收时间" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1657.5" y="1480" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-69" value="虽然不是多余序号&lt;br&gt;但是 超时了" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1825" y="1490" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-71" value="&lt;div&gt;&amp;nbsp;evictConnections[evictCount++] = connection;&lt;/div&gt;&lt;div&gt;&amp;nbsp;connectionsFlag[i] = true;&lt;/div&gt;&lt;div&gt;&amp;nbsp; continue;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="1570" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-73" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="1540" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-75" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1565" y="1300" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ddNXW40_BPUpoWxZo95l-76" target="ddNXW40_BPUpoWxZo95l-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-76" value="连接允许保活&lt;br&gt;且&lt;br&gt;空闲时间超过keepAliveBetweenTimeMillis" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="1670" width="270" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-77" value="&lt;div&gt;keepAliveConnections[keepAliveCount++] = connection;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;connectionsFlag[i] = true;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="1810" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-79" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="1778" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-80" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="1278" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-82" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1565" y="1480" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-84" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="1210" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-85" value="&lt;div&gt;if (i &amp;lt; checkCount) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; evictConnections[evictCount++] = connection;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; connectionsFlag[i] = true;&lt;/div&gt;&lt;div&gt;&amp;nbsp; } else {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;break;&lt;/div&gt;&lt;div&gt;&amp;nbsp; }&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="1920" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-87" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="740" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
