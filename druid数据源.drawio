@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-09T15:08:21.483Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.1.4031 SLBChan/30" etag="qQ686aT8XqPcbZSsbAn5" version="22.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-09T15:14:51.804Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 SLBrowser/8.0.1.4031 SLBChan/30" etag="Szqv4HSXVl_AVEhWRYgt" version="22.0.0" type="github">
   <diagram name="第 1 页" id="wUAEAIxkWxok8icOV6td">
     <mxGraphModel dx="794" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -326,6 +326,24 @@
         </mxCell>
         <mxCell id="ddNXW40_BPUpoWxZo95l-87" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1510" y="740" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-88" value="所有超过存活数量的连接都回收" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1865" y="1965" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-89" value="关闭evictConnections中的连接" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="2120" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-91" value="处理保活连接keepAliveConnections" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="2180" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-92" value="将所有保活连接中的连接全部增加保活次数&lt;br&gt;验证连接是否有效，若 有效放入connections中&lt;br&gt;无效就关闭&lt;br&gt;&lt;br&gt;验证有效的默认方法是 select 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="2155" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-93" value="整理connections中的连接&lt;br&gt;将其余放入保活和剔除池的连接去掉" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="2060" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ddNXW40_BPUpoWxZo95l-94" value="当前使用的数量+连接池里的连接 小于最小数量 则需要生产" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1615" y="2270" width="240" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
