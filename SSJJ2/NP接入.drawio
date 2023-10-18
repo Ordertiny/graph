@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T11:22:19.388Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="JMwUQrcbao1qRz0C6nj2" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-18T11:35:15.132Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="eRzmOKlhqb8NwH9OnX37" version="22.0.4" type="github">
   <diagram name="第 1 页" id="m8Y2bPKccs0BhpPyB7dn">
     <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -603,8 +603,8 @@
         <mxCell id="3ECNFXFE3xswvJg45IEQ-152" value="cache Role" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="140" y="2220" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3ECNFXFE3xswvJg45IEQ-153" value="初始时，玩家在NP1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="120" y="1880" width="130" height="30" as="geometry" />
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-153" value="1.初始时，玩家在NP1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="115" y="1880" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3ECNFXFE3xswvJg45IEQ-154" value="Login" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="2020" width="400" height="50" as="geometry" />
@@ -619,12 +619,12 @@
           <mxGeometry x="840" y="2140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3ECNFXFE3xswvJg45IEQ-158" value="wdId hash" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="630" y="2080" width="80" height="30" as="geometry" />
+          <mxGeometry x="770" y="2090" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3ECNFXFE3xswvJg45IEQ-159" value="client" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="575" y="1920" width="390" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3ECNFXFE3xswvJg45IEQ-160" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.558;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3ECNFXFE3xswvJg45IEQ-154" target="3ECNFXFE3xswvJg45IEQ-155">
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-160" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3ECNFXFE3xswvJg45IEQ-154" target="3ECNFXFE3xswvJg45IEQ-156">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="710" y="2130" as="sourcePoint" />
             <mxPoint x="760" y="2080" as="targetPoint" />
@@ -633,8 +633,77 @@
         <mxCell id="3ECNFXFE3xswvJg45IEQ-161" value="cache Role" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="590" y="2220" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3ECNFXFE3xswvJg45IEQ-162" value="NP1下线" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="600" y="1880" width="70" height="30" as="geometry" />
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-162" value="2.NP1下线" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="575" y="1880" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-165" value="创建 cache Role" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="715" y="2220" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-166" value="Login" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="2410" width="400" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-167" value="NP-Service1&lt;br&gt;上线" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-168" value="NP-Service2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="2530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-169" value="NP-Service3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="2530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-171" value="client" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="115" y="2310" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-172" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="3ECNFXFE3xswvJg45IEQ-167" target="3ECNFXFE3xswvJg45IEQ-166">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="2510" as="sourcePoint" />
+            <mxPoint x="300" y="2470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-173" value="清除上次&lt;br&gt;get不存在的&lt;br&gt;缓存数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="135" y="2595" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-174" value="3.NP1上线" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2270" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-175" value="cache Role" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="2600" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-176" value="Login" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="2410" width="400" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-189" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="3ECNFXFE3xswvJg45IEQ-177" target="3ECNFXFE3xswvJg45IEQ-178">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-177" value="NP-Service1&lt;br&gt;上线" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="2530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-178" value="NP-Service2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="2530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-179" value="NP-Service3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="2530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-180" value="client" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="575" y="2310" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-183" value="4. NP1重新路由" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="565" y="2270" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-184" value="清除NP2上的cache Role" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="635" y="2620" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-185" value="注册 上线" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="210" y="2480" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-187" value="wdId hash" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="635" y="2480" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-188" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3ECNFXFE3xswvJg45IEQ-176" target="3ECNFXFE3xswvJg45IEQ-177">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="2470" as="sourcePoint" />
+            <mxPoint x="760" y="2540" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
