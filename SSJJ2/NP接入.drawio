@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-20T04:44:20.720Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="AHH_R053KeQ4rwoKRvwv" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-20T04:52:44.344Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="Ful2OZnrQFbFx0Yea_qP" version="22.0.4" type="github">
   <diagram name="第 1 页" id="m8Y2bPKccs0BhpPyB7dn">
-    <mxGraphModel dx="989" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -748,7 +748,7 @@
         <mxCell id="3ECNFXFE3xswvJg45IEQ-220" value="获取上报数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2145" y="1756" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3ECNFXFE3xswvJg45IEQ-221" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.468;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3ECNFXFE3xswvJg45IEQ-217" target="3ECNFXFE3xswvJg45IEQ-210">
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-221" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.468;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF3333;" edge="1" parent="1" source="3ECNFXFE3xswvJg45IEQ-217" target="3ECNFXFE3xswvJg45IEQ-210">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2301" y="1860" />
@@ -758,6 +758,24 @@
         </mxCell>
         <mxCell id="3ECNFXFE3xswvJg45IEQ-222" value="封禁功能&lt;br&gt;&lt;br&gt;踢号功能" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2055" y="1860" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-223" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2230" y="2000" as="sourcePoint" />
+            <mxPoint x="2330" y="2000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-224" value="RPC" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2255" y="1970" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-225" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF3333;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2230" y="2030" as="sourcePoint" />
+            <mxPoint x="2330" y="2030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-226" value="HTTP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2255" y="2006" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
