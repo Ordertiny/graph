@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-20T05:16:53.030Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="Xz7XZ6Q_4H4L6ylShvT_" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-20T08:50:11.106Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="-Xpfg_VYp2O1qgUymNr_" version="22.0.4" type="github">
   <diagram name="第 1 页" id="m8Y2bPKccs0BhpPyB7dn">
     <mxGraphModel dx="1195" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -794,6 +794,84 @@
         </mxCell>
         <mxCell id="3ECNFXFE3xswvJg45IEQ-232" value="获取详细数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1910" y="1935" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-233" value="NP服务启动" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="2220" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-235" value="InitCSAuth3" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1575" y="2380" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-236" value="CloseCSAuth3" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1575" y="2470" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-237" value="NP认证服务器启动" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="2385" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-238" value="NP认证服务器关闭" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1435" y="2475" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-240" value="CSAuth3_CreateInstance" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1965" y="2410" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-241" value="认证初始化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1847.5" y="2480" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-242" value="CSAuth3_Init" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1965" y="2470" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-243" value="创建认证" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1852.5" y="2418" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-257" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3ECNFXFE3xswvJg45IEQ-244" target="3ECNFXFE3xswvJg45IEQ-246">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-244" value="get" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1965" y="2530" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-245" value="获取认证值" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1847.5" y="2535" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-258" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3ECNFXFE3xswvJg45IEQ-246" target="3ECNFXFE3xswvJg45IEQ-244">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-246" value="check" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1965" y="2600" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-247" value="校验认证值" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1847.5" y="2600" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-248" value="玩家正常退出" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1827.5" y="2670" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-249" value="close" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1965" y="2670" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-250" value="release" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1965" y="2730" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-251" value="玩家正常退出" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1827.5" y="2735" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-252" value="当get或者check失败时" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2325" y="2425" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-253" value="get/check&lt;br&gt;has error" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2487" y="2420" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-254" value="CSAuth3_Init" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2487" y="2485" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-255" value="重新执行init" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2350" y="2490" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-256" value="反复操作" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2097.5" y="2570" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-261" value="等待下一次的轮询" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2338" y="2550" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3ECNFXFE3xswvJg45IEQ-262" value="玩家连接到退出流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1822.5" y="2370" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
