@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-13T02:30:28.176Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="FIrbZVz8DvTNJ8tepeKA" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-13T02:36:45.032Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="lxfpsY3WdiP64RYVi91l" version="22.1.0" type="github">
   <diagram name="第 1 页" id="B-qyxUS3mooHXOc2_EJB">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -63,6 +63,27 @@
         </mxCell>
         <mxCell id="IDeXR4Nn8I1j4QwbW-1Z-24" value="&lt;div style=&quot;background-color:#ffffff;color:#080808;font-family:&#39;宋体&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;pre&gt;public static int &lt;span style=&quot;color:#00627a;&quot;&gt;getSmallHornBroadcastType&lt;/span&gt;(){&lt;br&gt;    &lt;span style=&quot;color:#0033b3;&quot;&gt;int &lt;/span&gt;&lt;span style=&quot;color:#000000;&quot;&gt;chatType &lt;/span&gt;= &lt;span style=&quot;color:#000000;&quot;&gt;EnumConstant&lt;/span&gt;.&lt;span style=&quot;color:#000000;&quot;&gt;ChatTypeEnum&lt;/span&gt;.&lt;span style=&quot;color:#871094;font-style:italic;&quot;&gt;CHAT_TYPE_SYSTEM&lt;/span&gt;.getType();&lt;br&gt;    &lt;span style=&quot;color:#000000;&quot;&gt;chatType &lt;/span&gt;|= &lt;span style=&quot;color:#000000;&quot;&gt;EnumConstant&lt;/span&gt;.&lt;span style=&quot;color:#000000;&quot;&gt;ChatTypeEnum&lt;/span&gt;.&lt;span style=&quot;color:#871094;font-style:italic;&quot;&gt;CHAT_TYPE_HALL&lt;/span&gt;.getType();&lt;br&gt;    &lt;span style=&quot;color:#000000;&quot;&gt;chatType &lt;/span&gt;|= &lt;span style=&quot;color:#000000;&quot;&gt;EnumConstant&lt;/span&gt;.&lt;span style=&quot;color:#000000;&quot;&gt;ChatTypeEnum&lt;/span&gt;.&lt;span style=&quot;color:#871094;font-style:italic;&quot;&gt;CHAT_TYPE_ROOM&lt;/span&gt;.getType();&lt;br&gt;    &lt;span style=&quot;color:#000000;&quot;&gt;chatType &lt;/span&gt;|= &lt;span style=&quot;color:#000000;&quot;&gt;EnumConstant&lt;/span&gt;.&lt;span style=&quot;color:#000000;&quot;&gt;ChatTypeEnum&lt;/span&gt;.&lt;span style=&quot;color:#871094;font-style:italic;&quot;&gt;CHAT_TYPE_TEAM&lt;/span&gt;.getType();&lt;br&gt;    &lt;span style=&quot;color:#000000;&quot;&gt;chatType &lt;/span&gt;|= &lt;span style=&quot;color:#000000;&quot;&gt;EnumConstant&lt;/span&gt;.&lt;span style=&quot;color:#000000;&quot;&gt;ChatTypeEnum&lt;/span&gt;.&lt;span style=&quot;color:#871094;font-style:italic;&quot;&gt;CHAT_TYPE_GUILD&lt;/span&gt;.getType();&lt;br&gt;    &lt;span style=&quot;color:#0033b3;&quot;&gt;return &lt;/span&gt;&lt;span style=&quot;color:#000000;&quot;&gt;chatType&lt;/span&gt;;&lt;br&gt;}&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="800" y="561" width="600" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="IDeXR4Nn8I1j4QwbW-1Z-25" value="chatType不能是默认值" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="406" y="720" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IDeXR4Nn8I1j4QwbW-1Z-26" value="私聊不能给自己发消息" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="406" y="770" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IDeXR4Nn8I1j4QwbW-1Z-27" value="消息发送必须小于1s" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="406" y="820" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IDeXR4Nn8I1j4QwbW-1Z-28" value="不能是系统消息" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="406" y="870" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IDeXR4Nn8I1j4QwbW-1Z-29" value="不能是喇叭和跑马灯消息" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="406" y="920" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IDeXR4Nn8I1j4QwbW-1Z-30" value="大厅消息必须是玩家在房间或者组队过程中" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="389" y="970" width="134" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IDeXR4Nn8I1j4QwbW-1Z-31" value="记录发送时间" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="412" y="1030" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
