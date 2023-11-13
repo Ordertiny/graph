@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-13T03:14:51.309Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="xmSEhmqDNrxecW4j0HY5" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-13T03:15:13.993Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="2bnlgptNma-F5zOFaVLB" version="22.1.0" type="github">
   <diagram name="第 1 页" id="B-qyxUS3mooHXOc2_EJB">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -113,19 +113,19 @@
           <mxGeometry x="560" y="1390" width="420" height="110" as="geometry" />
         </mxCell>
         <mxCell id="IDeXR4Nn8I1j4QwbW-1Z-42" value="是局内队伍消息 则设置目标为房间Id 过滤条件为服务器Id，局内队伍Id" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="387" y="1480" width="138" height="50" as="geometry" />
+          <mxGeometry x="387" y="1460" width="138" height="50" as="geometry" />
         </mxCell>
         <mxCell id="IDeXR4Nn8I1j4QwbW-1Z-43" value="是个人消息 &lt;br&gt;则设置月卡状态" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="387" y="1550" width="133" height="40" as="geometry" />
+          <mxGeometry x="387" y="1520" width="133" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IDeXR4Nn8I1j4QwbW-1Z-44" value="是&amp;nbsp;CHAT_TYPE_NEARBY&lt;br&gt;则设置频道服Id，房间Id，好友Id" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="388" y="1610" width="142" height="50" as="geometry" />
+          <mxGeometry x="387" y="1570" width="142" height="50" as="geometry" />
         </mxCell>
         <mxCell id="IDeXR4Nn8I1j4QwbW-1Z-45" value="是&amp;nbsp;房间阵营&lt;br&gt;则设置房间Id，好友Id" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="389" y="1670" width="142" height="40" as="geometry" />
+          <mxGeometry x="391" y="1630" width="142" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IDeXR4Nn8I1j4QwbW-1Z-46" value="是 局内房间全部&lt;br&gt;则设置房间Id" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="388" y="1720" width="142" height="40" as="geometry" />
+          <mxGeometry x="391" y="1680" width="142" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
