@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-13T03:15:27.997Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="2m8Aw2HXxg1zc1JsPFbK" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-13T03:36:32.311Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="MEBFe3i5BuxgbfuRzM9F" version="22.1.0" type="github">
   <diagram name="第 1 页" id="B-qyxUS3mooHXOc2_EJB">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -126,6 +126,81 @@
         </mxCell>
         <mxCell id="IDeXR4Nn8I1j4QwbW-1Z-46" value="是 局内房间全部&lt;br&gt;则设置房间Id" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="382.5" y="1680" width="142" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IDeXR4Nn8I1j4QwbW-1Z-47" value="三方屏蔽词校验" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1175" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IDeXR4Nn8I1j4QwbW-1Z-48" value="广播消息" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="205" y="1760" width="155" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IDeXR4Nn8I1j4QwbW-1Z-49" value="转发消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="212.5" y="1810" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IDeXR4Nn8I1j4QwbW-1Z-50" value="转发节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="212.5" y="2400" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IDeXR4Nn8I1j4QwbW-1Z-52" value="系统消息" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="402" y="1805" width="108" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="IDeXR4Nn8I1j4QwbW-1Z-53" value="所有在线玩家均发送" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="552" y="1807.5" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IDeXR4Nn8I1j4QwbW-1Z-54" value="大厅消息" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="404" y="1860" width="108" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="IDeXR4Nn8I1j4QwbW-1Z-55" value="所有在线玩家均发送" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="552" y="1865" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IDeXR4Nn8I1j4QwbW-1Z-56" value="房间信息" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="1920" width="108" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="IDeXR4Nn8I1j4QwbW-1Z-57" value="匹配频道+房间Id" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="552" y="1922.5" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IDeXR4Nn8I1j4QwbW-1Z-58" value="队伍信息" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="408" y="1970" width="108" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="IDeXR4Nn8I1j4QwbW-1Z-59" value="队伍Id" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="552" y="1972.5" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IDeXR4Nn8I1j4QwbW-1Z-60" value="私聊信息" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="412" y="2030" width="108" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="IDeXR4Nn8I1j4QwbW-1Z-61" value="给发送者+接收者" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="552" y="2033" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IDeXR4Nn8I1j4QwbW-1Z-62" value="战队信息" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="412" y="2090" width="108" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="IDeXR4Nn8I1j4QwbW-1Z-63" value="给战队发送" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="552" y="2092.5" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IDeXR4Nn8I1j4QwbW-1Z-64" value="局内附近的人信息" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="415" y="2150" width="108" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="IDeXR4Nn8I1j4QwbW-1Z-65" value="roleId+房间校验" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="552" y="2152" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IDeXR4Nn8I1j4QwbW-1Z-66" value="局内阵营" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="415" y="2210" width="108" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="IDeXR4Nn8I1j4QwbW-1Z-67" value="(阵营)roleId+房间Id" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="552" y="2215" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IDeXR4Nn8I1j4QwbW-1Z-68" value="局内小队" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="417" y="2270" width="108" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="IDeXR4Nn8I1j4QwbW-1Z-69" value="roleId+频道+房间Id+队伍" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="552" y="2275" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IDeXR4Nn8I1j4QwbW-1Z-70" value="局内房间" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="419" y="2330" width="108" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="IDeXR4Nn8I1j4QwbW-1Z-71" value="房间Id" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="552" y="2333" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IDeXR4Nn8I1j4QwbW-1Z-72" value="所有节点走 转发消息" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="415" y="2400" width="143" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
