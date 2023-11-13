@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-13T02:43:29.951Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Mu1UV_sU4e8ikVFRkUGE" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-13T02:59:20.023Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="E9I0MS1vrMHcpBo1ztvu" version="22.1.0" type="github">
   <diagram name="第 1 页" id="B-qyxUS3mooHXOc2_EJB">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -93,6 +93,12 @@
         </mxCell>
         <mxCell id="IDeXR4Nn8I1j4QwbW-1Z-34" value="如果是 房间邀请 则替换敏感词" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="396" y="1115" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IDeXR4Nn8I1j4QwbW-1Z-35" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IDeXR4Nn8I1j4QwbW-1Z-36" value="重新构建&lt;br&gt;ChatMessageData" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="396" y="1190" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
