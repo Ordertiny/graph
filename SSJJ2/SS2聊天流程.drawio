@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-16T04:01:43.760Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="P1wHlgF_3O-QdWdNc5ec" version="22.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-16T08:45:34.915Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="QDGcueqfiard9xtghckv" version="22.1.2" type="github">
   <diagram name="第 1 页" id="B-qyxUS3mooHXOc2_EJB">
-    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1138" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -276,6 +276,36 @@
         </mxCell>
         <mxCell id="x90v0W2lStVZphvParkT-19" value="发送MQ 不在向其他节点转发" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1512" y="2318" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x90v0W2lStVZphvParkT-20" value="发送私聊信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="2500" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x90v0W2lStVZphvParkT-22" value="是否触发消息限流" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="935" y="2560" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x90v0W2lStVZphvParkT-24" value="redis获取发送方&lt;br&gt;，接收方的数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="945" y="2710" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="x90v0W2lStVZphvParkT-26" value="消息内容验证" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="935" y="2630" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="x90v0W2lStVZphvParkT-28" value="重新构建私聊消息体" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="945" y="2770" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x90v0W2lStVZphvParkT-29" value="消息长度，接收发送者" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="2640" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x90v0W2lStVZphvParkT-30" value="三方敏感词校验" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="945" y="2820" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x90v0W2lStVZphvParkT-31" value="转发消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="945" y="2870" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x90v0W2lStVZphvParkT-33" value="私聊处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="2870" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x90v0W2lStVZphvParkT-36" value="转发其他服务器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="945" y="2920" width="115" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
