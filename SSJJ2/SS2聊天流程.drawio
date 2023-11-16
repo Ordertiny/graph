@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-16T08:50:09.625Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="ZuXW3JaWJEAjC6RlT-pB" version="22.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-16T08:50:34.847Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="R9K04xp4nO5bi5PixntG" version="22.1.2" type="github">
   <diagram name="第 1 页" id="B-qyxUS3mooHXOc2_EJB">
     <mxGraphModel dx="1138" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -331,7 +331,7 @@
         <mxCell id="x90v0W2lStVZphvParkT-31" value="转发消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="945" y="2920" width="115" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="x90v0W2lStVZphvParkT-33" value="私聊处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="x90v0W2lStVZphvParkT-33" value="私聊处理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1090" y="2920" width="115" height="30" as="geometry" />
         </mxCell>
         <mxCell id="x90v0W2lStVZphvParkT-36" value="转发其他服务器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -363,6 +363,9 @@
         </mxCell>
         <mxCell id="x90v0W2lStVZphvParkT-56" value="触发限流" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1065" y="2628" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x90v0W2lStVZphvParkT-57" value="红色表示 原有逻辑需要变动" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="2980" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
