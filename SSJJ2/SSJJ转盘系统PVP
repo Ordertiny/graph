@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-11T07:29:04.600Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="MOjdo3qeY3m6EurduuEU" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-11T07:29:29.624Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="ZL_gBrzuflq-V2UFzYiR" version="22.1.7" type="github">
   <diagram id="K7Uuc3O_H2ApbHSMYKts" name="第 1 页">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -138,6 +138,9 @@
         </mxCell>
         <mxCell id="UWY6nmslkoI85iY4COYd-4" value="发送转盘抽取事件&lt;br&gt;(注明来源)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1075.75" y="430" width="142.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UWY6nmslkoI85iY4COYd-8" value="（如果不走N选1通用接口）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="295" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
