@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-11T07:50:21.196Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="qusnqLjpPXmDDR5hZfIa" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-11T07:50:40.696Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="pbTn7W-TLK4V7mnenYZe" version="22.1.7" type="github">
   <diagram id="K7Uuc3O_H2ApbHSMYKts" name="第 1 页">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -118,6 +118,9 @@
         <mxCell id="qSAM1e19b10ZIcp-OEPC-43" value="增加道具+喷漆" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="656.5" y="760" width="107" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="UWY6nmslkoI85iY4COYd-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UWY6nmslkoI85iY4COYd-1" target="UWY6nmslkoI85iY4COYd-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="UWY6nmslkoI85iY4COYd-1" value="使用转盘自选包" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1037" y="210" width="220" height="40" as="geometry" />
         </mxCell>
@@ -126,6 +129,9 @@
         </mxCell>
         <mxCell id="UWY6nmslkoI85iY4COYd-3" value="更新转盘Entity数据&lt;br&gt;累计道具打开次数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1075.75" y="530" width="142.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UWY6nmslkoI85iY4COYd-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UWY6nmslkoI85iY4COYd-4" target="UWY6nmslkoI85iY4COYd-18">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UWY6nmslkoI85iY4COYd-4" value="发送转盘抽取事件&lt;br&gt;(注明来源)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1075.75" y="600" width="142.5" height="40" as="geometry" />
@@ -155,7 +161,7 @@
           <mxGeometry x="1300" y="380" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UWY6nmslkoI85iY4COYd-18" value="道具使用" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1079.5" y="670" width="142.5" height="40" as="geometry" />
+          <mxGeometry x="1075.75" y="670" width="142.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UWY6nmslkoI85iY4COYd-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="UWY6nmslkoI85iY4COYd-19" target="UWY6nmslkoI85iY4COYd-20">
           <mxGeometry relative="1" as="geometry" />
