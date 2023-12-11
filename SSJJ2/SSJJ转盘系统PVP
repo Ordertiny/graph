@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-11T07:29:29.624Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="ZL_gBrzuflq-V2UFzYiR" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-11T07:50:21.196Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="qusnqLjpPXmDDR5hZfIa" version="22.1.7" type="github">
   <diagram id="K7Uuc3O_H2ApbHSMYKts" name="第 1 页">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -118,29 +118,74 @@
         <mxCell id="qSAM1e19b10ZIcp-OEPC-43" value="增加道具+喷漆" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="656.5" y="760" width="107" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="UWY6nmslkoI85iY4COYd-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UWY6nmslkoI85iY4COYd-1" target="UWY6nmslkoI85iY4COYd-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="UWY6nmslkoI85iY4COYd-1" value="使用转盘自选包" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1037" y="210" width="220" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="UWY6nmslkoI85iY4COYd-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UWY6nmslkoI85iY4COYd-2" target="UWY6nmslkoI85iY4COYd-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="UWY6nmslkoI85iY4COYd-2" value="基础验证逻辑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1075.75" y="290" width="142.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UWY6nmslkoI85iY4COYd-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UWY6nmslkoI85iY4COYd-3" target="UWY6nmslkoI85iY4COYd-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UWY6nmslkoI85iY4COYd-3" value="更新转盘Entity数据&lt;br&gt;累计道具打开次数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1075.75" y="360" width="142.5" height="40" as="geometry" />
+          <mxGeometry x="1075.75" y="530" width="142.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UWY6nmslkoI85iY4COYd-4" value="发送转盘抽取事件&lt;br&gt;(注明来源)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1075.75" y="430" width="142.5" height="40" as="geometry" />
+          <mxGeometry x="1075.75" y="600" width="142.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="UWY6nmslkoI85iY4COYd-8" value="（如果不走N选1通用接口）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1230" y="295" width="170" height="30" as="geometry" />
+        <mxCell id="UWY6nmslkoI85iY4COYd-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UWY6nmslkoI85iY4COYd-9" target="UWY6nmslkoI85iY4COYd-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UWY6nmslkoI85iY4COYd-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="UWY6nmslkoI85iY4COYd-9" target="UWY6nmslkoI85iY4COYd-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UWY6nmslkoI85iY4COYd-9" value="转盘是否有效" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1072" y="280" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UWY6nmslkoI85iY4COYd-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="UWY6nmslkoI85iY4COYd-10" target="UWY6nmslkoI85iY4COYd-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UWY6nmslkoI85iY4COYd-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UWY6nmslkoI85iY4COYd-10" target="UWY6nmslkoI85iY4COYd-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UWY6nmslkoI85iY4COYd-10" value="道具是否存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1072" y="370" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UWY6nmslkoI85iY4COYd-13" value="使用失败" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="290" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UWY6nmslkoI85iY4COYd-15" value="道具不存在" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="380" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UWY6nmslkoI85iY4COYd-18" value="道具使用" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1079.5" y="670" width="142.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UWY6nmslkoI85iY4COYd-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="UWY6nmslkoI85iY4COYd-19" target="UWY6nmslkoI85iY4COYd-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UWY6nmslkoI85iY4COYd-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UWY6nmslkoI85iY4COYd-19" target="UWY6nmslkoI85iY4COYd-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UWY6nmslkoI85iY4COYd-19" value="在开启时间段内" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1072" y="450" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UWY6nmslkoI85iY4COYd-20" value="未在开启时间段内" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="460" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UWY6nmslkoI85iY4COYd-24" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1217" y="280" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UWY6nmslkoI85iY4COYd-25" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1217" y="370" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UWY6nmslkoI85iY4COYd-26" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1217" y="450" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UWY6nmslkoI85iY4COYd-28" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="336" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UWY6nmslkoI85iY4COYd-29" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="420" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UWY6nmslkoI85iY4COYd-30" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="500" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
