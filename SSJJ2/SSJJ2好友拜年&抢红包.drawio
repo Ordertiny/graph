@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-13T07:53:55.361Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="OD_brWvnEw-4y8yz6ra6" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-13T08:09:07.927Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="DgmFx9t0MUsppTyGPykD" version="22.1.7" type="github">
   <diagram name="第 1 页" id="k30AQ0_j8heJgkMwq7Cr">
     <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -165,34 +165,34 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Fgh959vgi-olLZx6snVr-16" value="扣货币" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="955" y="550" width="120" height="40" as="geometry" />
+          <mxGeometry x="955" y="550" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Fgh959vgi-olLZx6snVr-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Fgh959vgi-olLZx6snVr-17" target="Fgh959vgi-olLZx6snVr-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Fgh959vgi-olLZx6snVr-17" value="更新发送红包次数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="955" y="605" width="120" height="40" as="geometry" />
+          <mxGeometry x="955" y="601" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Fgh959vgi-olLZx6snVr-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Fgh959vgi-olLZx6snVr-18" target="Fgh959vgi-olLZx6snVr-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Fgh959vgi-olLZx6snVr-18" value="更新对方收取次数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="955" y="660" width="120" height="40" as="geometry" />
+          <mxGeometry x="955" y="656" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Fgh959vgi-olLZx6snVr-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fgh959vgi-olLZx6snVr-19" target="Fgh959vgi-olLZx6snVr-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Fgh959vgi-olLZx6snVr-19" value="新增一条红包记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="955" y="711" width="120" height="40" as="geometry" />
+          <mxGeometry x="955" y="707" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Fgh959vgi-olLZx6snVr-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Fgh959vgi-olLZx6snVr-20" target="Fgh959vgi-olLZx6snVr-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Fgh959vgi-olLZx6snVr-20" value="通知对方领取红包" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="955" y="761" width="120" height="40" as="geometry" />
+          <mxGeometry x="955" y="757" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Fgh959vgi-olLZx6snVr-21" value="结束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="955" y="811" width="120" height="29" as="geometry" />
+          <mxGeometry x="955" y="807" width="120" height="29" as="geometry" />
         </mxCell>
         <mxCell id="Fgh959vgi-olLZx6snVr-71" value="收红包流程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1620" y="90" width="330" height="40" as="geometry" />
