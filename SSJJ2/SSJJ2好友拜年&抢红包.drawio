@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-13T08:09:07.927Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="DgmFx9t0MUsppTyGPykD" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-13T08:33:39.749Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="ZE12GJRj2HKF7w1_CPl0" version="22.1.7" type="github">
   <diagram name="第 1 页" id="k30AQ0_j8heJgkMwq7Cr">
     <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -290,10 +290,10 @@
         <mxCell id="Fgh959vgi-olLZx6snVr-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Fgh959vgi-olLZx6snVr-130" target="Fgh959vgi-olLZx6snVr-131">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Fgh959vgi-olLZx6snVr-130" value="搜索上一周期已发送红包未领取状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Fgh959vgi-olLZx6snVr-130" value="搜索上一期已发送红包未领取状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2288.5" y="227.5" width="152" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Fgh959vgi-olLZx6snVr-131" value="批量退回&lt;br&gt;并发送邮件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Fgh959vgi-olLZx6snVr-131" value="退回一封邮件带附件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2290.5" y="310" width="149" height="45" as="geometry" />
         </mxCell>
         <mxCell id="Fgh959vgi-olLZx6snVr-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fgh959vgi-olLZx6snVr-134" target="Fgh959vgi-olLZx6snVr-73">
