@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-13T11:48:54.463Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="qXJdefIZIMQ0yCaPJ1a1" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-14T01:37:56.836Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="P8Ynh30g5MtPwUNJV8G9" version="22.1.7" type="github">
   <diagram name="第 1 页" id="k30AQ0_j8heJgkMwq7Cr">
-    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1466" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -131,7 +131,7 @@
         <mxCell id="Fgh959vgi-olLZx6snVr-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Fgh959vgi-olLZx6snVr-8" target="Fgh959vgi-olLZx6snVr-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Fgh959vgi-olLZx6snVr-8" value="尽可能保证对方&lt;br&gt;当日可收取次数" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Fgh959vgi-olLZx6snVr-8" value="尽可能保证对方&lt;br&gt;当日可收取次数" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="940" y="310" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Fgh959vgi-olLZx6snVr-9" value="失败：对方达到上限&lt;br&gt;当日达到上限" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -143,7 +143,7 @@
         <mxCell id="Fgh959vgi-olLZx6snVr-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Fgh959vgi-olLZx6snVr-10" target="Fgh959vgi-olLZx6snVr-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Fgh959vgi-olLZx6snVr-10" value="尽可能保证对方&lt;br&gt;总共收取次数" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Fgh959vgi-olLZx6snVr-10" value="尽可能保证对方&lt;br&gt;总共收取次数" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="940" y="390" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Fgh959vgi-olLZx6snVr-11" value="失败：对方达到上限&lt;br&gt;总次数达到上限" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
