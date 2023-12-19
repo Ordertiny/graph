@@ -1,9 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2023-12-19T07:33:26.817Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.1.11" etag="WoyKliORQgD4cprkTdss" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-19T07:41:44.969Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Vi2piGcAAZ3xx2pPJkwq" version="22.1.11" type="github">
   <diagram name="第 1 页" id="MjOnckj2qXQUch_C9P9P">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="7qEYvJwYSWAxsUM84DAW-1" value="数据修复流程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="120" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qEYvJwYSWAxsUM84DAW-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7qEYvJwYSWAxsUM84DAW-2" target="7qEYvJwYSWAxsUM84DAW-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qEYvJwYSWAxsUM84DAW-2" value="玩家在名单" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="372.5" y="180" width="145" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7qEYvJwYSWAxsUM84DAW-3" value="结束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="195" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7qEYvJwYSWAxsUM84DAW-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7qEYvJwYSWAxsUM84DAW-4" target="7qEYvJwYSWAxsUM84DAW-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qEYvJwYSWAxsUM84DAW-4" value="获取玩家的武器仓库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="382.5" y="270" width="125" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7qEYvJwYSWAxsUM84DAW-6" value="global_data 配置校验武器的ID" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="275" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qEYvJwYSWAxsUM84DAW-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7qEYvJwYSWAxsUM84DAW-7" target="7qEYvJwYSWAxsUM84DAW-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qEYvJwYSWAxsUM84DAW-7" value="玩家当前有永久武器" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="372.5" y="330" width="145" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7qEYvJwYSWAxsUM84DAW-8" value="结束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="345" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7qEYvJwYSWAxsUM84DAW-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7qEYvJwYSWAxsUM84DAW-9" target="7qEYvJwYSWAxsUM84DAW-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qEYvJwYSWAxsUM84DAW-9" value="玩家当前没有炫彩武器" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="372.5" y="420" width="145" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7qEYvJwYSWAxsUM84DAW-10" value="结束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="435" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7qEYvJwYSWAxsUM84DAW-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7qEYvJwYSWAxsUM84DAW-14" target="7qEYvJwYSWAxsUM84DAW-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qEYvJwYSWAxsUM84DAW-14" value="卸载装备的炫彩武器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="510" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7qEYvJwYSWAxsUM84DAW-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7qEYvJwYSWAxsUM84DAW-15" target="7qEYvJwYSWAxsUM84DAW-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qEYvJwYSWAxsUM84DAW-15" value="返还货币" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="385" y="570" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7qEYvJwYSWAxsUM84DAW-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7qEYvJwYSWAxsUM84DAW-16" target="7qEYvJwYSWAxsUM84DAW-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qEYvJwYSWAxsUM84DAW-16" value="邮件通知" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="630" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7qEYvJwYSWAxsUM84DAW-17" value="结束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="690" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
