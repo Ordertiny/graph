@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-19T09:09:30.726Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="k4N3gpqy7DAsp9CT0uug" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-19T09:10:05.038Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="yktJDFbqGbAJQ8XdK9GS" version="22.1.11" type="github">
   <diagram name="第 1 页" id="MjOnckj2qXQUch_C9P9P">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7qEYvJwYSWAxsUM84DAW-1" value="数据修复流程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="120" width="210" height="30" as="geometry" />
+          <mxGeometry x="340" y="130" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7qEYvJwYSWAxsUM84DAW-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7qEYvJwYSWAxsUM84DAW-2" target="7qEYvJwYSWAxsUM84DAW-4">
           <mxGeometry relative="1" as="geometry" />
@@ -63,7 +63,7 @@
         <mxCell id="7qEYvJwYSWAxsUM84DAW-14" value="卸载装备的炫彩武器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="385" y="580" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7qEYvJwYSWAxsUM84DAW-16" value="邮件通知" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7qEYvJwYSWAxsUM84DAW-16" value="邮件通知" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="385" y="630" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7qEYvJwYSWAxsUM84DAW-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7qEYvJwYSWAxsUM84DAW-30" target="7qEYvJwYSWAxsUM84DAW-14">
@@ -78,7 +78,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="7qEYvJwYSWAxsUM84DAW-30" value="循环遍历炫彩武器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7qEYvJwYSWAxsUM84DAW-30" value="循环遍历炫彩武器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="356.5" y="520" width="177" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7qEYvJwYSWAxsUM84DAW-33" value="没有" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -89,6 +89,9 @@
         </mxCell>
         <mxCell id="7qEYvJwYSWAxsUM84DAW-36" value="结束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="382.5" y="700" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qEYvJwYSWAxsUM84DAW-40" value="多少把武器 通知多少个邮件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="575" y="550" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
