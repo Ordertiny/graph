@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-19T07:42:45.277Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="IQUZ03TNeYYaHenbeSvJ" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-19T09:09:30.726Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="k4N3gpqy7DAsp9CT0uug" version="22.1.11" type="github">
   <diagram name="第 1 页" id="MjOnckj2qXQUch_C9P9P">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -43,38 +43,52 @@
         <mxCell id="7qEYvJwYSWAxsUM84DAW-8" value="结束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="345" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7qEYvJwYSWAxsUM84DAW-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7qEYvJwYSWAxsUM84DAW-9" target="7qEYvJwYSWAxsUM84DAW-14">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="7qEYvJwYSWAxsUM84DAW-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7qEYvJwYSWAxsUM84DAW-9" target="7qEYvJwYSWAxsUM84DAW-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7qEYvJwYSWAxsUM84DAW-9" value="玩家当前没有炫彩武器" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="372.5" y="420" width="145" height="70" as="geometry" />
+        <mxCell id="7qEYvJwYSWAxsUM84DAW-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7qEYvJwYSWAxsUM84DAW-9" target="7qEYvJwYSWAxsUM84DAW-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qEYvJwYSWAxsUM84DAW-9" value="玩家当前有炫彩武器" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="372.5" y="425" width="145" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7qEYvJwYSWAxsUM84DAW-10" value="结束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="435" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7qEYvJwYSWAxsUM84DAW-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7qEYvJwYSWAxsUM84DAW-14" target="7qEYvJwYSWAxsUM84DAW-15">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="7qEYvJwYSWAxsUM84DAW-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7qEYvJwYSWAxsUM84DAW-14" target="7qEYvJwYSWAxsUM84DAW-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="630" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="7qEYvJwYSWAxsUM84DAW-14" value="卸载装备的炫彩武器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="385" y="510" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="7qEYvJwYSWAxsUM84DAW-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7qEYvJwYSWAxsUM84DAW-15" target="7qEYvJwYSWAxsUM84DAW-16">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7qEYvJwYSWAxsUM84DAW-15" value="返还货币" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="385" y="570" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="7qEYvJwYSWAxsUM84DAW-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7qEYvJwYSWAxsUM84DAW-16" target="7qEYvJwYSWAxsUM84DAW-17">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="385" y="580" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7qEYvJwYSWAxsUM84DAW-16" value="邮件通知" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="385" y="630" width="120" height="40" as="geometry" />
+          <mxGeometry x="385" y="630" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7qEYvJwYSWAxsUM84DAW-17" value="结束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="385" y="690" width="120" height="40" as="geometry" />
+        <mxCell id="7qEYvJwYSWAxsUM84DAW-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7qEYvJwYSWAxsUM84DAW-30" target="7qEYvJwYSWAxsUM84DAW-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7qEYvJwYSWAxsUM84DAW-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7qEYvJwYSWAxsUM84DAW-30" target="7qEYvJwYSWAxsUM84DAW-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="554" y="540" />
+              <mxPoint x="554" y="680" />
+              <mxPoint x="448" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7qEYvJwYSWAxsUM84DAW-30" value="循环遍历炫彩武器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="356.5" y="520" width="177" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7qEYvJwYSWAxsUM84DAW-33" value="没有" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="430" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qEYvJwYSWAxsUM84DAW-34" value="有" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="490" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7qEYvJwYSWAxsUM84DAW-36" value="结束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="382.5" y="700" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
