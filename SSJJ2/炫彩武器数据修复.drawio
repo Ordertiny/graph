@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-19T09:10:05.038Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="yktJDFbqGbAJQ8XdK9GS" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-20T04:01:24.813Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="AkovrGabPLq8Pxdck4io" version="22.1.11" type="github">
   <diagram name="第 1 页" id="MjOnckj2qXQUch_C9P9P">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -90,8 +90,8 @@
         <mxCell id="7qEYvJwYSWAxsUM84DAW-36" value="结束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="382.5" y="700" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7qEYvJwYSWAxsUM84DAW-40" value="多少把武器 通知多少个邮件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="575" y="550" width="170" height="30" as="geometry" />
+        <mxCell id="7qEYvJwYSWAxsUM84DAW-40" value="多少把武器 通知多少个邮件&lt;br&gt;邮件附件带返还货币" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="610" y="530" width="170" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
