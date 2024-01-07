@@ -1,9 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2024-01-07T14:29:53.789Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 SLBrowser/9.0.0.12251 SLBChan/30" version="22.1.17" etag="Uxqs4_WhhYObDOW1Z3yQ" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-07T14:55:46.909Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 SLBrowser/9.0.0.12251 SLBChan/30" etag="kP4_In2RUxaA4213vMz-" version="22.1.17" type="github">
   <diagram name="第 1 页" id="6-jU-0XPGq7SDBRIE0aK">
-    <mxGraphModel>
+    <mxGraphModel dx="934" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="iCbWA6MRuvndbBMCzDH3-1" value="Evictor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="140" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iCbWA6MRuvndbBMCzDH3-2" value="后台线程驱逐" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="38" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iCbWA6MRuvndbBMCzDH3-3" value="idleObjects&lt;br&gt;不为空" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="207" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iCbWA6MRuvndbBMCzDH3-4" value="获取驱逐策略&lt;br&gt;evictionPolicy" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="285" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iCbWA6MRuvndbBMCzDH3-6" value="默认策略是&amp;nbsp;DefaultEvictionPolicy" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="275" y="290" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iCbWA6MRuvndbBMCzDH3-7" value="加锁&lt;br&gt;evictionLock" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="345" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iCbWA6MRuvndbBMCzDH3-8" value="获取驱逐配置&lt;br&gt;evictionConfig" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="400" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iCbWA6MRuvndbBMCzDH3-9" value="硬驱逐时间&lt;br&gt;软驱逐时间&lt;br&gt;最小驱逐时间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="393" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iCbWA6MRuvndbBMCzDH3-11" value="循环驱逐数量" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="460" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iCbWA6MRuvndbBMCzDH3-12" value="取出空闲对象" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="520" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iCbWA6MRuvndbBMCzDH3-13" value="判定是否需要驱逐&lt;br&gt;看其状态是否为空闲" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="570" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iCbWA6MRuvndbBMCzDH3-15" value="根据驱逐策略判定是否需要驱逐" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="630" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iCbWA6MRuvndbBMCzDH3-16" value="当前空闲时间大于软驱逐时间 &lt;br&gt;&amp;amp;&amp;amp; &lt;br&gt;空闲数量 &amp;gt; 最小空闲数量&lt;br&gt;或者&lt;br&gt;当前空闲时间大于硬驱逐时间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="275" y="605" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="iCbWA6MRuvndbBMCzDH3-17" value="需要驱逐" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="700" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iCbWA6MRuvndbBMCzDH3-18" value="销毁对象" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="710" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iCbWA6MRuvndbBMCzDH3-19" value="空闲队列移除该对象&lt;br&gt;总对象map移除该对象&lt;br&gt;工厂走销毁对象方法" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="760" width="150" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
