@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-07T14:55:46.909Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 SLBrowser/9.0.0.12251 SLBChan/30" etag="kP4_In2RUxaA4213vMz-" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-07T15:05:01.701Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 SLBrowser/9.0.0.12251 SLBChan/30" etag="8p8U4aGQMZiyk08RHtMk" version="22.1.17" type="github">
   <diagram name="第 1 页" id="6-jU-0XPGq7SDBRIE0aK">
     <mxGraphModel dx="934" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -51,6 +51,15 @@
         </mxCell>
         <mxCell id="iCbWA6MRuvndbBMCzDH3-19" value="空闲队列移除该对象&lt;br&gt;总对象map移除该对象&lt;br&gt;工厂走销毁对象方法" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="285" y="760" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iCbWA6MRuvndbBMCzDH3-20" value="若需要空闲验证&lt;br&gt;则需要激活，验证对象&lt;br&gt;如果有问题则移除对象" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="830" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="iCbWA6MRuvndbBMCzDH3-21" value="根据放弃策略，移除已使用但超时未返还池子的对象" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="910" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iCbWA6MRuvndbBMCzDH3-22" value="当空闲数量不足时创建对象" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="980" width="150" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
