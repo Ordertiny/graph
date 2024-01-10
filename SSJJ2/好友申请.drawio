@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2024-01-10T06:44:26.724Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.18" etag="VInai7it8ypeqvbEZ-Ax" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-10T06:51:57.206Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="sAy9f_8WzL-KPKl-qQuB" version="22.1.18" type="github">
   <diagram name="第 1 页" id="WK3Idj9wUPF8YRBkuFqF">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="lrFY_XyOM49wXJ8lnUzn-1" value="申请好友" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="120" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lrFY_XyOM49wXJ8lnUzn-2" value="申请好友" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="60" width="70" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
