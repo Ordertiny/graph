@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-18T03:20:36.176Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="TVkeNU9BljYVg5So_UCj" version="22.1.20" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-18T03:22:31.957Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="bs6A5efbDJ-jhxlGGPuv" version="22.1.20" type="github">
   <diagram id="JiEZ7ssAAVFcg4aw3a9F" name="第 1 页">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -1245,6 +1245,9 @@
         </mxCell>
         <mxCell id="NscsS6IFoJ91wh1sny2m-94" value="CD物品不允许唯一" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#FF3333;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="2747.5" y="2420.75" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NscsS6IFoJ91wh1sny2m-95" value="图中CD指的是初始CD；&lt;br&gt;冷却CD永久可以堆叠但不能唯一， 限时得仍新增，不能延长覆盖时间" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2335" y="2123" width="390" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
