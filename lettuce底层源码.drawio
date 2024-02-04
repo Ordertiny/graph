@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-04T06:52:22.919Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="yUeDv4lTYbSn4fbDUkNQ" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-04T07:01:37.049Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="lPGT5QhWtliaKrguZNTB" version="23.1.1" type="github">
   <diagram name="第 1 页" id="_IAX3RjcnuZSPw6MRS_n">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -40,8 +40,14 @@
         <mxCell id="ggBCpc5UuF6ly49hx84A-14" value="AbstractRedisAsyncCommands" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="185" y="150" width="250" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ggBCpc5UuF6ly49hx84A-15" value="处理事务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="835" y="308" width="70" height="30" as="geometry" />
+        <mxCell id="ggBCpc5UuF6ly49hx84A-15" value="处理事务对事物命令做处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="830" y="310" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ggBCpc5UuF6ly49hx84A-16" value="super.dispatch(toSend)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="360" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ggBCpc5UuF6ly49hx84A-17" value="RedisChannelHandler" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="150" width="280" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
