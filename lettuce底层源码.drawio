@@ -1,77 +1,89 @@
-<mxfile host="app.diagrams.net" modified="2024-02-04T09:20:20.565Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="igtb31e5n0Y3KFyyrsMq" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-04T14:45:07.337Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 SLBrowser/9.0.0.12251 SLBChan/30" etag="gd2KJcxDPCQ77Xz0knT9" version="23.0.2" type="github">
   <diagram name="第 1 页" id="_IAX3RjcnuZSPw6MRS_n">
-    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1034" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ggBCpc5UuF6ly49hx84A-2" value="AsyncCommand执行 set命令" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ggBCpc5UuF6ly49hx84A-2" value="AsyncCommand执行 set命令" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="110" y="90" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ggBCpc5UuF6ly49hx84A-4" value="set" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ggBCpc5UuF6ly49hx84A-4" value="set" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="235" y="220" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ggBCpc5UuF6ly49hx84A-5" value="dispatch" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ggBCpc5UuF6ly49hx84A-5" value="dispatch" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="232.5" y="280" width="155" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ggBCpc5UuF6ly49hx84A-6" value="将命令封装成&lt;br&gt;Command对象" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ggBCpc5UuF6ly49hx84A-6" value="将命令封装成&lt;br&gt;Command对象" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="100" y="250" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ggBCpc5UuF6ly49hx84A-7" value="将cmd包装成&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;AsyncCommand" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ggBCpc5UuF6ly49hx84A-7" value="将cmd包装成&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;AsyncCommand" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="242.5" y="340" width="135" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ggBCpc5UuF6ly49hx84A-8" value="connection.&lt;br&gt;dispatch(cmd)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ggBCpc5UuF6ly49hx84A-8" value="connection.&lt;br&gt;dispatch(cmd)" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="245" y="390" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ggBCpc5UuF6ly49hx84A-9" value="StatefulRedisConnectionImpl" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ggBCpc5UuF6ly49hx84A-9" value="StatefulRedisConnectionImpl" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="500" y="150" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ggBCpc5UuF6ly49hx84A-10" value="dispatch" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ggBCpc5UuF6ly49hx84A-10" value="dispatch" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="530" y="210" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ggBCpc5UuF6ly49hx84A-11" value="preProcessCommand" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ggBCpc5UuF6ly49hx84A-11" value="preProcessCommand" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="555" y="260" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ggBCpc5UuF6ly49hx84A-12" value="对命令做一些处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ggBCpc5UuF6ly49hx84A-12" value="对命令做一些处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="700" y="260" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ggBCpc5UuF6ly49hx84A-13" value="potentiallyEnableMulti" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ggBCpc5UuF6ly49hx84A-13" value="potentiallyEnableMulti" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="555" y="310" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ggBCpc5UuF6ly49hx84A-14" value="AbstractRedisAsyncCommands" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ggBCpc5UuF6ly49hx84A-14" value="AbstractRedisAsyncCommands" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="185" y="150" width="250" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ggBCpc5UuF6ly49hx84A-15" value="处理事务对事物命令做处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ggBCpc5UuF6ly49hx84A-15" value="处理事务对事物命令做处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="700" y="310" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ggBCpc5UuF6ly49hx84A-16" value="super.dispatch(toSend)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ggBCpc5UuF6ly49hx84A-16" value="super.dispatch(toSend)" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="550" y="360" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ggBCpc5UuF6ly49hx84A-17" value="RedisChannelHandler" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ggBCpc5UuF6ly49hx84A-17" value="RedisChannelHandler" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="900" y="150" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ggBCpc5UuF6ly49hx84A-19" value="dispatch" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ggBCpc5UuF6ly49hx84A-19" value="dispatch" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="945" y="210" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ggBCpc5UuF6ly49hx84A-20" value="channelWriter.write(cmd)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ggBCpc5UuF6ly49hx84A-20" value="channelWriter.write(cmd)" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="955" y="260" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ggBCpc5UuF6ly49hx84A-21" value="DefaultEndpoint" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ggBCpc5UuF6ly49hx84A-21" value="DefaultEndpoint" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1330" y="150" width="260" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ggBCpc5UuF6ly49hx84A-23" value="write(cmd)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ggBCpc5UuF6ly49hx84A-23" value="write(cmd)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1365" y="210" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ggBCpc5UuF6ly49hx84A-24" value="validateWrite" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ggBCpc5UuF6ly49hx84A-24" value="validateWrite" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1382.5" y="270" width="155" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ggBCpc5UuF6ly49hx84A-25" value="校验当前是否可写&lt;br&gt;1. channel是否active&lt;br&gt;2. 验证是否超过最大请求队列&lt;br&gt;3.验证命令缓冲区的大小" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="ggBCpc5UuF6ly49hx84A-25" value="校验当前是否可写&lt;br&gt;1. channel是否active&lt;br&gt;2. 验证是否超过最大请求队列&lt;br&gt;3.验证命令缓冲区的大小" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1550" y="250" width="180" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="ggBCpc5UuF6ly49hx84A-26" value="writeToChannelAndFlush(command)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ggBCpc5UuF6ly49hx84A-26" value="writeToChannelAndFlush(command)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1345" y="330" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ggBCpc5UuF6ly49hx84A-28" value="命令队列数量+1&lt;br&gt;交给channel写入数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ggBCpc5UuF6ly49hx84A-28" value="命令队列数量+1&lt;br&gt;交给channel写入数据" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1380" y="385" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Qy5x4adVrWkrn4o4-2BK-1" value="CommandHandler" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="150" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Qy5x4adVrWkrn4o4-2BK-2" value="writeSingleCommand" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1855" y="220" width="165" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qy5x4adVrWkrn4o4-2BK-3" value="addToStack(cmd)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1855" y="270" width="165" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qy5x4adVrWkrn4o4-2BK-4" value="stack.add(cmd)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2020" y="270" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
