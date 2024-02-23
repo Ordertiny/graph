@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-22T09:59:28.973Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="m3Rtu9zBqQzpJYo4k7UG" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-23T02:25:02.085Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="TqnlvEYrkkNAe1S2J45t" version="23.1.5" type="github">
   <diagram name="第 1 页" id="UAg1QHeCWXkbtHn-mjAL">
     <mxGraphModel dx="1304" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -315,6 +315,33 @@
         </mxCell>
         <mxCell id="h2P8FHwfY4uqX4J_Mc6m-34" value="CREATE TABLE `pve_bp_info_3` (&#xa;  `id` bigint(20) NOT NULL COMMENT &#39;id&#39;,&#xa;  `roleId` bigint(20) NOT NULL COMMENT &#39;角色id&#39;,&#xa;  `exp` int(11) DEFAULT &#39;0&#39; COMMENT &#39;经验&#39;,&#xa;  `level` int(11) DEFAULT &#39;0&#39; COMMENT &#39;等级&#39;,&#xa;  `weekGetExp` int(11) DEFAULT &#39;0&#39; COMMENT &#39;周获得经验&#39;,&#xa;  `seasonId` int(11) DEFAULT &#39;0&#39; COMMENT &#39;赛季id&#39;,&#xa;  `receivedLevels` varchar(2048) DEFAULT NULL COMMENT &#39;已领取基础奖励的等级列表&#39;,&#xa;  `receivedVipLevels` varchar(2048) DEFAULT NULL COMMENT &#39;已领取vip奖励的等级列表&#39;,&#xa;  `buyGifts` varchar(128) DEFAULT NULL COMMENT &#39;已经购买的礼包列表&#39;,&#xa;  `vip` tinyint(4) DEFAULT &#39;0&#39; COMMENT &#39;是否为vip&#39;,&#xa;  `createTime` bigint(20) NOT NULL COMMENT &#39;创建时间&#39;,&#xa;  `modifyTime` bigint(20) NOT NULL COMMENT &#39;更新时间&#39;,&#xa;  `dailyRefreshTime` bigint(20) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;每日任务刷新时间&#39;,&#xa;  `weekRefreshTime` bigint(20) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;每周刷新时间（周任务和周获得经验）&#39;,&#xa;  `settlement` tinyint(4) NOT NULL DEFAULT &#39;0&#39; COMMENT &#39;是否结算了，0-未结算，1-已结算&#39;,&#xa;  PRIMARY KEY (`id`) USING BTREE,&#xa;  KEY `IDX_ROLEID_SESSION` (`roleId`,`seasonId`) USING BTREE&#xa;) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;" style="text;whiteSpace=wrap;fontSize=15;spacingTop=0;spacing=2;" vertex="1" parent="1">
           <mxGeometry x="110" y="1560" width="640" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="h2P8FHwfY4uqX4J_Mc6m-36" value="CreateBean" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="2000" width="185" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h2P8FHwfY4uqX4J_Mc6m-37" value="Bean对象实现&amp;nbsp;&lt;br&gt;IDataBaseModuleConfig" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="468.25" y="2070" width="178.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="h2P8FHwfY4uqX4J_Mc6m-38" value="获取数据源&lt;br&gt;DataSource" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="476.5" y="2190" width="162" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h2P8FHwfY4uqX4J_Mc6m-39" value="数据源 继承&lt;br&gt;ShardingDataSource" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="471.5" y="2270" width="172" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="h2P8FHwfY4uqX4J_Mc6m-40" value="标记为 Sharding数据源" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="482.5" y="2370" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h2P8FHwfY4uqX4J_Mc6m-41" value="获取entity路径&lt;br&gt;获取分库数量" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="497.5" y="2440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h2P8FHwfY4uqX4J_Mc6m-43" value="将数据源包装为&lt;br&gt;AutoOrmCoreSharding&lt;br&gt;SphereV4DataSourceHandler" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="467.5" y="2510" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h2P8FHwfY4uqX4J_Mc6m-44" value="获取entity路径" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="2370" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h2P8FHwfY4uqX4J_Mc6m-46" value="将数据源包装为&lt;br&gt;AutoOrmCoreNormal&lt;br&gt;DataSourceHandler" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="2510" width="180" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
