@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-26T10:32:20.533Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="rhC7tbMCqMXa4vCwq1To" version="23.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-26T11:34:20.909Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="9agH5TVLDy_VHM0_LQK1" version="23.1.6" type="github">
   <diagram name="第 1 页" id="oSji3m5MZVK4zhBdaprP">
     <mxGraphModel dx="1195" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -38,7 +38,52 @@
           <mxGeometry x="120" y="230" width="20" height="100" as="geometry" />
         </mxCell>
         <mxCell id="rDQbJ9bg_vCh2sCzomeY-13" value="Redis同步军团方案" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="80" y="790" width="130" height="30" as="geometry" />
+          <mxGeometry x="108.75" y="780" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rDQbJ9bg_vCh2sCzomeY-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rDQbJ9bg_vCh2sCzomeY-14" target="rDQbJ9bg_vCh2sCzomeY-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rDQbJ9bg_vCh2sCzomeY-14" value="获取军团基本数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="830" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rDQbJ9bg_vCh2sCzomeY-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="rDQbJ9bg_vCh2sCzomeY-15" target="rDQbJ9bg_vCh2sCzomeY-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rDQbJ9bg_vCh2sCzomeY-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="rDQbJ9bg_vCh2sCzomeY-15" target="rDQbJ9bg_vCh2sCzomeY-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rDQbJ9bg_vCh2sCzomeY-15" value="Redis是否存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="131.25" y="880" width="107.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rDQbJ9bg_vCh2sCzomeY-17" value="延长过期时间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="990" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rDQbJ9bg_vCh2sCzomeY-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="rDQbJ9bg_vCh2sCzomeY-18" target="rDQbJ9bg_vCh2sCzomeY-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rDQbJ9bg_vCh2sCzomeY-18" value="写入军团数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="890" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rDQbJ9bg_vCh2sCzomeY-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="rDQbJ9bg_vCh2sCzomeY-19" target="rDQbJ9bg_vCh2sCzomeY-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rDQbJ9bg_vCh2sCzomeY-19" value="写入军团成员数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="940" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rDQbJ9bg_vCh2sCzomeY-22" value="设置过期时间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="990" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rDQbJ9bg_vCh2sCzomeY-23" value="军团成员登录时" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="830" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rDQbJ9bg_vCh2sCzomeY-26" value="此处并发问题不大，&lt;br&gt;因为修改redis的前提是已存在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="885" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rDQbJ9bg_vCh2sCzomeY-28" value="不存在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="238.75" y="880" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rDQbJ9bg_vCh2sCzomeY-29" value="存在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="185" y="938" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
