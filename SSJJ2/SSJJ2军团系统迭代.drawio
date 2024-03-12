@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-12T06:45:06.631Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="RH1g2gcvJ5Wu7Xc1tUmV" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-12T06:50:02.828Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="N79hZQEDGsBJvxCPSzgN" version="24.0.2" type="github">
   <diagram name="第 1 页" id="oSji3m5MZVK4zhBdaprP">
     <mxGraphModel dx="1434" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -647,6 +647,94 @@
         </mxCell>
         <mxCell id="ll2xDSmuuAdEjNu89LKw-80" value="发军团币" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="1">
           <mxGeometry x="451" y="1999" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ll2xDSmuuAdEjNu89LKw-85" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1080" y="1780" width="532" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="ll2xDSmuuAdEjNu89LKw-86" value="Logic" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="ll2xDSmuuAdEjNu89LKw-85">
+          <mxGeometry width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ll2xDSmuuAdEjNu89LKw-87" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="ll2xDSmuuAdEjNu89LKw-85">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="69.58000000000004" y="610" as="sourcePoint" />
+            <mxPoint x="69.58000000000004" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ll2xDSmuuAdEjNu89LKw-88" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#EA6B66;strokeWidth=2;" vertex="1" parent="ll2xDSmuuAdEjNu89LKw-85">
+          <mxGeometry x="60" y="90" width="20" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ll2xDSmuuAdEjNu89LKw-91" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#EA6B66;strokeWidth=2;" vertex="1" parent="ll2xDSmuuAdEjNu89LKw-85">
+          <mxGeometry x="60" y="190" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ll2xDSmuuAdEjNu89LKw-101" value="" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="ll2xDSmuuAdEjNu89LKw-85">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="114" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="114" />
+              <mxPoint x="110" y="114" />
+              <mxPoint x="110" y="134" />
+            </Array>
+            <mxPoint x="85" y="134" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ll2xDSmuuAdEjNu89LKw-102" value="更新周任务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ll2xDSmuuAdEjNu89LKw-85">
+          <mxGeometry x="125" y="110" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ll2xDSmuuAdEjNu89LKw-94" value="" style="group" vertex="1" connectable="0" parent="ll2xDSmuuAdEjNu89LKw-85">
+          <mxGeometry x="292" width="240" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="ll2xDSmuuAdEjNu89LKw-95" value="Community" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="ll2xDSmuuAdEjNu89LKw-94">
+          <mxGeometry width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ll2xDSmuuAdEjNu89LKw-96" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="ll2xDSmuuAdEjNu89LKw-94">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="69.58000000000004" y="610" as="sourcePoint" />
+            <mxPoint x="69.58000000000004" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ll2xDSmuuAdEjNu89LKw-97" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#EA6B66;strokeWidth=2;" vertex="1" parent="ll2xDSmuuAdEjNu89LKw-94">
+          <mxGeometry x="59" y="138" width="20" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="ll2xDSmuuAdEjNu89LKw-107" value="" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="ll2xDSmuuAdEjNu89LKw-94">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="79" y="166" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="79" y="166" />
+              <mxPoint x="109" y="166" />
+              <mxPoint x="109" y="186" />
+            </Array>
+            <mxPoint x="84" y="186" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ll2xDSmuuAdEjNu89LKw-108" value="清除贡献点数&lt;div style=&quot;font-size: 13px;&quot;&gt;兑换军团币&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="ll2xDSmuuAdEjNu89LKw-94">
+          <mxGeometry x="107" y="156" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ll2xDSmuuAdEjNu89LKw-105" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1.05;exitY=0.84;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="ll2xDSmuuAdEjNu89LKw-85" source="ll2xDSmuuAdEjNu89LKw-88" target="ll2xDSmuuAdEjNu89LKw-97">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="200" as="sourcePoint" />
+            <mxPoint x="220" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ll2xDSmuuAdEjNu89LKw-104" value="清除周贡献点数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="ll2xDSmuuAdEjNu89LKw-85">
+          <mxGeometry x="160" y="132" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ll2xDSmuuAdEjNu89LKw-109" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=1;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="ll2xDSmuuAdEjNu89LKw-85" target="ll2xDSmuuAdEjNu89LKw-91">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="200" as="sourcePoint" />
+            <mxPoint x="90" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ll2xDSmuuAdEjNu89LKw-110" value="发军团币" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="ll2xDSmuuAdEjNu89LKw-85">
+          <mxGeometry x="177" y="176" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ll2xDSmuuAdEjNu89LKw-99" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="970" y="1890" as="sourcePoint" />
+            <mxPoint x="1130" y="1890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ll2xDSmuuAdEjNu89LKw-100" value="获取任务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="1860" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
