@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-21T08:12:37.240Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="jVfLeLXrk81cwAPADxaB" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-21T09:29:14.178Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="DkSz95DOmfEI_8O3M79D" version="24.0.7" type="github">
   <diagram name="第 1 页" id="k30AQ0_j8heJgkMwq7Cr">
-    <mxGraphModel dx="989" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="992" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -859,8 +859,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="3720" y="352" />
-              <mxPoint x="3720" y="520" />
-              <mxPoint x="3660" y="520" />
+              <mxPoint x="3720" y="568" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -874,7 +873,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="3750" y="284" />
-              <mxPoint x="3750" y="521" />
+              <mxPoint x="3750" y="568" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -887,8 +886,10 @@
         <mxCell id="RlZjaX-9Ha0VV3C5GWlT-11" value="生成红包门票" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3540" y="397.5" width="120" height="32.5" as="geometry" />
         </mxCell>
-        <mxCell id="RlZjaX-9Ha0VV3C5GWlT-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RlZjaX-9Ha0VV3C5GWlT-12" target="RlZjaX-9Ha0VV3C5GWlT-15">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="RlZjaX-9Ha0VV3C5GWlT-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RlZjaX-9Ha0VV3C5GWlT-12" target="RlZjaX-9Ha0VV3C5GWlT-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3600" y="490" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="RlZjaX-9Ha0VV3C5GWlT-12" value="设置红包预设金额" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3540" y="448.5" width="120" height="35" as="geometry" />
@@ -906,10 +907,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RlZjaX-9Ha0VV3C5GWlT-15" value="创建定时任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3540" y="503.5" width="120" height="35" as="geometry" />
+          <mxGeometry x="3540" y="550" width="120" height="35" as="geometry" />
         </mxCell>
         <mxCell id="RlZjaX-9Ha0VV3C5GWlT-16" value="加入缓存中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3540" y="557.5" width="120" height="35" as="geometry" />
+          <mxGeometry x="3540" y="601" width="120" height="35" as="geometry" />
         </mxCell>
         <mxCell id="RlZjaX-9Ha0VV3C5GWlT-18" value="continue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3770" y="198" width="110" height="33" as="geometry" />
@@ -997,6 +998,12 @@
         </mxCell>
         <mxCell id="RlZjaX-9Ha0VV3C5GWlT-53" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="4135" y="185" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RlZjaX-9Ha0VV3C5GWlT-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RlZjaX-9Ha0VV3C5GWlT-54" target="RlZjaX-9Ha0VV3C5GWlT-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RlZjaX-9Ha0VV3C5GWlT-54" value="创建DB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3540" y="495" width="120" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
