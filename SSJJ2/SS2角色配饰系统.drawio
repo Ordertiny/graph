@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-22T09:41:02.505Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="GvhQMcAi-O2MHl1elxhv" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-22T09:41:12.039Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="KMi0lieiya8QZBunCBOO" version="24.4.4" type="github">
   <diagram name="第 1 页" id="EnPjAqI8XY5VulzZ_zmV">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="465" y="130" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="obFkE6v3nGwKCdmKt7_X-2" value="装配配饰传入：角色皮肤实例Id，部位，配饰实例Id&amp;nbsp;&amp;nbsp;&lt;div&gt;（配饰实例Id=0表示卸下部位&lt;span style=&quot;background-color: initial;&quot;&gt;）&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="270" y="100" width="300" height="40" as="geometry" />
+          <mxGeometry x="290" y="110" width="300" height="40" as="geometry" />
         </mxCell>
         <mxCell id="obFkE6v3nGwKCdmKt7_X-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="obFkE6v3nGwKCdmKt7_X-3" target="obFkE6v3nGwKCdmKt7_X-25">
           <mxGeometry relative="1" as="geometry" />
