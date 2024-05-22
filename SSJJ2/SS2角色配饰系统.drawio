@@ -1,9 +1,228 @@
-<mxfile host="app.diagrams.net" modified="2024-05-22T09:09:33.151Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.4.4" etag="aEIYsv51tFn7KTni_8Gg" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-22T09:41:02.505Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="GvhQMcAi-O2MHl1elxhv" version="24.4.4" type="github">
   <diagram name="第 1 页" id="EnPjAqI8XY5VulzZ_zmV">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-1" value="装备配饰" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="130" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-2" value="装配配饰传入：角色皮肤实例Id，部位，配饰实例Id&amp;nbsp;&amp;nbsp;&lt;div&gt;（配饰实例Id=0表示卸下部位&lt;span style=&quot;background-color: initial;&quot;&gt;）&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="100" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="obFkE6v3nGwKCdmKt7_X-3" target="obFkE6v3nGwKCdmKt7_X-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="obFkE6v3nGwKCdmKt7_X-3" target="obFkE6v3nGwKCdmKt7_X-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-3" value="配饰实例&lt;div&gt;Id&lt;span style=&quot;background-color: initial;&quot;&gt;=0&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="487.5" y="195" width="125" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="obFkE6v3nGwKCdmKt7_X-9" target="obFkE6v3nGwKCdmKt7_X-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-9" value="获取角色皮肤" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="270" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="obFkE6v3nGwKCdmKt7_X-11" target="obFkE6v3nGwKCdmKt7_X-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="obFkE6v3nGwKCdmKt7_X-11" target="obFkE6v3nGwKCdmKt7_X-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-11" value="角色皮肤校验" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="320" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-12" value="皮肤是否存在&lt;div&gt;模板表是否存在&lt;/div&gt;&lt;div&gt;是否是皮肤&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="315" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="obFkE6v3nGwKCdmKt7_X-13" target="obFkE6v3nGwKCdmKt7_X-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="obFkE6v3nGwKCdmKt7_X-13" target="obFkE6v3nGwKCdmKt7_X-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-13" value="配饰校验" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="410" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-14" value="配饰是否存在&lt;div&gt;模板表是否存在&lt;/div&gt;&lt;div&gt;是否是配饰&lt;/div&gt;&lt;div&gt;部位和传入的是否一致&lt;/div&gt;&lt;div&gt;当前装备配饰的是否和之前一致&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="390" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="obFkE6v3nGwKCdmKt7_X-15" target="obFkE6v3nGwKCdmKt7_X-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-15" value="获取配饰的&lt;div&gt;模板表，实例&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="obFkE6v3nGwKCdmKt7_X-16" target="obFkE6v3nGwKCdmKt7_X-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="obFkE6v3nGwKCdmKt7_X-16" target="obFkE6v3nGwKCdmKt7_X-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-16" value="配饰&lt;div&gt;装备到皮肤&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="550" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="obFkE6v3nGwKCdmKt7_X-17" target="obFkE6v3nGwKCdmKt7_X-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="obFkE6v3nGwKCdmKt7_X-17" target="obFkE6v3nGwKCdmKt7_X-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="620" />
+              <mxPoint x="550" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-17" value="卸载配饰" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="560" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="obFkE6v3nGwKCdmKt7_X-18" target="obFkE6v3nGwKCdmKt7_X-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-18" value="配饰绑定角色皮肤" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="640" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="obFkE6v3nGwKCdmKt7_X-19" target="obFkE6v3nGwKCdmKt7_X-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-19" value="角色皮肤绑定配饰" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="690" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="obFkE6v3nGwKCdmKt7_X-21" target="obFkE6v3nGwKCdmKt7_X-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="obFkE6v3nGwKCdmKt7_X-21" target="obFkE6v3nGwKCdmKt7_X-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-21" value="当前角色皮肤&lt;div&gt;正在装备&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="485" y="740" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="obFkE6v3nGwKCdmKt7_X-22" target="obFkE6v3nGwKCdmKt7_X-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="810" />
+              <mxPoint x="550" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-22" value="redis数据变更" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="755" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-23" value="通知客户端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="830" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="obFkE6v3nGwKCdmKt7_X-25" target="obFkE6v3nGwKCdmKt7_X-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-25" value="获取角色皮肤" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="270" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="obFkE6v3nGwKCdmKt7_X-26" target="obFkE6v3nGwKCdmKt7_X-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="obFkE6v3nGwKCdmKt7_X-26" target="obFkE6v3nGwKCdmKt7_X-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-26" value="角色皮肤校验" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="320" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-27" value="皮肤是否存在&lt;div&gt;模板表是否存在&lt;/div&gt;&lt;div&gt;是否是皮肤&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="320" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="obFkE6v3nGwKCdmKt7_X-29" target="obFkE6v3nGwKCdmKt7_X-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-29" value="获取对应配置绑定的配饰" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="945" y="400" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="obFkE6v3nGwKCdmKt7_X-30" target="obFkE6v3nGwKCdmKt7_X-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-30" value="配饰清除绑定关系" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="945" y="450" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="obFkE6v3nGwKCdmKt7_X-31" target="obFkE6v3nGwKCdmKt7_X-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-31" value="角色皮肤清除绑定关系" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="945" y="500" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-32" value="通知客户端" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="945" y="640" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="obFkE6v3nGwKCdmKt7_X-34" target="obFkE6v3nGwKCdmKt7_X-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="obFkE6v3nGwKCdmKt7_X-34" target="obFkE6v3nGwKCdmKt7_X-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-34" value="当前角色皮肤&lt;div&gt;正在装备&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="955" y="550" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="obFkE6v3nGwKCdmKt7_X-35" target="obFkE6v3nGwKCdmKt7_X-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1190" y="620" />
+              <mxPoint x="1020" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-35" value="redis数据变更" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="565" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-40" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1082" y="558" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-46" value="失败-通知客户端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="330" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-49" value="是，卸载逻辑" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="625" y="195" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-51" value="否，装备逻辑" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="515" y="240" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-54" value="不通过" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-55" value="通过" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="370" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-56" value="失败-通知客户端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="330" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-58" value="不通过" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="615" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-59" value="通过" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="370" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-60" value="失败-通知客户端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="420" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-61" value="不通过" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="612.5" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-64" value="通过" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="570" y="450" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-67" value="配饰有装备" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="612.5" y="538" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-69" value="配饰未装备" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="600" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-75" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="738" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-76" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="980" y="608" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="obFkE6v3nGwKCdmKt7_X-78" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="800" width="40" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
