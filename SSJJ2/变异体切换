@@ -241,6 +241,79 @@
         <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-38" value="没有" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="621" y="1090" width="50" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-41" target="za8Tz7bdBX1mGuiJ-IkJ-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-41" value="数据修复" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1185" y="975" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-43" target="za8Tz7bdBX1mGuiJ-IkJ-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-43" target="za8Tz7bdBX1mGuiJ-IkJ-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-43" value="未经过&lt;div&gt;VOYAGER-43737&lt;br&gt;&lt;/div&gt;&lt;div&gt;补发变异体&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="1045" width="200" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-45" target="za8Tz7bdBX1mGuiJ-IkJ-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-45" value="读取global_data377&lt;div&gt;补发变异体&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="1120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-46" target="za8Tz7bdBX1mGuiJ-IkJ-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1260" y="1240" />
+              <mxPoint x="1395" y="1240" />
+              <mxPoint x="1395" y="1080" />
+              <mxPoint x="1530" y="1080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-46" value="&lt;div&gt;global_data377&lt;/div&gt;&lt;div&gt;设置为选中变异体&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="1180" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-48" target="za8Tz7bdBX1mGuiJ-IkJ-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-48" value="本次数据修复" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="1100" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-50" target="za8Tz7bdBX1mGuiJ-IkJ-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-50" value="遍历所有的&lt;div&gt;变异体皮肤&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="1170" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-53" target="za8Tz7bdBX1mGuiJ-IkJ-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-53" value="汇总成&lt;div&gt;Map&amp;lt;角色id， List&amp;lt;皮肤&amp;gt;&amp;gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1445" y="1240" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-54" target="za8Tz7bdBX1mGuiJ-IkJ-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-54" target="za8Tz7bdBX1mGuiJ-IkJ-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-54" value="当前角色下&lt;div&gt;有装备的皮肤&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="1300" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-55" value="当前皮肤标记为使用" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="1380" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-56" value="随机选一个皮肤标记为装备中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="1310" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-69" value="已处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1385" y="1045" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-70" value="未处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="1090" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
