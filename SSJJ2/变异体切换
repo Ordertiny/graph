@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
   <diagram id="FXLfOOzDxb_iVy_-6uhV" name="第 1 页">
-    <mxGraphModel dx="1195" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -156,113 +156,113 @@
         <mxCell id="oswooRWzKyI3sSVqUzFe-54" value="更新并同步redis" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=none;" parent="1" vertex="1">
           <mxGeometry x="1915" y="350" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-1" value="20240822" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-1" value="20240822" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="80" y="798" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-2" target="za8Tz7bdBX1mGuiJ-IkJ-3">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-2" target="za8Tz7bdBX1mGuiJ-IkJ-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-2" value="变异体过期" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-2" value="变异体过期" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="840" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-3" target="za8Tz7bdBX1mGuiJ-IkJ-15">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-3" target="za8Tz7bdBX1mGuiJ-IkJ-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-3" target="za8Tz7bdBX1mGuiJ-IkJ-4">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-3" target="za8Tz7bdBX1mGuiJ-IkJ-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-3" value="是否装备皮肤" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-3" value="是否装备皮肤" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="315" y="920" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-4" target="za8Tz7bdBX1mGuiJ-IkJ-14">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-4" target="za8Tz7bdBX1mGuiJ-IkJ-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-4" target="za8Tz7bdBX1mGuiJ-IkJ-20">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-4" target="za8Tz7bdBX1mGuiJ-IkJ-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-4" value="是否使用中" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-4" value="是否使用中" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="317.5" y="1005" width="145" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-5" value="切换Global378&lt;div&gt;配置默认角色&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-5" value="切换Global378&lt;div&gt;配置默认角色&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="1090" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-14" target="za8Tz7bdBX1mGuiJ-IkJ-28">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-14" target="za8Tz7bdBX1mGuiJ-IkJ-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-14" target="za8Tz7bdBX1mGuiJ-IkJ-5">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-14" target="za8Tz7bdBX1mGuiJ-IkJ-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-14" value="该皮肤是否&lt;div&gt;还有其他皮肤&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-14" value="该皮肤是否&lt;div&gt;还有其他皮肤&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="160" y="1090" width="145" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-15" value="直接删除" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-15" value="直接删除" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="610" y="915" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-17" value="未装备" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-17" value="未装备" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="490" y="915" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-18" value="装备中" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-18" value="装备中" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="315" y="975" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-20" target="za8Tz7bdBX1mGuiJ-IkJ-34">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-20" target="za8Tz7bdBX1mGuiJ-IkJ-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-20" target="za8Tz7bdBX1mGuiJ-IkJ-15">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-20" target="za8Tz7bdBX1mGuiJ-IkJ-15" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="670" y="1115" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-20" value="该角色是否&lt;div&gt;还有其他皮肤&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-20" value="该角色是否&lt;div&gt;还有其他皮肤&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="490" y="1090" width="145" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-24" value="使用中" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-24" value="使用中" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="245" y="1005" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-25" value="未使用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-25" value="未使用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="490" y="1005" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-28" value="切换其他皮肤&lt;div&gt;为装备中+使用中&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-28" value="切换其他皮肤&lt;div&gt;为装备中+使用中&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="174" y="1170" width="117" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-31" value="有" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-31" value="有" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="230" y="1140" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-32" value="没有" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-32" value="没有" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="125" y="1090" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-34" value="切换其他皮肤&lt;div&gt;为装备中&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-34" value="切换其他皮肤&lt;div&gt;为装备中&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="504" y="1170" width="117" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-36" value="有" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-36" value="有" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="560" y="1140" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-38" value="没有" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-38" value="没有" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="621" y="1090" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-41" target="za8Tz7bdBX1mGuiJ-IkJ-43">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-41" target="za8Tz7bdBX1mGuiJ-IkJ-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-41" value="数据修复" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-41" value="数据修复" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1185" y="975" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-43" target="za8Tz7bdBX1mGuiJ-IkJ-48">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-43" target="za8Tz7bdBX1mGuiJ-IkJ-48" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-43" target="za8Tz7bdBX1mGuiJ-IkJ-45">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-43" target="za8Tz7bdBX1mGuiJ-IkJ-45" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-43" value="未经过&lt;div&gt;VOYAGER-43737&lt;br&gt;&lt;/div&gt;&lt;div&gt;补发变异体&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-43" value="未经过&lt;div&gt;VOYAGER-43737&lt;br&gt;&lt;/div&gt;&lt;div&gt;补发变异体&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1160" y="1045" width="200" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-45" target="za8Tz7bdBX1mGuiJ-IkJ-46">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-45" target="za8Tz7bdBX1mGuiJ-IkJ-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-45" value="读取global_data377&lt;div&gt;补发变异体&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-45" value="读取global_data377&lt;div&gt;补发变异体&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1200" y="1120" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-46" target="za8Tz7bdBX1mGuiJ-IkJ-48">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-46" target="za8Tz7bdBX1mGuiJ-IkJ-48" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1260" y="1240" />
@@ -272,47 +272,122 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-46" value="&lt;div&gt;global_data377&lt;/div&gt;&lt;div&gt;设置为选中变异体&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-46" value="&lt;div&gt;global_data377&lt;/div&gt;&lt;div&gt;设置为选中变异体&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1200" y="1180" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-48" target="za8Tz7bdBX1mGuiJ-IkJ-50">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-48" target="za8Tz7bdBX1mGuiJ-IkJ-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-48" value="本次数据修复" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-48" value="本次数据修复" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1470" y="1100" width="120" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-50" target="za8Tz7bdBX1mGuiJ-IkJ-53">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-50" target="za8Tz7bdBX1mGuiJ-IkJ-53" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-50" value="遍历所有的&lt;div&gt;变异体皮肤&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-50" value="遍历所有的&lt;div&gt;变异体皮肤&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1470" y="1170" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-53" target="za8Tz7bdBX1mGuiJ-IkJ-54">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-53" target="za8Tz7bdBX1mGuiJ-IkJ-54" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-53" value="汇总成&lt;div&gt;Map&amp;lt;角色id， List&amp;lt;皮肤&amp;gt;&amp;gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-53" value="汇总成&lt;div&gt;Map&amp;lt;角色id， List&amp;lt;皮肤&amp;gt;&amp;gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1445" y="1240" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-54" target="za8Tz7bdBX1mGuiJ-IkJ-55">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-54" target="za8Tz7bdBX1mGuiJ-IkJ-55" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-54" target="za8Tz7bdBX1mGuiJ-IkJ-56">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-54" target="za8Tz7bdBX1mGuiJ-IkJ-56" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-54" value="当前角色下&lt;div&gt;有装备的皮肤&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-54" value="当前角色下&lt;div&gt;有装备的皮肤&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1460" y="1300" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-55" value="当前皮肤标记为使用" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-55" value="当前皮肤标记为使用" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1470" y="1380" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-56" value="随机选一个皮肤标记为装备中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-56" value="随机选一个皮肤标记为装备中" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1660" y="1310" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-69" value="已处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-69" value="已处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1385" y="1045" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-70" value="未处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-70" value="未处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1180" y="1090" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="va5PLQX2kcY0VSIxO8wr-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="va5PLQX2kcY0VSIxO8wr-1" target="va5PLQX2kcY0VSIxO8wr-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="va5PLQX2kcY0VSIxO8wr-1" value="变异体使用" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1360" width="154" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="va5PLQX2kcY0VSIxO8wr-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="va5PLQX2kcY0VSIxO8wr-2" target="va5PLQX2kcY0VSIxO8wr-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="va5PLQX2kcY0VSIxO8wr-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="va5PLQX2kcY0VSIxO8wr-2" target="va5PLQX2kcY0VSIxO8wr-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="va5PLQX2kcY0VSIxO8wr-2" value="变异体存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="731" y="1410" width="133" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="va5PLQX2kcY0VSIxO8wr-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="va5PLQX2kcY0VSIxO8wr-3" target="va5PLQX2kcY0VSIxO8wr-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="va5PLQX2kcY0VSIxO8wr-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="va5PLQX2kcY0VSIxO8wr-3" target="va5PLQX2kcY0VSIxO8wr-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="va5PLQX2kcY0VSIxO8wr-3" value="变异体未过期" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="731" y="1490" width="133" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="va5PLQX2kcY0VSIxO8wr-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="va5PLQX2kcY0VSIxO8wr-4" target="va5PLQX2kcY0VSIxO8wr-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="va5PLQX2kcY0VSIxO8wr-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="va5PLQX2kcY0VSIxO8wr-4" target="va5PLQX2kcY0VSIxO8wr-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="va5PLQX2kcY0VSIxO8wr-4" value="变异体已装备&lt;div&gt;&amp;amp;&amp;amp; 未使用&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730.5" y="1570" width="133" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="va5PLQX2kcY0VSIxO8wr-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="va5PLQX2kcY0VSIxO8wr-6" target="va5PLQX2kcY0VSIxO8wr-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="va5PLQX2kcY0VSIxO8wr-6" value="获取该subType下的所有使用中的变异体&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;执行卸载&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1650" width="153" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="va5PLQX2kcY0VSIxO8wr-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="va5PLQX2kcY0VSIxO8wr-7" target="va5PLQX2kcY0VSIxO8wr-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="va5PLQX2kcY0VSIxO8wr-7" value="当前变异体&lt;div&gt;设置为使用&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="726.5" y="1720" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="va5PLQX2kcY0VSIxO8wr-8" value="通知redis&lt;div&gt;并同步客户端&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="726.5" y="1780" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="va5PLQX2kcY0VSIxO8wr-15" value="ITEM_NOT_EXIST" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1420" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="va5PLQX2kcY0VSIxO8wr-16" value="ITEM_EXPIRE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1500" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="va5PLQX2kcY0VSIxO8wr-18" value="PARAMTER_ERROR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1580" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="va5PLQX2kcY0VSIxO8wr-22" value="X" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="890" y="1420" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="va5PLQX2kcY0VSIxO8wr-23" value="X" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="889" y="1495" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="va5PLQX2kcY0VSIxO8wr-26" value="X" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="889" y="1570" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="va5PLQX2kcY0VSIxO8wr-27" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="770" y="1465" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="va5PLQX2kcY0VSIxO8wr-28" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1550" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="va5PLQX2kcY0VSIxO8wr-29" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1620" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
