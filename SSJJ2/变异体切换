@@ -272,7 +272,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-46" value="&lt;div&gt;global_data377&lt;/div&gt;&lt;div&gt;设置为选中变异体&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-46" value="装备变异体" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1200" y="1180" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="za8Tz7bdBX1mGuiJ-IkJ-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="za8Tz7bdBX1mGuiJ-IkJ-48" target="za8Tz7bdBX1mGuiJ-IkJ-50" edge="1">
