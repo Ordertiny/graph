@@ -16,26 +16,131 @@
         <mxCell id="Age2WlZFDnUI9IWk4CiQ-4" value="拉取当前封禁类型未处理的所有举报玩家的数据（3d内）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="260" width="170" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="Age2WlZFDnUI9IWk4CiQ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Age2WlZFDnUI9IWk4CiQ-6" target="Age2WlZFDnUI9IWk4CiQ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Age2WlZFDnUI9IWk4CiQ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Age2WlZFDnUI9IWk4CiQ-6" target="Age2WlZFDnUI9IWk4CiQ-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="415" />
+              <mxPoint x="240" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Age2WlZFDnUI9IWk4CiQ-6" value="语音封禁" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="277.5" y="390" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Age2WlZFDnUI9IWk4CiQ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Age2WlZFDnUI9IWk4CiQ-8" target="Age2WlZFDnUI9IWk4CiQ-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="485" />
+              <mxPoint x="490" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Age2WlZFDnUI9IWk4CiQ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Age2WlZFDnUI9IWk4CiQ-8" target="Age2WlZFDnUI9IWk4CiQ-10">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Age2WlZFDnUI9IWk4CiQ-8" value="举报内容含有&lt;div&gt;恶意辱骂&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="277.5" y="460" width="135" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="Age2WlZFDnUI9IWk4CiQ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Age2WlZFDnUI9IWk4CiQ-9" target="Age2WlZFDnUI9IWk4CiQ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Age2WlZFDnUI9IWk4CiQ-9" value="循环所有举报记录" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="267.5" y="320" width="155" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Age2WlZFDnUI9IWk4CiQ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Age2WlZFDnUI9IWk4CiQ-10" target="Age2WlZFDnUI9IWk4CiQ-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="560" />
+              <mxPoint x="560" y="145" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Age2WlZFDnUI9IWk4CiQ-10" value="标记该举报记录对于当前封禁已处理" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="540" width="170" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="Age2WlZFDnUI9IWk4CiQ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Age2WlZFDnUI9IWk4CiQ-11" target="Age2WlZFDnUI9IWk4CiQ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Age2WlZFDnUI9IWk4CiQ-11" value="生成自定义邮件内容" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="130" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Age2WlZFDnUI9IWk4CiQ-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Age2WlZFDnUI9IWk4CiQ-12" target="Age2WlZFDnUI9IWk4CiQ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Age2WlZFDnUI9IWk4CiQ-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Age2WlZFDnUI9IWk4CiQ-12" target="Age2WlZFDnUI9IWk4CiQ-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="870" y="220" />
+              <mxPoint x="870" y="500" />
+              <mxPoint x="725" y="500" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Age2WlZFDnUI9IWk4CiQ-12" value="天梯模式&amp;amp;登录封禁&lt;div&gt;&amp;amp;开启保星卡功能&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="630" y="185" width="170" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="Age2WlZFDnUI9IWk4CiQ-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Age2WlZFDnUI9IWk4CiQ-13" target="Age2WlZFDnUI9IWk4CiQ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Age2WlZFDnUI9IWk4CiQ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Age2WlZFDnUI9IWk4CiQ-13" target="Age2WlZFDnUI9IWk4CiQ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Age2WlZFDnUI9IWk4CiQ-13" value="永久封禁" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="631.25" y="280" width="167.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Age2WlZFDnUI9IWk4CiQ-14" value="&lt;div&gt;根据操作者，封禁类型，原因，举报项&lt;/div&gt;发送有奖励的邮件" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="645" y="350" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Age2WlZFDnUI9IWk4CiQ-15" value="&lt;div&gt;根据操作者，封禁类型，原因，举报项&lt;/div&gt;发送无奖励的邮件" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="430" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Age2WlZFDnUI9IWk4CiQ-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Age2WlZFDnUI9IWk4CiQ-17" target="Age2WlZFDnUI9IWk4CiQ-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Age2WlZFDnUI9IWk4CiQ-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Age2WlZFDnUI9IWk4CiQ-17" target="Age2WlZFDnUI9IWk4CiQ-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Age2WlZFDnUI9IWk4CiQ-17" value="聊天封禁 不是 语音封禁" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="520" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Age2WlZFDnUI9IWk4CiQ-18" value="获取聊天封禁邮件Id&lt;div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="655" y="600" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Age2WlZFDnUI9IWk4CiQ-19" value="&lt;div&gt;根据操作者，封禁类型，原因，举报项&lt;/div&gt;发送无奖励的邮件" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="520" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Age2WlZFDnUI9IWk4CiQ-21" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430" y="460" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Age2WlZFDnUI9IWk4CiQ-23" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="430" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Age2WlZFDnUI9IWk4CiQ-26" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="388" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Age2WlZFDnUI9IWk4CiQ-28" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="510" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Age2WlZFDnUI9IWk4CiQ-32" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="720" y="248" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Age2WlZFDnUI9IWk4CiQ-34" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="720" y="325" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Age2WlZFDnUI9IWk4CiQ-36" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="785" y="280" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Age2WlZFDnUI9IWk4CiQ-38" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="798.75" y="200" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Age2WlZFDnUI9IWk4CiQ-40" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="730" y="570" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Age2WlZFDnUI9IWk4CiQ-42" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="830" y="518" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
