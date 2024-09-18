@@ -16,6 +16,27 @@
         <mxCell id="Age2WlZFDnUI9IWk4CiQ-4" value="拉取当前封禁类型未处理的所有举报玩家的数据（3d内）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="260" width="170" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="Age2WlZFDnUI9IWk4CiQ-6" value="语音封禁" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="277.5" y="390" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Age2WlZFDnUI9IWk4CiQ-8" value="举报内容含有&lt;div&gt;恶意辱骂&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="277.5" y="460" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Age2WlZFDnUI9IWk4CiQ-9" value="循环所有举报记录" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="267.5" y="320" width="155" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Age2WlZFDnUI9IWk4CiQ-10" value="标记该举报记录对于当前封禁已处理" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="540" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Age2WlZFDnUI9IWk4CiQ-11" value="生成自定义邮件内容" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="130" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Age2WlZFDnUI9IWk4CiQ-12" value="天梯模式&amp;amp;登录封禁&lt;div&gt;&amp;amp;开启保星卡功能&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="185" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Age2WlZFDnUI9IWk4CiQ-13" value="永久封禁" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="631.25" y="280" width="167.5" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
