@@ -335,6 +335,9 @@
         <mxCell id="OTYzF2b9YHP8ActhKxKk-46" value="若成功发送举报邮件&lt;div&gt;标记举报记录处理&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="1715" y="760" width="180" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="OTYzF2b9YHP8ActhKxKk-51" value="红色表示逻辑删除&lt;div&gt;黄色表示新增/修改&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2000" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
