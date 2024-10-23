@@ -98,6 +98,9 @@
         <mxCell id="gRxAKoVO2HCfGQumd7b_-30" value="es&lt;div&gt;&lt;br&gt;&lt;div&gt;i7m2p9a20000b8bwr&lt;/div&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1200" y="110" width="120" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="gRxAKoVO2HCfGQumd7b_-32" value="172.16.8.4&lt;div&gt;172.16.8.233&lt;/div&gt;&lt;div&gt;172.16.8.5&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="210" width="90" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
