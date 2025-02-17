@@ -25,6 +25,9 @@
         <mxCell id="UIL1ZLDilzriwxGzDn_y-7" value="累计登录活动的储存结构相同，都是用一条数据去储存，公共逻辑在这里" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="720" y="400" width="410" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="UIL1ZLDilzriwxGzDn_y-8" value="当玩家触发某个行为后会遍历所有的和玩家相关任务，并按照如下顺序去执行&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; _5(5, &quot;时间校验&quot;),&lt;/div&gt;&lt;div&gt;&amp;nbsp;_10(10, &quot;解析参数&quot;),&lt;/div&gt;&lt;div&gt;&amp;nbsp;_20(20, &quot;参与条件校验&quot;),&lt;/div&gt;&lt;div&gt;&amp;nbsp;_25(25, &quot;扣除消耗&quot;),&lt;/div&gt;&lt;div&gt;&amp;nbsp;_30(30, &quot;累计进度&quot;),&lt;/div&gt;&lt;div&gt;&amp;nbsp;_40(40, &quot;发奖&quot;),&lt;/div&gt;&lt;div&gt;&amp;nbsp;_50(50, &quot;后置行为&quot;);&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="615" width="430" height="140" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
