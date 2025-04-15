@@ -1,9 +1,63 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.1.3">
   <diagram name="第 1 页" id="pYFGE8yQlem0IxA-7sjb">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="pHr0DvTzp4pEjepmDEwf-1" value="getRankPage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="90" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pHr0DvTzp4pEjepmDEwf-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pHr0DvTzp4pEjepmDEwf-2" target="pHr0DvTzp4pEjepmDEwf-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pHr0DvTzp4pEjepmDEwf-2" value="Parser获取加载的redisKey" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="200" y="160" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pHr0DvTzp4pEjepmDEwf-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="pHr0DvTzp4pEjepmDEwf-3" target="pHr0DvTzp4pEjepmDEwf-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pHr0DvTzp4pEjepmDEwf-3" value="获取玩家RankMap" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="200" y="300" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pHr0DvTzp4pEjepmDEwf-4" value="parser.loadRedisKey" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="170" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pHr0DvTzp4pEjepmDEwf-5" value="getRankMap" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="305" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pHr0DvTzp4pEjepmDEwf-6" value="parser.parser" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="373" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pHr0DvTzp4pEjepmDEwf-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pHr0DvTzp4pEjepmDEwf-7" target="pHr0DvTzp4pEjepmDEwf-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pHr0DvTzp4pEjepmDEwf-7" value="解析玩家排行榜数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="368" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pHr0DvTzp4pEjepmDEwf-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="pHr0DvTzp4pEjepmDEwf-8" target="pHr0DvTzp4pEjepmDEwf-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pHr0DvTzp4pEjepmDEwf-8" value="拉取排行榜榜单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="230" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pHr0DvTzp4pEjepmDEwf-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="pHr0DvTzp4pEjepmDEwf-9" target="pHr0DvTzp4pEjepmDEwf-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pHr0DvTzp4pEjepmDEwf-9" value="获取排行榜分数" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="200" y="438" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pHr0DvTzp4pEjepmDEwf-10" value="获取展示字段数值" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="200" y="510" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pHr0DvTzp4pEjepmDEwf-11" value="getScore" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430" y="448" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pHr0DvTzp4pEjepmDEwf-12" value="statisticParse.parse" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="515" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pHr0DvTzp4pEjepmDEwf-18" value="红色标注修改内容" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="570" y="120" width="120" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
