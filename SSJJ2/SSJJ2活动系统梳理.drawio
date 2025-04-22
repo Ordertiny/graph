@@ -23,7 +23,16 @@
           <mxGeometry x="1190" y="90" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CKe-zOVpmvk1X2jsdo7u-9" value="根据规则类型和用户标签获取满足条件的子活动列表&lt;div&gt;（从策划表中找满足条件的子活动配置）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1370" y="90" width="300" height="40" as="geometry" />
+          <mxGeometry x="1360" y="90" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CKe-zOVpmvk1X2jsdo7u-10" value="doActivityByRule&lt;div&gt;触发活动&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="150" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CKe-zOVpmvk1X2jsdo7u-12" value="对所有满足条件的子活动执行&amp;nbsp;Step5&lt;div&gt;筛选出满足doTime的子活动&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="220" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CKe-zOVpmvk1X2jsdo7u-13" value="从Step10开始执行活动步骤" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="300" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
