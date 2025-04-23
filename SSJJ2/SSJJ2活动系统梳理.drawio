@@ -34,7 +34,7 @@
         <mxCell id="CKe-zOVpmvk1X2jsdo7u-13" value="从Step10开始执行活动步骤" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1190" y="300" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="CKe-zOVpmvk1X2jsdo7u-14" value="触发完成活动规则" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CKe-zOVpmvk1X2jsdo7u-14" value="触发完成活动规则(18&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1190" y="370" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CKe-zOVpmvk1X2jsdo7u-15" value="doActivity" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
