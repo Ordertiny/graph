@@ -49,17 +49,23 @@
         <mxCell id="CKe-zOVpmvk1X2jsdo7u-18" value="1. 调用IProcessParser解析数据&lt;div&gt;2. 将解析结果保存到上下文的configParseResults&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1690" y="215" width="280" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="CKe-zOVpmvk1X2jsdo7u-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CKe-zOVpmvk1X2jsdo7u-19" target="CKe-zOVpmvk1X2jsdo7u-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="CKe-zOVpmvk1X2jsdo7u-19" value="Step25: 活动消耗" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1530" y="320" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CKe-zOVpmvk1X2jsdo7u-20" value="return 中断流程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1730" y="320" width="120" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="CKe-zOVpmvk1X2jsdo7u-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CKe-zOVpmvk1X2jsdo7u-21" target="CKe-zOVpmvk1X2jsdo7u-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="CKe-zOVpmvk1X2jsdo7u-21" value="Step30: 进度处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1530" y="375" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CKe-zOVpmvk1X2jsdo7u-22" value="1. 对于后置行为是5(完成后继续累计)，&lt;div&gt;且进度计算器是AccumIntProcessCalculate，&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;会把进度保存在活动进度的attach中(廿廿说这个目前没有使用场景，比如玩家抽了1500次，条件是1000次，应该展示1500而不是1000)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2. 判定活动是否完成，已完成不执行&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3.&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;IProcessCalculat&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;e处理规则进度&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;4. 遍历活动的所有规则，如果全部完成则标记活动完成，并将其主子活动ID加入上下文&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;5.对于单规则活动，发布活动排行榜事件&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1710" y="350" width="730" height="110" as="geometry" />
+        <mxCell id="CKe-zOVpmvk1X2jsdo7u-22" value="1. 对于后置行为是5(完成后继续累计)，&lt;div&gt;且进度计算器是AccumIntProcessCalculate，&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;会把进度保存在活动进度的attach中(廿廿说这个目前没有使用场景，&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;比如玩家抽了1500次，条件是1000次，应该展示1500而不是1000)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2. 判定活动是否完成，已完成不执行&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3.&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;IProcessCalculat&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;e处理规则进度&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;4. 遍历活动的所有规则，如果全部完成则标记活动完成，并将其主子活动ID加入上下文&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;5.对于单规则活动，发布活动排行榜事件&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1710" y="345" width="480" height="130" as="geometry" />
         </mxCell>
         <mxCell id="CKe-zOVpmvk1X2jsdo7u-23" value="待处理逻辑&lt;div&gt;IProcessCalculate&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;后置处理器&lt;/div&gt;&lt;div&gt;IAction&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2130" y="10" width="120" height="100" as="geometry" />
@@ -67,11 +73,14 @@
         <mxCell id="CKe-zOVpmvk1X2jsdo7u-24" value="Step40: 发奖（自动和手动领取）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1530" y="430" width="150" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="CKe-zOVpmvk1X2jsdo7u-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CKe-zOVpmvk1X2jsdo7u-25" target="CKe-zOVpmvk1X2jsdo7u-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="CKe-zOVpmvk1X2jsdo7u-25" value="Step50: 后置行为" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1530" y="490" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CKe-zOVpmvk1X2jsdo7u-26" value="处理后置通知逻辑，过滤掉：&lt;div&gt;SAVE_ATTACH_PROCESS(5,&quot;完成后继续累计进度&quot;)&lt;/div&gt;&lt;div&gt;&amp;nbsp;RELOAD_ALL_ACTIVITY(9,&quot;通知客户端重新加载活动数据&quot;)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1700" y="475" width="350" height="60" as="geometry" />
+          <mxGeometry x="1710" y="475" width="350" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CKe-zOVpmvk1X2jsdo7u-27" value="解析在线时间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="250" y="690" width="100" height="30" as="geometry" />
