@@ -32,7 +32,34 @@
           <mxGeometry x="1190" y="220" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CKe-zOVpmvk1X2jsdo7u-13" value="从Step10开始执行活动步骤" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1190" y="300" width="160" height="60" as="geometry" />
+          <mxGeometry x="1190" y="300" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CKe-zOVpmvk1X2jsdo7u-14" value="触发完成活动规则" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="370" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CKe-zOVpmvk1X2jsdo7u-15" value="doActivity" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="155" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CKe-zOVpmvk1X2jsdo7u-16" value="Step10: 根据触发规则解析触发参数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="220" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CKe-zOVpmvk1X2jsdo7u-17" value="Step20: 判定前置条件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="270" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CKe-zOVpmvk1X2jsdo7u-18" value="1. 调用IProcessParser解析数据&lt;div&gt;2. 将解析结果保存到上下文的configParseResults&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="215" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CKe-zOVpmvk1X2jsdo7u-19" value="Step25: 活动消耗" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="320" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CKe-zOVpmvk1X2jsdo7u-20" value="return 中断流程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1730" y="320" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CKe-zOVpmvk1X2jsdo7u-21" value="Step30: 进度处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="375" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CKe-zOVpmvk1X2jsdo7u-22" value="1. 对于后置行为是5(完成后继续累计)，&lt;div&gt;且进度计算器是AccumIntProcessCalculate，&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;会把进度保存在活动进度的attach中&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="368" width="260" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
