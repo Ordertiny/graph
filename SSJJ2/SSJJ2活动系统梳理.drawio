@@ -58,8 +58,8 @@
         <mxCell id="CKe-zOVpmvk1X2jsdo7u-21" value="Step30: 进度处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1530" y="375" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CKe-zOVpmvk1X2jsdo7u-22" value="1. 对于后置行为是5(完成后继续累计)，&lt;div&gt;且进度计算器是AccumIntProcessCalculate，&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;会把进度保存在活动进度的attach中&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1700" y="368" width="260" height="70" as="geometry" />
+        <mxCell id="CKe-zOVpmvk1X2jsdo7u-22" value="1. 对于后置行为是5(完成后继续累计)，&lt;div&gt;且进度计算器是AccumIntProcessCalculate，&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;会把进度保存在活动进度的attach中(廿廿说这个目前没有使用场景，比如玩家抽了1500次，条件是1000次，应该展示1500而不是1000)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="368" width="730" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
