@@ -184,7 +184,13 @@
           <mxGeometry x="2350" y="415" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="u-bmeiGmhYx5XkkNCnXn-26" value="相关表管理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2350" y="478" width="80" height="30" as="geometry" />
+          <mxGeometry x="2430" y="500" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u-bmeiGmhYx5XkkNCnXn-27" value="基表管理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2520" y="490" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u-bmeiGmhYx5XkkNCnXn-28" value="获取表规则" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2515" y="530" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
