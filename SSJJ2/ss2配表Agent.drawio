@@ -148,7 +148,7 @@
         <mxCell id="u-bmeiGmhYx5XkkNCnXn-8" value="规则C" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1995" y="410" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="u-bmeiGmhYx5XkkNCnXn-9" value="非标准规则" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="u-bmeiGmhYx5XkkNCnXn-9" value="非定义规则" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2100" y="410" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="u-bmeiGmhYx5XkkNCnXn-14" value="输出" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
