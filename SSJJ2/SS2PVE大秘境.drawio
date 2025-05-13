@@ -1,9 +1,60 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.97 Safari/537.36 Core/1.116.504.400 QQBrowser/19.0.6403.400" version="27.0.4">
   <diagram name="第 1 页" id="woPnrq-zyBKp5q4rAGaC">
-    <mxGraphModel dx="1426" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KU3skrcBevsFaF7o8EXV-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KU3skrcBevsFaF7o8EXV-1" target="KU3skrcBevsFaF7o8EXV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KU3skrcBevsFaF7o8EXV-1" value="玩家登录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="90" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KU3skrcBevsFaF7o8EXV-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KU3skrcBevsFaF7o8EXV-2" target="KU3skrcBevsFaF7o8EXV-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KU3skrcBevsFaF7o8EXV-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KU3skrcBevsFaF7o8EXV-2" target="KU3skrcBevsFaF7o8EXV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KU3skrcBevsFaF7o8EXV-2" value="是否切换&lt;div&gt;排行榜周期&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="487.5" y="180" width="135" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KU3skrcBevsFaF7o8EXV-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="KU3skrcBevsFaF7o8EXV-4" target="KU3skrcBevsFaF7o8EXV-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KU3skrcBevsFaF7o8EXV-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KU3skrcBevsFaF7o8EXV-4" target="KU3skrcBevsFaF7o8EXV-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KU3skrcBevsFaF7o8EXV-4" value="玩家是否有&lt;div&gt;当前排行榜对应的&lt;/div&gt;&lt;div&gt;周期数据&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="485" y="280" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KU3skrcBevsFaF7o8EXV-6" value="倒推玩家打过的历史周期数据&lt;div&gt;找到第一个进行删除&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="492.5" y="380" width="125" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KU3skrcBevsFaF7o8EXV-7" value="玩家本周期不打大秘境，&lt;div&gt;则每次上线一直删除上个赛季的数据&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="275" y="390" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KU3skrcBevsFaF7o8EXV-9" value="结束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="190" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KU3skrcBevsFaF7o8EXV-11" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="650" y="178" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KU3skrcBevsFaF7o8EXV-13" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="240" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KU3skrcBevsFaF7o8EXV-14" value="结束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="290" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KU3skrcBevsFaF7o8EXV-16" value="有" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="650" y="280" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KU3skrcBevsFaF7o8EXV-17" value="肯定已经&lt;div&gt;删除过旧值了&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;因为如果有新值，一定是登陆后，经历过了重置&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="760" y="290" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KU3skrcBevsFaF7o8EXV-19" value="没有" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="340" width="50" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
