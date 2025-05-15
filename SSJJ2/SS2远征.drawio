@@ -19,6 +19,9 @@
         <mxCell id="OuzXtYk74nuRkqW47d14-2" value="这两个RedisKey需要去排查" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="50" y="590" width="170" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="OuzXtYk74nuRkqW47d14-3" value="通关层数竟然保存到了PveLevelPassCount中&lt;div&gt;因为失败胜利应该都是有积分&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="760" y="710" width="260" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
