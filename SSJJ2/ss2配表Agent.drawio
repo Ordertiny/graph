@@ -430,6 +430,78 @@
         <mxCell id="Nz6BkkhqgRyXza3POle4-5" value="Agent 活动图" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2251" y="1280" width="90" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="Nz6BkkhqgRyXza3POle4-13" value="策划" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="1300" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Nz6BkkhqgRyXza3POle4-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1320" y="1330" as="sourcePoint" />
+            <mxPoint x="1420" y="1330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nz6BkkhqgRyXza3POle4-18" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1400" y="1240" width="190" height="594" as="geometry" />
+        </mxCell>
+        <mxCell id="Nz6BkkhqgRyXza3POle4-15" value="Agent" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Nz6BkkhqgRyXza3POle4-18">
+          <mxGeometry width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Nz6BkkhqgRyXza3POle4-16" value="" style="endArrow=none;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="Nz6BkkhqgRyXza3POle4-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="594" as="sourcePoint" />
+            <mxPoint x="30" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nz6BkkhqgRyXza3POle4-17" value="理解用户目的" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Nz6BkkhqgRyXza3POle4-18">
+          <mxGeometry x="20" y="114.5" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nz6BkkhqgRyXza3POle4-19" value="查找对应的配置规则目录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Nz6BkkhqgRyXza3POle4-18">
+          <mxGeometry x="20" y="164.5" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nz6BkkhqgRyXza3POle4-25" value="生成相应的python代码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Nz6BkkhqgRyXza3POle4-18">
+          <mxGeometry x="20" y="220" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nz6BkkhqgRyXza3POle4-39" value="整理响应" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Nz6BkkhqgRyXza3POle4-18">
+          <mxGeometry x="20" y="270" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nz6BkkhqgRyXza3POle4-26" value="Tools" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="1240" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Nz6BkkhqgRyXza3POle4-27" value="" style="endArrow=none;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1690" y="1834" as="sourcePoint" />
+            <mxPoint x="1690" y="1290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nz6BkkhqgRyXza3POle4-29" value="confluence工具" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="1420" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nz6BkkhqgRyXza3POle4-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="Nz6BkkhqgRyXza3POle4-19" target="Nz6BkkhqgRyXza3POle4-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1560" y="1430" as="sourcePoint" />
+            <mxPoint x="1610" y="1380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nz6BkkhqgRyXza3POle4-31" value="执行python代码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="1480" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nz6BkkhqgRyXza3POle4-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="Nz6BkkhqgRyXza3POle4-25" target="Nz6BkkhqgRyXza3POle4-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1510" y="1475" as="sourcePoint" />
+            <mxPoint x="1675" y="1480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nz6BkkhqgRyXza3POle4-40" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1410" y="1522.5" as="sourcePoint" />
+            <mxPoint x="1320" y="1522.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nz6BkkhqgRyXza3POle4-41" value="配表需求" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="1300" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Nz6BkkhqgRyXza3POle4-42" value="返回结果" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="1492.5" width="70" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
