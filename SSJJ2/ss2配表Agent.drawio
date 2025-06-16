@@ -428,7 +428,7 @@
           <mxGeometry x="2500" y="1050" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Nz6BkkhqgRyXza3POle4-5" value="Agent 活动图" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2255" y="1310" width="90" height="30" as="geometry" />
+          <mxGeometry x="2251" y="1280" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
