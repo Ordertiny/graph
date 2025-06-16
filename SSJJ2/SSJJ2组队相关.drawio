@@ -1,9 +1,132 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.5">
   <diagram name="第 1 页" id="UXYTSySGg9Sz7JBPEWeQ">
-    <mxGraphModel>
+    <mxGraphModel dx="1426" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="UmzRXu2kfee6Xjufvgj1-2" value="Client" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="250" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UmzRXu2kfee6Xjufvgj1-4" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="350" y="180" width="260" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="UmzRXu2kfee6Xjufvgj1-1" value="login" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UmzRXu2kfee6Xjufvgj1-4">
+          <mxGeometry width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UmzRXu2kfee6Xjufvgj1-3" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="UmzRXu2kfee6Xjufvgj1-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="490" as="sourcePoint" />
+            <mxPoint x="30" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UmzRXu2kfee6Xjufvgj1-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UmzRXu2kfee6Xjufvgj1-4">
+          <mxGeometry x="10" y="110" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UmzRXu2kfee6Xjufvgj1-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UmzRXu2kfee6Xjufvgj1-4">
+          <mxGeometry x="10" y="210" width="30" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="UmzRXu2kfee6Xjufvgj1-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="UmzRXu2kfee6Xjufvgj1-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="174.5" as="sourcePoint" />
+            <mxPoint x="-140" y="175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UmzRXu2kfee6Xjufvgj1-20" value="队伍信息变更(武装值)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="UmzRXu2kfee6Xjufvgj1-4">
+          <mxGeometry x="80" y="150" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UmzRXu2kfee6Xjufvgj1-21" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="UmzRXu2kfee6Xjufvgj1-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="230" as="sourcePoint" />
+            <mxPoint x="50" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UmzRXu2kfee6Xjufvgj1-22" value="转发聊天信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="UmzRXu2kfee6Xjufvgj1-4">
+          <mxGeometry x="97" y="203" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UmzRXu2kfee6Xjufvgj1-43" value="下发组队招募数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="UmzRXu2kfee6Xjufvgj1-4">
+          <mxGeometry x="140" y="290" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UmzRXu2kfee6Xjufvgj1-45" value="下发军团招募数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="UmzRXu2kfee6Xjufvgj1-4">
+          <mxGeometry x="140" y="330" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UmzRXu2kfee6Xjufvgj1-5" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="590" y="180" width="220" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="UmzRXu2kfee6Xjufvgj1-6" value="Community" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UmzRXu2kfee6Xjufvgj1-5">
+          <mxGeometry width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UmzRXu2kfee6Xjufvgj1-7" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="UmzRXu2kfee6Xjufvgj1-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="490" as="sourcePoint" />
+            <mxPoint x="30" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UmzRXu2kfee6Xjufvgj1-14" value="发布到队列中" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="UmzRXu2kfee6Xjufvgj1-5">
+          <mxGeometry x="40" y="180" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UmzRXu2kfee6Xjufvgj1-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UmzRXu2kfee6Xjufvgj1-5">
+          <mxGeometry x="10" y="120" width="30" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="UmzRXu2kfee6Xjufvgj1-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="UmzRXu2kfee6Xjufvgj1-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-190" y="270" as="sourcePoint" />
+            <mxPoint x="260" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UmzRXu2kfee6Xjufvgj1-24" value="组队招募信息(含军团)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="UmzRXu2kfee6Xjufvgj1-5">
+          <mxGeometry x="80" y="240" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UmzRXu2kfee6Xjufvgj1-25" value="更新队伍的武装值" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="UmzRXu2kfee6Xjufvgj1-5">
+          <mxGeometry x="40" y="160" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UmzRXu2kfee6Xjufvgj1-28" value="发布频率校验" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="UmzRXu2kfee6Xjufvgj1-5">
+          <mxGeometry x="40" y="140" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UmzRXu2kfee6Xjufvgj1-42" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="UmzRXu2kfee6Xjufvgj1-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="320.5" as="sourcePoint" />
+            <mxPoint x="-380" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UmzRXu2kfee6Xjufvgj1-8" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="840" y="180" width="440" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="UmzRXu2kfee6Xjufvgj1-9" value="Chat" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UmzRXu2kfee6Xjufvgj1-8">
+          <mxGeometry width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UmzRXu2kfee6Xjufvgj1-10" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="UmzRXu2kfee6Xjufvgj1-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="490" as="sourcePoint" />
+            <mxPoint x="30" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UmzRXu2kfee6Xjufvgj1-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UmzRXu2kfee6Xjufvgj1-8">
+          <mxGeometry x="20" y="250" width="20" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UmzRXu2kfee6Xjufvgj1-27" value="直接转发组队信息&lt;div&gt;（只更新组队招募CD时间，不做时间校验，校验已经前置到社交服）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="UmzRXu2kfee6Xjufvgj1-8">
+          <mxGeometry x="50" y="255" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UmzRXu2kfee6Xjufvgj1-34" value="军团消息需要做数据校验" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="UmzRXu2kfee6Xjufvgj1-8">
+          <mxGeometry x="60" y="335" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UmzRXu2kfee6Xjufvgj1-41" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="UmzRXu2kfee6Xjufvgj1-8">
+          <mxGeometry x="20" y="330" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UmzRXu2kfee6Xjufvgj1-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="300" as="sourcePoint" />
+            <mxPoint x="350" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UmzRXu2kfee6Xjufvgj1-12" value="发布招募" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="270" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UmzRXu2kfee6Xjufvgj1-44" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="540.5" as="sourcePoint" />
+            <mxPoint x="210" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
