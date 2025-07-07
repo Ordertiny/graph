@@ -70,6 +70,66 @@
             <mxPoint x="840" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="B0pYI4T1UXEQjX_H72Wg-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="B0pYI4T1UXEQjX_H72Wg-24" target="B0pYI4T1UXEQjX_H72Wg-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B0pYI4T1UXEQjX_H72Wg-24" value="活动前置校验" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="140" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B0pYI4T1UXEQjX_H72Wg-26" value="校验内容&lt;div&gt;1. 活动类型判定（非登录活动）&lt;/div&gt;&lt;div&gt;2. 持续累计活动不支持&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="140" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B0pYI4T1UXEQjX_H72Wg-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="B0pYI4T1UXEQjX_H72Wg-27" target="B0pYI4T1UXEQjX_H72Wg-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B0pYI4T1UXEQjX_H72Wg-27" value="获取活动实体&lt;div&gt;(不存在则校验)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="220" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B0pYI4T1UXEQjX_H72Wg-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="B0pYI4T1UXEQjX_H72Wg-29" target="B0pYI4T1UXEQjX_H72Wg-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B0pYI4T1UXEQjX_H72Wg-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="B0pYI4T1UXEQjX_H72Wg-29" target="B0pYI4T1UXEQjX_H72Wg-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B0pYI4T1UXEQjX_H72Wg-29" value="活动状态已完成" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1407.5" y="300" width="115" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B0pYI4T1UXEQjX_H72Wg-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B0pYI4T1UXEQjX_H72Wg-30" target="B0pYI4T1UXEQjX_H72Wg-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B0pYI4T1UXEQjX_H72Wg-30" value="刷新活动" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1394.38" y="390" width="141.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B0pYI4T1UXEQjX_H72Wg-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B0pYI4T1UXEQjX_H72Wg-31" target="B0pYI4T1UXEQjX_H72Wg-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B0pYI4T1UXEQjX_H72Wg-31" value="更新活动状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1394.38" y="460" width="141.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B0pYI4T1UXEQjX_H72Wg-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B0pYI4T1UXEQjX_H72Wg-32" target="B0pYI4T1UXEQjX_H72Wg-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B0pYI4T1UXEQjX_H72Wg-32" value="执行发奖" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1394.38" y="520" width="141.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B0pYI4T1UXEQjX_H72Wg-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="B0pYI4T1UXEQjX_H72Wg-33" target="B0pYI4T1UXEQjX_H72Wg-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B0pYI4T1UXEQjX_H72Wg-33" value="处理后置行为" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1394.38" y="590" width="141.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B0pYI4T1UXEQjX_H72Wg-34" value="触发【完成活动】规则" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1394.38" y="660" width="141.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B0pYI4T1UXEQjX_H72Wg-35" value="结束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1198.75" y="310" width="141.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B0pYI4T1UXEQjX_H72Wg-44" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="348" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B0pYI4T1UXEQjX_H72Wg-45" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1354.38" y="300" width="40" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
