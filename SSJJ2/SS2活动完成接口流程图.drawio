@@ -4,14 +4,71 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="B0pYI4T1UXEQjX_H72Wg-1" value="api-gateway" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="170" y="110" width="140" height="40" as="geometry" />
+        <mxCell id="B0pYI4T1UXEQjX_H72Wg-7" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="700" y="110" width="140" height="410" as="geometry" />
         </mxCell>
-        <mxCell id="B0pYI4T1UXEQjX_H72Wg-2" value="login" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="430" y="110" width="140" height="40" as="geometry" />
+        <mxCell id="B0pYI4T1UXEQjX_H72Wg-3" value="activity" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="B0pYI4T1UXEQjX_H72Wg-7">
+          <mxGeometry width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="B0pYI4T1UXEQjX_H72Wg-3" value="activity" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="700" y="110" width="140" height="40" as="geometry" />
+        <mxCell id="B0pYI4T1UXEQjX_H72Wg-6" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="B0pYI4T1UXEQjX_H72Wg-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="69.5" y="410" as="sourcePoint" />
+            <mxPoint x="69.5" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0pYI4T1UXEQjX_H72Wg-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="B0pYI4T1UXEQjX_H72Wg-7">
+          <mxGeometry x="55" y="120" width="30" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="B0pYI4T1UXEQjX_H72Wg-8" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="450" y="110" width="140" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="B0pYI4T1UXEQjX_H72Wg-2" value="login" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="B0pYI4T1UXEQjX_H72Wg-8">
+          <mxGeometry width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B0pYI4T1UXEQjX_H72Wg-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="B0pYI4T1UXEQjX_H72Wg-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="69.5" y="410" as="sourcePoint" />
+            <mxPoint x="69.5" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0pYI4T1UXEQjX_H72Wg-13" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="B0pYI4T1UXEQjX_H72Wg-8">
+          <mxGeometry x="70" y="90" width="30" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="B0pYI4T1UXEQjX_H72Wg-9" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="170" y="110" width="310" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="B0pYI4T1UXEQjX_H72Wg-1" value="api-gateway" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="B0pYI4T1UXEQjX_H72Wg-9">
+          <mxGeometry width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B0pYI4T1UXEQjX_H72Wg-4" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="B0pYI4T1UXEQjX_H72Wg-9" target="B0pYI4T1UXEQjX_H72Wg-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="410" as="sourcePoint" />
+            <mxPoint x="170" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0pYI4T1UXEQjX_H72Wg-11" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="B0pYI4T1UXEQjX_H72Wg-9">
+          <mxGeometry x="70" y="70" width="30" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="B0pYI4T1UXEQjX_H72Wg-12" value="根据redis路由login&lt;div&gt;如果没有的话，则进行一致性hash选择&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="B0pYI4T1UXEQjX_H72Wg-9">
+          <mxGeometry x="80" y="80" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B0pYI4T1UXEQjX_H72Wg-14" value="根据roleId进行转发" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="210" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B0pYI4T1UXEQjX_H72Wg-16" value="活动逻辑处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="805" y="240" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B0pYI4T1UXEQjX_H72Wg-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;sketch=1;curveFitting=1;jiggle=2;fillColor=#fff2cc;strokeColor=#d6b656;curved=1;" edge="1" parent="1" source="B0pYI4T1UXEQjX_H72Wg-11" target="B0pYI4T1UXEQjX_H72Wg-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="300" as="sourcePoint" />
+            <mxPoint x="380" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B0pYI4T1UXEQjX_H72Wg-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;sketch=1;curveFitting=1;jiggle=2;fillColor=#fff2cc;strokeColor=#d6b656;curved=1;" edge="1" parent="1" source="B0pYI4T1UXEQjX_H72Wg-13" target="B0pYI4T1UXEQjX_H72Wg-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="280" as="sourcePoint" />
+            <mxPoint x="840" y="300" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
