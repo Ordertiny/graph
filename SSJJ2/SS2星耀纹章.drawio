@@ -209,6 +209,54 @@
         <mxCell id="3vJK2soGwi-nod_TVArV-82" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1240" y="485" width="40" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="3vJK2soGwi-nod_TVArV-83" value="获取宝箱数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2010" y="110" width="520" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3vJK2soGwi-nod_TVArV-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3vJK2soGwi-nod_TVArV-87" target="3vJK2soGwi-nod_TVArV-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3vJK2soGwi-nod_TVArV-87" value="移除过期宝箱" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2205" y="194.75" width="130" height="36.5" as="geometry" />
+        </mxCell>
+        <mxCell id="3vJK2soGwi-nod_TVArV-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3vJK2soGwi-nod_TVArV-88" target="3vJK2soGwi-nod_TVArV-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3vJK2soGwi-nod_TVArV-88" value="校验当前可领取时间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2205" y="251.5" width="130" height="36.5" as="geometry" />
+        </mxCell>
+        <mxCell id="3vJK2soGwi-nod_TVArV-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="3vJK2soGwi-nod_TVArV-90">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2270" y="335" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vJK2soGwi-nod_TVArV-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3vJK2soGwi-nod_TVArV-89" target="3vJK2soGwi-nod_TVArV-91">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2390" y="328" />
+              <mxPoint x="2390" y="443" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vJK2soGwi-nod_TVArV-98" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3vJK2soGwi-nod_TVArV-97">
+          <mxGeometry x="-0.675" y="10" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3vJK2soGwi-nod_TVArV-89" value="宝箱可领取" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2215" y="305" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="3vJK2soGwi-nod_TVArV-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3vJK2soGwi-nod_TVArV-90" target="3vJK2soGwi-nod_TVArV-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3vJK2soGwi-nod_TVArV-90" value="设置红点状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2210" y="370" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="3vJK2soGwi-nod_TVArV-91" value="组装宝箱数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2210" y="425" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="3vJK2soGwi-nod_TVArV-99" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2280" y="338" width="40" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
