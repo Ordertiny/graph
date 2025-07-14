@@ -403,6 +403,9 @@
         <mxCell id="aFh-UL76Ssw3BHVAfv2M-44" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="2940" y="688" width="40" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="aFh-UL76Ssw3BHVAfv2M-46" value="当前时间-开始倒计时时间 &amp;gt;= CD时间-减少时间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2580" y="526.5" width="270" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
