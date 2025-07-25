@@ -610,6 +610,12 @@
         <mxCell id="qcvW78nX15nve4bES2uH-4" value="对比文件&lt;div&gt;差异行的行号&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1495" y="2171" width="90" height="41" as="geometry" />
         </mxCell>
+        <mxCell id="qcvW78nX15nve4bES2uH-5" value="校验哪些行？&lt;div&gt;如何校验？&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1606" y="2238.5" width="90" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="qcvW78nX15nve4bES2uH-6" value="找出修改行号&lt;div&gt;依据Id来查找&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1595" y="2104" width="90" height="41" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
