@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.6">
   <diagram name="第 1 页" id="lMS9jua2yjPciFoXlcF-">
     <mxGraphModel dx="1426" dy="751" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -597,6 +597,18 @@
         </mxCell>
         <mxCell id="TyW3HTMAZj0W3Az7c0Jq-45" value="H2" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="404.38" y="2455.3700000000003" width="95" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qcvW78nX15nve4bES2uH-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qcvW78nX15nve4bES2uH-1" target="qcvW78nX15nve4bES2uH-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qcvW78nX15nve4bES2uH-1" value="&lt;div&gt;针对单个表&lt;/div&gt;调用对比工具" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="2103" width="170" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="qcvW78nX15nve4bES2uH-2" value="根据策划文档&lt;div&gt;生成校验代码&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="2232" width="170" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="qcvW78nX15nve4bES2uH-4" value="对比文件&lt;div&gt;差异行的行号&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1495" y="2171" width="90" height="41" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
