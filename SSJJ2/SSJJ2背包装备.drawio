@@ -256,6 +256,49 @@
         <mxCell id="nGva0tbmLX8b8byA1RWf-107" value="不装备武器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="1290" width="120" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="nGva0tbmLX8b8byA1RWf-111" target="nGva0tbmLX8b8byA1RWf-114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-111" value="卸下晶核" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="945" y="810" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nGva0tbmLX8b8byA1RWf-114" target="nGva0tbmLX8b8byA1RWf-128">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1210" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-134" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="nGva0tbmLX8b8byA1RWf-114" target="nGva0tbmLX8b8byA1RWf-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-114" value="晶核实体存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="885" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="nGva0tbmLX8b8byA1RWf-117" target="nGva0tbmLX8b8byA1RWf-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nGva0tbmLX8b8byA1RWf-117" target="nGva0tbmLX8b8byA1RWf-118">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1030" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-117" value="是否有绑定武器" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="990" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-118" value="卸下武器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="982.5" y="1080" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-119" value="卸下武器和晶核" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="1080" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-128" value="卸下晶核+&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;武器&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="895" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-129" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="880" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-132" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="1050" width="40" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
