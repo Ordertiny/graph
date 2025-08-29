@@ -1,9 +1,261 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.0">
   <diagram name="第 1 页" id="MrJSwcXFBU6dflIgspmo">
-    <mxGraphModel>
+    <mxGraphModel dx="1426" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nGva0tbmLX8b8byA1RWf-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nGva0tbmLX8b8byA1RWf-1" target="nGva0tbmLX8b8byA1RWf-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-1" value="装备武器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="80" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nGva0tbmLX8b8byA1RWf-3" target="nGva0tbmLX8b8byA1RWf-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nGva0tbmLX8b8byA1RWf-3" target="nGva0tbmLX8b8byA1RWf-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-3" value="武器是否能装备" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="150" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nGva0tbmLX8b8byA1RWf-4" target="nGva0tbmLX8b8byA1RWf-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-4" value="卸下武器原装备槽位" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nGva0tbmLX8b8byA1RWf-5" target="nGva0tbmLX8b8byA1RWf-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-5" value="卸下当前槽位武器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="nGva0tbmLX8b8byA1RWf-6" target="nGva0tbmLX8b8byA1RWf-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nGva0tbmLX8b8byA1RWf-6" target="nGva0tbmLX8b8byA1RWf-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-6" value="是否有绑定晶核" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="360" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="nGva0tbmLX8b8byA1RWf-7" target="nGva0tbmLX8b8byA1RWf-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="nGva0tbmLX8b8byA1RWf-7" target="nGva0tbmLX8b8byA1RWf-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-7" value="武器是否是永久" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="112.5" y="430" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nGva0tbmLX8b8byA1RWf-8" target="nGva0tbmLX8b8byA1RWf-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-8" value="武器装备槽位" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="620" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nGva0tbmLX8b8byA1RWf-9" target="nGva0tbmLX8b8byA1RWf-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-9" value="该位置晶核卸下" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="500" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-11" value="错误码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="165" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-12" value="装备武器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="370" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-13" value="错误码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="440" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nGva0tbmLX8b8byA1RWf-15" target="nGva0tbmLX8b8byA1RWf-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nGva0tbmLX8b8byA1RWf-15" target="nGva0tbmLX8b8byA1RWf-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="575" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-15" value="是否找到晶核" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="550" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-16" value="晶核装备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="670" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-17" value="无法装备，错误码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="560" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="nGva0tbmLX8b8byA1RWf-32" target="nGva0tbmLX8b8byA1RWf-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-32" value="卸下武器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="80" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nGva0tbmLX8b8byA1RWf-33" target="nGva0tbmLX8b8byA1RWf-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nGva0tbmLX8b8byA1RWf-33" target="nGva0tbmLX8b8byA1RWf-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-33" value="武器找到实体" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="785" y="150" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nGva0tbmLX8b8byA1RWf-34" target="nGva0tbmLX8b8byA1RWf-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="nGva0tbmLX8b8byA1RWf-34" target="nGva0tbmLX8b8byA1RWf-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-34" value="是否有绑定晶核" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="240" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-35" value="卸下武器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="575" y="330" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-36" value="卸下武器和晶核" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="330" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nGva0tbmLX8b8byA1RWf-37" target="nGva0tbmLX8b8byA1RWf-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="nGva0tbmLX8b8byA1RWf-37" target="nGva0tbmLX8b8byA1RWf-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-37" value="是否装备晶核" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="240" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-38" value="卸下武器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="255" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="nGva0tbmLX8b8byA1RWf-39" target="nGva0tbmLX8b8byA1RWf-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="nGva0tbmLX8b8byA1RWf-39" target="nGva0tbmLX8b8byA1RWf-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-39" value="是否有绑定武器" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="977.5" y="330" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-40" value="卸下武器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="340" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-41" value="卸下晶核+&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;武器&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="985" y="410" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-42" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="150" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-43" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="360" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-44" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="247.5" y="430" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-45" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="247.5" y="550" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-55" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="950" y="150" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-56" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1105" y="245" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-57" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1105" y="330" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nGva0tbmLX8b8byA1RWf-60" target="nGva0tbmLX8b8byA1RWf-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-60" value="装备晶核" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="810" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nGva0tbmLX8b8byA1RWf-63" target="nGva0tbmLX8b8byA1RWf-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nGva0tbmLX8b8byA1RWf-63" target="nGva0tbmLX8b8byA1RWf-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-63" value="晶核是否能装备" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="880" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nGva0tbmLX8b8byA1RWf-65" target="nGva0tbmLX8b8byA1RWf-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-65" value="卸下晶核原装备槽位" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="970" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nGva0tbmLX8b8byA1RWf-67" target="nGva0tbmLX8b8byA1RWf-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-67" value="卸下当前槽位晶核" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1030" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="nGva0tbmLX8b8byA1RWf-70" target="nGva0tbmLX8b8byA1RWf-99">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="285" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nGva0tbmLX8b8byA1RWf-70" target="nGva0tbmLX8b8byA1RWf-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-70" value="是否有绑定武器" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1090" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-78" value="错误码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="895" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nGva0tbmLX8b8byA1RWf-79" target="nGva0tbmLX8b8byA1RWf-94">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="1150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-79" value="卸下对应槽位武器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1100" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-86" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="880" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-87" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="245" y="1140" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nGva0tbmLX8b8byA1RWf-94" target="nGva0tbmLX8b8byA1RWf-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="nGva0tbmLX8b8byA1RWf-94" target="nGva0tbmLX8b8byA1RWf-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-94" value="是否有永久&lt;div&gt;且匹配的武器&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1150" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-95" value="装备武器+晶核" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="575" y="1160" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-96" value="不装备+错误码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1220" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-105" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nGva0tbmLX8b8byA1RWf-99" target="nGva0tbmLX8b8byA1RWf-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-99" value="装备晶核" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1170" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-102" value="选择一把高品质武器装备" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="232.5" y="1290" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nGva0tbmLX8b8byA1RWf-104" target="nGva0tbmLX8b8byA1RWf-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nGva0tbmLX8b8byA1RWf-104" target="nGva0tbmLX8b8byA1RWf-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-104" value="武器槽是否装备" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="232.5" y="1220" width="115" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nGva0tbmLX8b8byA1RWf-107" value="不装备武器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1290" width="120" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
