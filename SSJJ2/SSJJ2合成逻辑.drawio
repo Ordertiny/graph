@@ -1,9 +1,45 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.2">
   <diagram name="第 1 页" id="W0my26qTIbhCFtzBL1so">
-    <mxGraphModel>
+    <mxGraphModel dx="1426" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wb5-NMI2u_P8qbL3QBpo-1" value="判定公式类型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="80" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wb5-NMI2u_P8qbL3QBpo-2" value="type=4" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="150" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wb5-NMI2u_P8qbL3QBpo-3" value="原合成逻辑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="150" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wb5-NMI2u_P8qbL3QBpo-4" value="获取传入实例实体" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="220" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wb5-NMI2u_P8qbL3QBpo-5" value="判断是否是永久" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="270" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wb5-NMI2u_P8qbL3QBpo-6" value="判断数量是否满足" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="320" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wb5-NMI2u_P8qbL3QBpo-7" value="判断是否是池子中的模板实例" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="370" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wb5-NMI2u_P8qbL3QBpo-8" value="统计磨损度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="420" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wb5-NMI2u_P8qbL3QBpo-9" value="扣除物品" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="470" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wb5-NMI2u_P8qbL3QBpo-10" value="随机一把发送" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="520" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wb5-NMI2u_P8qbL3QBpo-11" value="更新磨损值" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="570" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wb5-NMI2u_P8qbL3QBpo-12" value="单发物品磨损度变更事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="620" width="120" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
