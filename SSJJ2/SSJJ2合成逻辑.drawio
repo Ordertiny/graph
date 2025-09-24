@@ -7,6 +7,12 @@
         <mxCell id="wb5-NMI2u_P8qbL3QBpo-1" value="判定公式类型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="80" width="180" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="wb5-NMI2u_P8qbL3QBpo-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="wb5-NMI2u_P8qbL3QBpo-2" target="wb5-NMI2u_P8qbL3QBpo-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wb5-NMI2u_P8qbL3QBpo-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wb5-NMI2u_P8qbL3QBpo-2" target="wb5-NMI2u_P8qbL3QBpo-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="wb5-NMI2u_P8qbL3QBpo-2" value="type=4" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="215" y="150" width="110" height="40" as="geometry" />
         </mxCell>
@@ -39,6 +45,12 @@
         </mxCell>
         <mxCell id="wb5-NMI2u_P8qbL3QBpo-12" value="单发物品磨损度变更事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="620" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wb5-NMI2u_P8qbL3QBpo-15" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="188" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wb5-NMI2u_P8qbL3QBpo-16" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="148" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
