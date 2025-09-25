@@ -1,9 +1,66 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.4">
   <diagram name="第 1 页" id="LTdzs7nNvqKAYcspJl6q">
-    <mxGraphModel>
+    <mxGraphModel dx="1426" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zLl_5vuK2k9kbHtrV25d-2" value="数据修复" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="170" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zLl_5vuK2k9kbHtrV25d-4" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="695" y="90" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zLl_5vuK2k9kbHtrV25d-5" value="&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;老用户&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;horizontal=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="98" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zLl_5vuK2k9kbHtrV25d-6" value="检查默认发放的物品&lt;div&gt;global_data配置&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="652.5" y="230" width="125" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zLl_5vuK2k9kbHtrV25d-7" value="发送没有的" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="652.5" y="380" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zLl_5vuK2k9kbHtrV25d-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zLl_5vuK2k9kbHtrV25d-8" target="zLl_5vuK2k9kbHtrV25d-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zLl_5vuK2k9kbHtrV25d-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zLl_5vuK2k9kbHtrV25d-8" target="zLl_5vuK2k9kbHtrV25d-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zLl_5vuK2k9kbHtrV25d-8" value="有不存在的" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="662.5" y="300" width="105" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zLl_5vuK2k9kbHtrV25d-9" value="结束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="310" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zLl_5vuK2k9kbHtrV25d-11" value="找出全局背包未装备的槽位" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="652.5" y="440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zLl_5vuK2k9kbHtrV25d-12" value="装备对应位置的特效" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="653" y="500" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zLl_5vuK2k9kbHtrV25d-14" value="遍历击杀特效，绑定全局背包的特效道具&lt;div&gt;判定对应位置是否有特效，没有则找一个默认的特效道具装备上&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="830" y="440" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zLl_5vuK2k9kbHtrV25d-15" value="创角发物品" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="170" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zLl_5vuK2k9kbHtrV25d-16" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="90" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zLl_5vuK2k9kbHtrV25d-17" value="&lt;span style=&quot;text-wrap-mode: wrap;&quot;&gt;新用户&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;horizontal=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="98" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zLl_5vuK2k9kbHtrV25d-18" value="发送指定的物品" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="230" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zLl_5vuK2k9kbHtrV25d-19" value="将其装备到全部背包上" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="145" y="290" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zLl_5vuK2k9kbHtrV25d-21" value="都存在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="780" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zLl_5vuK2k9kbHtrV25d-23" value="有不存在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="710" y="350" width="70" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
