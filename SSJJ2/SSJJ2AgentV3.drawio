@@ -146,7 +146,7 @@
         <mxCell id="vmopJwcz4CGox8LGOLYl-50" value="代码" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="370" y="690" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vmopJwcz4CGox8LGOLYl-52" value="结束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="vmopJwcz4CGox8LGOLYl-52" value="结束/清除备份" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="730" y="830" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vmopJwcz4CGox8LGOLYl-53" value="备份恢复Tools" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
