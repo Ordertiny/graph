@@ -1,9 +1,80 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.9">
   <diagram name="第 1 页" id="lBaGXP88fdVRyS_I3C_p">
-    <mxGraphModel>
+    <mxGraphModel dx="1426" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="LZ549BC-Htn82mTJf8Yt-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LZ549BC-Htn82mTJf8Yt-2" target="LZ549BC-Htn82mTJf8Yt-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ549BC-Htn82mTJf8Yt-2" value="目标护盾按照品质排序，选出最低品质护盾集合" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="220" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ549BC-Htn82mTJf8Yt-3" value="筛选不管属性是否锁定" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="250" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ549BC-Htn82mTJf8Yt-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="LZ549BC-Htn82mTJf8Yt-4" target="LZ549BC-Htn82mTJf8Yt-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ549BC-Htn82mTJf8Yt-4" value="待分解护盾的属性组&lt;div&gt;比对&lt;/div&gt;&lt;div&gt;剩余护盾属性组&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="290" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ549BC-Htn82mTJf8Yt-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="LZ549BC-Htn82mTJf8Yt-5" target="LZ549BC-Htn82mTJf8Yt-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ549BC-Htn82mTJf8Yt-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LZ549BC-Htn82mTJf8Yt-2" target="LZ549BC-Htn82mTJf8Yt-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ549BC-Htn82mTJf8Yt-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LZ549BC-Htn82mTJf8Yt-5" target="LZ549BC-Htn82mTJf8Yt-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="395" />
+              <mxPoint x="440" y="245" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LZ549BC-Htn82mTJf8Yt-5" value="能筛选出&lt;div&gt;不同组的属性&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="487.5" y="370" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ549BC-Htn82mTJf8Yt-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LZ549BC-Htn82mTJf8Yt-6" target="LZ549BC-Htn82mTJf8Yt-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ549BC-Htn82mTJf8Yt-6" value="确定 删除属性 和 替换属性（随机）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ549BC-Htn82mTJf8Yt-9" value="返回 无法继承" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="620" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ549BC-Htn82mTJf8Yt-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LZ549BC-Htn82mTJf8Yt-10" target="LZ549BC-Htn82mTJf8Yt-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ549BC-Htn82mTJf8Yt-10" value="材料检查" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="160" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ549BC-Htn82mTJf8Yt-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="LZ549BC-Htn82mTJf8Yt-11" target="LZ549BC-Htn82mTJf8Yt-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ549BC-Htn82mTJf8Yt-11" value="替换" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="570" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ549BC-Htn82mTJf8Yt-12" value="装备中的发事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="620" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ549BC-Htn82mTJf8Yt-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="LZ549BC-Htn82mTJf8Yt-13" target="LZ549BC-Htn82mTJf8Yt-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ549BC-Htn82mTJf8Yt-13" value="扣除材料" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="495" y="520" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ549BC-Htn82mTJf8Yt-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="LZ549BC-Htn82mTJf8Yt-12" target="LZ549BC-Htn82mTJf8Yt-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ549BC-Htn82mTJf8Yt-25" value="No" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="435" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LZ549BC-Htn82mTJf8Yt-26" value="可以" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="562.5" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
