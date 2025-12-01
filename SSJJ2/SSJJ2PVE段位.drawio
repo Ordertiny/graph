@@ -41,10 +41,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ICOdjriBVpmNlI9bbc-m-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="外部模块" vertex="1">
-          <mxGeometry height="45" width="110" x="30" y="342.5" as="geometry" />
+          <mxGeometry height="45" width="110" x="170" y="342.5" as="geometry" />
         </mxCell>
         <mxCell id="ICOdjriBVpmNlI9bbc-m-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="type + roleId" vertex="1">
-          <mxGeometry height="30" width="140" x="220" y="330" as="geometry" />
+          <mxGeometry height="30" width="140" x="300" y="330" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
