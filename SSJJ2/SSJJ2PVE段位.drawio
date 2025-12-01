@@ -35,7 +35,7 @@
           <mxGeometry height="30" width="120" x="840" y="360" as="geometry" />
         </mxCell>
         <mxCell id="ICOdjriBVpmNlI9bbc-m-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="获取PVE等级" vertex="1">
-          <mxGeometry height="40" width="120" x="480" y="150" as="geometry" />
+          <mxGeometry height="30" width="120" x="480" y="160" as="geometry" />
         </mxCell>
         <mxCell id="ICOdjriBVpmNlI9bbc-m-19" edge="1" parent="1" source="ICOdjriBVpmNlI9bbc-m-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="ICOdjriBVpmNlI9bbc-m-1">
           <mxGeometry relative="1" as="geometry" />
