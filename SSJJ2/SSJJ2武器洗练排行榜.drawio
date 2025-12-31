@@ -72,7 +72,7 @@
         <mxCell id="vZAHMT6FCN-2vfxRsBSJ-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="移除排行榜" vertex="1">
           <mxGeometry height="40" width="170" x="190" y="480" as="geometry" />
         </mxCell>
-        <mxCell id="vZAHMT6FCN-2vfxRsBSJ-25" edge="1" parent="1" source="vZAHMT6FCN-2vfxRsBSJ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.465;entryY=0.075;entryDx=0;entryDy=0;entryPerimeter=0;" target="vZAHMT6FCN-2vfxRsBSJ-22">
+        <mxCell id="vZAHMT6FCN-2vfxRsBSJ-25" edge="1" parent="1" source="vZAHMT6FCN-2vfxRsBSJ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="vZAHMT6FCN-2vfxRsBSJ-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vZAHMT6FCN-2vfxRsBSJ-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="没有" vertex="1">
