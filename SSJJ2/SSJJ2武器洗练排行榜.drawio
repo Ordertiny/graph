@@ -81,6 +81,45 @@
         <mxCell id="vZAHMT6FCN-2vfxRsBSJ-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="存在" vertex="1">
           <mxGeometry height="30" width="60" x="600" y="320" as="geometry" />
         </mxCell>
+        <mxCell id="vZAHMT6FCN-2vfxRsBSJ-46" edge="1" parent="1" source="vZAHMT6FCN-2vfxRsBSJ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="vZAHMT6FCN-2vfxRsBSJ-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vZAHMT6FCN-2vfxRsBSJ-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="武器洗练" vertex="1">
+          <mxGeometry height="40" width="120" x="1132.5" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="vZAHMT6FCN-2vfxRsBSJ-39" edge="1" parent="1" source="vZAHMT6FCN-2vfxRsBSJ-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="vZAHMT6FCN-2vfxRsBSJ-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vZAHMT6FCN-2vfxRsBSJ-40" edge="1" parent="1" source="vZAHMT6FCN-2vfxRsBSJ-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="vZAHMT6FCN-2vfxRsBSJ-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vZAHMT6FCN-2vfxRsBSJ-41" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="大于redis收藏值" vertex="1">
+          <mxGeometry height="60" width="140" x="1122.5" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="vZAHMT6FCN-2vfxRsBSJ-42" edge="1" parent="1" source="vZAHMT6FCN-2vfxRsBSJ-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="vZAHMT6FCN-2vfxRsBSJ-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vZAHMT6FCN-2vfxRsBSJ-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="更新武器模板Id + 收藏值" vertex="1">
+          <mxGeometry height="40" width="175" x="1002.5" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="vZAHMT6FCN-2vfxRsBSJ-44" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="不更新" vertex="1">
+          <mxGeometry height="40" width="175" x="1222.5" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="vZAHMT6FCN-2vfxRsBSJ-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="更新排行榜" vertex="1">
+          <mxGeometry height="40" width="175" x="1002.5" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="vZAHMT6FCN-2vfxRsBSJ-47" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No" vertex="1">
+          <mxGeometry height="30" width="60" x="790" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="vZAHMT6FCN-2vfxRsBSJ-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Yes" vertex="1">
+          <mxGeometry height="30" width="60" x="510" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="vZAHMT6FCN-2vfxRsBSJ-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Yes" vertex="1">
+          <mxGeometry height="30" width="60" x="1030" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="vZAHMT6FCN-2vfxRsBSJ-50" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No" vertex="1">
+          <mxGeometry height="30" width="60" x="1310" y="220" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
