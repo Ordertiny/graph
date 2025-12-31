@@ -1,9 +1,86 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.1">
   <diagram name="第 1 页" id="K6rD3d9lIiM_gqw0D9yp">
-    <mxGraphModel>
+    <mxGraphModel dx="1426" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="vZAHMT6FCN-2vfxRsBSJ-33" edge="1" parent="1" source="vZAHMT6FCN-2vfxRsBSJ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="vZAHMT6FCN-2vfxRsBSJ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vZAHMT6FCN-2vfxRsBSJ-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="登录/物品变更" vertex="1">
+          <mxGeometry height="40" width="120" x="430" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vZAHMT6FCN-2vfxRsBSJ-34" edge="1" parent="1" source="vZAHMT6FCN-2vfxRsBSJ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="vZAHMT6FCN-2vfxRsBSJ-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vZAHMT6FCN-2vfxRsBSJ-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="获取玩家仓库六级枪数据" vertex="1">
+          <mxGeometry height="40" width="170" x="405" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="vZAHMT6FCN-2vfxRsBSJ-35" edge="1" parent="1" source="vZAHMT6FCN-2vfxRsBSJ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="vZAHMT6FCN-2vfxRsBSJ-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vZAHMT6FCN-2vfxRsBSJ-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="找到最大武器模板Id+武器收藏值" vertex="1">
+          <mxGeometry height="50" width="170" x="405" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="vZAHMT6FCN-2vfxRsBSJ-28" edge="1" parent="1" source="vZAHMT6FCN-2vfxRsBSJ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="vZAHMT6FCN-2vfxRsBSJ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vZAHMT6FCN-2vfxRsBSJ-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="更新redis" vertex="1">
+          <mxGeometry height="40" width="170" x="585" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="vZAHMT6FCN-2vfxRsBSJ-29" edge="1" parent="1" source="vZAHMT6FCN-2vfxRsBSJ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="vZAHMT6FCN-2vfxRsBSJ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vZAHMT6FCN-2vfxRsBSJ-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="redis只存储武器的收藏值" vertex="1">
+          <mxGeometry height="40" width="170" x="585" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="vZAHMT6FCN-2vfxRsBSJ-30" edge="1" parent="1" source="vZAHMT6FCN-2vfxRsBSJ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="vZAHMT6FCN-2vfxRsBSJ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vZAHMT6FCN-2vfxRsBSJ-31" edge="1" parent="1" source="vZAHMT6FCN-2vfxRsBSJ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="vZAHMT6FCN-2vfxRsBSJ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vZAHMT6FCN-2vfxRsBSJ-7" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="大于redis收藏值" vertex="1">
+          <mxGeometry height="60" width="140" x="600" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="vZAHMT6FCN-2vfxRsBSJ-32" edge="1" parent="1" source="vZAHMT6FCN-2vfxRsBSJ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="vZAHMT6FCN-2vfxRsBSJ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vZAHMT6FCN-2vfxRsBSJ-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="更新武器模板Id + 收藏值" vertex="1">
+          <mxGeometry height="40" width="175" x="480" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="vZAHMT6FCN-2vfxRsBSJ-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="不更新" vertex="1">
+          <mxGeometry height="40" width="175" x="700" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="vZAHMT6FCN-2vfxRsBSJ-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="更新排行榜" vertex="1">
+          <mxGeometry height="40" width="175" x="480" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="vZAHMT6FCN-2vfxRsBSJ-24" edge="1" parent="1" source="vZAHMT6FCN-2vfxRsBSJ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="vZAHMT6FCN-2vfxRsBSJ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vZAHMT6FCN-2vfxRsBSJ-21" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="没有六级枪数据" vertex="1">
+          <mxGeometry height="70" width="130" x="425" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="vZAHMT6FCN-2vfxRsBSJ-27" edge="1" parent="1" source="vZAHMT6FCN-2vfxRsBSJ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="vZAHMT6FCN-2vfxRsBSJ-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vZAHMT6FCN-2vfxRsBSJ-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="删除redis收藏值和武器模板" vertex="1">
+          <mxGeometry height="40" width="170" x="190" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="vZAHMT6FCN-2vfxRsBSJ-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="移除排行榜" vertex="1">
+          <mxGeometry height="40" width="170" x="190" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="vZAHMT6FCN-2vfxRsBSJ-25" edge="1" parent="1" source="vZAHMT6FCN-2vfxRsBSJ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.465;entryY=0.075;entryDx=0;entryDy=0;entryPerimeter=0;" target="vZAHMT6FCN-2vfxRsBSJ-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vZAHMT6FCN-2vfxRsBSJ-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="没有" vertex="1">
+          <mxGeometry height="30" width="60" x="370" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="vZAHMT6FCN-2vfxRsBSJ-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="存在" vertex="1">
+          <mxGeometry height="30" width="60" x="600" y="320" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
