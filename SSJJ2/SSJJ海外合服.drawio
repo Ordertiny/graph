@@ -1,9 +1,18 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.3.8">
   <diagram name="第 1 页" id="K-3kOOcuHbfMf3WX_y7_">
-    <mxGraphModel>
+    <mxGraphModel dx="983" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="1fcCz7xWlK_RCgKYgIlV-1" parent="1" style="whiteSpace=wrap;html=1;" value="TradeRocketMQConsumer" vertex="1">
+          <mxGeometry height="50" width="200" x="200" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="1fcCz7xWlK_RCgKYgIlV-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="消费者定义器" vertex="1">
+          <mxGeometry height="30" width="120" x="430" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1fcCz7xWlK_RCgKYgIlV-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="定义了&amp;nbsp; 消费者组， 消费者线程数&lt;div&gt;消息消费失败时的最大重试次数&lt;/div&gt;&lt;div&gt;设置每条消息消费的最大超时时间,超过这个时间,这条消息将会被视为消费失败,等下次重新投递再次消费. 每个业务需要设置一个合理的值. 单位(分钟)&lt;/div&gt;&lt;div&gt;顺序消息消费失败进行重试前的等待时间 单位(毫秒)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="330" x="450" y="150" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
