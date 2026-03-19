@@ -1,9 +1,24 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.1">
   <diagram name="第 1 页" id="nUjFi0LkzXlAfcQxLCWk">
-    <mxGraphModel>
+    <mxGraphModel dx="1426" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zQ8WbUIZfznEEAUZMS7P-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="获取匹配超时单元" vertex="1">
+          <mxGeometry height="40" width="180" x="510" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="zQ8WbUIZfznEEAUZMS7P-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="过滤出满足补充AI条件的匹配玩家Matcher的队列" vertex="1">
+          <mxGeometry height="40" width="180" x="510" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="zQ8WbUIZfznEEAUZMS7P-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="创建已处理过的匹配对象集合&lt;div&gt;Set&amp;lt;Matcher&amp;gt; deadMatcher&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="180" x="510" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="zQ8WbUIZfznEEAUZMS7P-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="【循环】 队列不为空且玩家未全部处理" vertex="1">
+          <mxGeometry height="40" width="170" x="510" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="zQ8WbUIZfznEEAUZMS7P-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="【循环】" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="380" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
