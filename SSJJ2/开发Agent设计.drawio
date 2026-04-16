@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="g7bsq3ETSXnlXz3WA1cm-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="开始" vertex="1">
-          <mxGeometry height="60" width="60" x="180" y="50" as="geometry" />
+          <mxGeometry height="60" width="60" x="261" y="40" as="geometry" />
         </mxCell>
         <mxCell id="g7bsq3ETSXnlXz3WA1cm-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="用户输入" vertex="1">
           <mxGeometry height="40" width="160" x="220" y="149.28" as="geometry" />
@@ -271,6 +271,9 @@
         </mxCell>
         <mxCell id="g7bsq3ETSXnlXz3WA1cm-110" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;step&lt;/div&gt;审核通过" vertex="1">
           <mxGeometry height="30" width="60" x="750" y="1420" as="geometry" />
+        </mxCell>
+        <mxCell id="g7bsq3ETSXnlXz3WA1cm-111" edge="1" parent="1" source="g7bsq3ETSXnlXz3WA1cm-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.444;entryY=0.068;entryDx=0;entryDy=0;entryPerimeter=0;" target="g7bsq3ETSXnlXz3WA1cm-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
