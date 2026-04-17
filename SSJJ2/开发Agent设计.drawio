@@ -58,7 +58,7 @@
         <mxCell id="g7bsq3ETSXnlXz3WA1cm-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="模型:&amp;nbsp;Sonnet" vertex="1">
           <mxGeometry height="20" width="120" x="310" y="430" as="geometry" />
         </mxCell>
-        <mxCell id="g7bsq3ETSXnlXz3WA1cm-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="记录每个Agent的会话&lt;div&gt;每步骤都要进行反思，部分需要压缩&lt;/div&gt;&lt;div&gt;文档更新&lt;/div&gt;&lt;div&gt;用户可以干预任何一个Agent，并决定执行顺序&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="g7bsq3ETSXnlXz3WA1cm-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="记录每个Agent的会话&lt;div&gt;每步骤都要进行反思复盘，部分需要压缩&lt;/div&gt;&lt;div&gt;文档更新&lt;/div&gt;&lt;div&gt;用户可以干预任何一个Agent，并决定执行顺序&lt;/div&gt;&lt;div&gt;要有轮次信息&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="190" x="720" y="110" as="geometry" />
         </mxCell>
         <mxCell id="g7bsq3ETSXnlXz3WA1cm-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="step3&lt;div&gt;输出技术文档&lt;/div&gt;" vertex="1">
